@@ -1,0 +1,5 @@
+!Camera IddiCamera
+!Voice Mayle: Laugh_Friendly = 7
+!Sprite Iddi: TalkHappy
+Iddi:
+    Привет, Раффи! Рад тебя видеть! Давай-ка прямо сейчас посмотрим на свечи.

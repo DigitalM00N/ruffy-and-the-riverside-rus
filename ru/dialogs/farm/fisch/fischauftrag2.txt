@@ -1,0 +1,10 @@
+!Camera camera_fish
+!Sprite Fish: lean talk, Pip: idle, Ruffy: idleSideLeft
+!Voice Fische: Misc = 1
+Leroy:
+    Мы веселимся только в темноте. Пожалуйста, почините дурацкие башенные часы в городе и верните нам ночь!
+
+!Voice Fische: Misc = 3
+Leroy:
+    Если у вас получится устроить ночь, я даже дам вам небольшую награду.
+!Sprite Fish: wait

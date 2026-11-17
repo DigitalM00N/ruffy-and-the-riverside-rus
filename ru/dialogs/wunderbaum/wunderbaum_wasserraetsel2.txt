@@ -1,0 +1,21 @@
+!Camera MayleQuelle
+!Sprite Mayle: think
+!Voice Mayle: Thoughtful = 5
+Mayle:
+    Ну и беспорядок! Кажется, теперь я понимаю, зачем обелиск послал нас сюда.
+
+!Sprite Mayle: jump
+Mayle:
+    Всё дело в гармонии! Обелиск черпает силу из гармонии!
+
+!Camera PipQuelle
+!Sprite Ruffy: idle2, Pip: talk
+!Voice Pip: Staunen = 4
+Pip:
+    Гармония, значит...
+
+!Camera MayleQuelle
+!Sprite Mayle: think
+!Voice Mayle: Thoughtful = 2
+Mayle:
+    Да, всё должно быть как-то иначе, как-то гармоничнее...

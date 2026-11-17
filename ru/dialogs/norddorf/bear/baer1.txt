@@ -1,0 +1,6 @@
+!Voice Flitzi: Laugh_Friendly
+Taki:
+    Ты, наверное, тот медведь из города. Правда, что ваши хижины из камня? Там, должно быть, ужасно холодно.
+#TODO - Auftritt aus Hütte
+
+#TODO - Abgang in Hütte

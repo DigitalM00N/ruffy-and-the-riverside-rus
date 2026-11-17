@@ -1,0 +1,59 @@
+!Camera Mayle
+!Sprite Ruffy: idleHalfBackRight, Pip: idle, Mayle: cheer
+!Voice Mayle: Surprise_Positive = 3
+Mayle:
+    Хорошо, что вы добрались целыми. Вы только посмотрите на это разорение!
+
+!Camera Quelle
+!Sprite Mayle: think
+!Voice Mayle: Frustration = 3
+Mayle:
+    Родник извергает чёрный яд. Ах... теперь я даже вижу почему.
+
+!Camera Alle
+!Sprite Pip: back, Mayle: plant
+!Voice Mayle: Thoughtful = 4
+Mayle:
+    Обелиск роста лишился силы. Смола разъела его священные гравировки. Без них он — просто обычный камень.
+
+!Camera Mayle target Obelisk duration 5
+!Sprite Mayle: plant
+Mayle:
+    На нём красовались гордые знаки трёх природных чар — земли, воды и света, но теперь он гол и бессилен.
+
+!Camera Ruffy
+!Sprite Ruffy: think, Mayle: idle
+!Voice Ruffy: Question = 3
+Ruffy:
+    Эти знаки... Неужели их нельзя восстановить?
+
+!Camera Mayle
+!Sprite Mayle: think
+!Voice Mayle: Worry = 10
+Mayle:
+    Боюсь, что нет. Они из незапамятных времён. Их ещё можно увидеть на земле, но там от них никакого толку.
+
+!Camera Ruffy
+!Sprite Ruffy: cheer, Mayle: idle
+!Voice Ruffy: Agreement = 5
+Ruffy:
+    Они сохранились на земле, говоришь? Это может быть решением!
+
+!Camera Pip
+!Sprite Pip: talk
+!Voice Pip: Agree = 2
+Pip:
+    Эй, а ведь точно! Мы здорово умеем копировать картинки!
+
+!Camera Mayle
+!Sprite Pip: back, Mayle: angst
+!Voice Mayle: Realization = 5
+Mayle:
+    Копировать картинки? Какой странный дар! Говорят, двух одинаковых листьев не бывает. Неужели вы правда способны на такое чудо?
+
+!Camera Mayle target Bodenplatte duration 4
+!Event Symbol1 Spawn
+!Sprite Mayle: think
+!Voice Mayle: Agreement = 5
+Mayle:
+    Взгляните на символ света на земле. Он ждёт вас. Творите своё волшебство, друзья.

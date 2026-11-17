@@ -1,0 +1,12 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 4
+!Event Schmetterling04
+Quintus:
+    Это зелёный железный буян.
+    Он из семейства ржавчатников.
+!Sprite Fuchs: idle
+
+!Voice Quintus: Agreement = 5
+Quintus:
+    Говорят, эта бабочка любит грызть магниты, но это наверняка просто слухи.

@@ -1,0 +1,53 @@
+!Camera camera_1 offset 1 duration 2
+!Event KFan
+!Sprite SchlangeCool: Staunen, Pip: laugh, Ruffy: idle2
+!Voice Steepy: Attack_Laugh = 2
+Jacky:
+    Народ, народ, народ! У нас новый чемпион! Как думаете, кто это?
+
+!Camera camera_2 target camera_3 duration 4
+!Sprite SchlangeCool: Talk
+!Event Canonsan
+!Voice Steepy: Realization = 5
+Jacky:
+    Это медведь, который спас жизнь Флитци Младшему.
+
+!Camera camera_3 offset 1 duration 3
+!Voice Steepy: Realization = 6
+Jacky:
+    Это медведь, у которого тюк появился всего день назад!
+
+!Sprite SchlangeCool: StaunenB
+!Voice Steepy: Realization = 8
+Jacky:
+    Это медведь, который знает, что по грязи просто не проехать! Народ, народ, народ! Это РАФФИ!
+
+!Camera camera_5 target camera_6 duration 4
+!Voice Steepy: Attack_Laugh = 11
+!Event Applaus
+Jacky:
+    Громовые аплодисменты Раффи!
+
+!Camera camera_Pip
+!Sprite Pip: talkHappy
+!Voice Pip: Staunen = 7
+Pip:
+    Раффи! Да здравствует Раффи!
+
+!Camera camera_7 target camera_8 duration 4
+!Sprite Pip: idle, SchlangeCool: Talk
+!Voice Steepy: Attack_Laugh = 7
+Jacky:
+    Отличная гонка, Раффи! Теперь ты часть нашей гоночной семьи! Ты всегда можешь на нас рассчитывать, а мы — на тебя.
+
+!Camera camera_4
+!Sprite SchlangeCool: Staunen
+!Voice Steepy: Agreement = 4
+Jacky:
+    Но самое лучшее ещё впереди!
+
+!Camera camera_4 offset 1 duration 1
+!Sprite SchlangeCool: Talk
+!Voice Steepy:  Realization = 4
+Jacky:
+    Сейчас ты получишь свой первый собственный тюк. Насладись этим моментом, Раффи. Первый тюк — это нечто особенное!

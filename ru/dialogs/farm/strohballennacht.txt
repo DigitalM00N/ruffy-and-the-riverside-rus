@@ -1,0 +1,4 @@
+!Camera PipSB1 target PipSB2 duration 5
+!Voice Pip: Erschrecken = 3
+Pip:
+    Наконец-то ночь, пошли заберём тот тюк соломы!

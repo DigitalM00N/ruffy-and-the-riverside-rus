@@ -1,0 +1,46 @@
+!0
+!Camera CamMond target CamMond2 duration 2
+!Voice Mond: Thoughtful = 4
+Mond:
+    О-ох...
+
+!Voice Mond: Thoughtful = 2
+Mond:
+    О-ох, какая красота.
+
+#CUTSCENE über funkelnden Sternenhimmel
+!Voice Mond: Agreement = 3
+Mond:
+    Сколько звёзд, сколько огней...
+
+!Camera CamMond2
+!Voice Mond: Question = 3
+Mond:
+    Кто бы мог подумать, что я доживу до такого?
+
+!Voice Mond: Tired = 2
+Mond:
+    Вот, возьми эту звёздную искорку в знак моей благодарности. Пусть она сопровождает тебя в пути.
+
+!Event Cutscene
+!Pause 13
+!Sprite Ruffy: idleBack, Pip: happy
+!Voice Pip: Staunen = 4
+Pip:
+    Ух ты! Смотри! Падающая звезда!
+
+!Voice Ruffy: Agreement = 4
+Ruffy:
+    Спасибо, дорогое солнце, э-э, дорогая луна!
+
+!Voice Mond: Tired = 3
+Mond:
+    Хр-р-р...
+
+!Voice Ruffy: Laugh_Friendly = 3
+Ruffy:
+    Ой, гляди. Она уснула. Наверное, не привыкла к ночи.
+
+!Sprite Ruffy: cheer, Pip: laugh
+Ruffy:
+    Пошли.

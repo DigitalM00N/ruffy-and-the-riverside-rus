@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: agree
+!Voice Eddler: Question = 1
+Sir Eddler:
+    Ну что, нашли букву? Просто поговорите с призраками. Они не такие страшные, как кажется.

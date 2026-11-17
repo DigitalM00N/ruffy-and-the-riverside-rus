@@ -1,0 +1,114 @@
+!Sprite Minna: blink
+!Camera Maulwurf2 target Minna1 duration 1
+!Voice Minna: zustimmend = 2
+Minna:
+    Эй, не так быстро.
+
+!Sprite Minna: cheer
+!Voice Minna: freuend = 2
+Minna:
+    Теперь мы можем добавить последнюю букву в Эмблему и без Базилики. Снокко — настоящий мастер своего дела.
+
+!Camera Minna2
+!Sprite Minna: beg
+!Voice Minna: ablehnend = 3
+Minna:
+    Сэр Эддлер. Пожалуйста, скажите, что вы нашли последнюю букву.
+
+!Camera Maulwurf2
+!Sprite Sir Eddler: lean
+!Voice Eddler: Thoughtful = 2
+Sir Eddler:
+    ...
+
+!Sprite Sir Eddler: shake
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    С прискорбием вынужден вас разочаровать. Я обыскал всю страну и трижды перевернул каждый камень, но поиски мои были тщетны.
+
+!Sprite Sir Eddler: talkLeft
+!Voice Eddler: Worry = 1
+Sir Eddler:
+    Мне ужасно жаль.
+
+!Camera Ruffy1
+!Sprite Ruffy: think
+!Voice Ruffy: Thoughtful = 2
+Ruffy:
+    Ох, Эддлер, вам не за что извиняться. Вы же не Избранный... это была моя задача.
+
+!Voice Ruffy: Thoughtful = 3
+Ruffy:
+    Но я не справился. Я даже не знал, где её вообще искать.
+
+!Camera Ruffy2
+!Sprite Ruffy: denyRight
+!Voice Ruffy: Worry = 2
+Ruffy:
+    Простите меня, пожалуйста. Я вас всех подвёл.
+
+!Camera Silja
+!Event SShake
+!Voice Silja: Verärgert = 3
+Silya:
+    Раффи, ты ошибаешься! Ты нас не подвёл.
+
+!Event STHappy
+!Camera Silja target Silja2 duration 3
+!Voice Silja: Neutral = 2
+Silya:
+    Вспомни! Я же говорила тебе, что последнюю букву охраняет особая тайна и просто так её не найти.
+
+!Camera Alle1
+!Event SIdle
+!Sprite Ruffy: deny, Sir Eddler: watch stone
+!Voice Ruffy: Thoughtful = 7
+Ruffy:
+    Да, знаю. Дурацкая тайна! Её я тоже не разгадал.
+
+!Camera Silja2
+!Event STHappy
+!Voice Silja: Zustimmend = 1
+Silya:
+    Нет, разгадал. Эта тайна — совершенно особое испытание. Испытание сердца...
+
+!Camera Silja2 target Silja duration 3
+!Event STalk
+!Voice Silja: Neutral = 2
+Silya:
+    Для этого испытания Избранный должен предстать перед Ядром мира со всей искренностью и открыть ему своё чистое сердце.
+
+!Event SNicken
+!Voice Silja: Zustimmend = 3
+Silya:
+    И именно это ты и сделал. Ты прошёл испытание сердца.
+
+!Camera Ruffy2
+!Event SIdle
+!Sprite Ruffy: think, Sir Eddler: lean
+!Voice Ruffy: Question = 13
+Ruffy:
+    Ой, серьёзно? Правда прошёл?
+
+!Camera Silja
+!Sprite Ruffy: idle
+!Event SNicken
+!Voice Silja: Neutral = 1
+Silya:
+    Да, конечно. Вспомни. Совсем недавно ты молился Ядру мира и звал на помощь.
+
+!Camera Silja target Silja2 duration 3
+!Event STalk
+Silya:
+    Ты показал, что хочешь получить букву не для себя, а ради своих друзей и ради спасения этого мира.
+
+!Camera Silja2
+!Event STHappy
+Silya:
+    Только чистое сердце может желать такого.
+
+!Camera Alle1
+!Event SNicken
+!Voice Silja: Lachen = 1
+Silya:
+    Ты истинный Избранный. А потому сейчас ты получишь последнюю Священную букву.

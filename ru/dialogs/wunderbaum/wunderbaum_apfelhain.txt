@@ -1,0 +1,11 @@
+!Camera Mayle
+!Sprite Mayle: jump
+!Voice Mayle: Surprise_Positive = 3
+Mayle:
+    Вот и вы. Смотрите, обелиск и правда исцелил яблоневую рощу. Его сила вернулась.
+
+!Camera Apfelhain2
+!Sprite Mayle: think
+!Voice Mayle: Thoughtful = 4
+Mayle:
+    Но постойте! Что-то здесь не так. Не знаю что, но раньше яблоневая роща была другой. Как-то... гармоничнее.

@@ -1,0 +1,4 @@
+!Camera Kamera target KameraMaschine duration 2
+!Voice Pip: Lachen = 9
+Pip:
+    А, машины с шарами материи. Ты знаешь, что делать: правильно собери машину, и пусть шар закатится в лунку.

@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 10
+!Event Schmetterling10
+Quintus:
+    Это зелёный капитан.
+    Он из семейства парусокрылов.
+
+!Voice Quintus: Agreement = 5
+Quintus:
+    Говорят, если подружиться с капитаном, он всегда будет рядом с тобой.
+!Sprite Fuchs: idle
+
+Quintus:
+    Прекрасная мысль, правда?

@@ -1,0 +1,26 @@
+!Camera CameraKlippe4
+!Sprite Ruffy: idleHalfBackRight
+!Event StampferIdle
+!Voice Ruffy: Surprise_Positive = 6
+Ruffy:
+    Силья! Ты жива! Как же я рад тебя видеть!
+
+!Camera CamStampfer2
+!Sprite Ruffy: idleHalfBack
+!Voice Pip: Erschrecken = 3
+Pip:
+    Силья? Я схожу с ума. В последнюю секунду, край света прямо перед нами, и тут Силья, и всё прекрасно. Ух ты. У меня просто нет слов...
+
+!Event StampferSprechen
+!Camera CamStampfer target CamStampfer_1 duration 5
+!Sprite Ruffy: idleHalfFrontRight, Pip: idle
+!Voice Silja: Ratgebend = 2
+Silya:
+    Прости, Пип, я никак не могла догнать вас быстрее. Я черепаха, а не гоночный катер.
+
+!Event StampferSprechen
+!Camera CamStampfer2
+!Sprite Ruffy: idleHalfBack
+!Voice Silja: Fragend = 5
+Silya:
+    Как насчёт путешествия на большую землю? Там не так-то просто свалиться с края света...

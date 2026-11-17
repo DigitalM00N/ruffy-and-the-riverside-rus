@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 3
+!Event Schmetterling19
+Quintus:
+    Это лиловая гротовая фея.
+    Она из семейства вертокрылок.
+
+!Voice Quintus: Agreement = 9
+Quintus:
+    Эти робкие создания любят темноту и выкапывают в скалах маленькие пещерки.
+!Sprite Fuchs: idle
+
+Quintus:
+    И откуда у них только силы на это?

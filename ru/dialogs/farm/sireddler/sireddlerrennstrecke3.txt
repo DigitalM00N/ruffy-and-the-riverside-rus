@@ -1,0 +1,6 @@
+!Camera camera_sirEddler
+!Sprite Sir Eddler: positiv, Pip: back, Ruffy: idleBack
+!0
+!Voice Eddler: Attack_Laugh = 7
+Sir Eddler:
+    Привет, Раффи, пора браться за дело всерьёз. Если готов, отправляйся к финишу и записывайся на гонку.

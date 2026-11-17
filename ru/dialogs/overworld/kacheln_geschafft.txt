@@ -1,0 +1,4 @@
+!Sprite Daag: happyTalk
+!Voice Hohepriester: Misc = 4
+Yoogh:
+    Эй, портал теперь открыт. Повеселись там со стеной!

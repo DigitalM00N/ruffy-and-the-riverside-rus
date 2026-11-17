@@ -1,0 +1,6 @@
+!Camera camera_1
+!Event no
+!Sprite SchlangeCool: Shake, Ruffy: idleHalfBackRight, Pip: back
+!Voice Steepy: Greeting = 1
+Jacky:
+    Здорóво, Раффи. Сейчас гонок нет. Загляни попозже.

@@ -1,0 +1,4 @@
+!Camera Win1 target Win2 target Win3 duration 6
+!Voice Steepy: Surprise_Positive = 6
+Roybert:
+    Эй, малыш, ты и правда выиграл гонку. Славно смухлевал! Вот твоя награда! Возвращайся попозже, если захочешь погоняться со следующим парнем!

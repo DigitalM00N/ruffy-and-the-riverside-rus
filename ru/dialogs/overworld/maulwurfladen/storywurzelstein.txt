@@ -1,0 +1,57 @@
+!Camera MaulwurfKamera duration 0.8
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Значит, хочешь услышать историю Корневого камня? Я рад, ведь это и правда чудесная история из моей юности.
+
+!Camera MaulwurfKamera target CameraPlatz5 duration 3
+!Sprite Sir Eddler: agree
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Это самый первый самоцвет, который я нашёл. Я был ещё маленьким землекопом, и отец как раз показал мне, как копать грушевидные туннели.
+
+!Camera CameraPlatz5 target CameraPlatz5b duration 5
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Почему грушевидные? Всё просто: только так можно поднять голову во время копки и не стукнуться о потолок.
+
+Sir Eddler:
+    У нас, кротов, это просто вопрос вежливости — через каждые несколько метров выкапывать грушу. Старые кроты могут там отдохнуть, а молодые — пообниматься.
+
+!Camera MaulwurfKamera
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Так вот, только я собрался выкопать грушу, как наткнулся на камень.
+
+Sir Eddler:
+    Наткнувшись на камень, обычно положено прокопать на четыре носа вперёд и попробовать снова, но мне хотелось, чтобы груша была именно на этом месте.
+
+!Sprite Sir Eddler: agree
+!Voice Eddler: Attack_Laugh = 3
+Sir Eddler:
+    Я как следует стукнул по камню — и вдруг он оказался у меня в лапе. Я сразу почувствовал его энергию. Будто он поделился со мной силой.
+
+!Camera CameraPlatz5
+Sir Eddler:
+    Дома мама рассказала мне, что на самом деле я нашёл корень Древа жизни.
+
+!Camera CameraPlatz5 target CameraPlatz5b duration 8
+Sir Eddler:
+    Корни Древа жизни тянутся через весь Риверсайд и дают каждому дереву и каждой травинке силу расти.
+
+Sir Eddler:
+    Некоторые корни настолько стары, что превратились в камень, и всё же они так и переполнены его жизненной силой.
+
+Sir Eddler:
+    Древо жизни и правда хорошо о нас заботится: пусть его силы и странствуют под землёй, оно всё равно питает всю жизнь, что цветёт наверху.
+
+!Camera MaulwurfKamera
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Laugh_Friendly = 1
+Sir Eddler:
+    К счастью, у Древа жизни столько корней, что моя оплошность не причинила вреда.
+
+Sir Eddler:
+    Можешь его потрогать. Это и правда приятно.

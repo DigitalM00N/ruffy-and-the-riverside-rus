@@ -1,0 +1,132 @@
+## Имена персонажей (EN → RU)
+- Old mill bird → Старая мельничная птица
+- Old bird → Старая птица
+- Guild digger → Землекоп гильдии
+- Yellow bird → Жёлтая птица
+- Big bird → Большая птица
+- HEART-O-BOT → СЕРДЦЕ-О-БОТ
+- High Priest → Верховный жрец
+- Young mill bird → Юная мельничная птица
+- Young bird → Юная птица
+- Cheeky bird → Дерзкая птица
+- Little bird → Маленькая птица
+- Tree of Life → Древо жизни
+- Magnetic bird → Магнитная птица
+- Moon → Луна
+- Nightrunner → Ночной бегун
+- Night bird → Ночная птица
+- Wet fish → Мокрая рыба
+- Master Qwin → Мастер Квин
+- Sun → Солнце
+- Age-old island bird → Древняя островная птица
+- Age-old bird → Древняя птица
+- Bird → Птица
+- Hyped Bird → Восторженная птица
+- Woodrunner → Лесной бегун
+- First Fella → Первый парень
+- Second Fella → Второй парень
+- Third Fella → Третий парень
+- Fourth Fella → Четвёртый парень
+- Fella → Парень
+- Aldan → Алдан
+- Ansalde → Ансальде
+- Anselm → Ансельм
+- Aribert → Ариберт
+- Baag → Бааг
+- Balduin → Балдуин
+- Baldwin → Болдуин
+- Bally → Балли
+- Barbara → Барбара
+- Benny → Бенни
+- Betram → Бетрам
+- Billy → Билли
+- Bobby → Бобби
+- Bruno → Бруно
+- Carl → Карл
+- Daag → Дааг
+- Donnie → Донни
+- Egidius → Эгидиус
+- Elox → Элокс
+- Engelbert → Энгельберт
+- Etoi → Этои
+- Feist → Файст
+- Fengo → Фенго
+- Fenja → Феня
+- Flitzi → Флитци
+- Follat → Фоллат
+- Franky → Фрэнки
+- Gaga → Гага
+- Giselbert → Гизельберт
+- Gogo → Гого
+- Gorgon → Горгон
+- Grabbo → Граббо
+- Graffel → Граффель
+- Groll → Гролл
+- Harlek → Харлек
+- Henno → Хенно
+- Henry → Генри
+- Hickory → Хикори
+- Hilging → Хилгинг
+- Honko → Хонко
+- Hugo → Хуго
+- Humbser → Хумбсер
+- Iddi → Идди
+- Isenkrach → Изенкрах
+- Jacky → Джеки
+- Jobboo → Джоббу
+- Jolly → Джолли
+- Juko → Юко
+- Kasimir → Казимир
+- Lazarus → Лазарус
+- Leeroy → Лирой
+- Leopold → Леопольд
+- Leroy → Лерой
+- Lorenzius → Лоренциус
+- Lux → Люкс
+- Mayle → Мейли
+- Methok → Меток
+- Meusewin → Мойзевин
+- Minna → Минна
+- Moktar → Моктар
+- Noris → Норис
+- Oddo → Оддо
+- Ottokar → Оттокар
+- Pip → Пип
+- Pix → Пикс
+- Quintus → Квинтус
+- Quomo → Квомо
+- Richard → Ричард
+- Red bird → Красная птица
+- Roybert → Ройберт
+- Rudolph → Рудольф
+- Rudwin → Рудвин
+- Ruffy → Раффи
+- Rufus → Руфус
+- Sebaldus → Себальдус
+- Silya → Силья
+- Sir Eddler → Сэр Эддлер
+- Sirsil → Сирсил
+- Slanto → Сланто
+- Slythia → Слития
+- Snokko → Снокко
+- Steddi → Стедди
+- Steepy → Стипи
+- Susi → Сузи
+- Taki → Таки
+- Thorsten → Торстен
+- Tillmann → Тильман
+- Tuku → Туку
+- Udo → Удо
+- Vargon → Варгон
+- Veena → Вина
+- Vollmar → Фолльмар
+- Werter → Вертер
+- Wiegbert → Вигберт
+- Wikenand → Викенанд
+- Willbert → Вильберт
+- William → Уильям
+- Wolfram → Вольфрам
+- Woody → Вуди
+- Yoogh → Йуг
+- Zeel → Зил
+- Villeroy → Виллерой

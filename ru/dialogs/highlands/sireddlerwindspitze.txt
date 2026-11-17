@@ -1,0 +1,14 @@
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: positiv
+!Camera Start target Eddler duration 2
+!Voice Eddler: Attack_Laugh = 3
+Sir Eddler:
+    Вот и вы снова! Я тем временем выяснил, что Священная буква должна быть на вершине этой горы.
+
+!Sprite Sir Eddler: bashful
+!Camera Eddler target Berg duration 2
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Вы же знаете, я боюсь высоты. Горы — это не для нас, кротов. Так что, пожалуйста, лезьте наверх без меня и берегите себя!
+!Sprite Ruffy: idleHalfBackLeft
+!Camera End
+!Event Wegbuddeln

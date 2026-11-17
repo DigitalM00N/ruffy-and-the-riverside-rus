@@ -1,0 +1,18 @@
+!Camera Back
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Event Skybox2
+!Voice Ruffy: Surprise_Positive = 8
+Ruffy:
+    Спасли в последнюю секунду. Как ты узнала, что мы на краю света?
+
+!Voice Silja: Neutral = 5
+!Event Setting3talk
+Silya:
+    Скажем так, интуиция.
+
+!Event Setting3talk, Skybox
+!Camera Silja
+!Sprite Ruffy: idleHalfFrontRight
+!Voice Silja: Lachen = 2
+Silya:
+    И потом, разве не было бы мега-мегаподло, если бы вы двое не смогли завершить свою миссию?

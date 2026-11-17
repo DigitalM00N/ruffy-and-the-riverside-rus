@@ -1,0 +1,81 @@
+!Sprite Ruffy: shocked
+!Camera RCam2
+!Voice Ruffy: Surprise_Negative = 8
+Ruffy:
+    Эддлер, вы с ума сошли? Что вы делаете на этом утёсе?! Он вот-вот обломится, и вы рухнете вниз!
+
+!Camera KCam1 target KCam2 duration 4
+!Sprite Ruffy: idle, Sir Eddler: positiv
+!Voice Eddler: Attack_Laugh
+Sir Eddler:
+    Ой, да брось, я же профессионал. И ты взгляни, какой роскошный самоцвет! Он просто обязан быть моим!
+
+!Camera ECam2
+!Sprite Sir Eddler: secret
+!Voice Eddler: Conniving
+Sir Eddler:
+    Ну же, помоги мне! Мы его мигом выкопаем. Это проще простого!
+
+!Sprite Ruffy: think
+!Camera RCam2
+!Voice Ruffy: Greeting = 6
+Ruffy:
+    Эддлер, послушайте... У меня сейчас дежавю!
+
+!Camera ECam3
+!Sprite Ruffy: talk, Sir Eddler: serious
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Деж... что? Это ещё что такое?
+
+!Camera RCam
+!Sprite Ruffy: think
+!Voice Ruffy: Frustration = 8
+Ruffy:
+    Видение. Я ясно вижу, как мы падаем. Утёс обламывается, и мы разбиваемся.
+
+!Camera RCam2
+!Sprite Ruffy: deny
+!Voice Ruffy: Worry = 6
+Ruffy:
+    Вижу прямо перед глазами. Мы падаем, и всё это добро летит в пропасть рядом с нами.
+
+!Camera RCam3
+!Sprite Ruffy: idle
+!Voice Ruffy: Worry = 2
+Ruffy:
+    ...
+
+!Camera ECam3
+!Sprite Sir Eddler: serious
+!Voice Eddler: Agreement
+Sir Eddler:
+    Да...
+
+!Camera ECam2
+!Sprite Sir Eddler: shake
+!Voice Eddler: Frustration = 2
+Sir Eddler:
+    Да, я тоже это вижу. Мы упадём.
+
+!Sprite Sir Eddler: lean
+!Voice Eddler: Question
+Sir Eddler:
+    ...
+
+!Camera ECam
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Conniving
+Sir Eddler:
+    Ладно, Раффи, кажется, я только что передумал.
+
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 2
+Sir Eddler:
+    Оставим-ка этот самоцвет. Уходим отсюда!
+
+!Camera ECam3
+!Sprite Sir Eddler: secret
+!Voice Eddler: Conniving
+Sir Eddler:
+    Как там говорится? Навстречу новым самоцветам, то есть, кхм, навстречу новым приключениям!

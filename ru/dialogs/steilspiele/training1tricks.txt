@@ -1,0 +1,4 @@
+!Sprite Villeroy: talk
+!Voice Villeroy: Thoughtful = 3
+Villeroy:
+    Йо, это твой любимый трюк или просто единственный?

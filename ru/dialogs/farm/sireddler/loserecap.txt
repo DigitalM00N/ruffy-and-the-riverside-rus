@@ -1,0 +1,6 @@
+!Sprite Pip: back, Ruffy: idleBack
+!Camera camera_sirEddler offset 1 duration 1
+!2
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    Чтобы выиграть гонку, придётся пойти на кое-какие хитрости. Осмотри трассу. Может, её как-нибудь удастся подправить.

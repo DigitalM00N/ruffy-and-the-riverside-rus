@@ -1,0 +1,64 @@
+!Sprite Sir Eddler: cheer, Ruffy: idleHalfFrontLeft
+!Camera Maulwurf1
+!Voice Eddler: Surprize_Positive = 3
+Sir Eddler:
+    Клянусь священным когтем!
+
+!Camera Maulwurf1 target Alle1 duration 6
+!Event SIdle
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Эта буква появилась как нельзя кстати!
+
+!Sprite Sir Eddler: secretRight
+!Camera Maulwurf2
+!Voice Eddler: Conniving = 2
+Sir Eddler:
+    Но скажи мне, Силья, где ты её взяла и как долго носила с собой?
+
+!Camera Silja
+!Event STalk
+!Voice Silja: Verärgert = 1
+Silya:
+    Это тайна Ядра мира. И это моя тайна. Но одно я вам скажу...
+
+!Sprite Sir Eddler: lean
+!Camera Alle1
+Silya:
+    Ядро мира всегда с вами. У него много обличий, и оно пронизывает каждый уголок Риверсайда.
+
+!Camera Alle1 target Silja2 duration 4
+!Event STHappy
+!Voice Silja: Neutral = 5
+Silya:
+    Ядро мира без устали вращает этот мир, и благодаря Ядру мира Риверсайд всегда в движении.
+
+!Event SShake
+!Voice Silja: Lachen = 2
+Silya:
+    Ничто не происходит без участия Ядра мира.
+
+!Camera Alle1
+!Event STalk
+!Voice Silja: Neutral = 2
+Silya:
+    Поэтому не удивляйтесь, как оно смогло прислать вам эту последнюю букву, ведь для него это не стоит никаких усилий.
+
+!Camera Maulwurf2
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Силья, как же мне не хватало твоей мудрости.
+
+!Camera Maulwurf1
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Attack_Laugh = 6
+Sir Eddler:
+    Давайте же доставим эту последнюю букву к Эмблеме и покончим с Гроллом!
+
+!Camera Ruffy3
+!Sprite Ruffy: cheer
+!Voice Ruffy: Surprise_Positive = 2
+Ruffy:
+    С превеликим удовольствием!

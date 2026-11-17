@@ -1,0 +1,9 @@
+!Sprite VogelW: Talk
+!Voice Vogel: Misc
+Magnetischer Vogel:
+    Эй, видишь тут каменные ворота? Есть ещё деревянные, их можно запросто опрокинуть.
+
+!Sprite VogelW: Happy
+!Voice Vogel: Misc
+Magnetischer Vogel:
+    Но лучше всех железные ворота, ведь у них есть сила магнетизма! Ох, обожаю магнетизм...

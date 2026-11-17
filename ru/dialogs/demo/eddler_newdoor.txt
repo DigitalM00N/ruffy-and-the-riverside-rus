@@ -1,0 +1,5 @@
+!Sprite Sir Eddler: cheer
+!Camera Eddler
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Потрясающе, Раффи! Открылась новая дверь! Вперёд, к новым приключениям!

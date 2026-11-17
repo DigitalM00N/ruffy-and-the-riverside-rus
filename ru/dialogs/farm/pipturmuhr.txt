@@ -1,0 +1,10 @@
+!Camera UhrCam  offset 3 duration 4
+!Voice Pip: Staunen = 5
+Pip:
+    Смотри, Раффи, на циферблате есть дневная половина и ночная. Но, похоже, стрелка сломана.
+
+!Camera PipCam
+!Sprite Pip: talk
+!Voice Pip: Agree = 1
+Pip:
+    Может, тут нам поможет обмен!

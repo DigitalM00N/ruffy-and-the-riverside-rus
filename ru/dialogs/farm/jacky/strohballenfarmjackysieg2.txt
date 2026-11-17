@@ -1,0 +1,5 @@
+!0
+!Sprite SchlangeCool: Talk, Pip: laugh, Ruffy: idle2
+!Voice Steepy: Agreement = 4
+Jacky:
+    С тюком ты теперь можешь скользить по любым рельсам. Неважно, где они и куда ведут.

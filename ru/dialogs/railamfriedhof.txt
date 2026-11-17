@@ -1,0 +1,10 @@
+!Camera Start target Eddler duration 5
+!Sprite Sir Eddler: cheer, Ruffy: idleBack, Pip: back
+!Voice Eddler: Surprise_Positive = 1
+Sir Eddler:
+    Привет, Раффи, я здесь! Хорошо, что ты наконец пришёл!
+
+!Sprite Sir Eddler: shake
+!Voice Eddler: Worry = 4
+Sir Eddler:
+    Давай, скользи ко мне по рельсу. Земля здесь сырая и холодная. Не самое приятное место, чтобы задерживаться.

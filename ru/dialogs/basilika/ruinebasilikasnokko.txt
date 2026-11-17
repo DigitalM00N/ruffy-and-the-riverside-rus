@@ -1,0 +1,76 @@
+!Camera Destruction target Destruction2 duration 5
+!Sprite Ruffy: idleSideRight, Pip: idle, Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 12
+Hohepriester:
+    Только посмотрите на эти руины. Базилика разрушена. Что теперь будет с Эмблемой? Что станет с Ядром мира?
+
+!Voice Hohepriester: Misc = 4
+Hohepriester:
+    Ох, батюшки, что же нам делать?
+
+!Camera Ruffy
+!Sprite Ruffy: shocked, Hohepriester: idle
+!Voice Ruffy: Frustration = 2
+Ruffy:
+    Не знаю! И дальше только хуже. Силья в огромной опасности!
+
+!Camera OverviewH
+!Sprite Ruffy: idleBack, Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 9
+Hohepriester:
+    Теперь нас спасёт только чудо.
+
+!Event Snokko
+!Camera SnokkoFar
+!Sprite Snokko: talk
+!Voice Snokko: Greeting_Normal = 2
+Snokko:
+    Эй, народ, как жизнь?
+
+!Camera Snokko
+!Voice Snokko: Question = 1
+Snokko:
+    Решили поваляться на пляже, а?
+
+!Voice Snokko: Surprise_Negative = 7
+Snokko:
+    Опа, а куда делась базилика?
+
+!Camera RuffyClose
+!Sprite Ruffy: shocked
+!Voice Ruffy: Question = 9
+Ruffy:
+    Снокко?!
+
+!Camera OverviewH
+!Sprite Ruffy: idleBack, Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 11
+Hohepriester:
+    Снокко?! Звезда баскетбола?
+
+!Camera Ruffy
+!Sprite Ruffy: proud
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Да, звезда баскетбола. А ещё он придумал очень вкусные газировки! Яблоко-киви — мой любимый вкус.
+
+!Camera Overview R
+!Sprite Ruffy: idleBack, Hohepriester: think
+!Voice Hohepriester: Misc = 7
+Hohepriester:
+    Газировки? Боюсь, сейчас они нам не помогут.
+
+!Camera Snokko
+!Sprite Hohepriester: idle
+!Voice Snokko: Attack_Laugh = 4
+Snokko:
+    А вот и помогут! Газировка всегда помогает!
+
+!Voice Snokko: Realization = 6
+Snokko:
+    Я здорово улучшил вкус: теперь только свежевыжатые фрукты и никакого добавленного сахара.
+
+!Camera SnokkoFar
+!Voice Snokko: Agreement = 9
+Snokko:
+    Держи. Ты просто обязан это попробовать!

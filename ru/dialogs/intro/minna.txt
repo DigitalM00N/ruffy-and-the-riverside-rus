@@ -1,0 +1,5 @@
+!Camera MinnaKamera
+!Sprite Minna: talk, Ruffy: idleBack
+!Voice Minna: zustimmend = 2
+Minna:
+    Моя старая картина мне в последнее время надоела. Хочется чего-то нового. Можешь мне её немножко обменять? Вон те цветы выглядят чудесно.

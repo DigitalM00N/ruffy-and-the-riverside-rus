@@ -1,0 +1,8 @@
+!Camera Player target CameraGroll duration 2
+!Voice Groll: Surprise_Negative = 3
+Groll:
+    Ох... не получилось. Цвета опять исчезли.
+
+!Voice Groll: Realization = 2
+Groll:
+    То ли я слишком старался, то ли шарики были слабоваты. Попробуем ещё раз. На пляже валяется ещё полно шариков.

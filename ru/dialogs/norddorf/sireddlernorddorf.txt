@@ -1,0 +1,12 @@
+!Event Ausbuddeln
+!Camera KameraStart target KameraEddler duration 3
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: positiv
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Вот и вы. Я вас уже заждался.
+
+!Camera KameraEddler
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: serious
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    Давайте покончим с этим побыстрее. Идите к их главному, попросите Священную букву, и уходим отсюда.

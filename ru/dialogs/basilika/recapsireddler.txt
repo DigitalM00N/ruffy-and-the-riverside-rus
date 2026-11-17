@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: serious +mirror
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Иди к Нотори и попроси помощи! Нужно как можно скорее найти Силью! А я тем временем поищу последнюю букву.

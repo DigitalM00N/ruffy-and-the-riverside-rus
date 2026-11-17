@@ -1,0 +1,6 @@
+!Camera camera_blue2
+!Event blue bear disappear
+!Sprite Bally: talk
+!Voice Bally: Agreement = 2
+Bally:
+    Извините, ребята. Тюк тут только проветривается до утра. Завтра он вернётся к своему гонщику.

@@ -1,0 +1,5 @@
+!Camera Eddler
+!Sprite Sir Eddler: cheer, Pip: idle
+!Voice Eddler: Surprise_Positive = 3
+Sir Eddler:
+    Отличная работа! А теперь — к Крутому шпилю!

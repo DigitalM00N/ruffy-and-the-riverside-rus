@@ -1,0 +1,3 @@
+!Voice Eddler: Laugh_Friendly = 4
+Sir Eddler:
+    Не торопитесь. Меня в Северные земли совсем не тянет.

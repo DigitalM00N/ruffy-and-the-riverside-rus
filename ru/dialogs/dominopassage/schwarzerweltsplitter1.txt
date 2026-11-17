@@ -1,0 +1,13 @@
+!Camera Stein target Stein2 duration 3 delay 1
+!Voice Pip: Staunen = 7
+Pip:
+    Смотри, Раффи! Тёмный шарик.
+
+!Voice Ruffy: Worry = 2
+Ruffy:
+    Этот камень полон зла. Я чувствую это. Он полон ненависти и тёмных желаний.
+
+!Camera Stein2 target Stein3 duration 1
+!Voice Pip: Staunen = 6
+Pip:
+    Да, я тоже это чувствую. Скорее разбей его!

@@ -1,0 +1,67 @@
+!Event Ausbuddeln
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Sir Eddler: serious
+!Camera SirEddler2 target SirEddler duration 1 delay 1
+!Voice Eddler: Attack_Laugh = 1
+Sir Eddler:
+    Вот он. Шарик из древних времён.
+
+!Camera Detail2 target Detail duration 4 dealy 1
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Question = 1
+Sir Eddler:
+    Разве он не прекрасен?
+
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    Это самое удивительное, что есть во всём Риверсайде.
+
+#Eddler muss halbhinten sein
+!Pause 3
+!Camera DetailW2 target DetailW duration 5 delay 1
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Шарики могут изменить буквально всё. Смотрите! Вода превращается в лаву, а потом вдруг застывает и становится льдом.
+
+!Camera DetailB2 target DetailB duration 7 delay 2
+!Sprite Sir Eddler: serious, Ruffy: idleHalfBackLeft
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Или посмотрите, что творится с этим бревном.
+
+!Pause 4
+!Voice Eddler: Agreement = 4
+Sir Eddler:
+    Только что это дерево. Потом оно становится твёрдой сталью, а потом снова мягкой подушкой.
+
+!Camera SirEddler
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Это чистая магия, и всё же она такая настоящая. Только представьте, что можно сделать с этими шариками!
+
+!Voice Eddler: Attack_Laugh = 5
+Sir Eddler:
+    К счастью, я довольно известный знаток самоцветов. И у меня неподалёку есть тайная лаборатория.
+!Sprite Sir Eddler: sniff
+
+!Camera Kamera1
+!Camera Kamera1 target Kamera2 duration 10 delay 1
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Видите вон тот остров? Он довольно уединённый, и там никто не мешает моим опытам.
+
+!Camera SirEddler
+!Sprite Sir Eddler: serious, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Eddler: Attack_Laugh = 3
+Sir Eddler:
+    Моё последнее изобретение — машина, которая чует самоцветы. Я зову её Нюхач. Нюхач — именно то, что нам сейчас нужно!
+
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Если повезёт, Нюхач покажет нам другие шарики, и мы раскроем их тайну.
+
+!Sprite Sir Eddler: secretRight, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Вы со мной? Я сейчас прокопаюсь к острову. Придумайте, как перебраться на ту сторону, и поторопитесь. Увидимся там.

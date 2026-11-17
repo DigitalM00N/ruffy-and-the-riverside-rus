@@ -1,0 +1,30 @@
+!Camera Start target camera_Ruffy_back duration 1
+!Sprite Ruffy: idleBack, Pip: idle+mirror, William: eat
+!Voice William: Tired = 2
+William:
+    ...
+
+!Camera camera_Ruffy_back target camera_Pip_Frosh duration 1
+!Sprite Ruffy: idleBack, Pip: talk+mirror
+!Voice Pip: Begrüßen = 5
+Pip:
+    Эй, ты!
+
+!Sprite Ruffy: idleBack, Pip: idle+mirror
+!Voice William: Tired = 3
+William:
+    ...
+
+!Camera camera_Pip_Frosh_1 target camera_Pip duration 1
+!Sprite Pip: talkAngry+mirror
+!Event DisableVolume
+!Voice Pip: Cry = 4
+Pip:
+    ЭЭЭЙ, ТЫ ТАМ!
+
+!Event EnableVolume
+!Camera camera_Pip target camera_Frog duration 1.5
+!Sprite William: talkEat, Pip: idle+mirror
+!Voice William: Surprise_Positive = 3
+William:
+    Ну, чего надо? Я занят. Извиняйте, ребята.

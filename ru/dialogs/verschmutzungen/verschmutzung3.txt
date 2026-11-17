@@ -1,0 +1,19 @@
+!Sprite FishRed: leanTalkLeft ,FishBlue: wait
+!Voice Fische: Misc = 1
+Vargon:
+    Ты только глянь.
+
+!Sprite FishBlue: lean talk, FishRed: waitLeft
+!Voice Fische: Misc = 2
+Gorgon:
+    Что такое, старик?
+
+!Sprite FishRed: party , FishBlue: wait
+!Voice Fische: Misc = 9
+Vargon:
+    Ну, пруд. Он снова чистый. Этои его очистили.
+
+!Sprite FishBlue: party , FishRed: party
+!Voice Fische: Misc = 4
+Gorgon:
+    Ух ты, и правда! Эти Этои просто супер. Такие маленькие, а такие могучие!

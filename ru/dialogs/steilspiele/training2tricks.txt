@@ -1,0 +1,4 @@
+!Sprite Villeroy: cheer
+!Voice Villeroy: Realization = 2
+Villeroy:
+    Окей, бро. Если я правильно посчитал, это было два трюка. У тебя талант, бро. Серьёзно. Тебе надо на Крутые игры.

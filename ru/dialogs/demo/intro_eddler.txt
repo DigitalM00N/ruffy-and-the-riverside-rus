@@ -1,0 +1,50 @@
+!Camera Eddler
+!Sprite Sir Eddler: serious positiv
+!Voice Eddler: Laugh_Friendly = 8
+Sir Eddler:
+    А, вот и ты наконец! Я уж начал беспокоиться, не заблудился ли ты.
+
+!Camera Ruffy
+!Sprite Ruffy: thinkLeft
+!Voice Ruffy: Frustration = 8
+Ruffy:
+    Вы шутите? Это ВЫ чуть не пропали, когда свалились в пропасть! И всё из-за какого-то камня!
+
+!Camera  Tore1
+!Sprite Sir Eddler: shake, Ruffy: idleHalfBackLeft
+!Voice Eddler: Worry = 2
+Sir Eddler:
+    Вздор, такое крошечное падение не может навредить кроту вроде меня! А теперь взгляни, что я нашёл под этим камнем!
+
+!Camera Tore1 target EStern duration 3
+!Event Stern
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 4
+Sir Eddler:
+    Звезда приключений! Она обладает силой открывать двери в далёкие края, полные приключений. Смотри!
+
+!Event Timeline
+!Pause 14.5
+!Camera Tore2
+!Sprite Pip: happy
+!Voice Pip: Staunen = 1
+Pip:
+    Ух ты, вот это круто! Я видел пару открытых дверей, но эта — что-то совсем особенное!
+
+!Camera Eddler
+!Sprite Sir Eddler: secret
+!Voice Eddler: Greeting = 2
+Sir Eddler:
+    Верно подмечено, мой дорогой Пип! Но самое лучшее ещё впереди! За каждой дверью можно найти ещё больше звёзд. И не только там! Звёзды есть и в городе, и вокруг него, так что смотрите в оба.
+
+!Camera Tore1
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Разве не здорово? С силой звёзд мы сможем открыть двери к новым захватывающим приключениям! Если, конечно, вы найдёте звёзды...
+
+!Camera Tore 1 target Eddler duration 3
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Laugh_Friendly = 7
+Sir Eddler:
+    Ну, чего же вы ждёте? Ступайте, найдите звёзды и откройте новые двери!

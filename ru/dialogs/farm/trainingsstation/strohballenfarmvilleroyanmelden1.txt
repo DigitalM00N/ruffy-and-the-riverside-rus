@@ -1,0 +1,29 @@
+!Camera camera_1
+!Event no
+!Sprite Villeroy: cheer, Ruffy: idleBack
+!Voice Villeroy: Laugh_Medium = 3
+Villeroy:
+    Йо, йо, йо! Заходи смелей, взлетай скорей! Хочешь немножко полетать?
+!Sprite Blue Blear: idle
+* Да, с удовольствием!
++2
+* Нет, спасибо!
++3
+
+!Camera camera_1 offset 1 duration 1
+!Sprite Villeroy: talk
+!Voice Villeroy: Realization = 2
+Villeroy:
+    Отлично, йо, слушай сюда! Всё просто: летай на тюке и делай как можно больше трюков.
+
+!Sprite Villeroy: cheer
+!Voice Villeroy: Laugh_Heavy = 2
+Villeroy:
+    Готов? Погнали!
++1
+
+!Camera camera_1 offset 1 duration 1
+!Sprite Villeroy: talk
+!Voice Villeroy: Agreement = 2
+Villeroy:
+    Спокойно, спокойно, ты ещё вернёшься, я чую!

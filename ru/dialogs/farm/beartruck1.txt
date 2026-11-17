@@ -1,0 +1,10 @@
+!Event disappear
+!Camera camera_truck target camera_truck2 duration 1 delay 1
+!Sprite Bally: talk, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Bally: Attack_Laugh = 8
+Bally:
+    Эй!
+
+!Voice Bally: Question = 1
+Bally:
+    Вы что это делаете?

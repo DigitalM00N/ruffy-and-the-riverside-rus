@@ -1,0 +1,19 @@
+!Camera camera_2
+!Event no
+!Sprite Villeroy: cheer
+!Voice Villeroy: Realization = 3
+Villeroy:
+    Йо, это было безумие! Столько трюков. Я не понял, что ты там вытворял, но это было ОТПАДНО, точно тебе говорю.
+
+!Sprite Villeroy: talk
+!Voice Villeroy: Greeting = 1
+Villeroy:
+    Дам тебе совет, дружище: запишись на Крутые игры. Там можно круто отрываться без конца.
+
+Villeroy:
+    Но берегись. Там ещё ошиваются эти чудики, Уповающие на Небесный колокол. Перегибают палку, если хочешь знать моё мнение.
+
+!Sprite Villeroy: cheer
+!Voice Villeroy: Agreement = 1
+Villeroy:
+    Эй, дружище, погоди. Награду не забудь! Распорядись ею с умом!

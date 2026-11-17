@@ -1,0 +1,39 @@
+!Sprite FishRed: worriedTalkLeft
+!Voice Fische: Misc = 1
+Vargon:
+    Ты только глянь на эту мерзкую чёрную смолу! Надо бы её кому-нибудь смыть.
+
+!Voice Fische: Misc = 2
+!Sprite FishRed: idle, FishBlue: worried talk
+Gorgon:
+    Забудь, старик. Эту чёрную смолу так просто не смоешь. Она всё время возвращается. Прямо как заклятие.
+
+!Sprite FishRed: leantTalkLeft, FishBlue: wait
+!Voice Fische: Misc = 8
+Vargon:
+    Но кто-то же должен её смыть!
+
+!Voice Fische: Misc = 3
+!Sprite FishBlue: worried talk, FishRed: waitLeft
+Gorgon:
+    Да, но это под силу только Этои.
+
+!Voice Fische: Misc = 1
+!Sprite FishRed: leanTalkLeft, FishBlue: wait
+Vargon:
+    Этои? Этим маленьким пушистикам?
+
+!Voice Fische: Misc = 4
+!Sprite FishBlue: worried talk, FishRed: waitLeft
+Gorgon:
+    Ага, точно, Этои. Они прячутся в деревьях и каменных столбах. Но даже если найдёшь их укрытие, их ещё надо выманить. Говорят, укрытие нужно как-то превратить, иначе они так и сидят внутри.
+
+!Voice Fische: Misc = 9
+!Sprite FishRed: worriedTalkLeft, FishBlue: wait
+Vargon:
+    Ладно, но когда их выманишь, они ведь помогут, да?
+
+!Voice Fische: Misc = 8
+!Sprite FishBlue: worried talk, FishRed: waitLeft
+Gorgon:
+    Ну, помогут, только если доверяют тебе. А доверяют они лишь друзьям Древа жизни. Теперь понял? Чтобы смыть чёрную смолу, Этои должны нам доверять.

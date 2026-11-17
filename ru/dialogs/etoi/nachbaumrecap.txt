@@ -1,0 +1,5 @@
+!Camera Start target Veena duration 1
+!Sprite Veena: talkHappy
+!Voice Veena: Thoughtful = 2
+Veena:
+    Привет, Раффи, ты уже навестил Этои в их убежище? Уверена, им пригодится твоя помощь.

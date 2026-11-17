@@ -1,0 +1,5 @@
+!Sprite Fuchs: happy
+!Camera FuchsCam
+!Voice Quintus: Conniving = 5
+Quintus:
+    Эй, Раффи, ты ещё не надумал вступить в Братство чешуекрылых? Только не тяни слишком долго. Братство этого очень не любит.

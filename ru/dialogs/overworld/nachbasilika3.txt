@@ -1,0 +1,20 @@
+!Pause 1
+!Camera Start target Eddler duration 2
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Voice Eddler: Realization = 3
+Sir Eddler:
+    Итак, наша следующая цель — Древо жизни.
+!Event ReleaseAnim
+!Sprite Sir Eddler: serious
+
+!Camera PipFar target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talk, Sir Eddler: leanBack
+!Voice Pip: Begrüßen = 4
+Pip:
+    Да, я и так хотел туда, искать Этои. Повезло, что забавное колесо и правда отправило нас туда.
+
+!Camera Eddler
+!Sprite Sir Eddler: secretRight
+!Voice Eddler: Thoughtful = 3
+Sir Eddler:
+    Колесо, может, и неприметное, но за ним стоит великая мудрость. Отправимся в Погребённые города и найдём путь к Древу жизни.

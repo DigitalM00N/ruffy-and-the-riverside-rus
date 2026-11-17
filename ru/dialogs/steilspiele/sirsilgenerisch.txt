@@ -1,0 +1,14 @@
+!Camera KameraSirsilStart target KameraSirsil duration 1
+!Sprite Ruffy: idleBack, Pip: back, Sirsil: talk
+!Voice Sirsil: Positiv = 1
+Sirsil:
+    Итак, благородные небожители, чем могу помочь?
+!Sprite Sirsil: laugh
+* Мы хотим поменять тюк.
++1
+* Какую услугу ты от нас хочешь?
+
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv = 7
+Sirsil:
+    Конечно. Выбор тюков у нас лучше некуда. По крайней мере, здесь, на Крутых играх, хи-хи.

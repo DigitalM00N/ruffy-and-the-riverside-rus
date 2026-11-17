@@ -1,0 +1,24 @@
+!Sprite Daag: amazed
+!Voice Hohepriester: Misc
+Ottokar:
+    Ох, какая беда. Какая беда. Как такое могло со мной случиться? Именно со мной?
+
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc
+Ottokar:
+    В чём дело? Ты разве не видишь? Шары! Шары моих предков! Они пропали!
+
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc
+Ottokar:
+    Наша семья поколениями высекала эти глобусы, чтобы показать, что земля круглая, а не плоская. Любой может посмотреть на глобусы и чему-то научиться. За небольшую плату, разумеется.
+
+!Sprite Daag: amazed
+!Voice Hohepriester: Misc
+Ottokar:
+    На кону честь нашей семьи! Века трудов с резцом — и всё насмарку! Ох, умоляю, всеми добрыми резцами заклинаю, помоги мне и верни глобусы!
+
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc
+Ottokar:
+    Ох, прошу, помоги! Найди глобусы и поставь их на место!

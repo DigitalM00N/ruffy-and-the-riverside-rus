@@ -1,0 +1,55 @@
+!Camera KameraSirsilClose target KameraSirsil duration 2 delay 1
+!Sprite Sirsil: laugh, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Negativ = 12
+Sirsil:
+    Вижу, вы нашли себе тюк? Превосходный выбор. На нём вы прямиком до небес долетите, хи-хи.
+
+!Camera KameraRuffy
+!Sprite Sirsil: idle, Ruffy: talk, Pip: idle
+!Voice Ruffy: Greeting = 5
+Ruffy:
+    Да, надеюсь. Большое спасибо. Пока!
+
+!Camera KameraOverviewLeftFar target KameraOverviewLeftS1 duration 1
+!Sprite Sirsil: talkLeft, Ruffy: idleSideLeft
+!Voice Sirsil: Positiv = 8
+Sirsil:
+    Не так быстро, мои дорогие друзья. Есть ещё одна крошечная мелочь.
+
+!Camera KameraOverviewLeftS1 target KameraOverviewLeftR duration 1
+!Sprite Sirsil: idleLeft, Ruffy: talkLeft
+!Voice Ruffy: Question = 17
+Ruffy:
+    Это ты о чём?
+
+!Camera KameraSirsilHigh target KameraSirsil duration 1
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Positiv = 6
+Sirsil:
+    Ну, если вдруг вы победите на Крутых играх, вам придётся оказать нам одну маленькую услугу.
+!Sprite Sirsil: laugh
+
+!Camera KameraRuffy
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: Question = 18
+Ruffy:
+    Услугу? Это какую ещё услугу?
+
+!Camera KameraSirsil target KameraSirsilHigh duration 1
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Positiv = 7
+Sirsil:
+    Хи-хи, не волнуйтесь, мои дорогие друзья. Сущий пустяк. Больше пока ничего сказать не могу.
+
+!Camera KameraRuffy
+!Sprite Sirsil: idle, Ruffy: think, Pip: idle
+!Voice Ruffy: Thoughtful = 1
+Ruffy:
+    Похоже, выбора у нас нет.
+
+!Camera KameraSirsilHigh target KameraSirsil duration 1
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Positiv = 27
+Sirsil:
+    Вот именно, э-э, то есть чудесно!
+!Sprite Sirsil: laugh

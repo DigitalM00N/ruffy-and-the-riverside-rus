@@ -1,0 +1,15 @@
+!Camera KameraMethok
+!Sprite Methok: cheer
+!Voice Methok: Realization = 2
+Methok:
+    Вот они все! Как же мне тебя отблагодарить?
+
+!Sprite Methok: Surprise
+!Voice Methok: Surprise_Positive = 3
+Methok:
+    Ах да, точно. Ты ведь пришёл за буквой. Я сдержу обещание и пущу тебя на Ураганные высоты.
+
+!Sprite Methok: Happy
+!Voice Methok: Agreement = 3
+Methok:
+    Я открою нашу Турботрубу к старой сторожевой башне на юге. Поднимись на её вершину, и найдёшь ключ от Ураганных высот.

@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 2
+Sir Eddler:
+    Давайте покончим с этим побыстрее. Идите к их главному, попросите Священную букву, и уходим отсюда.

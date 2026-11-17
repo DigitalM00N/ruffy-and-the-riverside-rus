@@ -1,0 +1,44 @@
+!Camera KameraVilleroy
+!Sprite Villeroy: cheer, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Villeroy: Greeting = 1
+Villeroy:
+    Йо, йо, йо! Как жизнь? Полетать не хочешь?
+* Да, с удовольствием!
++1
+* Нет, спасибо, мне пора.
++2
+* Расскажи ещё раз про Донни и золотую букву.
+
+!Voice Villeroy: Agreement = 2
+Villeroy:
+    Йо, круто, чувак. Запрыгивай на тюк и покажи мне пару трюков!
++6
+
+!Sprite Villeroy: talk
+!Voice Villeroy: Surprise_Positive = 2
+Villeroy:
+    Не буду тебя задерживать, бро!
++5
+
+!Sprite Villeroy: talk
+!Voice Villeroy: Greeting = 3
+Villeroy:
+    Окей, без проблем, бро. Расскажу ещё раз.
+
+Villeroy:
+    Донни — лучший летун из всех, кого я знаю. Он даже как-то выиграл Крутые игры.
+
+!Sprite Villeroy: cheer
+!Voice Villeroy: Surprise_Positive = 3
+Villeroy:
+    Он делал трюки, которые никому больше не под силу, и летал выше всех.
+
+!Sprite Villeroy: deny
+!Voice Villeroy: Worry = 5
+Villeroy:
+    А потом у него как будто крыша поехала, и он стал всем рассказывать, что видел над облаками золотую букву.
+
+!Sprite Villeroy: talk
+!Voice Villeroy: Question = 4
+Villeroy:
+    Правда это или нет? Без понятия, бро! Лучше спроси его сам. Он сейчас в «Диком тюке», сдаёт тюки напрокат для спуска по бурной воде.

@@ -1,0 +1,159 @@
+!Camera camera_Eingang_bear
+!Event Blaubear disappear
+!Sprite Hickory: cheer
+!Voice Hickory: Greeting = 10
+Hickory:
+    Здорóво, приятель!
+
+!Camera camera_Eingang_bear target camera_Ruffy_front duration 1
+!Sprite Ruffy: talkRight, Pip: front, Hickory: idle2
+!Voice Ruffy: Greeting = 3
+Ruffy:
+    Привет, это дорога на ферму?
+
+!Camera camera_Eingang_bear
+!Sprite Hickory: think
+!Voice Hickory: Question = 4
+Hickory:
+    Ферму? Это не просто ферма, приятель! Перед тобой ФФТ — Фермерская Форсажная Трасса, самый быстрый трек во всём Риверсайде.
+
+!Camera camera_leftside
+!Sprite Ruffy: cheer, Hickory: idleSideRight, Pip: back
+!Voice Ruffy: Agreement = 2
+Ruffy:
+    Ух ты, звучит здорово! Мы ищем тюк. Не знаешь, где его можно найти?
+
+!Camera camera_leftside target camera_leftside_blue duration 1
+!Sprite Hickory: deny, Ruffy: idleSideLeft
+!Voice Hickory: Surprise_Negative = 2
+Hickory:
+    Ой-ой, у тебя нет тюка, приятель? Нет тюка — нет входа. Извини, приятель! Боюсь, вам, новичкам, придётся остаться снаружи!
+
+!Camera camera_leftside_blue target camera_leftside duration 1
+!Sprite Ruffy: talkLeft, Hickory: idleSideRight
+!Voice Ruffy: Question = 13
+Ruffy:
+    Но это срочно! Мы пытаемся спасти весь Риверсайд, и твою трассу тоже!
+
+!Camera camera_leftside target camera_pip_left duration 1
+!Sprite Pip: talkDoubt, Ruffy: idle2, Hickory: idleSideRigt
+!Voice Pip: Misc = 1
+Pip:
+    Это о-чень-важ-но, понимаешь, приятель?
+
+!Camera camera_pip_left target camera_leftside_blue duration 1
+!Sprite Hickory: talkRight, Pip: idle
+!Voice Hickory: Agreement = 2
+Hickory:
+    Это как посмотреть, приятель. Гонки у нас дело серьёзное, и без своего тюка сюда не попасть.
+
+!Camera camera_pip_blue_left target camera_all duration 1
+!Sprite Pip: idle, Ruffy: idleHalfBackRight, Hickory: idleSideRight
+!Event appear
+Hickory:
+    ...
+
+!Camera camera_all target camera_leftside_blue 1
+!Sprite Hickory: think
+!Voice Hickory: Question = 4
+Hickory:
+    Сэр Эддлер, это вы? Теперь с новичками водитесь?
+
+!Camera camera_sir_Eddler_blue target camera_sir_Eddler duration 1
+!Sprite Sir Eddler: secret, Hickory: idle2
+!Voice Eddler: Laugh_Friendly = 8
+Sir Eddler:
+    Привет, Хикори. Нам позарез нужен тюк и...
+
+!Camera camera_sir_Eddler target camera_Eingang_bear duration 1
+!Sprite Hickory: talk, Sir Eddler: leanRight
+!Voice Hickory: Frustration = 2
+Hickory:
+    Извини, но никаких шансов, Эдди! Я только что объяснил этим двум новеньким: нет тюка — нет прохода! Правила яснее ясного!
+
+!Camera camera_sir_Eddler_blue target camera_sir_Eddler duration 1
+!Sprite Sir Eddler: seriousRight, Hickory: idle2
+!Voice Eddler: Question = 3
+Sir Eddler:
+    С каких это пор ты стал таким строгим, Хикори? Сделай одолжение, скажи, как нам попасть на ферму!
+
+!Camera camera_sir_Eddler target camera_Eingang_bear duration 1
+!Sprite Pip: idle, Ruffy: idleBack, Hickory: talk, Sir Eddler: leanRight
+!Voice Hickory: Agreement = 4
+Hickory:
+    Конечно, приятель.
+
+Hickory:
+    Войти можно тремя способами. Есть тюк? Заходи. Ты действующий чемпион? Заходи. Спас жизнь действующему чемпиону? Тоже заходи.
+
+!Voice Hickory: Agreement = 2
+Hickory:
+    Хватит одного из трёх. Свой тюк! Или быть чемпионом! Или спасти жизнь действующему чемпиону!
+
+!Camera camera_Pip
+!Sprite Pip: talkAngry
+!Voice Pip: Traurig = 8
+Pip:
+    Это же совсем нечестно — у нас ничего из этого не выйдет! Вообще ничего!
+
+!Camera camera_leftside
+!Sprite Pip: back, Ruffy: idleHalfBackLeft, Hickory: idleSideRight
+!Voice Eddler: Thoughtful = 3
+Sir Eddler:
+    Хмм... посмотрим. Тюка у нас нет, и мы не действующие чемпионы. Значит, остаётся только спасти жизнь действующему чемпиону. Проклятье.
+
+!Camera camera_leftside target camera_leftside_sir duration 1
+!Sprite Sir Eddler: serious
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Так-так-так. Хикори, старый друг, скажи-ка мне. Кто у нас действующий чемпион?
+
+!Camera camera_leftside_sir target camera_leftside_blue duration 1
+!Sprite Hickory: think, Sir Eddler: lean
+!Voice Hickory: Question = 6
+Hickory:
+    Вы шутите? Не знаете действующего чемпиона? Флитци Младший! Флитци «Блитци» Младший.
+
+!Camera camera_leftside_blue target camera_leftside_sir duration 1
+!Sprite Sir Eddler: positiv, Hickory: idleSideRight
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Любопытно. Значит, Флитци Младший. И где же нам найти эту достопочтенную особу?
+
+!Camera camera_leftside_sir target camera_leftside_blue duration 1
+!Sprite Hickory: think, Sir Eddler: lean
+!Voice Hickory: Question = 4
+Hickory:
+    Флитци? А это, вообще-то, очень хороший вопрос.
+
+!Sprite Hickory: talkSideLeft
+!Voice Hickory: Realization = 3
+Hickory:
+    Он ещё несколько дней назад должен был вернуться. Пошёл в Свинячью пещеру за пачкой чипсов... и с тех пор я его не видел.
+
+!Camera camera_leftside_blue target camera_Ruffy duration 1
+!Sprite Ruffy: talk, Hickory: idle2, Pip: idle
+!Voice Ruffy: Thoughtful = 5
+Ruffy:
+    Надеюсь, с ним ничего не случилось...
+
+!Camera camera_Ruffy target camera_pip_left duration 1
+!Sprite Ruffy: idle2, Pip: talk
+!Voice Pip: Begrüßen = 4
+Pip:
+    Да, надеюсь, с ним ничего не случилось.
+
+!Camera camera_pip_left target camera_Eingang_bear 1
+!Sprite Hickory: talk, Pip: back
+!Voice Hickory: Agreement = 1
+Hickory:
+    Да, будем надеяться.
+
+!Camera camera_Ruffy_blue target camera_sir_Eddler duration 1
+!Sprite Sir Eddler: bashful, Pip: idleRight, Ruffy: idleHalfBackRight, Hickory: idleSideRight
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    Что? Он пропал? Замечательно! Э-э, то есть, надеюсь, с ним, конечно, ничего не случилось.
+
+Sir Eddler:
+    Раффи, это наш шанс попасть на ферму! Флитци наверняка застрял в Свинячьей пещере, и, держу пари, ему нужен спаситель!

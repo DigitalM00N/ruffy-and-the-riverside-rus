@@ -1,0 +1,101 @@
+!Camera KameraMethok
+!Sprite Ruffy: idleBack, Pip: back, Methok: Happy
+!Voice Methok: Laugh_Confident = 1
+Methok:
+    Я Меток, вождь Нотори. Чего ты хочешь, чужак? Зачем ты пришёл на нашу землю?
+
+!Camera KameraRuffy
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: Greeting = 6
+Ruffy:
+    Великий Меток. Я Раффи, и я прошу твоей помощи.
+
+!Camera KameraMethok
+!Sprite Ruffy: idleBack, Pip: back, Methok: Surprise
+!Voice Methok: Conniving = 2
+Methok:
+    Тебе нужна помощь? Ха-ха-ха-ха!
+
+!Camera KameraRuffy
+!Sprite Ruffy: deny
+!Voice Ruffy: Agreement = 11
+Ruffy:
+    Мы ищем Священные буквы, чтобы починить Эмблему, которая связана с Ядром мира. Только так можно спасти мир.
+
+!Camera KameraMethok
+!Sprite Ruffy: idleSideRight, Pip: back, Methok: grumpy
+!Voice Methok: Realization = 7
+Methok:
+    Что за глупости? Разве ты не знаешь, что Ядро мира — опасная штука? Своими глупыми желаниями вы чуть не довели мир до гибели.
+
+!Camera CView2
+!Sprite Methok: Happy
+!Voice Methok: Laugh_Friendly = 6
+Methok:
+    Здесь, наверху, у нас нет желаний. Мы просто живём в гармонии с природой. Сам мир делает нас счастливыми. Мы не хотим его менять.
+
+!Camera KameraMethok
+!Sprite Methok: grumpy
+!Voice Methok: Anger = 5
+Methok:
+    Лучше оставьте Ядро мира в покое. Так и передай своему вождю!
+
+!Camera PipCam
+!Sprite Ruffy: idleHalfFrontLeft+mirror, Pip: talk, Methok: Idlehalfback
+!Voice Pip:  Misc = 2
+Pip:
+    Не подведи нас! Мы здесь от имени всех наших друзей!
+
+!Sprite Pip: talkHappy
+!Camera PipCam target PipCam2 duration 5
+!Voice Pip: Misc = 3
+Pip:
+    За Квина!
+
+Pip:
+    За Снокко!
+
+!Camera CView1
+!Sprite Pip: idle, Methok: Happy, Ruffy: idleBack
+!Voice Methok: Question = 3
+Methok:
+    Силья?
+
+!Camera KameraMethok
+!Sprite Methok: Surprise
+!Voice Methok: Laugh_Friendly = 5
+Methok:
+    Силья, черепаха? Моя старая учительница? Она научила меня всему, что я знаю о растениях... неужели это она?
+
+!Camera CView1
+!Sprite Methok: cheer
+!Voice Methok: Laugh_Friendly = 6
+Methok:
+    Хорошо же! Мы вам поможем. Свою букву вы найдёте на вершине Ураганных высот, на западе. Но берегитесь!
+
+!Sprite Methok: grumpy
+!Voice Methok: Agreement = 3
+Methok:
+    Гора высока, а подъём коварен. Многие там сбились с пути, и больше их никто не видел.
+
+!Camera KameraRuffy
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 21
+Ruffy:
+    Меток, благодарим тебя. Но скажи: как нам подняться на гору?
+
+!Camera KameraMethok
+!Sprite Ruffy: idleBack, Pip: back, Methok: Happy
+!Voice Methok: Conniving = 6
+Methok:
+    Ха-ха-ха-ха! Вы, городские медведи, вечно куда-то торопитесь. Наберитесь терпения. Прежде чем мы откроем вам путь на Ураганные высоты, окажи мне небольшую услугу.
+
+!Sprite Methok: Happy
+!Voice Methok: Greeting = 2
+Methok:
+    Взгляни на моих маленьких Этои. Они мне как дети, но трое из них пропали. Бедный Хито, бедный Вито и бедный Дито, где же они?
+
+!Sprite Methok: cheer
+!Voice Methok: Laugh_Confident = 3
+Methok:
+    Пожалуйста, найди Хито, Вито и Дито, и я покажу тебе дорогу на Ураганные высоты.

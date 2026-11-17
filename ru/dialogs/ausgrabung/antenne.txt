@@ -1,0 +1,15 @@
+!Camera SirEddler2 target SirEddler duration 1 delay 1
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: serious
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Святой коготь!
+
+!Camera Stein1 target Stein3 duration 2
+Sir Eddler:
+    Вот он! Символ шариков! Теперь можно запускать Нюхача и раскрыть тайны шариков.
+
+!Camera SirEddler2 target Bildschirm duration 3
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Attack_Laugh = 1
+Sir Eddler:
+    Раффи, на том камне и правда есть символ шарика. Иди и перенеси его ОБМЕНОМ на экран Нюхача!

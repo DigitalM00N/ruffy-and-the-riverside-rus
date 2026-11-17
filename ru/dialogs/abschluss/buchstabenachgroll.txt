@@ -1,0 +1,13 @@
+!Camera Camera1
+!Voice Pip: Staunen = 7
+Pip:
+    У тебя получилось, Раффи!
+
+!Camera Pip2
+!Voice Pip: Misc = 3
+Pip:
+    Ты его вырубил.
+
+!Voice Pip: Jump = 3
+Pip:
+    Сейчас или никогда! Скорее отправь букву на монитор!

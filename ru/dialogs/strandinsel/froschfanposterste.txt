@@ -1,0 +1,37 @@
+!Camera Start target camera_Frog duration 1
+!Sprite William: talk, Ruffy: idleBack
+!Voice William: Attacl_Laugh = 1
+William:
+    Эй, вот про них я и говорил. Говорят, они часть этого чудного плана побега.
+
+!Sprite William: read
+!Voice William: Thoughtful = 5
+William:
+    Дайте-ка взгляну.
+
+!Voice William: Thoughtful = 3
+William:
+    Так-так-так. Любопытно.
+
+!Sprite William: read
+!Voice William: Surprise_Positive = 2
+William:
+    Тут рисунок. Ну, по крайней мере, его кусочек.
+
+William:
+    Здесь написано, что его надо соединить с другими рисунками.
+
+!Voice William: Agreement = 3
+William:
+    Мудрёно, как по мне. Ну, посмотрим, что выйдет.
+
+!Pause 2
+!Camera camera_Frog target camera_Stein duration 3
+!Event Display
+!Voice William: Question = 4
+William:
+    Хм, красиво, но как это поможет нам выбраться с острова?
+
+!Voice William: Laugh_Friendly = 7
+William:
+    В общем, приходите, когда найдёте ещё бутылки.

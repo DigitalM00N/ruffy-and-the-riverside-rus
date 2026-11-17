@@ -1,0 +1,18 @@
+!Camera camera_blue
+!Event bear disappear
+!Sprite Hickory: talk, Pip:back, Ruffy: idleBack, Flitzi: idle
+!Voice Hickory: Realization = 1
+Hickory:
+    Так-так, понятно. Значит, вы выполнили правило номер три? Спасли жизнь чемпиону?
+
+!Camera camera_blue target camera_yellow duration 1
+!Sprite Hickory: idle2, Flitzi: talkLeft
+!Voice Flitzi: Agreement = 6
+Flitzi:
+    Да, так всё и было. Раффи и Пип спасли мне жизнь. Та акула-задира чуть меня не слопала.
+
+!Camera camera_yellow target camera_blue duration 1
+!Sprite Hickory: talk, Flitzi: idle
+!Voice Hickory: Attack_Laugh = 3
+Hickory:
+    Ну, раз так, приятели, заходите и наслаждайтесь гонками!

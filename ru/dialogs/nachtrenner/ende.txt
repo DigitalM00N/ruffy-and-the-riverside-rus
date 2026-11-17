@@ -1,0 +1,4 @@
+!Sprite SchlangeCool: Shake
+!Voice Steepy: Surprise_Positive = 5
+Roybert:
+    Не думал, что кто-нибудь когда-нибудь обгонит всех Пятерых парней. Отличная работа!

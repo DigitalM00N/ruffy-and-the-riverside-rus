@@ -1,0 +1,4 @@
+!Sprite Pip: talkHappy
+!Voice Pip: Misc = 2
+Pip:
+    Вот она, Раффи! Скорее иди сюда и скопируй картину.

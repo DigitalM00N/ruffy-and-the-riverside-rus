@@ -1,0 +1,14 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 15
+!Event Schmetterling30
+Quintus:
+    Это красный гонщик из семейства братских сердец.
+
+!Voice Quintus: Agreement = 10
+Quintus:
+    Гонщики вечно соревнуются, кто быстрее, и летают быстрее всех остальных бабочек.
+!Sprite Fuchs: idle
+
+Quintus:
+    Как тебе вообще удалось его поймать?

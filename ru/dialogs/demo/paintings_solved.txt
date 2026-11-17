@@ -1,0 +1,5 @@
+!Sprite Meister Qwin: happy
+!Camera Qwin1 target SternB duration 5
+!Voice Qwin: Greeting = 4
+Qwin:
+    Спасибо за помощь, Раффи! Клиенты с каждым днём всё привередливее. Смотри, что у меня есть для тебя в награду.

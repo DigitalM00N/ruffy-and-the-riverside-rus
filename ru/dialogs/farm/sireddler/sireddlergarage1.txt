@@ -1,0 +1,12 @@
+!Event Appear
+!Camera camera_Ruffy_back
+!Sprite Pip: back, Ruffy: idleBack, Sir Eddler: talkRight
+!Voice Eddler: Anger = 3
+Sir Eddler:
+    Проклятье! Теперь нам ещё и гонку выигрывать. Лучше всего записаться на гонку завтра же.
+
+!Camera camera_Ruffy_back target camera_garage duration 1
+!Event Open
+!Voice Eddler: Conniving = 2
+Sir Eddler:
+    А до тех пор спрячем тюк в этом гараже. Заезжай внутрь, и пойдём спать.

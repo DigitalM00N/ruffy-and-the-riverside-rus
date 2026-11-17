@@ -1,0 +1,28 @@
+!Camera MaulwurfKamera duration 0.8
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Laugh_Friendly = 1
+Sir Eddler:
+    Добро пожаловать в Сад самоцветов — средоточие легендарных драгоценностей и всевозможных самоцветных сплетен.
+
+!Sprite Sir Eddler: watch stoneRight
+!Voice Eddler: Conniving = 2
+Sir Eddler:
+    Истории о легендарных самоцветах тебя потрясут, уж поверь. Некоторые настолько невероятны, что я и сам с трудом в них верю.
+
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Question = 1
+Sir Eddler:
+    Хочешь взглянуть на легендарные самоцветы? Видишь ли, к сожалению, с этими камнями у меня сейчас некоторая нехватка. Если честно, у меня нет ни одного.
+
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Thoughtful = 2
+Sir Eddler:
+    Очень жаль, но без камней я не могу рассказать тебе их истории. Но не волнуйся, у меня есть план.
+
+!Sprite Sir Eddler: talkRight
+Sir Eddler:
+    Как насчёт того, чтобы заняться самоцветным делом? Будем партнёрами! Ты ищешь камни, а я рассказываю тебе их истории! Что скажешь?
+
+!Sprite Sir Eddler: talkRight
+Sir Eddler:
+    Ты в деле? ЧУДЕСНО! Просто гляди в оба, а если найдёшь легендарный камень — сразу возвращайся ко мне!

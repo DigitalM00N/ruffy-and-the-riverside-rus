@@ -1,0 +1,6 @@
+!Camera KameraSirsil
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Negativ = 1
+Sirsil:
+    Простите, пока не могу вам сказать, хи-хи. Сначала победите на Крутых играх!
+!Sprite Sirsil: laugh

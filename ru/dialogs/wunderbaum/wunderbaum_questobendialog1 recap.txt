@@ -1,0 +1,4 @@
+!Sprite Mayle: think
+!Voice Mayle: Agreement = 5
+Mayle:
+    Пусть знак света снова засияет на обелиске. Он прямо здесь, на земле перед тобой.

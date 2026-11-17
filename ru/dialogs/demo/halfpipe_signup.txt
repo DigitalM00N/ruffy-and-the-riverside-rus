@@ -1,0 +1,23 @@
+!Camera KameraSteepyFar2 target KameraSteepy duration 4
+!Sprite SchlangeCool: Jubel
+!Voice Steepy: Surprise_Positive = 3
+Steepy:
+    Эй, бро. Добро пожаловать на Крутые игры!
+
+!Camera KameraSteepyFar
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Greeting = 3
+Steepy:
+    Тут можно выделывать самые безумные трюки и попутно выигрывать звёзды.
+
+!Camera KameraSteepyClose
+!Sprite SchlangeCool: Staunen
+!Voice Steepy: Realization = 7
+Steepy:
+    Первую звезду дают за 5000 очков, а вторую — за 20 000. Усёк?
+
+!Camera KameraSteepyClose target KameraSteepyFar duration 6
+!Sprite SchlangeCool: Shake
+!Voice Steepy: Laugh_Friendly = 6
+Steepy:
+    И всегда помни три золотых правила: делай как можно больше трюков! Крутись! И не запори приземление!

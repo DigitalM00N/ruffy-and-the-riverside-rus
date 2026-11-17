@@ -1,0 +1,48 @@
+!Pause 1
+!Camera Start target Eddler duration 2
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Sir Eddler: serious
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Привет, Раффи. Минна и правда улетела в Северные земли?
+
+!Camera Eddler target EddlerClose duration 1
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Да, это на неё похоже. В конце концов, она хранительница Ядра мира. Её долг — отводить от Ядра мира любую опасность, даже если для этого придётся лететь в Северные земли... и, возможно, быть там съеденной. Отважная Минна!
+
+!Camera EddlerClose target OverviewE duration 1
+!Sprite Sir Eddler: talkLeft, Pip: idle
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    Вот и вы преданы своей миссии. Теперь она ведёт вас прямиком в Великое ущелье, к следующему Погребённому городу.
+
+!Camera PipFar target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talk, Sir Eddler: leanBack
+!Voice Pip: Erschrecken = 10
+Pip:
+    В ущелье? Фу, фу! Оно же до краёв забито этим вонючим туманом.
+
+!Camera EddlerFar target Eddler duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Sir Eddler: positiv
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Ха-ха-ха, мой дорогой Пип, ты не перестаёшь радовать моё сердце.
+
+!Camera OverviewE offset 1 duration 1
+!Sprite Sir Eddler: talkLeft
+!Voice Eddler: Greeting = 3
+Sir Eddler:
+    Туман нужно пересечь быстро! Лучше всего на тюке. И, разумеется, по рельсу...
+
+!Camera PipFar target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talkHappy, Sir Eddler: leanBack
+!Voice Pip: Lachen = 1
+Pip:
+    Ха-ха-ха, мой дорогой Эддлер. Ты тоже, э-э, не перестаёшь радовать моё сердце!
+
+!Camera EddlerFar target Eddler duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Sir Eddler: serious
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Неужели? И чем же, позволь спросить?

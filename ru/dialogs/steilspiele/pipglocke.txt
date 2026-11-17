@@ -1,0 +1,22 @@
+!Sprite Ruffy: shocked, Pip: idle
+!Camera Start target Ruffy duration 2
+!Voice Ruffy: Question = 15
+Ruffy:
+    Эй, что это было? Ты видел?!
+
+!Sprite Ruffy: cheer
+!Camera Start target Ruffy duration 1
+!Voice Ruffy: Agreement = 3
+Ruffy:
+    Это была Священная буква!
+
+!Sprite Ruffy: think
+!Voice Ruffy: Thoughtful = 5
+Ruffy:
+    Она упала вниз вместе с колоколом.
+
+!Camera Ruffy target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talkSparkle
+!Voice Pip: Misc = 2
+Pip:
+    Чего ты ждёшь? Скорее прыгай за буквой!

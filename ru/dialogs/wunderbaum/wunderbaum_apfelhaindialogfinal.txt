@@ -1,0 +1,5 @@
+!Camera Mayle target Bodenplatte2 duration 3
+!Sprite Mayle: jump
+!Voice Mayle: Surprise_Positive = 3
+Mayle:
+    Смотрите, появился символ земли! Пожалуйста, скорее наколдуйте его на обелиск!

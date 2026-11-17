@@ -1,0 +1,107 @@
+!Camera OverviewSnokkoS
+!Sprite Ruffy: idleSideRight, Pip: idle, Snokko: talk
+!Voice Snokko: Greeting_Normal = 2
+Snokko:
+    Эй, вот и ты! Ну как тебе новый вкус?
+
+!Camera OverviewSnokkoS target OverviewSnokkoR duration 1
+!Sprite Ruffy: talkRight, Snokko: idle2
+!Voice Ruffy: Agreement = 9
+Ruffy:
+    Новый вкус потрясающий. Но, э-э...
+
+!Camera OverviewSnokkoR target OverviewSnokkoS duration 1
+!Sprite Ruffy: idleSideRight, Snokko: talk
+!Voice Snokko: Realization = 6
+Snokko:
+    Да ладно, правда? На этот раз я выжимал киви при полной луне, а потом процеживал сок через свежие листья мяты.
+
+!Camera OverviewSnokkoS target OverviewSnokkoR duration 1
+!Sprite Ruffy: talkRight, Snokko: idle2
+!Voice Ruffy: Question = 2
+Ruffy:
+    Звучит просто потрясающе, но...
+
+!Camera OverviewSnokkoR target OverviewSnokkoS duration 1
+!Sprite Ruffy: idleSideRight, Snokko: talk
+!Voice Snokko: Conniving = 3
+Snokko:
+    Потом я высушил корни камедного дерева и...
+
+!Camera Ruffy target RuffyClose duration 1
+!Sprite Ruffy: grumpy
+!Voice Ruffy: Surprise_Negative = 5
+Ruffy:
+    СТОО-О-ОП!
+
+!Camera Snokko
+!Sprite Ruffy: idleBack, Snokko: talk
+!Voice Snokko: Question = 6
+Snokko:
+    Что такое?
+
+!Camera Ruffy
+!Sprite Ruffy: talk
+!Voice Ruffy: Agreement = 4
+Ruffy:
+    Твои напитки правда удивительные, но у нас сейчас проблемы поважнее!
+
+!Camera Ruffy target RuffyClose duration 1
+Ruffy:
+    Базилику разрушили, а вместе с ней и Колесо мудрости.
+
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 2
+Ruffy:
+    Как мне теперь найти последнюю букву? А если я её и найду, как вставить её в Эмблему? Как всё это сработает без базилики?
+
+!Camera Snokko
+!Voice Snokko: Thoughtful = 4
+Snokko:
+    Понятно, понятно, понятно. Без паники.
+
+Snokko:
+    Ну, может, я и смогу вам помочь. Может быть, может быть, может быть.
+
+!Camera OverviewSnokkoS target OverviewSnokkoR duration 1
+!Sprite Ruffy: thinkRight, Snokko: idle2
+!Voice Ruffy: Question = 16
+Ruffy:
+    Может быть?
+
+!Camera OverviewSnokkoR target OverviewSnokkoS duration 1
+!Sprite Ruffy: idleSideRight, Snokko: talk
+!Voice Snokko: Conniving = 5
+Snokko:
+    Ага, я попробую взломать Эмблему. Тогда ты сможешь вставить в неё последнюю букву и без базилики.
+
+!Camera OverviewSnokkoS target OverviewSnokkoR duration 1
+!Sprite Ruffy: shockedRight, Snokko: idle2
+!Voice Ruffy: Question = 7
+Ruffy:
+    Что? Ты собираешься взломать Эмблему?
+
+!Camera OverviewSnokkoR target OverviewSnokkoS duration 1
+!Sprite Ruffy: idleSideRight, Snokko: talk
+!Voice Snokko: Attack_Laugh = 10
+Snokko:
+    Конечно! Честно говоря, я уже давно пытаюсь это сделать — хочу использовать Эмблему как рекламный щит для своих напитков.
+
+Snokko:
+    Неважно, просто доверься мне, Раффи. Всё получится. Ты спокойно ищи последнюю букву, а Эмблему оставь мне!
+
+!Camera OverviewSnokkoS target OverviewSnokkoR duration 1
+!Sprite Ruffy: talkRight, Snokko: idle2
+!Voice Ruffy: Agreement = 4
+Ruffy:
+    Ладно, звучит как план!
+
+!Event Ausgraben
+!Camera OverviewSnokkoR target Eddler duration 3
+!Sprite Ruffy: idleSideRight
+!Pause 3
+!Voice Eddler: Worry = 4
+Sir Eddler:
+    Раффи! Скорее к Силье! Появился Гролл и мучает её молниями. Он хочет узнать, где спрятано Ядро мира. Поторопись!
+
+#Ruffy geht zum Schildkrötenteich.

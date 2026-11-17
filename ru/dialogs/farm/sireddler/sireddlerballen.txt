@@ -1,0 +1,12 @@
+!Camera camera_Ruffy_back
+!Pause 1
+!Sprite Ruffy: idleHalfBackLeft, Sir Eddler: positiv, Pip: back
+!Voice Eddler: Surprise_Positive = 3
+Sir Eddler:
+    Потрясающе, Раффи! У нас наконец-то есть тюк! Настоящий тюк!
+
+!Camera camera_Ruffy_back target camera_Ballen duration 1
+!Sprite Sir Eddler: secret
+!Voice Eddler: Thoughtful = 3
+Sir Eddler:
+    Давай увезём его с фермы, пока никто не заметил.

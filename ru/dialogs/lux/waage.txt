@@ -1,0 +1,38 @@
+!Camera RuffyKamera
+!Sprite Ruffy: talk
+!Voice Ruffy: Agreement = 5
+Ruffy:
+    Я узнал кое-что о каменных весах!
+
+Ruffy:
+    Не знаю, сокровищница ли эти весы, но это точно огромное здание, в нём даже можно заблудиться.
+
+!Voice Ruffy: Thoughtful = 7
+Ruffy:
+    Говорят, в весах живёт привидение и издаёт жуткие звуки.
+
+!Camera LuxKamera offset 1 duration 3
+!Sprite Ruffy: idleHalfBackRight, Lux: happyTalk
+!Voice Hohepriester: Misc = 12
+Lux:
+    Поразительно! Просто невероятно поразительно!
+
+Lux:
+    Конечно, я не верю в привидения. Я ведь учёный. Значит, в здании есть кто-то ещё, кто и шумит.
+
+Lux:
+    Может, правда, что в весах спрятано большое сокровище? А шум, может, просто отпугивает охотников за сокровищами. По крайней мере, это было бы логично.
+
+!Sprite Lux: think
+!Voice Hohepriester: Misc = 1
+Lux:
+    Мне надо над этим подумать!
+
+!Sprite Lux: defaultTalk
+Lux:
+    Но одно ясно точно: историю каменных весов придётся полностью переписать.
+
+!Camera LuxKamera4
+!Voice Hohepriester: Misc = 2
+Lux:
+    Спасибо, Раффи! Возвращайся, когда узнаешь новые истории о Северных землях!

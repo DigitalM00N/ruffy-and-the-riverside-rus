@@ -1,0 +1,6 @@
+!Sprite Pip: back, Ruffy: idleBack
+!Camera camera_sirEddler offset 1 duration 1
+!2
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    Ух ты, ты залил трассу водой! Вот это хитро! Может, это замедлит твоих соперников! Лучше сразу начинай следующую гонку!

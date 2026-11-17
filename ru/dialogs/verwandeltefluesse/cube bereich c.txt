@@ -1,0 +1,38 @@
+!Camera Groll target OverviewGroll duration 3
+!Sprite Ruffy: idleSideRight, Pip: idle
+!Voice Groll: Anger = 2
+Groll:
+    А-а-а-а-ах! Небо и преисподняя! Старайтесь лучше, тупицы!
+
+!Camera Groll
+!Sprite Ruffy: idleSideRight, Pip: idle
+!Voice Groll: Surprise_Negative = 1
+Groll:
+    Ой, простите. Что это со мной? Без своих цветов я просто сам не свой, понимаете?
+
+!Camera Groll target OverviewGroll duration 1
+Groll:
+    Цвета олицетворяют всё хорошее во мне. Моё равновесие, мой юмор, мою мудрость и моё безграничное смирение.
+
+!Camera OverviewGroll target OverviewPip duration 1
+!Sprite Pip: talkDoubt
+!Voice Pip: Jump = 4
+Pip:
+    Безграничное смирение? Он что, издевается?
+
+!Camera OverviewPip target OverviewGroll duration 1
+!Sprite Pip: idle
+!Voice Groll: Agreement = 3
+Groll:
+    Умоляю вас. Не подведите меня сейчас. Добрые духи возвращаются, я это чувствую.
+
+!Camera Ruffy
+!Sprite Ruffy: talk
+!Voice Ruffy: Frustration = 2
+Ruffy:
+    Ладно. Попробуем ещё раз.
+
+!Camera SplitterFar target Splitter duration 5
+!Voice Ruffy: Agreement = 6
+Ruffy:
+    Я вижу ещё шарики вон там. Отвези нас к берегу.

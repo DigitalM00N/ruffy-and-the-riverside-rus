@@ -1,0 +1,41 @@
+!Sprite VogelW: Talk
+!Camera CamB1
+!Voice Vogel: Misc = 1
+Uralter Inselvogel:
+    Хочешь знать, как добраться до бутылки вон там, в стене?
+
+!Sprite VogelW: Talk
+!Camera CamB2
+!Voice Vogel: Misc = 2
+Uralter Inselvogel:
+    Ну, подсказать-то я, конечно, могу. Но тогда я так и не узнаю, умнее ли ты зелёного. Вообще-то, думаю, ты и сам справишься.
+* Ладно, попробую сам.
++2
+* Ну пожалуйста, помоги мне.
++3
+
++4
+!Sprite VogelW: Happy
+!Camera CamB1
+!Voice Vogel: Misc = 2
+Uralter Vogel:
+    Ага, у бурого есть амбиции. Отлично.
+
+!Camera CamB1
+!Sprite VogelW: Happy
+Uralter Vogel:
+    Ладно, бурый, тогда слушай внимательно.
+
+!Camera CamW offset 5 duration 4
+!Voice Vogel: Misc = 1
+Uralter Vogel:
+    Видишь водяной фонтан? Будь он из лавы, он бы сжёг преграду. Именно, а преграда, конечно, должна быть деревянной, иначе не сгорит.
+
+!Camera CamS offset 5 duration 4
+!Voice Vogel: Misc = 2
+Uralter Vogel:
+    Видишь каменный столбик, что торчит из воды слева? Будь он деревянным, ты мог бы прокатиться на нём вверх по фонтану.
+
+!Camera CamSN offset 5 duration 4
+Uralter Vogel:
+    И наконец, кусаки. Они очень опасны. Их надо как-то усыпить. Тогда они безобидны.

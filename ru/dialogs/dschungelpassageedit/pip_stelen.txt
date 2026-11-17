@@ -1,0 +1,6 @@
+!Camera camera_down
+!Sprite Ruffy: idleBack, Pip: talk
+!Voice Pip: Misc = 7
+Pip:
+    Батюшки, да они шатаются! Лучше смотри внимательно, на какую колонну прыгаешь!
+!Camera camera_down target camera_up duration 1

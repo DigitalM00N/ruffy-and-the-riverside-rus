@@ -1,0 +1,4 @@
+!Sprite Mayle: angry
+!Voice Mayle: Agreement = 7
+Mayle:
+    Идёмте!

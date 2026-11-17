@@ -1,0 +1,10 @@
+!Camera Player target Eddler duration 2
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Attack_Laugh = 3
+Sir Eddler:
+    Эй, Раффи, вот и ты! А я уж собирался прокопать для тебя туннель. Лесная башня прямо перед нами. Идём за Рукой надежды.
+
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Насколько мне известно, Рука надежды на самом верху башни. Поплюй на лапы — и вперёд!

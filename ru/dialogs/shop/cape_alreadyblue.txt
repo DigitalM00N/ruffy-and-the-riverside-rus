@@ -1,0 +1,3 @@
+!Voice Benny: Greeting = 2
+Gogo:
+    Эй, у тебя уже есть синий плащ.

@@ -1,0 +1,98 @@
+!Sprite Ruffy: idle2, Pip: idle, Sirsil: idleLeft, Sir Eddler: seriousRight
+!Camera Eddler target Glocke2 duration 3 delay 1
+#!Voice Eddler: Frustration = 3
+Sir Eddler:
+    Сирсил, только посмотри, что ты натворил! Твой странный колокол — просто груда хлама, и он чуть не уничтожил Священную букву!
+
+!Sprite Sir Eddler: shake, Sirsil: shockLeft
+!Camera EddlerSirsil target Eddler duration 2
+!Voice Eddler: Frustration = 1
+Sir Eddler:
+    Вам, змеям, вообще нельзя было позволять достраивать Крутой шпиль. Ничего, кроме бед, из этого не вышло.
+
+!Sprite Sirsil: idleLeft, Sir Eddler: leanRight
+!Event MinnaLandung
+!Camera MinnaLandung
+!Voice Minna: ablehnend = 3
+Minna:
+    Стоп. Тихо. Не ссорьтесь.
+
+!Event DisableVolume
+!Sprite Pip: talkHappy, Sirsil: idleLeft, Sir Eddler: leanRight
+!Camera PipFar target Pip duration 1
+!Voice Pip: Lachen = 9
+Pip:
+    Минна! Ты вернулась из Северных земель!
+
+!Event MinnaBeg, EnableVolume
+!Sprite Pip: idle, Minna: beg
+!Camera MinnaGlockeFar target MinnaGlocke duration 1
+!Voice Minna: neutral = 2
+Minna:
+    Да, и у меня много новостей, но сначала дайте мне утихомирить этих двух драчунов!
+
+!Event DisableBeg
+!Sprite Minna: blink, Sir Eddler: positivRight
+!Camera EddlerSirsil target Eddler duration 2
+!Voice Eddler: Anger = 3
+Sir Eddler:
+    Да, Минна, вразуми эту змею!
+
+!Sprite Sir Eddler: leanRight, Sirsil: talkLeft
+!Camera Eddler target Sirsil duration 1
+!Voice Sirsil: Positiv = 30
+Sirsil:
+    Вот именно. Скажи этому кроту, кто здесь прав.
+
+!Sprite Sirsil: idleLeft, Minna: talk
+!Camera Sirsil target EddlerSirsilMinna duration 1
+!Voice Minna: zustimmend = 1
+Minna:
+    Скажу! Слушайте внимательно, вы оба. Всё очень просто: правы вы оба!
+
+!Sprite Sirsil: laughLeft
+!Camera EddlerSirsilMinna target MinnaSirsil duration 2
+!Voice Minna: zustimmend = 2
+Minna:
+    Небесный колокол и правда приносит этому миру благословение, как и говорит Сирсил.
+
+!Sprite Sirsil: shockLeft, Sir Eddler: cheerRight
+!Camera MinnaSirsil target MinnaEddler duration 2
+!Voice Minna: neutral = 3
+Minna:
+    Но и Эддлер прав, ведь это благословение — Священная буква, которую колокол так долго хранил внутри.
+
+!Sprite Sirsil: idleLeft, Sir Eddler: leanRight
+!Camera MinnaEddler target EddlerSirsilMinna duration 1
+!Voice Minna: neutral = 1
+Minna:
+    Понимаете? Благословение — это и ЕСТЬ буква, и только Избранный мог освободить её из колокола и спустить на землю.
+
+!Sprite Sir Eddler: leanRight, Pip: talk
+!Camera Eddler target EddlerSirsilPip duration 1
+!Voice Pip: Agree = 1
+Pip:
+    Вот именно, спорщики вы эдакие! Из вас вообще-то вышла бы отличная команда, знаете?
+
+!Sprite Pip: idle, Sir Eddler: positivRight, Sirsil: laughLeft
+!Camera EddlerSirsilPip target Eddler duration 1
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Ха-ха-ха, Пип, ты прав.
+
+!Sprite Sir Eddler: seriousRight, Sirsil: idleLeft
+!Camera Eddler target EddlerClose duration 2
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    Сирсил, прости мне моё недоверие! Ты хорошо потрудился над Крутым шпилем. Только благодаря твоим Крутым играм букву и удалось найти!
+
+!Sprite Sir Eddler: crouchRight, Sirsil: talkLeft
+!Camera Sirsil target SirsilClose duration 3
+!Voice Sirsil: Positiv = 7
+Sirsil:
+    Я тоже должен извиниться, Эддлер. Вы, кроты, и правда очень приземлённые ребята и всегда знали о благословении букв.
+
+!Camera EddlerSirsilMinna target Glocke2 duration 2
+!Voice Minna: neutral = 2
+Minna:
+    Раффи, пожалуйста, освободи букву из колокола, чтобы она полетела прямо в Базилику.

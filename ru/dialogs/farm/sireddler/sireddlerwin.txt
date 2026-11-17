@@ -1,0 +1,24 @@
+!Camera camera_sirEddler
+!0
+!Sprite Pip: back
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Наконец-то нора дорыта!
+
+!1
+!Camera camera_Ruffy
+!Sprite Pip: back
+!Voice Ruffy: Question = 21
+Ruffy:
+    Что-что?
+
+!2
+!Camera camera_Ruffy target camera_Ruffy_sir duration 1
+!Sprite Pip: back
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    О, это просто такая поговорка у нас, кротов. Я имел в виду, что тюк наконец у нас и здесь мы закончили.
+
+!6
+Sir Eddler:
+    А теперь в путь!

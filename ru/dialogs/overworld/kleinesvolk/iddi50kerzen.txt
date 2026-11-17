@@ -1,0 +1,5 @@
+!Camera IddiCamera
+!Voice Mayle: Realization = 4
+!Sprite Iddi: Happy
+Iddi:
+    Горят все свечи! Ох, как чудесно! Ты снова собрал нас, Этои, вместе. Мы будем вечно тебе благодарны!

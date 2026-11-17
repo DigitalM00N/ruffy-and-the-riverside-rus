@@ -1,0 +1,9 @@
+!Camera Mayle
+!Voice Mayle: Agreement = 5
+Mayle:
+    Путь свободен.
+
+!Voice Mayle: Greeting = 3
+!Camera Alle
+Mayle:
+    Раффи, теперь слушай внимательно. Где бы тебе ни мешала чёрная смола, приходи к нам, и мы поможем. Дни чёрной смолы сочтены.

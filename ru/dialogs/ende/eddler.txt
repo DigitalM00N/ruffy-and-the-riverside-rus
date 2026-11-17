@@ -1,0 +1,118 @@
+!Camera SirEddler3
+!Sprite Sir Eddler: cheer, Ruffy: idleBack
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Привет, Раффи! Взгляни, что Квин для меня нарисовал!
+
+!Camera SirEddler3 target Picture duration 2
+# Man sieht ein Bild von Eddler mit dem Dunkelstein im Hintergrund stehen. Zoom auf das Bild.
+!Voice Eddler: Question = 3
+Sir Eddler:
+    На картине я с Ядром мира. Квин даже нарисовал его чуть темнее и мрачнее, чем на самом деле, но это, конечно же, Ядро мира, а не Мрачный камень.
+
+!Camera Picture target SirEddler2 duration 2
+!Voice Eddler: Realization = 3
+Sir Eddler:
+    Квин написал картину так, что даже ОБМЕН не может её изменить. Хитро, правда? Попробуй сам.
+
+!Camera Ruffy
+!Sprite Ruffy: talk
+!Event EddlerIdleBehind
+!Voice Ruffy: Laugh_Friendly = 11
+Ruffy:
+    Ха-ха-ха, ай да Квин. Видно, вы ему очень нравитесь, раз он сделал вам такой особенный подарок.
+
+!Camera SirEddler1
+!Sprite Ruffy: idleBack
+!Event EddlerIdle
+!Voice Eddler: Greeting = 4
+Sir Eddler:
+    Да, наверное.
+
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Laugh_Friendly = 8
+Sir Eddler:
+    У меня просто камень с души свалился оттого, что вы все меня простили и всё вернулось на круги своя. Никогда больше не совершу подобной глупости. Обещаю.
+
+!Camera Ruffy2
+!Sprite Ruffy: talk
+!Voice Ruffy: Greeting = 5
+Ruffy:
+    Знаю, что не совершите. Вы мне это уже сто раз говорили. Расслабьтесь. Никто на вас больше не сердится.
+
+Ruffy:
+    Но вам всё-таки придётся мне кое-что объяснить.
+
+!Sprite Sir Eddler: serious, Ruffy: idleBack
+!Camera SirEddler3
+!Voice Eddler: Worry = 5
+Sir Eddler:
+    Ох, батюшки, Раффи. Разве я тебе уже не всё рассказал? Я бы предпочёл больше об этом не говорить!
+
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Так и быть, разрешаю ещё один вопрос. Только один, и ни одним больше!
+* Когда вы играли Гролла, вы всегда сидели в кубе, но иногда вы и Гролл появлялись одновременно. Как вам это удавалось?
++3
+* Зачем вы разрушили Базилику? Это правда было необходимо?
++11
+* Вы натёрли все Священные буквы тёмной пылью. Но откуда вы знали, где они спрятаны?
+
+!Camera SirEddler1
+!Sprite Ruffy: idleBack
+!Event EddlerIdle
+!Voice Eddler: Laugh_Friendly = 4
+# Antwort auf Frage Ruffy1
+Sir Eddler:
+    А, всё очень просто. Я управлял кубом с пульта.
+
+Sir Eddler:
+    Это, между прочим, было не так-то легко, ведь управлять пультом мне приходилось под землёй. Он здорово перепачкался.
+
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Thoughtful = 4
+Sir Eddler:
+    Мне правда очень жаль, что я вас обманывал. Мне это совсем не нравилось.
++9
+
+!Camera SirEddler1
+# Antwort auf Frage Ruffy2
+!Sprite Sir Eddler: bashful, Ruffy: idleHalfBack
+!Voice Eddler: Anger = 3
+Sir Eddler:
+    Мне правда очень жаль Базилику, но я должен был перехватить последнюю букву. Разрушить Базилику Лучших — только так я мог её заполучить.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Все остальные буквы я успел заранее натереть тёмной пылью. Но последнюю букву я нигде не мог найти, потому что её охраняло испытание сердца.
+
+Sir Eddler:
+    Поэтому мне нужно было устроить так, чтобы она хоть ненадолго попала мне в руки.
+
+Sir Eddler:
+    И мой план действительно сработал. Я разрушил Базилику, и тебе пришлось самому нести букву к Эмблеме.
+
+Sir Eddler:
+    А я просто спрятался в экране у Эмблемы и стал там дожидаться последней буквы.
+
+Sir Eddler:
+    Когда ты перенёс её ОБМЕНОМ на монитор, я быстренько натёр её тёмной пылью, а после короткой схватки вернул тебе.
+
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Frustration = 4
+Sir Eddler:
+    Так что в итоге мне пришлось разрушить Базилику, чтобы действительно подменить все Священные буквы.
++2
+
+!Event EddlerIdle
+!Camera SirEddler1
+!Voice Eddler: Confident = 1
+# Antwort auf Frage Ruffy3
+Sir Eddler:
+    Всё просто! Я знаю план спасения назубок. До мельчайших подробностей. И, разумеется, где лежат все Священные буквы. Кроме последней, конечно.
+
+!Sprite Sir Eddler: secret
+Sir Eddler:
+    Не забывай, что путь к Священным буквам был сокрыт в Погребённых городах. А эти города я знаю как никто другой, ведь я помогал их строить.

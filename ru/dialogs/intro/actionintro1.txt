@@ -1,0 +1,77 @@
+!Camera ECam1
+!Voice Eddler: Surprise_Negative = 4
+Sir Eddler:
+    Ой, звучит это совсем не здорово...
+
+!Camera ECam1 target FCam duration 2
+!Voice Eddler: Surprise_Positive = 1
+Sir Eddler:
+    Дети, держитесь крепче, мы падаем!
+
+!Sprite Sir Eddler: shake, Ruffy: idle
+!Event Fade
+!Camera ECam1
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Простите, слишком глубоко копнул — проклятый песчаник. Всегда ломается раньше, чем думаешь! Старая кротовья мудрость.
+
+!Camera ECam3
+!Sprite Sir Eddler: agree +mirror
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Так, главное — без паники. Нам нужен основательный, как грунт, план.
+
+!Camera ECam1 target FCam duration 3
+!Sprite Sir Eddler: shake, Ruffy: shocked
+!Voice Eddler: Worry = 4
+!Event Logo1
+Sir Eddler:
+    И поскорее, потому что рано или поздно эта платформа долетит до дна, и всем нам станет очень неприятно.
+
+!Camera PCam2
+!Sprite Pip: talk
+!Voice Pip: No = 1
+Pip:
+    Неправда! Неприятно станет только вам двоим. Моя попа не застряла в песке, и у меня есть крылья. Просто к слову.
+
+!Camera PCam2 target PCam duration 2
+!Sprite Pip: angry
+!Voice Pip: Misc = 7
+Pip:
+    И вообще, это всё ты виноват, Эддлер. Опять. Зачем ты вообще копаешь самоцветы прямо на обрыве?
+
+!Camera PCam target ECam1 duration 3
+!Sprite Pip: idle, Sir Eddler: watch stone, Ruffy: idle
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Потому что это самоцветы. Вот зачем! Самоцветы — моя страсть. Ничего не могу с собой поделать.
+
+!Camera ECam1
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Greeting = 2
+Sir Eddler:
+    Но давайте не будем ссориться. Нам нужен план, который вытащит нас из этой довольно неуютной ситуации.
+
+!Camera PCam2 target WCam duration 4
+!Sprite Pip: laugh
+!Voice Pip: Lachen = 2
+Pip:
+    Нет, вы только послушайте! Типичный Эддлер...
+
+!Camera WCam
+!Sprite Pip: talk
+!Voice Pip: Bored = 11
+Pip:
+    Ладно, Раффи, теперь всё зависит от нас. Опять.
+
+!Camera WCam
+!Sprite Pip: talk
+!Voice Pip: Agree = 2
+Pip:
+    Видишь тот водопад? Может, это и есть решение!
+
+!Camera ECam3 target FCam duration 4
+!Sprite Pip: idle, Sir Eddler: Help, Ruffy: shocked
+!Voice Eddler: Laugh_Confident = 3
+Sir Eddler:
+    Может?! Всего лишь может? Дети, поторопитесь! Я тут сейчас со страху землю намочу!

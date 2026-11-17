@@ -1,0 +1,10 @@
+!Camera Camera1 target Camera2 duration 4
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Я знал, что ты справишься, Раффи! Идём же сразу за второй Рукой надежды.
+
+!Sprite Sir Eddler: agreeLeft
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Лесная башня где-то за старым древесным пнём. Я закопаюсь и буду ждать тебя там!

@@ -1,0 +1,61 @@
+!Camera Kamera1 target Kamera2 duration 1 delay 1
+!Sprite Ruffy: idleBack
+!Voice Quintus: Surprise_Negative = 3
+Quintus:
+    Эй, тс-с!
+
+!Sprite Fuchs: shakeHead
+!Voice Quintus: Frustration = 9
+Quintus:
+    Ты распугаешь всех бабочек!
+
+!Sprite Fuchs: idle
+!Voice Quintus: Laugh_Friendly = 2
+Quintus:
+    Ой, прости, как невежливо с моей стороны! Я ведь даже не представился. Хи-хи.
+
+Quintus:
+    Я Квинтус, основатель и первый президент Братства чешуекрылых.
+
+!Sprite Fuchs: happy
+!Voice Quintus: Realization = 4
+Quintus:
+    Мы восхищаемся бабочками.
+    Ах, бабочки — самые прекрасные создания на свете.
+
+!Sprite Fuchs: idle
+!Voice Quintus: Agreement = 7
+Quintus:
+    Наше Братство задалось целью описать каждую бабочку в нашей умной книге.
+
+!Sprite Fuchs: idle
+!Voice Quintus: Question = 1
+Quintus:
+    Что тебе нужно делать?
+
+!Voice Quintus: Greeting = 3
+Quintus:
+    Всё очень просто!
+
+!Camera SchmetterlingKamera
+Quintus:
+    Если увидишь бабочку...
+
+!Camera SchmetterlingKamera target SchmetterlingKamera2 duration 1
+!Voice Quintus: Attack_Laugh = 2
+Quintus:
+    ХВАТАЙ ЕЁ!
+
+!Sprite Fuchs: happy
+!Voice Quintus: Agreement = 2
+Quintus:
+    Потом бережно принеси её мне, и я внесу её в Библию бабочек.
+
+!Sprite Fuchs: idle
+!Voice Quintus: Laugh_Friendly = 1
+Quintus:
+    Когда Библия бабочек будет завершена, я тебя щедро вознагражу. Хи-хи.
+
+!Voice Quintus: Realization = 1
+Quintus:
+    А теперь, э-э, тихонько крадись прочь и принеси мне столько бабочек, сколько сможешь!

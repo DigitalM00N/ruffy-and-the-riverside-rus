@@ -1,0 +1,48 @@
+!Camera LuxKamera
+!Sprite Lux: defaultTalk, Ruffy: idleHalfBackRight
+!Voice Hohepriester: Misc = 5
+Lux:
+    Привет, Раффи! Есть для меня новые истории о Северных землях?
+* Что тебя больше всего интересует в Северных землях?
++7
+*1 I have new stories for you.
+# taucht nur auf, wenn er wirklich eine oder mehrere neue Geschichten erfahren hat
++8
+* К сожалению, нет. До скорого!
+
+#Lux Antworten auf Ruffy1:
+!Voice Hohepriester: Misc = 2
+Lux:
+    Хорошо, что ты спросил! Меня особенно интересуют три вещи!
+
+Lux:
+    Например, есть легенда о старой мельнице! Говорят, время там течёт вспять, и там не стареешь, а молодеешь.
+
+!Camera LuxKamera target LuxClose duration 1
+!Voice Hohepriester: Misc = 7
+Lux:
+    Если не будешь осторожен, снова превратишься в младенца!
+
+!Sprite Lux: amazed
+!Voice Hohepriester: Misc = 1
+Lux:
+    А ещё есть каменные весы. Говорят, их построили, чтобы взвешивать золотые сокровища Гильдии кротов.
+
+Lux:
+    Но ходят слухи, что весы на самом деле — сокровищница и в них хранится таинственный клад.
+
+!Sprite Lux: defaultTalk
+!Voice Hohepriester: Misc = 3
+Lux:
+    И, наконец, загадка пропавших медведей. Говорят, медведи просто так исчезают с лица земли. В одно мгновение! Только что медведь был тут — и вот его уже нет.
+
+Lux:
+    Если что-нибудь узнаешь об этих историях, скорее приходи ко мне и расскажи.
++1
+
+#Lux Antworten auf Ruffy2
+!Sprite Lux: happyTalk
+!Event report
+!Voice Hohepriester: Misc = 12
+Lux:
+    Новые истории о Северных землях? Ох, как волнующе!

@@ -1,0 +1,16 @@
+!Camera KameraSteepyFar
+!Sprite SchlangeCool: Staunen
+!Voice Steepy: Realization = 4
+Steepy:
+    Йо, первый заезд окончен!
+
+Steepy:
+    Это было просто, ну, просто мегакруто!
+
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Greeting = 1
+Steepy:
+    А теперь перерыв. Переведите дух и гляньте свои очки на табло!
+
+Steepy:
+    Как будете готовы ко второму заезду — сразу ко мне.

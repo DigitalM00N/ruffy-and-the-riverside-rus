@@ -1,0 +1,12 @@
+!Camera Camera_Dialog1 target Camera_Dialog2 duration 3
+!Voice Eddler: Surprise_Positive = 1
+Sir Eddler:
+    А теперь взгляни на наш чудесный Риверсайд. Это просто самое прекрасное место на свете.
+
+!Camera Camera
+!Event Cutscene
+#!Voice Eddler: Surprise_Positive = 1
+Sir Eddler:
+    Когда я окидываю его взглядом, меня так и тянет отправиться в великое приключение!
+!Continue auto
+!Pause 0.5

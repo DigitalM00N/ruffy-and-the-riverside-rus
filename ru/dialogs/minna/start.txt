@@ -1,0 +1,4 @@
+!Sprite Minna: talk
+!Voice Minna: begrüßend = 1
+Minna:
+    Привет, Раффи. Как продвигаются поиски букв?

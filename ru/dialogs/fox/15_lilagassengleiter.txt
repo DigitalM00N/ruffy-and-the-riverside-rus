@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 15
+!Event Schmetterling15
+Quintus:
+    Это лиловый переулочник.
+    Он из семейства весёлых летунов.
+
+!Voice Quintus: Agreement = 5
+Quintus:
+    Весёлых летунов можно встретить везде, где царят дружба и мир.
+!Sprite Fuchs: idle
+
+Quintus:
+    Как хорошо, что они появились здесь, в Риверсайде.

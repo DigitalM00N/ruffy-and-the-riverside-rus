@@ -1,0 +1,42 @@
+!Camera OverviewStart target OverviewS duration 3
+!Sprite Ruffy: idleHalfBackRight, Pip: back, Minna: blink
+!Event SiljaNod
+!Voice Silja: Lachen = 1
+Silya:
+    Глядите-ка. Какие почётные гости у моего пруда. Хранительница камня и Раффи, Избранный.
+
+!Event SiljaNeutral
+Silya:
+    Полагаю, дело в Гролле. Я всё ещё чувствую его присутствие. И его силу.
+
+!Camera MinnaCam
+!Sprite Minna: talk
+!Event SiljaIdle
+!Voice Minna: fragend = 1
+Minna:
+    Что ещё ты чувствуешь?
+
+!Camera Ruffy
+!Sprite Minna: blink, Ruffy: idle
+!Event SiljaDepressed
+!Voice Silja: Traurig = 1
+Silya:
+    Это трудно описать, но это уже не отчаяние. Скорее какое-то злобное предвкушение. Будто он задумал новый план.
+
+!Camera OverviewS
+!Event SiljaNeutral
+!Voice Silja: Neutral = 2
+Silya:
+    Нам нужно снова отправиться в Северные земли и расспросить Нотори, ведь именно на их землях Гролл вершит свои тёмные дела.
+
+!Camera OverviewR
+!Sprite Ruffy: thinkRight, Pip: idle
+!Event SiljaIdle
+!Voice Ruffy: Question = 14
+Ruffy:
+    К Нотори? К диким медведям на севере? Никто не бывал у них со времён Великого разделения. Говорят, они свирепые и опасные.
+
+!Event SiljaNice
+!Voice Silja: Ratgebend = 1
+Silya:
+    Верь, Раффи. Ступай в Базилику и спроси совета у колеса! Оно укажет тебе путь в Северные земли.

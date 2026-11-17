@@ -1,0 +1,19 @@
+!Sprite Daag: think
+!Voice Hohepriester: Misc = 2
+Wiegbert:
+    Эй, видишь это дерево? Говорят, оно открывает свою дверь, когда самоцвет над дверью нужного цвета.
+
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc = 3
+Wiegbert:
+    Я как-то пробовал, но самоцветов становилось всё больше и больше, и я сдался.
+
+!Sprite Daag: think
+!Voice Hohepriester: Misc = 9
+Wiegbert:
+    А ты выглядишь довольно смышлёным. Ну, хотя бы чуть-чуть. Почему бы тебе не попытать счастья?
+
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc = 1
+Wiegbert:
+    Видишь вон ту табличку? На ней должно быть написано, как открыть дерево.

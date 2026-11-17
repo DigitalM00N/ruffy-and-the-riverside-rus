@@ -1,0 +1,196 @@
+!Camera Camera0_1 target Camera0 duration 30
+!Sprite Ruffy: talkHalfBackRight
+!Event Kreisnebel
+!Voice Ruffy: Worry = 1
+Ruffy:
+    Вода, кругом одна вода.
+
+Ruffy:
+    Никакой земли не видно.
+
+!Voice Pip: Begrüßen = 4
+Pip:
+    И мне тоже.
+
+!Event SchaedelSpawn, Schaedel, Kreisnebelstopp
+!Camera CameraTreiben1 target CameraTreiben1_1 duration 20
+!Sprite Pip: idle
+!Voice Ruffy: Worry = 4
+Ruffy:
+    Ни рыб, ни птиц. Просто ничего. А течение уносит нас всё дальше и дальше в море.
+
+!Camera Camera3 target Camera4 duration 20
+!Event SchaedelKill, Nebel2
+!Sprite Pip: talk
+!Voice Pip: Begrüßen = 6
+Pip:
+    Я как-то слышал, что на краю света есть огромный водопад, и всё море переливается через край и падает с мира.
+
+!Event Still, Nebel2Stopp
+!Camera CameraNahRuffy
+!Sprite Ruffy: think, Pip: idle
+!Voice Ruffy: Question = 14
+Ruffy:
+    Край света?
+
+!Sprite Ruffy: shocked
+!Camera CameraNahRuffy target CameraNahNahRuffy duration 0.3
+!Voice Ruffy: Question = 12
+Ruffy:
+    Он правда существует?
+
+!Camera CameraNahPip
+!Sprite Pip: talk, Ruffy: idleHalfFrontRight
+!Voice Pip: Bored = 5
+Pip:
+    Не знаю. Может, это просто легенда, а может, и правда. Во всяком случае, мысль какая-то красивая.
+
+!Camera CameraNahBeide
+Pip:
+    Только представь: соскользнуть с края мира и медленно уплыть в космос.
+
+!Sprite Ruffy: grumpy
+!Camera CameraNah1_1 target CameraNahRuffy duration 0.4
+!Voice Ruffy: Question = 7
+Ruffy:
+    Неужели это наш конец? Так близко к финишу?
+
+!Camera CameraNahRuffy
+!Sprite Pip: idle, Ruffy: think
+!Voice Ruffy: Thoughtful = 11
+Ruffy:
+    Вспомни, сколько мы всего сделали!
+
+!Sprite Pip: talk, Ruffy: idle2
+!Voice Pip: Hmm = 1
+Pip:
+    И мы ведь просто суперкоманда. Это так подло. Так мегаподло! Так мега-мегаподло!
+
+!Camera Camera3 target CameraNahNahRuffy duration 0.3
+!Sprite Ruffy: grumpy, Pip: idle
+!Voice Ruffy: Worry = 1
+Ruffy:
+    Нет...
+
+!Camera CameraNahPip
+!Sprite Pip: talkDoubt, Ruffy: idle2
+!Voice Pip: Jump = 4
+Pip:
+    Что «нет»?
+
+!Camera CameraNahNahRuffy target CameraNahRuffy duration 0.4
+!Sprite Pip: idle, Ruffy: grumpy
+!Voice Ruffy: Frustration = 8
+Ruffy:
+    Просто НЕТ!
+
+!Camera CameraNahRuffy target CameraNah1 duration 0.3
+!Voice Ruffy: Surprise_Negative = 4
+Ruffy:
+    Всё не должно так закончиться! Ни за что! Этот дурацкий край света не столкнёт нас в космос. Ни сегодня, ни завтра, и уж точно не нас обоих!
+
+!Camera CameraNahPip
+!Sprite Pip: talk, Ruffy: idle2
+!Voice Pip: Jump = 5
+Pip:
+    Ладно. Я согласен. Но что ты теперь будешь делать?
+
+!Camera CameraNahPip target CameraNahRufen3 duration 0.4
+!Sprite Ruffy: talkHalfBackRight, Pip: idle
+!Voice Ruffy: Agreement = 6
+Ruffy:
+    Всё просто. Я позову на помощь.
+
+!Camera CameraNahRufen3 target CameraNahPip duration 0.4
+!Sprite Pip: talk
+!Voice Pip: Erschrecken = 7
+Pip:
+    Позовёшь на помощь? Кого же ты позовёшь?
+
+!Camera CameraNahPip target CameraNahRuffy duration 0.4
+!Sprite Ruffy: talkLeft, Pip: idle
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Ядро мира, конечно! Слушай!
+
+!Sprite Ruffy: talkHalfBackRight
+!Voice Ruffy: Thoughtful = 2
+Ruffy:
+    Дорогое Ядро мира! Пожалуйста, услышь меня!
+
+#!Camera CameraNahRufen1
+!Voice Ruffy: Thoughtful = 3
+Ruffy:
+    Ты создало этот мир, и мы любим этот мир!
+
+!Camera CameraNahRufen1 target CameraNahRufen2 duration 35
+!Event Pray
+!Voice Ruffy: Thoughtful = 1
+Ruffy:
+    Мы отправились в путь, чтобы спасти этот мир.
+
+Ruffy:
+    И чтобы спасти наших друзей. И чтобы спасти тебя.
+
+Ruffy:
+    Теперь спаси нас.
+
+!Voice Ruffy: Thoughtful = 2
+Ruffy:
+    Сделай это не ради нас, а ради всех наших друзей, которые на нас надеются.
+
+!Voice Ruffy: Question = 3
+Ruffy:
+    Сделай это ради своих помощников, этои. И ради зверей и всех созданий, которые просто хотят жить в этом мире.
+
+!Voice Ruffy: Thoughtful = 4
+Ruffy:
+    Помоги нам завершить нашу миссию. Помоги нам спасти Риверсайд.
+
+!Voice Ruffy: Worry = 6
+Ruffy:
+    А потом можешь хоть сталкивать нас с края света. Нам всё равно! Но СЕЙЧАС вытащи нас отсюда.
+
+!Camera CameraNahPip
+!Sprite Pip: talk
+!Voice Pip: Traurig = 1
+!Event Pray2
+Pip:
+    Отличная речь, Раффи! Остаётся только надеяться, что ты произвёл впечатление, потому что вон та штука выглядит довольно грозно.
+
+!Event Skybox, Thunder
+!Sprite Pip: back
+!Camera WeltrandFirst1 target WeltrandFirst2 target WeltrandFirst3 duration 6
+Pip:
+    ...
+
+!Camera CameraNahRuffyS target CameraNahNahRuffyS duration 0.3
+!Event Skybox
+!Sprite Ruffy: shocked
+!Voice Ruffy: Surprise_Negative = 9
+Ruffy:
+    ...КРАЙ СВЕТА?!
+
+!Pause 4
+!Event Skybox
+!Camera CameraWeltrandAussen1 target CameraWeltrandAussen2 duration 4
+!Voice Ruffy: Surprise_Negative = 4
+Ruffy:
+    Край света! Вот чёрт. Значит, он и правда существует!
+
+!Camera CameraWeltrandInnen0
+!Sprite Pip: back
+!Voice Pip: Traurig = 2
+Pip:
+    Да, вот он... Проклятый край света! И теперь, когда я его вижу, он мне совсем разонравился...
+
+!Camera CameraWeltrandInnen0 target CameraWeltrandInnen3 duration 3
+!Voice Pip: Erschrecken = 9
+Pip:
+    Мамочки! Там же очень круто вниз!
+
+!Camera CameraWeltrandInnen0
+!Sprite Pip: talk
+!Voice Pip: Traurig = 6
+Pip:
+    Надеюсь, мы просто плавно опустимся и мягко уплывём в космос.

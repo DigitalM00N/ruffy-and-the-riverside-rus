@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 7
+!Event Schmetterling07
+Quintus:
+    Это синий громоглаз.
+    Он из семейства громокрылов.
+
+!Voice Quintus: Agreement = 7
+Quintus:
+    Если верить старым легендам, громоглазы устроили не одно землетрясение.
+!Sprite Fuchs: idle
+
+Quintus:
+    Вообще-то с виду он не такой уж и опасный.

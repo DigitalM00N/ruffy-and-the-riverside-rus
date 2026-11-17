@@ -1,0 +1,5 @@
+!Camera MinnaKamera duration 1
+!Sprite Minna: sad
+!Voice Minna: ablehnend = 1
+Minna:
+    Эй, это не та картина! Я хотела картину с кучей-кучей цветов!

@@ -1,0 +1,19 @@
+!Event SiljaNeutral
+!Voice Silja: Fragend = 5
+Silya:
+    Значит, твоя следующая цель — Крутой шпиль?
+
+!Event SiljaDepressed
+!Voice Silja: Traurig = 2
+Silya:
+    Дай-ка я ненадолго закрою глаза. Хочу попробовать разглядеть твой путь.
+
+!Event EyesClosed
+!Voice Silja: Neutral = 3
+Silya:
+    Я вижу места в глубинах — Погребённые города. А потом солнце в облаках. Но это не настоящее солнце.
+
+!Event EyesOpen
+!Voice Silja: Verärgert = 1
+Silya:
+    К сожалению, больше я ничего не вижу.

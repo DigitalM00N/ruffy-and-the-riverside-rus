@@ -1,0 +1,4 @@
+!Event SiljaShake
+!Voice Silja: Fragend = 6
+Silya:
+    Раффи, что ты тут делаешь? Скорее иди к Эмблеме!

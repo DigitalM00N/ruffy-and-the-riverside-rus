@@ -1,0 +1,117 @@
+!Camera SirEddlerIntro2 target SirEddlerIntro duration 2
+!Sprite Sir Eddler: seriousRight, Ruffy: idleHalfBackRight, Pip: back
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Добрый Квин. Долго он заботился о тебе и оберегал тебя.
+
+!Camera SirEddlerIntro target SirEddler1 duration 1
+Sir Eddler:
+    Но твоя судьба не здесь, не в этой художественной мастерской.
+
+!Camera Ruffy target Ruffy2 duration 1
+!Sprite Ruffy: think, Pip: idle
+!Voice Ruffy: Question = 4
+Ruffy:
+    Моя судьба?
+
+!Camera SirEddlerIntro
+!Sprite Sir Eddler: bashfulRight, Ruffy: idleHalfBackRight, Pip: back
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Да, твоя судьба. У каждого есть своё предназначение, и ты не исключение. Разница с остальными лишь в том, что твоё предназначение, скажем так, довольно крутое.
+
+!Sprite Sir Eddler: positivRight
+!Camera SirEddlerIntro target Lowland2 duration 20 delay 1
+!Event Tier
+Sir Eddler:
+    Но оставим это пока. Просто окинь взглядом наш чудесный Риверсайд.
+
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Скажи, что ты видишь?
+
+!Sprite Sir Eddler: lean
+!Event Veena
+!Camera VFCam target VFCam2 target VFCam3 duration 7
+!Voice Ruffy: scan = 2
+Ruffy:
+    Равнины Риверсайда. Скоро жатва, и все поля и луга засияют.
+
+!Camera Detail1 target Detail1.1 duration 6
+!Event Vogel
+!Voice Ruffy: Thoughtful = 1
+Ruffy:
+    Птицы щебечут, реки журчат.
+
+Ruffy:
+    А над всем этим сияет наша чудесная вывеска с названием города.
+
+!Camera TKam1 target TKam2 duration 8
+!Event Teich
+!Voice Ruffy: Thoughtful = 2
+Ruffy:
+    Всё так же прекрасно, как и всегда.
+
+!Camera SirEddler2
+!Sprite Sir Eddler: serious, Ruffy: idleHalfBackLeft
+!Event Aus
+!Voice Eddler: Conniving = 2
+Sir Eddler:
+    Да, Риверсайд — поистине дивное место.
+
+!Camera Sir Eddler3
+!Sprite Sir Eddler: agree
+#Kamera totale von Riverside
+Sir Eddler:
+    И всё же здесь кроется больше, чем видно глазу.
+
+!Sprite Ruffy: idleHalfBackLeft, Sir Eddler: secretRight
+!Camera CAMANIM
+!Event secret
+Sir Eddler:
+    Под землёй таится древняя сила. Сила, способная создавать и разрушать целые миры.
+
+!Event secretoff
+!Camera Ruffy
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: Question = 7
+Ruffy:
+    Боже мой. Что это за сила?
+
+!Camera SirEddler2 target SirEddler3 duration 1
+!Sprite Sir Eddler: serious, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Это сила шариков.
+
+!Camera Ruffy
+!Sprite Ruffy: think, Pip: idle
+!Voice Ruffy: Question = 3
+Ruffy:
+    Шариков? Вы издеваетесь?
+
+!Camera SirEddler2
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Voice Eddler: Agreement = 4
+Sir Eddler:
+    Ха-ха-ха. Что, разобрало любопытство? Это мне нравится.
+
+!Camera Ruffy
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: scan = 3
+Ruffy:
+    Ну расскажи! Что в этих шариках такого особенного? Что они вообще могут изменить?
+
+!Camera SirEddler2 target SirEddler3 duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Sir Eddler: secretRight
+!Voice Eddler: Laugh_Friendly = 1
+Sir Eddler:
+    Ха-ха-ха. Они могут изменить ВСЁ, мой юный друг. Абсолютно ВСЁ.
+
+!Sprite Sir Eddler: serious
+Sir Eddler:
+    Ты не поверишь, пока сам не увидишь. Лучше я сразу тебе их покажу.
+
+!Sprite Sir Eddler: positiv
+Sir Eddler:
+    Когда будешь готов, спускайся на пляж. Я буду ждать тебя там.

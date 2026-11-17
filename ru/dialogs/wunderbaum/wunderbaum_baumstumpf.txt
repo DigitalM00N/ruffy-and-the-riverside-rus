@@ -1,0 +1,90 @@
+!Camera Start target Mayle duration 1
+!Sprite Pip: idle, Mayle: think
+!Voice Mayle: Surprise_Positive = 3
+Mayle:
+    Ой, кто вы такие? Друзья или враги?
+
+!Camera Alle
+!Sprite Ruffy: talkHalfBackRight, Mayle: idle
+!Voice Ruffy: Thoughtful = 1
+Ruffy:
+    Не бойся, мы друзья. А ты кто?
+
+!Camera Alle target Mayle duration 3
+!Sprite Ruffy: idleHalfBackRight, Mayle: plant
+!Voice Mayle: Agreement = 1
+Mayle:
+    Во внешнем мире нас зовут маленьким народцем, но сами мы называем себя Этои. Мы — Хранители роста.
+
+!Sprite Mayle: dance
+!Voice Mayle: Laugh_Friendly = 3
+Mayle:
+    Вместе с Древом жизни мы заботимся о каждом стебельке, каждом цветке и каждом дереве.
+
+!Camera Mayle target MayleCloser duration 1
+!Sprite Mayle: think
+!Voice Mayle: Thoughtful = 6
+Mayle:
+    Но теперь на нас обрушилась великая беда.
+
+!Camera Ruffy
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 5
+Ruffy:
+    Что случилось?
+
+!Camera Mayle target MayleCloser duration 1
+!Sprite Mayle: angst
+!Voice Mayle: Frustration = 9
+Mayle:
+    Это было в тот день, когда в небе появилась та жуткая штука и стала метать в землю злые молнии.
+
+!Camera MayleCloser target MayleClosest duration 1
+!Sprite Mayle: think
+!Voice Mayle: Worry = 2
+Mayle:
+    Она опустошила земли и отравила их этой чёрной смолой.
+
+!Sprite Mayle: shocked
+!Voice Mayle: Frustration = 6
+Mayle:
+    Смола повсюду обтекала корни древа и отравила его.
+
+!Camera Pip
+!Sprite Pip: talkDoubt
+!Voice Pip: Traurig = 6
+Pip:
+    Значит, Древо жизни... погибло?
+
+!Camera Spross1 target Spross2 duration 4
+!Sprite Pip: idle, Ruffy: idleSideLeft, Mayle: idle
+!Voice Mayle: Agreement = 5
+Mayle:
+    Этот маленький росток — всё, что осталось от Древа жизни, но даже его силы угасают.
+
+!Camera Pip
+!Sprite Pip: talk
+!Voice Pip: Begrüßen = 4
+Pip:
+    Неужели ничего нельзя сделать?
+
+!Camera Mayle target MayleCloser duration 5
+!Sprite Pip: idle, Mayle: think
+!Voice Mayle: Agreement = 6
+Mayle:
+    Ростку срочно нужна свежая вода, иначе чёрная смола скоро отравит и его.
+
+!Camera Ranke target Ranke duration 3
+!Sprite Ruffy: idleSideRight, Mayle: plant
+!Event Ranke
+!Voice Mayle: Surprise_Positive = 3
+Mayle:
+    Просто идите вдоль реки, что несёт к нам чёрную смолу.
+
+!Camera Mayle
+!Sprite Mayle: idle
+!Voice Mayle: Agreement = 1
+Mayle:
+    Буду ждать вас там, где она кончается.
+!Event Pelzi
+!Pause 3

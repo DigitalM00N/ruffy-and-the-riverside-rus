@@ -1,0 +1,17 @@
+!Camera Ruffy
+!Sprite Ruffy: think, Pip: idle
+!Voice Ruffy: Surprise_Positive = 1
+Ruffy:
+    Ещё один тёмный шарик. Сколько их ещё из него выпадет?
+
+!Camera Ruffy target Pip_3 duration 1
+!Sprite Pip: talk, Ruffy: idle2
+!Voice Pip: Erschrecken = 3
+Pip:
+    Похоже, Гролл разваливается на части. Здесь мы можем с ним покончить!
+
+!Camera Pip_3 target Stein4 duration 4
+!Sprite Pip: idle, Ruffy: talk
+!Voice Ruffy: Agreement = 8
+Ruffy:
+    Да, он распадается. Ты только посмотри! Этот шарик тоже полон злобы. Уничтожу его, как и тот.

@@ -1,0 +1,153 @@
+!Camera HPCAM1
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 3
+Hohepriester:
+    С возвращением, Раффи! Вижу, ты принёс ещё одну Священную букву. Это предпоследняя буква, и найти осталось всего одну.
+
+!Camera HPCAM2
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 6
+Hohepriester:
+    Ты воистину Избранный. Тебя отличают храбрость и чистое сердце. Скоро ты исцелишь Ядро мира, и оно избавит наш мир от зла.
+
+!Camera HPCAM1
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 7
+Hohepriester:
+    А теперь воспользуемся силой буквы. Чувствую, это «I». Так начнём же церемонию и исцелим Ядро мира.
+
+# CUTSCENE:
+# Der Buchstabe I erscheint im Holoprojektor.
+!Camera HPCAM3
+!Event BuchstabeI
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 12
+Hohepriester:
+    Буква святая, сила святая, будь с нами в час, когда тьма густая.
+!Pause 2
+!Continue auto
+
+# Von dort fliegt an in die Buchstabenmatrix an die Stelle für I (Ruffy kopiert es also nicht selbst, sondern es passiert automatisch).
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 4
+Hohepriester:
+    Пусть сила буквы, что сияет, судьбу нам к лучшему меняет.
+!Continue none
+
+# Daraufhin sieht man wie am Emblem das I ausgefahren wird,
+!Voice Hohepriester: Misc = 7
+!Continue auto
+Hohepriester:
+    Когда все буквы встанут в ряд, святым сияньем нас озарят.
+!Continue none
+
+!Camera PipCamera
+!Sprite Pip: talk, Ruffy: idle
+!Continue none
+!Voice Pip: Staunen = 7
+Pip:
+    Ядро мира! Оно исцеляется! Скоро к нему вернётся вся его сила.
+
+!Camera RCAM1
+!Sprite Ruffy: proud, Pip: idle
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Да. Скоро всё закончится.
+
+# CUTSCENE: Der Groll fliegt aus der Overworld über die Kathedrale und schwebt drohend über ihr.
+!Event Groll
+!Sprite Hohepriester: amazed
+!Voice Groll: Laugh_Friendly = 4
+Groll:
+    Так-так, кто это у нас опять в буковки играет?
+!Continue none
+
+!Camera HPCAM1
+!Sprite Hohepriester: amazed
+!Voice Hohepriester: Misc = 11
+Hohepriester:
+    Гролл?!
+
+!Camera RCAM2
+!Sprite Ruffy: think
+!Voice Ruffy: Surprise_Negative = 4
+Ruffy:
+    Буквы? Какие буквы? О чём ты вообще?
+
+!Camera GCAM1
+!Sprite Ruffy: idleHalfBackRight
+!Event GLaugh
+!Voice Groll: Laugh_Confident = 9
+Groll:
+    Ха-ха-ха, за кого ты меня держишь? Снова и снова эти буквы летят в базилику.
+
+!Camera GCAM2
+!Event Gthink
+!Voice Groll: Greeting = 2
+Groll:
+    Все эти буквы...
+
+!Camera GCAM4
+!Sprite Ruffy: idleBack
+!Event GPower
+!Voice Groll: Surprise_Negative = 1
+Groll:
+    От них исходит великая сила. Сила Ядра мира!
+
+!Camera GCAM3
+!Event GAngry
+!Voice Groll: Anger = 3
+Groll:
+    Признавайтесь! Вы хотите с помощью Ядра мира уничтожить меня.
+
+!Camera GCAM1
+!Sprite Ruffy: idleHalfBackRight
+!Event GNebel
+!Voice Groll: Greeting = 2
+Groll:
+    Где вы его спрятали? Уж не здесь ли, в этой маленькой базилике?
+
+!Camera HPCAM1
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 4
+Hohepriester:
+    Не входи в эти священные залы! Тебе здесь не рады!
+
+!Camera GCAM2
+!Event GThink
+!Voice Groll: Conniving = 3
+Groll:
+    Не волнуйся. Я никогда не любил ходить в храм...
+
+!Camera GCAM1
+!Sprite Ruffy: idleHalfBackRight
+!Event GPower
+!Voice Groll: Anger = 2
+Groll:
+    Но и ваша игра в буковки мне тоже не нравится!
+
+!Event GFLY
+!Voice Groll: Laugh_Confident = 4
+Groll:
+    Может, просто примете меня в игру? Я даже принёс вам пару букв. Ловите!
+!Continue none
+
+!Camera ACAM3
+!Event LOFF, G3Angry, Laser, Damage
+!Voice Groll: Laugh_Confident = 7
+Groll:
+    И-Г-Р-А О-К-О-Н-Ч-Е-Н-А!
+
+!Camera ACAM1
+!Event LOFF, GAngry
+!Voice Groll: Conniving = 3
+!Voice Ruffy: Worry = 2
+Ruffy:
+    Игра окончена? Ой-ой-ой!
+
+!Camera RCAM1
+!Event LON
+!Sprite Ruffy: shocked
+!Voice Ruffy: Surprise_Negative = 8
+Ruffy:
+    Бежим отсюда... живо!

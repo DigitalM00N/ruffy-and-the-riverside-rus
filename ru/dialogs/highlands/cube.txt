@@ -1,0 +1,110 @@
+!Sprite Ruffy: idleBack, Pip: back
+!Camera CubeCam2
+!Voice Groll: Thoughtful = 2
+Groll:
+    ...
+
+!Sprite Ruffy: idle2, Pip: talk
+!Camera PipCam
+!Voice Pip: Erschrecken = 9
+Pip:
+    Осторожно, Раффи! Он опять здесь!
+
+!Sprite Ruffy: think, Pip: idle
+!Camera RuffyCam
+!Voice Ruffy: Question = 4
+Ruffy:
+    Он что... сломался?
+
+!Sprite Ruffy: idle2, Pip: talk
+!Camera PipCam
+!Voice Pip: Jump = 4
+Pip:
+    В смысле, капут? Игра окончена? Аста ла виста, бэйби?
+
+!Sprite Ruffy: idleHalfBackRight
+!Camera CubeCam
+!Voice Groll: Thoughtful = 3
+Groll:
+    Помогите мне... пожалуйста.
+
+!Camera CubeCam
+!Sprite Ruffy: idleHalfBackRight
+Groll:
+    Силы покидают меня. Мой конец близок...
+
+!Sprite Pip: talkAngry, Ruffy: idle
+!Camera PipCam
+!Voice Pip: No = 4
+Pip:
+    Помочь тебе? Ни за что!
+
+!Sprite Pip: angry, Ruffy: idleHalfBackRight
+!Camera CubeCam
+!Voice Groll: Thoughtful = 1
+Groll:
+    Простите меня. Я поступал дурно. Меня подбили на это тёмные камни. Из-за них я лишился рассудка.
+
+Groll:
+    Но теперь вся ненависть ушла. Только сейчас я понимаю, что натворил. Пожалуйста, простите меня.
+
+!Sprite Ruffy: grumpy, Pip: idle
+!Camera RuffyCam
+!Voice Ruffy: Thoughtful = 7
+Ruffy:
+    Не знаю, можно ли тебе верить...
+
+!Sprite Ruffy: idle, Pip: talkAngry
+!Camera PipCam
+!Voice Pip: Traurig = 9
+Pip:
+    Не верь ему! Он врёт!
+
+!Sprite Pip: idle
+!Camera CubeCam2
+!Voice Groll: Greeting = 2
+Groll:
+    Вы должны мне поверить! Я исправлю свои ошибки. Пожалуйста, дайте мне второй шанс!
+
+!Sprite Pip: talkDoubt
+!Camera PipCam
+!Voice Pip: Jump = 2
+Pip:
+    Второй шанс? Чтобы ты тут же снова на нас напал?
+
+!Sprite Pip: idle
+!Camera CubeCam2
+!Voice Groll: Frustration = 1
+Groll:
+    Пожалуйста... пожалуйста... я... ах.
+
+!Sprite Ruffy: shocked
+!Camera RuffyCam
+!Voice Ruffy: Thoughtful = 5
+Ruffy:
+    Он долго не протянет!
+
+Ruffy:
+    Мы должны ему помочь! Скажи, как нам тебя спасти?
+
+!Sprite Ruffy: idleHalfBackRight
+!Camera CubeCam 2
+!Voice Groll: Agreement = 1
+Groll:
+    Течения... отнесите меня к течениям.
+
+!Sprite Ruffy: think
+!Camera RuffyCam
+!Voice Ruffy: Question = 9
+Ruffy:
+    К Потокам красок? Они правда существуют?
+
+!Sprite Ruffy: idleHalfBackRight
+!Camera CubeCam
+!Voice Groll: Greeting = 2
+Groll:
+    Да, существуют. И волшебны не только течения. Весь океан пропитан магией от шариков, которые туда вынесло волнами.
+
+!Camera CubeCam2
+Groll:
+    Только эта волшебная вода может меня теперь исцелить. Пожалуйста, поторопитесь. Если вы меня спасёте, я всё исправлю.

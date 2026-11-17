@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Насколько мне известно, Рука надежды на самом верху башни. Пора поплевать на лапы — и вперёд!

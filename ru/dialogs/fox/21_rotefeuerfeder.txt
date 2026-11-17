@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 5
+!Event Schmetterling21
+Quintus:
+    Это красное огнеперо.
+    Оно из семейства вулканниц.
+
+!Voice Quintus: Agreement = 1
+Quintus:
+    Этих храбрецов поднимают в воздух тёплые потоки над лавой.
+!Sprite Fuchs: idle
+
+Quintus:
+    От них всегда слегка пахнет гарью, правда?

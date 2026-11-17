@@ -1,0 +1,131 @@
+Aldan:         Алдан
+Alter Mühlenvogel: Старая мельничная птица
+Alter Vogel:   Старая птица
+Ansalde:       Ансальде
+Anselm:        Ансельм
+Aribert:       Ариберт
+Baag:          Бааг
+Balduin:       Балдуин
+Baldwin:       Болдуин
+Bally:         Балли
+Barbara:       Барбара
+Benny:         Бенни
+Bertram:       Бетрам
+Billy:         Билли
+Bobby:         Бобби
+Bohrer:        Землекоп гильдии
+Bruno:         Бруно
+Carl:          Карл
+Daag:          Дааг
+Donnie:        Донни
+Egidius:       Эгидиус
+Elox:          Элокс
+Engelbert:     Энгельберт
+Etoi:          Этои
+Feist:         Файст
+Fella:         Парень
+Fengo:         Фенго
+Fenja:         Феня
+First Fella:   Первый парень
+Flitzi:        Флитци
+Follat:        Фоллат
+Fourth Fella:  Четвёртый парень
+Franky:        Фрэнки
+Gaga:          Гага
+Gelber Vogel:  Жёлтая птица
+Giselbert:     Гизельберт
+Gogo:          Гого
+Gorgon:        Горгон
+Grabbo:        Граббо
+Graffel:       Граффель
+Groll:         Гролл
+Großer Vogel:  Большая птица
+Harlek:        Харлек
+Henno:         Хенно
+Henry:         Генри
+Herzbot:       СЕРДЦЕ-О-БОТ
+Hickory:       Хикори
+Hilging:       Хилгинг
+Hohepriester:  Верховный жрец
+Honko:         Хонко
+Hugo:          Хуго
+Humbser:       Хумбсер
+Iddi:          Идди
+Isenkrach:     Изенкрах
+Jacky:         Джеки
+Jobboo:        Джоббу
+Jolly:         Джолли
+Juko:          Юко
+Junger Mühlenvogel: Юная мельничная птица
+Junger Vogel:  Юная птица
+Kasimir:       Казимир
+Kecker Vogel:  Дерзкая птица
+Kleiner Vogel: Маленькая птица
+Lazarus:       Лазарус
+Lebensbaum:    Древо жизни
+Leeroy:        Лирой
+Leopold:       Леопольд
+Leroy:         Лерой
+Lorenzius:     Лоренциус
+Lux:           Люкс
+Magnetischer Vogel:  Магнитная птица
+Mayle:         Мейли
+Methok:        Меток
+Meusewin:      Мойзевин
+Minna:         Минна
+Moktar:        Моктар
+Mond:          Луна
+Nachtrenner:   Ночной бегун
+Nachtvogel:    Ночная птица
+Nasser Fisch:  Мокрая рыба
+Noris:         Норис
+Oddo:          Оддо
+Ottokar:       Оттокар
+Pip:           Пип
+Pix:           Пикс
+Quintus:       Квинтус
+Quomo:         Квомо
+Qwin:          Мастер Квин
+Richard:       Ричард
+Roter Vogel:   Красная птица
+Roybert:       Ройберт
+Rudolph:       Рудольф
+Rudwin:        Рудвин
+Ruffy:         Раффи
+Rufus:         Руфус
+Sebaldus:      Себальдус
+Second Fella:  Второй парень
+Silya:         Силья
+Sir Eddler:    Сэр Эддлер
+Sirsil:        Сирсил
+Slanto:        Сланто
+Slythia:       Слития
+Snokko:        Снокко
+Sonne:         Солнце
+Steddi:        Стедди
+Steepy:        Стипи
+Susi:          Сузи
+Taki:          Таки
+Third Fella:   Третий парень
+Thorsten:      Торстен
+Tillmann:      Тильман
+Tuku:          Туку
+Udo:           Удо
+Uralter Inselvogel: Древняя островная птица
+Uralter Vogel: Древняя птица
+Vargon:        Варгон
+Veena:         Вина
+Villeroy:      Виллерой
+Vogel:         Птица
+Vollmar:       Фолльмар
+Vorlauter Vogel: Восторженная птица
+Waldrenner:    Лесной бегун
+Werter:        Вертер
+Wiegbert:      Вигберт
+Wikenand:      Викенанд
+Willbert:      Вильберт
+William:       Уильям
+Wolfram:       Вольфрам
+Woody:         Вуди
+Yoogh:         Йуг
+Zeel:          Зил

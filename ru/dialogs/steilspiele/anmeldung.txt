@@ -1,0 +1,50 @@
+!Camera KameraSteepyFar target KameraSteepy duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: StaunenB
+!Voice Steepy: Greeting = 4
+Steepy:
+    Всё круто, бро? Ты тут просто видом полюбоваться или хочешь безбашенно полетать?
+
+!Camera KameraRuffy
+!Sprite Ruffy: talk, Pip: idle, SchlangeCool: Idle
+!Voice Ruffy: Question = 9
+Ruffy:
+    А что тут такое? Вообще-то мы ищем Священную букву.
+
+!Camera KameraSteepy
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: Talk
+!Voice Steepy: Realization = 7
+Steepy:
+    Ого, бро!!! Священная буква? Первый раз слышу, бро!
+
+!Sprite SchlangeCool: StaunenB
+!Voice Steepy: Agreement = 4
+Steepy:
+    Это же Крутые игры, чувак! Только не говори, что ты про них не слышал!
+
+!Sprite SchlangeCool: Idle
+!Voice Steepy: Thoughtful = 1
+Steepy:
+    Хватай тюк, зажигай на рампе и набирай кучу очков! Лучшего летуна ждёт приз.
++1
+* Звучит круто! А какие правила?
+* Я загляну попозже.
+
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Laugh_Friendly = 5
+Steepy:
+    Йо, йо, йо, йо, ты ещё вернёшься, я это чую, бро!
++3
+
+!Camera KameraSteepy target KameraSteepyClose duration 2
+!Sprite SchlangeCool: Staunen
+!Voice Steepy: Surprise_Positive = 5
+Steepy:
+    Йо, круто, бро! Всё мегапросто! Два заезда на полной скорости, у кого в конце больше очков — тот и победил. Табло прямо рядом с хафпайпом.
+
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Agreement = 4
+Steepy:
+    Теперь про очки, бро. Слушай внимательно! Тут всё решают две вещи. Первое — мегаважно сделать как можно больше трюков.
+
+Steepy:
+    А второе — ещё мегаважнее всё время крутиться! Слышишь? Крутись. Всё время.

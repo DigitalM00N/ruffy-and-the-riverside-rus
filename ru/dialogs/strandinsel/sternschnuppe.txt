@@ -1,0 +1,7 @@
+!Camera camera_Cycle0 target camera_Cycle1 duration 7
+!Voice Pip: Erschrecken = 9
+Pip:
+    Ух, этот шар ледяной! Спорим, он даже море заморозит.
+
+Pip:
+    Эй, Раффи, может, мы на нём даже до пирамиды докатимся.

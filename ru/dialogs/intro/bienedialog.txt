@@ -1,0 +1,4 @@
+!Camera LeinwändeKamera
+!Voice Pip: Lachen = 9
+Pip:
+    Отлично, как по маслу! Теперь обменяй эту картину на холст клиента.

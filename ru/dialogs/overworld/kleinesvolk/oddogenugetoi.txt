@@ -1,0 +1,7 @@
+!Camera OddoCamera
+!Voice Mayle: Laugh_Friendly = 3
+!Sprite Oddo: Happy
+Oddo:
+    Отлично, в деревне достаточно Этои. Ну что, поможем тебе прямо сейчас?
+* Да, вперёд!
+* Нет, лучше попозже.

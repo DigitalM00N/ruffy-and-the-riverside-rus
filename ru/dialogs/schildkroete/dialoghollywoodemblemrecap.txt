@@ -1,0 +1,5 @@
+!Camera ECamSchild
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: serious
+!Voice Eddler: Greeting = 4
+Sir Eddler:
+    Раффи, найди тайный вход к Ядру мира. Спорим, он где-то совсем рядом.

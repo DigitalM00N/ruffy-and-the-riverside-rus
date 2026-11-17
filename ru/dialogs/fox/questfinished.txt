@@ -1,0 +1,16 @@
+!Camera Kamera1
+!Sprite Fuchs: idle
+!Voice Quintus: Greeting = 1
+Quintus:
+    Привет, Раффи! Чешуекрылый привет!
+
+Quintus:
+    Ты слышал, что Библия бабочек стала самой популярной книгой в деревенской библиотеке?
+
+!Sprite Fuchs: happy
+!Voice Quintus: Laugh_Friendly = 3
+Quintus:
+    Наша страсть к бабочкам принесла миру столько радости.
+
+Quintus:
+    Кто бы мог подумать? Хи-хи...

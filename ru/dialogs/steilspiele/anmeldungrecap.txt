@@ -1,0 +1,48 @@
+!Camera KameraSteepy
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: Talk
+!Voice Steepy: Question = 5
+Steepy:
+    Эй, йо-йо-йо! Всё вертикально, бро? Готов к Крутым играм?
+* Йо, вроде да. Погнали.
++2
+* Расскажи ещё раз правила!
++7
+* Я загляну попозже.
+
+# 1
+!Camera KameraSteepy target KameraSteepyClose duration 2
+!Sprite SchlangeCool: StaunenB
+!Voice Steepy: Surprise_Positive = 1
+Steepy:
+    Уооооооу! Так ты реально в теме?! Жесть, чувак!
+
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Agreement = 5
+Steepy:
+    Первый заезд — деревянный класс, потом короткий перерыв, чтобы глянуть свои очки на табло, а потом второй заезд — железный класс!
++5
+
+# 2
+!Camera KameraSteepy target KameraSteepyClose duration 2
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Laugh_Friendly = 3
+Steepy:
+    Йо, круто, бро! Всё мегапросто! Два заезда вверх на всей скорости, у кого в конце больше очков — тот и победил.
+
+!Sprite SchlangeCool: Staunen
+!Voice Steepy: Agreement = 4
+Steepy:
+    Теперь про очки, бро. Слушай внимательно! Тут всё решают две вещи. Первое — мегаважно сделать как можно больше трюков.
+
+Steepy:
+    А второе — ещё мегаважнее всё время крутиться! Слышишь? Крутись. Всё время.
+
+!Voice Steepy: Question = 3
+Steepy:
+    Короче, побольше трюков и всё время крутиться! Усёк, бро? Всё ясно?
++1
+
+# 3
+!Voice Steepy: Laugh_Friendly = 6
+Steepy:
+    Йо, йо, йо, йо, ты ещё вернёшься, я это чую, бро!

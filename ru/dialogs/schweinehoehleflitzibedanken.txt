@@ -1,0 +1,5 @@
+!Camera CameraFlitzi
+!Sprite Yellow Bear: cheer
+!Voice Flitzi: Surprise_Positive = 4
+Flitzi:
+    Спасибо, спасибо, спасибо! Вы, похоже, спасли мне жизнь.

@@ -1,0 +1,61 @@
+!Camera Baum1 target Baum2 duration 8
+!Sprite Ruffy: idleBack, Pip: back
+!Voice Ruffy: Surprise_Negative = 1
+Ruffy:
+    Батюшки мои. Это и есть Древо жизни?
+
+!Voice Pip: Erschrecken = 9
+Pip:
+    Или то, что от него осталось. Выглядит ужасно! Скорее уж древо смерти!
+
+!Voice Ruffy: Thoughtful = 2
+Ruffy:
+    Посмотри, какие разрушения! Удар, должно быть, был чудовищный! Что задумал этот Гролл? Неужели он правда хочет уничтожить весь Риверсайд?
+
+!Sprite Ruffy: idleSideLeft, Pip: idle
+!Event Ausbuddeln
+!Camera Maulwurf_Ruffy
+!Voice Eddler: Surprise_Negative = 4
+Sir Eddler:
+    Силы небесные! Должно быть, это оно — Древо жизни. Похоже, Гролл его уничтожил!
+
+!Sprite Sir Eddler: secretRight, Pip: idle
+!Camera Maulwurf
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    Стойте! Видите?
+
+!Camera Baum2 target Baum3 duration 4
+!Voice Eddler: Surprise_Negative = 2
+Sir Eddler:
+    Там внизу что-то шевелится!
+
+!Camera Ruffy
+!Sprite Ruffy: talkLeft
+!Voice Ruffy: Agreement = 8
+Ruffy:
+    Вы правы! Там что-то есть.
+
+!Camera Ruffy target Maulwurf_Ruffy duration 1
+!Sprite Sir Eddler: serious, Ruffy: idleSideLeft
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Вам двоим и карты в руки! Летите туда. Может, ещё не всё потеряно! Посмотрите, можно ли помочь.
+
+!Camera Biene
+!Sprite Pip: talkDoubt, Sir Eddler: leanRight
+!Voice Pip: Jump = 4
+Pip:
+    А ты разве не с нами?
+
+!Camera Maulwurf
+!Sprite Pip: idle, Sir Eddler: shake
+!Voice Eddler: Thoughtful = 5
+Sir Eddler:
+    Нет. Мне туда никак. Летать я не умею, а прокопаться снизу тоже не могу.
+
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Greeting = 4
+Sir Eddler:
+    Кто знает, не отравил ли этот чёрный яд и землю.
+!Event Einbuddeln

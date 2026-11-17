@@ -1,0 +1,4 @@
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc = 7
+Yoogh:
+    Ладно, внимание. Вот ответ: все плитки нужно превратить в восьмёрки. Надеюсь, теперь ты доволен.

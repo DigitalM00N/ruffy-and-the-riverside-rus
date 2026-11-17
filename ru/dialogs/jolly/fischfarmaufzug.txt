@@ -1,0 +1,6 @@
+!Sprite Fish: talk
+!Voice Fische: Misc = 5
+!Camera Acam3 target Acam2 target Acam1 duration 6
+!Continue auto
+Jolly:
+    Эй, ты! Помоги! Помоги мне! Помогите! На помощь!

@@ -1,0 +1,64 @@
+!Camera MaulwurfKamera duration 0.8
+!Sprite Sir Eddler: agree
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Значит, хочешь услышать историю Шарика Майи?
+
+!Camera MaulwurfKamera target CameraPlatz2 duration 3
+!Sprite Sir Eddler: secretRight
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    У этого камня поистине необычная история, и лишь немногие считают её правдой, но суди сам.
+
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Легенда гласит, что у создателя этого мира было двое детей. Их звали Майя и Мидас.
+
+!Camera CameraPlatz2 target CameraPlatz2b duration 4
+Sir Eddler:
+    Всякий раз, когда великий создатель творил новый мир, детям позволяли в нём поиграть. Так в каждый мир приходила радость. Но порой приходили и небольшие неприятности.
+
+Sir Eddler:
+    Когда создавался наш мир, Майя и Мидас играли в Риверсайде со своим шариком. Шарик катился по горам и долам и придавал форму нашему миру.
+
+!Camera MaulwurfKamera
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Однажды Мидас придумал хитрость, чтобы отнять шарик у Майи. Он насыпал гору из песка и поспорил с Майей, что ей не удастся скатить шарик по склону горы.
+
+!Camera CameraPlatz2b
+Sir Eddler:
+    Майя пустила шарик вниз, и вдруг он исчез. В этом и была хитрость Мидаса: он проделал пальцем дыру в склоне горы.
+
+Sir Eddler:
+    Шарик закатился в дыру и упал глубоко в недра горы.
+
+!Camera CameraPlatz2b target CameraPlatz2 duration 5
+Sir Eddler:
+    Майя искала весь день, но так и не нашла шарик. Тогда она села у моря и заплакала.
+
+Sir Eddler:
+    Говорят, её слёзы до сих пор текут по Риверсайду волшебными реками.
+
+!Camera MaulwurfKamera
+!Sprite Sir Eddler: secretRight
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Эти реки так никто и не нашёл, но говорят, что они могут исцелить любую боль и обратить несчастье в счастье. Жидкое волшебство, так сказать.
+
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Agreement = 4
+Sir Eddler:
+    А вечером создатель позвал Майю и Мидаса обратно, ведь работа была окончена и пора было двигаться дальше.
+
+!Camera CameraPlatz2b
+Sir Eddler:
+    Так Шарик Майи и остался в нашем мире. Я нашёл его почти случайно, когда был ещё простым землекопом и работал в Погребённых городах.
+
+!Camera MaulwurfKamera
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Ты, наверное, гадаешь, почему шарик теперь у меня? Очень просто! Я храню его для Майи. Может, однажды она вернётся.

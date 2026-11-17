@@ -1,0 +1,35 @@
+#zuvor Cutscene (zeigt gespräch aus gewisser Distanz, mit leichter Bewegung der Camera)
+!Pause 1
+!Camera RuffyEddler2
+!Sprite Ruffy: idleHalfFrontRight, Pip: idle, Sir Eddler: bashful
+!Voice Eddler: Attack_Laugh = 3
+Sir Eddler:
+    Эй, чемпион, сегодня у тебя, должно быть, совершенно безумный день. Сначала вся эта история с Гроллом, а теперь ещё и мир спасать.
+
+!Camera RuffyEddler2 offset 1 duration 5
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Realization = 3
+Sir Eddler:
+    Но не волнуйся. Ты справишься. Сперва нужно уладить одну маленькую формальность.
+
+!Camera RuffyEddler offset 1 duration 1
+!Sprite Ruffy: think, Sir Eddler: behindLeft, Pip: idle
+!Voice Ruffy: Question = 13
+Ruffy:
+    Простите, что? Формальность?
+
+!Camera Eddler
+!Sprite Ruffy: idleBack, Sir Eddler: positiv
+!Voice Eddler: Thoughtful = 5
+Sir Eddler:
+    Спокойно, малыш! Тебя просто должны официально признать Избранным.
+
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Thoughtful = 2
+Sir Eddler:
+    Если пройдёшь испытание, станешь официальным членом Базилики Лучших. Там тебя коротко введут в курс дела, и можно будет сразу отправляться спасать мир.
+
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Итак, слушай. Тебе нужно подняться на две башни и добыть два волшебных медальона. Они называются Руки надежды. Как только они будут у тебя, Базилика откроется, и испытание будет пройдено.

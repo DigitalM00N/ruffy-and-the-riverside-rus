@@ -1,0 +1,4 @@
+!Camera Lose1 target Lose2 target Lose3 duration 6
+!Voice Steepy: Relief = 1
+Roybert:
+    Жаль, ты проиграл. Жульничать надо больше, иначе у тебя нет ни шанса. Найди спрятанные рычаги и включи турбоучастки.

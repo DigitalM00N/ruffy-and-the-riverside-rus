@@ -1,0 +1,16 @@
+!Camera camera_2
+!Event no
+!Sprite Villeroy: cheer
+!Voice Villeroy: Laugh_Medium = 2
+Villeroy:
+    Погоди-ка, ты уже сделал два разных трюка? У тебя талант.
+
+!Sprite Villeroy: deny
+!Voice Villeroy: Surprise_Negative = 3
+Villeroy:
+    Для Крутых игр пока маловато, но для детского уголка вполне сойдёт.
+
+!Sprite Villeroy: talk
+!Voice Villeroy: Realization = 2
+Villeroy:
+    Продолжай в том же духе. Чую, ты можешь лучше.

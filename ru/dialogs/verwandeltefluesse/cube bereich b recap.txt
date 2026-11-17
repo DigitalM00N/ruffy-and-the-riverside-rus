@@ -1,0 +1,3 @@
+!Voice Groll: Laugh_Confident = 8
+Groll:
+    Чего вы ждёте? Ищите шарики и заряжайте меня цветами.

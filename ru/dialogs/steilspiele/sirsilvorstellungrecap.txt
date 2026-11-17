@@ -1,0 +1,4 @@
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv = 7
+Sirsil:
+    Осмотритесь, а потом возвращайтесь ко мне. А я пока всё подготовлю для проката.

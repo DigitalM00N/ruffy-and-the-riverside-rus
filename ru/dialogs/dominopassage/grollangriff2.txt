@@ -1,0 +1,16 @@
+!Camera Groll target Groll2 duration 4 delay 1
+!Event Lachen
+!Voice Groll: Laugh_Confident = 4
+Groll:
+    Ха-ха-ха!
+
+!Event Idle2
+!Voice Groll: Realization = 1
+Groll:
+    Очень даже неплохо. Ты не так глуп, как кажешься. Посмотрим, справишься ли ты и с этим!
+
+!Camera Pip
+!Sprite Pip: talkAngry, Ruffy: idle2
+!Voice Pip: Misc = 7
+Pip:
+    Не играй с нами, чудовище!

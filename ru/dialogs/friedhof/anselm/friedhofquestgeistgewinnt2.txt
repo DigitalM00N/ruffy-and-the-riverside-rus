@@ -1,0 +1,71 @@
+!Event PilzeAusblenden, DisableCutscene, RuffyBig
+!Sprite Pip: idle, Ruffy: idleBack
+!Camera GeistFar target Geist duration 2
+!Voice Anselm: Surprise_Positive = 6
+Anselm:
+    У-ху-ху! Я победил! У меня самая красивая могила! Кто бы мог подумать?
+
+!Event PilzeEinblenden, PipLarge
+!Sprite Pip: talkDoubt
+!Camera Biene
+!Voice Pip: Hmm = 1
+Pip:
+    Ну, не такой уж это и сюрприз...
+
+!Event RuffyBig, KerzeAusblenden, VolmarMirror
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Camera Overview
+!Voice Anselm: Question = 1
+Anselm:
+    О да, верно. У меня просто прирождённое чутьё на красивые могилы. Я настоящий могильный художник.
+
+!Sprite Ruffy: talkHalfBackLeft
+!Camera Overview target OverviewRuffy duration 1
+!Voice Ruffy: Laugh_Friendly = 4
+Ruffy:
+    Ага, настоящий художник по части жульничества.
+
+!Sprite Ruffy: idleHalfBackLeft
+Anselm:
+    ...
+
+!Pause 3
+!Event Ausbuddeln, KerzeEinblenden
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: seriousRight
+!Camera Eddler target EddlerOverview duration 2 delay 1
+!Voice Eddler: Attack_Laugh = 3
+Sir Eddler:
+    Художник или халтурщик. Творить или хитрить. Кто разберёт, в чём разница? Давай лучше поговорим о нашем маленьком уговоре насчёт буквы.
+
+!Sprite Sir Eddler: leanRight
+!Camera EddlerOverview target EddlerOverviewGeist duration 1
+!Voice Anselm: Question = 3
+Anselm:
+    Буква? Какая буква?
+
+!Event PipLarge
+!Sprite Ruffy: idle2, Pip: talk
+!Camera Biene
+!Voice Pip: Jump = 3
+Pip:
+    Та буква в твоей могиле!
+
+!Event BlumeAusblenden, RuffyBig
+!Sprite Ruffy: talk, Pip: idle
+!Camera RuffyClose
+!Voice Ruffy: Frustration = 9
+Ruffy:
+    Та буква в твоей могиле!
+
+!Event BlumeEinblenden, RuffyBig
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: seriousRight
+!Camera EddlerOverview
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Пожалуй, стоит спросить у жюри, можно ли прятать Священные буквы в могилах. Как вы считаете, господин художник?
+
+!Sprite Sir Eddler: leanRight
+!Camera EddlerOverview target EddlerOverviewGeist duration 1
+!Voice Anselm: Realization = 5
+Anselm:
+    Судей? Ой, не стоит. Теперь вспомнил. Буква, ну конечно. Забирайте её, пожалуйста. Я всё равно читать не умею, зачем мне буквы?

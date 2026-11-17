@@ -1,0 +1,18 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 16
+!Event Schmetterling16
+Quintus:
+    Это жёлтый бурепарус.
+    Он из семейства солнцеглядов.
+
+Quintus:
+    Эту бабочку ничто не собьёт с крыла.
+
+!Voice Quintus: Agreement = 6
+Quintus:
+    Она пролетает сквозь самые дикие бури и даёт ветру унести себя в дальние страны.
+!Sprite Fuchs: idle
+
+Quintus:
+    Какая храбрая малютка!

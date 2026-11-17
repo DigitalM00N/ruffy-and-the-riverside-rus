@@ -1,0 +1,29 @@
+!Camera EddlerFar target Eddler duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Sir Eddler: positiv
+!Voice Eddler: Laugh_Friendly = 8
+Sir Eddler:
+    Вы двое не устаёте меня удивлять! Не зря вас называют Избранными!
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    А теперь ступайте! Я буду ждать вас внизу, перед Погребёнными городами.
+!Event Eingraben
+
+!Camera PipFar target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talkSparkle
+!Voice Pip: Staunen = 4
+Pip:
+    Ух ты! Ты слышал, что он сейчас сказал?
+
+!Camera Pip target Ruffy duration 1
+!Sprite Ruffy: talk, Pip: laugh
+!Voice Ruffy: Agreement = 9
+Ruffy:
+    Он сказал, что будет ждать нас внизу, в каньоне...
+
+!Camera Ruffy target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talkHappy
+!Voice Pip: No = 5
+Pip:
+    Да нет же! Он назвал нас Избранными. Понимаешь? Нас обоих! Значит, я тоже Избранный!

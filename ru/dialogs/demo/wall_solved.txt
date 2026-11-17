@@ -1,0 +1,4 @@
+!Sprite Jobboo: laugh
+!Voice Jobbo: Misc = 3
+Jobboo:
+    Ха-ха-ха, ты показал этому старому Хмурому дереву!

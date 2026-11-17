@@ -1,0 +1,6 @@
+!Camera Siljacam1
+!Event SiljaTalk
+!Sprite Ruffy: idleHalfBackRight
+!Voice Silja: Neutral = 3
+Silya:
+    Иди к Эмблеме, Раффи. Там ты узнаешь, Избранный ли ты.

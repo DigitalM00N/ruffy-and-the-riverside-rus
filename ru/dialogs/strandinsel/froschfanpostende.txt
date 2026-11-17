@@ -1,0 +1,12 @@
+!Camera camera_Ruffy_back target camera_Mondinsel duration 3
+!Voice Pip: Staunen = 3
+Pip:
+    УХ ТЫ! Вы только посмотрите!
+
+!Voice William: Realization = 2
+William:
+    Это, должно быть, тот самый странный Лунный остров. Может, отсюда и правда можно выбраться.
+
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Ага! Пожалуй, стоит взглянуть на этот Лунный остров.

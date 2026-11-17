@@ -1,0 +1,9 @@
+!Sprite Sir Eddler: agreeLeft
+!Voice Eddler: Greeting = 5
+Sir Eddler:
+    Насколько мне известно, Рука надежды прямо там, наверху башни.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Дверь, возможно, заклинило, так что придумай что-нибудь! И поторопись, пожалуйста, земля тут ужасно холодная.

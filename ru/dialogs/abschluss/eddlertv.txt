@@ -1,0 +1,17 @@
+!Event Heal
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Surprise_Negative = 4
+Sir Eddler:
+    Клянусь священным когтем! Взгляните на силу букв! Буквы! Они творят своё волшебство!
+
+!Continue none
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Laugh_Friendly = 1
+Sir Eddler:
+    Ядро мира исцеляется, исцеляется! Наконец-то свершилось!
+
+!Camera ECam2
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Скорее же к нему! Раффи, открой нам врата к Ядру мира!

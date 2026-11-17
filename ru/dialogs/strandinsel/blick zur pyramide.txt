@@ -1,0 +1,4 @@
+!Camera Pyramidecam1 target Pyramidecam2 duration 7
+!Voice Pip: Staunen = 4
+Pip:
+    Эй, смотри! Вон там виднеется пирамида! Нам туда! Только как же туда добраться?

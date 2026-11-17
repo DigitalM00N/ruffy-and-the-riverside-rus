@@ -1,0 +1,4 @@
+!Camera CamWT2 target CamWT1 duration 7
+!Voice Pip: Staunen = 3
+Pip:
+    Эй, какая странная водонапорная башня! Может, она нам для чего-нибудь пригодится.

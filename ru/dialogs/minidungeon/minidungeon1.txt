@@ -1,0 +1,45 @@
+!Camera KameraFar target KameraEddler duration 2
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: positiv
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Добро пожаловать в Погребённые города!
+
+!Camera KameraOverview target KameraOverviewR duration 1
+!Sprite Ruffy: talkRight, Pip: idle, Sir Eddler: leanRight
+!Voice Ruffy: jubel = 7
+Ruffy:
+    Сэр Эддлер! Что вы тут делаете? Как вы сюда попали?
+
+!Camera KameraOverviewR target KameraOverviewE duration 1
+!Sprite Ruffy: idleHalfFrontLeft, Sir Eddler: positivRight
+!Voice Eddler: Laugh_Friendly = 8
+Sir Eddler:
+    Ха-ха-ха! А кто, по-твоему, построил Погребённые города?
+
+!Camera KameraOverviewE target KameraOverviewP duration 1
+!Sprite Sir Eddler: leanRight, Pip: talk
+!Voice Pip: Staunen = 3
+Pip:
+    Вы их построили? Совсем один?
+
+!Camera KameraOverviewP target KameraOverviewE duration 1
+!Sprite Sir Eddler: shake, Pip: idle
+!Voice Eddler: Laugh_Friendly = 4
+Sir Eddler:
+    Ха-ха-ха, нет, мой маленький друг, не я один. Погребённые города — творение Гильдии кротов!
+
+!Camera KameraMaterie2 target KameraMaterie3 duration 5
+!Pause 1
+!Sprite Sir Eddler: leanRight > talkRight
+Sir Eddler:
+    Если правильно собрать машины, то — БАХ! — в верхнем мире появится новый участок пути.
+
+!Camera KameraEddler
+!Sprite Ruffy: idleBack, Pip: back
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Видите, тут повсюду лежат блоки? На них нужно переносить символы машины. Тогда машина изменится, и шар закатится в лунку.
+
+!Camera KameraSymbol offset 2 duration 4
+Sir Eddler:
+    Просто попробуй! Скопируй символ с машины и брось его на один из блоков.

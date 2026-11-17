@@ -1,0 +1,5 @@
+!Camera KameraSteepy target KameraSteepyClose duration 2
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: Talk
+!Voice Steepy: Laugh_Confident = 2
+Steepy:
+    Отлично, будет потрясно. Погнали!

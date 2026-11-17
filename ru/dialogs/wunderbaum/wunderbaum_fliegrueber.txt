@@ -1,0 +1,11 @@
+!Camera BaumX target BaumY duration 3
+!Sprite Mayle: sing
+!Voice Mayle: Surprise_Positive = 4
+Mayle:
+    Эй, Раффи, вот ты где!
+
+!Camera BaumY target BaumX duration 3
+!Sprite Mayle: jump
+!Voice Mayle: Agreement = 3
+Mayle:
+    Прилетай к нам!

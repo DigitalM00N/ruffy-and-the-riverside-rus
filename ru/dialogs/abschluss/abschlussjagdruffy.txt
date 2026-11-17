@@ -1,0 +1,23 @@
+!Camera CamRuffy
+!Sprite Ruffy: shocked
+!Voice Ruffy: Surprise_Negative = 8
+Ruffy:
+    Не-е-е-ет!
+
+!Camera CamRuffy target CamRuffy2 duration 0.5
+!Sprite Ruffy: grumpy
+!Voice Ruffy: Anger = 1
+Ruffy:
+    Оставь Ядро мира в покое!
+
+!Camera CamCube
+!Event CAngry
+!Voice Groll: Anger = 3
+Groll:
+    Молчать, червяк! Ядро мира моё!
+
+!Camera CamCube target CamCube2 duration 0.5
+!Event CPulse
+!Voice Groll: Realization = 3
+Groll:
+    Наконец-то я превращу его в Мрачный камень!

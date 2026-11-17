@@ -1,0 +1,34 @@
+!Camera RuffyKamera
+!Sprite Ruffy: talk
+!Voice Ruffy: Agreement = 4
+Ruffy:
+    Я узнал кое-что интересное о старой мельнице!
+
+Ruffy:
+    Похоже, это и правда волшебное место. Водяное колесо может крутиться назад, и тогда река тоже течёт назад.
+
+!Camera LuxKamera offset 1 duration 3
+!Sprite Ruffy: idleHalfBackRight, Lux: happyTalk
+!Voice Hohepriester: Misc = 4
+Lux:
+    Поразительно! Просто невероятно поразительно!
+
+Lux:
+    Значит, река течёт вспять! И даже вверх по горе! Просто немыслимо.
+
+Lux:
+    Значит ли это, что время и правда поворачивает вспять? Или разворачивается только река? Течёт ли она назад во времени или только назад по земле?
+
+!Sprite Lux: think
+!Voice Hohepriester: Misc = 7
+Lux:
+    Над этим мне придётся как следует поразмыслить!
+
+Lux:
+    Но одно ясно точно: историю мельницы теперь придётся переписать.
+
+!Camera LuxKamera4
+!Sprite Lux: defaultTalk
+!Voice Hohepriester: Misc = 12
+Lux:
+    Спасибо, Раффи! Возвращайся, когда узнаешь новые истории о Северных землях!

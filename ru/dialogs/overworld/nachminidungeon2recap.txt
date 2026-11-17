@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: agree
+!Voice Eddler: Greeting = 5
+Sir Eddler:
+    Без тюка нам по этому рельсу ни за что не перебраться. Сходите на ферму и раздобудьте один.

@@ -1,0 +1,39 @@
+!Camera KameraSteepyFar
+!Event ActiveP
+!Sprite Ruffy: idleBack, Pip: back, SchlangeCool: Talk
+!Voice Steepy: Realization = 5
+Steepy:
+    Йо, йо, йо, вот это было дико. Редко я видел такие отпадные трюки и крутые движения, как у вас, трёх летунов.
+
+!Sprite SchlangeCool: Idle
+!Voice Steepy: Agreement = 4
+Steepy:
+    Вы настоящие волшебники тюка.
+
+Steepy:
+    Но победитель может быть только один. Так что глянем на очки!
+
+!Camera KameraScoreStart target KameraScore duration 2
+!Event ActiveK
+!Pause 1
+!Voice Steepy: Agreement = 5
+Steepy:
+    Больше всего очков набрал...
+    {0} — поздравляю! Это просто безумно отпадно!
+
+!Camera KameraPodest target KameraPodest2 duration 8
+!Sprite SchlangeCool: Staunen
+!Voice Steepy: Surprise_Positive = 3
+!Event Cheer
+Steepy:
+    Ты по-честному заслужил победу! Загляни ко мне потом за призом!
+
+!Camera KameraSteepy
+!Voice Steepy: Greeting = 4
+Steepy:
+    А все остальные могут сразу снова записаться у меня! Следующий заезд начнётся, как только наберутся три новых участника.
+
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Agreement = 1
+Steepy:
+    Просто подходите ко мне — и вперёд.

@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Laugh_Friendly = 7
+Sir Eddler:
+    Похоже, я ошибался насчёт Уповающих на Небесный колокол. В конце концов, у нас обоих была одна и та же цель.

@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 6
+!Event Schmetterling06
+Quintus:
+    Это жёлтый пескохлёб.
+    Он из семейства каменноглазок.
+
+!Voice Quintus: Agreement = 6
+Quintus:
+    Говорят, пескохлёбы едят окаменевший нектар.
+!Sprite Fuchs: idle
+
+Quintus:
+    Интересно, какой он на вкус.

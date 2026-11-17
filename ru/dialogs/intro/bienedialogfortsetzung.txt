@@ -1,0 +1,16 @@
+!Sprite Pip: talkHappy
+!Voice Pip: Begrüßen = 1
+Pip:
+    Да, у тебя получилось. А теперь покажи нам ОБМЕН!
+
+!Camera IntroKamera6
+!Sprite Meister Qwin: happy, Pip: happy
+!Voice Qwin:Laugh_Medium = 2
+Qwin:
+    Время обмена! Время обмена! Время обмена!
+
+!Camera IntroKamera2
+!Sprite Ruffy: cheer
+!Voice Ruffy: Laugh_Friendly = 5
+Ruffy:
+    Хотите увидеть обмен? Получайте!

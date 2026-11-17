@@ -1,0 +1,22 @@
+!Camera Eddler
+!Sprite Sir Eddler: positivRight, Ruffy: idleSideRight, Pip: idle
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Вот мы и на месте! Не теряйте времени и ищите следующую Священную букву!
+
+!Camera Pip
+!Sprite Pip: talkDoubt, Sir Eddler: leanRight
+!Voice Pip: Jump = 4
+Pip:
+    А ты? Ты разве не идёшь?
+
+!Camera Eddler
+!Sprite Sir Eddler: bashful +mirror, Pip: idle
+!Voice Eddler: Conniving = 2
+Sir Eddler:
+    С удовольствием бы, но земля здесь слишком холодная и сырая. Тут не прокопать туннели, да и мех запачкается.
+
+!Sprite Sir Eddler: secret
+!Voice Eddler: Question = 1
+Sir Eddler:
+    Для начала поспрашивайте вокруг. Не бойтесь призраков. Они на самом деле довольно милые, если говорить с ними вежливо.

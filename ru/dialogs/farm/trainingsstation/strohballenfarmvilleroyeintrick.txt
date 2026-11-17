@@ -1,0 +1,6 @@
+!Camera camera_2
+!Event no
+!Sprite Villeroy: cheer
+!Voice Villeroy: Surprise_Positive = 2
+Villeroy:
+    Йо, ты сделал трюк, братан. Хотя бы один. Тренируйся дальше — будет больше!

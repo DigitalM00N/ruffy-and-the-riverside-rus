@@ -1,0 +1,22 @@
+!Sprite Henry: talk
+!Camera Henry
+!Voice Henry: Misc = 2
+Henry:
+    Эй, Раффи! Это правда, что ты ищешь звёзды? Может, я смогу помочь!
+
+!Camera Rübe offset 2 duration 3
+!Voice Henry: Misc = 4
+Henry:
+    Видишь святилище с узором? Под ним спрятана звезда!
+
+!Camera Henry2
+!Sprite Henry: talk
+!Voice Henry: Misc = 5
+Henry:
+    Если нанести на святилище правильный узор, оно всплывёт, и ты сможешь схватить звезду.
+
+!Camera Henry2 target Henry duration 2
+!Sprite Henry: happy
+!Voice Henry: Misc = 1
+Henry:
+    Какой узор правильный? Ха-ха-ха, я нарисовал его для тебя на стене, но найти его тебе придётся самому!

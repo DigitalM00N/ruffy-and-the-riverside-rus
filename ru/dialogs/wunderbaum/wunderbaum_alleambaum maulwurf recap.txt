@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: seriousRight
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    Чего ты ждёшь, Раффи? Доставай букву! Она наверху, в кроне Древа жизни.

@@ -1,0 +1,32 @@
+!Camera camera_1
+!Event no
+!Sprite SchlangeCool: StaunenB, Ruffy: idleHalfBackRight, Pip: back
+!Voice Steepy: Greeting = 3
+Jacky:
+    Здорóво, спортсмен! Хочешь записаться на гонку?
++1
+* Да.
+* Нет.
+
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Relief = 1
+Jacky:
+    Эх, жаль. Приходи, если всё-таки захочешь погоняться.
++4
+
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Question = 3
+Jacky:
+    Отлично. Тогда давай запишемся. Всё по правилам, да?
+
+Jacky:
+    Сначала правила. Допускаются любые тюки, неважно, насколько они затюнингованы.
+
+!Camera camera_1 offset 1 duration 1
+!Sprite SchlangeCool: Shake
+!Voice Steepy: Surprise_Negative = 3
+Jacky:
+    Эй, да у тебя, кажется, нет тюка! Тогда, конечно, участвовать в гонке ты не можешь.
+
+Jacky:
+    Извини, спортсмен. Возвращайся, когда раздобудешь тюк.

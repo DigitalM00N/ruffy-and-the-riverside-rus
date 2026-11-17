@@ -1,0 +1,5 @@
+!Camera Kamera2
+!Sprite Fuchs: idle
+!Voice Quintus: Realization = 10
+Quintus:
+    На этом наша миссия завершена, Раффи. Библия бабочек готова. Какое благо для всего мира! Не знаю, как тебя и благодарить!

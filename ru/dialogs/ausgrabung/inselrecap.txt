@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: serious
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Эй, Раффи, у крана всё ещё нет энергии. Заберись на плато и включи электростанцию.

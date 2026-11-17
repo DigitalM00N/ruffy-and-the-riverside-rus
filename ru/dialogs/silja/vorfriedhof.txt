@@ -1,0 +1,19 @@
+!Event SiljaNeutral
+!Voice Silja: Fragend = 5
+Silya:
+    Привет, Раффи. Значит, твой путь ведёт тебя в Царство мёртвых?
+
+!Event SiljaDepressed, EyesClosed
+!Voice Silja: Traurig = 1
+Silya:
+    Дорога туда непроста. Похоже, с ней связано множество мест. Дай-ка я ненадолго закрою глаза. О да, я вижу твой путь...
+
+!Event EyesOpen
+!Voice Silja: Neutral = 4
+Silya:
+    Твой путь долог и полон мест. Я вижу Погребённые города, вижу ферму и вижу сердитую рыбу... Как странно.
+
+!Event SiljaShake
+!Voice Silja: Verärgert = 1
+Silya:
+    И лишь в самом конце я вижу Царство мёртвых. Легко не будет.

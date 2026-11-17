@@ -1,0 +1,179 @@
+!Camera HPCAM1
+!Event ErsteFahrtKamera
+!Pause 0.5
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 8
+Hohepriester:
+    Добро пожаловать, Избранный!
+
+!Camera HPCAM2
+!Sprite Hohepriester: defaultTalk
+Hohepriester:
+    Врата Базилики не открываются без причины, и открываются они лишь в тёмные времена.
+
+!Camera HPCAM3
+!Sprite Hohepriester: think
+!Voice Hohepriester: Misc = 4
+Hohepriester:
+    Гролл и его тёмные силы вновь пробудились и несут в наш мир хаос и кошмары.
+
+!Camera HPCAM3 offset 3 duration 2
+!Sprite Hohepriester: amazed
+Hohepriester:
+    Ядро мира ослабло, и его магия почти угасла. Внемли же мне, о Избранный!
+
+!Camera PipCamera
+!Sprite Pip: laugh, Ruffy: idle
+!Voice Pip: Erschrecken = 4
+Pip:
+    Он правда считает тебя Избранным!
+
+!Camera RCAM1
+!Sprite Ruffy: grumpy, Pip: idle
+!Voice Ruffy: Agreement = 9
+Ruffy:
+    Тсс! Не перебивай его. Он всё-таки Верховный жрец.
+
+!Camera HPCAM4 target HPCAM3
+!Sprite Hohepriester: happyTalk
+Hohepriester:
+    Теперь лишь тебе под силу развеять тьму и исцелить Ядро мира.
+
+!Camera RCAM1
+!Sprite Ruffy: deny
+!Voice Ruffy: Worry = 2
+Ruffy:
+    Не знаю, готов ли я к такому.
+
+!Camera HPCAM2
+!Sprite Hohepriester: amazed
+!Voice Hohepriester: Misc
+Hohepriester:
+    Ты наша последняя надежда, и я тоже хочу подарить тебе надежду. Так слушай же.
+
+!Sprite Ruffy: idle, Pip: idle, Hohepriester: happyTalk
+!Event Musik
+!Camera GS_Cam2
+#!Pause 12.5
+#!Continue none
+!Continue auto
+!Pause 11
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    Итак, детишки, пристегнитесь! Вот наш план спасения!
+
+#!Continue none
+!Continue auto
+#!Pause 1
+Hohepriester:
+    Когда всё плохо, хуже некуда, и пора бы что-то менять... ищи, хватай, неси скорей Священную букву опять!
+
+!Camera BuchstabenCamera
+!Event BuchstabenEvent, BSTAN
+#!Continue none
+!Continue auto
+#!Pause 1
+!Voice Hohepriester: Misc = 8
+Hohepriester:
+    Гролл вернулся — вот беда, дело нешуточное, ребятки... но держись, не раскисай и неси букву без оглядки!
+
+!Camera HPCAM4
+#!Continue none
+!Continue auto
+#!Pause 3
+!Voice Hohepriester: Misc = 1
+Hohepriester:
+    Когда все буквы будут в сборе, Ядро мира спасём мы вскоре.
+
+!Camera RCAM1
+#!Continue none
+!Continue auto
+#!Pause 2
+!Voice Ruffy: Agreement = 11
+Ruffy:
+    Значит, буквы — вот ответ! Важнее букв на свете нет!
+
+!Camera PipCamera
+#!Continue none
+!Continue auto
+#!Pause 2
+!Voice Pip: Lachen = 4
+Pip:
+    Опять про буквы? Что за бред! Хватит болтать, сил моих нет!
+
+!Camera HPCAM3
+#!Continue none
+!Continue auto
+#!Pause 3
+!Voice Hohepriester: Misc = 7
+Hohepriester:
+    Всё ясно, друзья? Ну а теперь узнаем, где эти буквы мы отыскаем.
+
+!Camera Topdown1
+!Event TopViewTimeline
+#!Continue none
+!Continue auto
+!Pause 2
+!Voice Hohepriester: Misc = 4
+Hohepriester:
+    Крутим Колесо мудрости!
+
+!Event Gameshow Timeline
+!Pause 14
+!Camera HPCAM2
+!Sprite Hohepriester: amazed
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    Да будет так! Логово первой Священной буквы открыто.
+
+!Camera HPCAM1
+!Event LightON
+!Sprite Hohepriester: defaultTalk
+Hohepriester:
+    Колесо посылает вас к Пирамиде над морями.
+
+!Camera RCAM1
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 5
+Ruffy:
+    Пирамида? Я её знаю, но как нам туда добраться?
+
+!Camera HPCAM3
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 3
+Hohepriester:
+    Будет нелегко, ведь каждая Священная буква спрятана самым надёжным образом. А значит, спрятана дважды.
+
+!Camera PipCamera
+!Sprite Pip: talkDoubt
+!Voice Pip: Staunen = 5
+Pip:
+    Спрятана дважды? Это как?
+
+!Camera HPCAM4
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 8
+Hohepriester:
+    Ха-ха-ха, да, это тоже часть нашего тайного плана спасения! Мы спрятали не только Священные буквы, но и пути, что ведут к их логовам.
+
+!Camera PipCamera
+!Sprite Pip: talk
+!Voice Pip: Misc = 7
+Pip:
+    Серьёзно? Вы спрятали пути? И как это вообще работает?
+
+!Camera HPCAM2
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    Именно так, мы спрятали пути. Ну, по крайней мере, небольшую их часть.
+
+!Camera HPCAM1
+Hohepriester:
+    Они спрятаны глубоко под землёй, в Погребённых городах, и найти их там может только Избранный.
+!Event EndDialog1
+
+!Voice Hohepriester: Misc = 12
+!Sprite Hohepriester: happyTalk > think
+Hohepriester:
+    Скорее! Спустись в Погребённые города, и ты найдёшь путь к первой букве!

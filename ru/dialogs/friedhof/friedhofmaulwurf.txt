@@ -1,0 +1,80 @@
+!Event DisableCutscene
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: serious
+!Camera CameraPortal target Eddler duration 2
+!Voice Eddler: Attack_Laugh = 1
+Sir Eddler:
+    Пора в Базилику, Раффи. Наше путешествие только начинается. Давай узнаем, куда оно приведёт нас дальше.
+
+# MINNA LANDUNG
+!Pause 2
+!Event MinnaLanden
+!Sprite Ruffy: think, Sir Eddler: leanRight, Pip: idle
+!Camera Minna
+!Voice Minna: begrüßend = 1
+Minna:
+    Вижу, вы нашли ещё одну Священную букву. Какое облегчение.
+
+!Sprite Minna: beg
+!Camera EddlerMinnaM target MinnaClose duration 3
+!Voice Minna: besorgt = 1
+Minna:
+    Скорее несите её в Базилику, ведь тени всё сильнее проникают в наш мир.
+
+!Camera MinnaClose target MinnaCloser duration 2
+Minna:
+    С каждым днём наше положение, кажется, всё хуже. Из западных лесов уже доходят слухи, от которых меня бросает в дрожь.
+
+!Sprite Minna: blink, Sir Eddler: positivRight
+!Camera EddlerMinnaM target EddlerMinna duration 1
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Так говори же без страха. Что случилось в западных лесах?
+
+!Sprite Sir Eddler: leanRight, Minna: talk
+!Camera EddlerMinna target EddlerMinnaM duration 1
+!Voice Minna: neutral = 2
+#abwägend
+Minna:
+    За Чудесным лесом случилось ужасное потрясение. Я ощутила его каждым пёрышком. И это ещё не всё! Похоже, древесные стражи покидают наш мир.
+
+!Event EnablePipCam
+!Sprite Pip: talkDoubt, Ruffy: idle2, Minna: blink
+!Voice Pip: Staunen = 1
+Pip:
+    Древесные кто? Никогда о них не слышал.
+
+!Event DisablePipCam
+!Sprite Pip: back, Ruffy: idleBack, Minna: secret
+!Camera MinnaClose
+!Voice Minna: neutral = 1
+Minna:
+    У древесных стражей много имён. Одни зовут их просто маленьким народцем. Другие называют Древними. А сами они зовут себя Этои.
+
+!Sprite Pip: idle, Ruffy: idleHalfBackLeft, Minna: blink, Sir Eddler: serious
+!Camera Overview2
+Sir Eddler:
+    Они маленькие создания, но обладают великой силой. Они заботятся о благополучии деревьев и лугов.
+
+!Sprite Pip: talkHappy, Sir Eddler: lean, Ruffy: talkHalfBackLeft
+!Camera Overview2 target Overview2P duration 1
+!Voice Pip: Lachen = 5
+Pip:
+    Этои из-за Чудесного леса... как загадочно.
+
+!Sprite Pip: idle, Sir Eddler: bashful
+!Camera Overview2P target Overview2 duration 1
+!Voice Eddler: Agreement = 2
+Sir Eddler:
+    Загадочно. Да. И судьбоносно для всего нашего мира.
+
+!Sprite Pip: back, Ruffy: idleBack, Sir Eddler: positiv
+!Camera Eddler
+Sir Eddler:
+    Дети, чего же мы ждём? Нельзя терять ни минуты. Давайте скорее выясним, что произошло за Чудесным лесом.
+
+!Sprite Minna: cheer
+!Camera Minna
+!Voice Minna: zustimmend = 3
+Minna:
+    Ты прав, Эддлер! Не будем терять времени. Встретимся в Базилике.
+!Event MinnaAbflug

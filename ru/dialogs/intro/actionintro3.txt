@@ -1,0 +1,17 @@
+!Camera ECamFar
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Превосходно. Вот это настоящая командная работа! А теперь бегите в безопасное место. Я догоню вас через секунду. Только откопаю вот этот миленький самоцвет!
+
+!Camera PCam2
+!Sprite Pip: talk, Sir Eddler: secret
+!Voice Pip: Misc = 5
+Pip:
+    Что?! Ты серьёзно собираешься копать дальше?
+
+!Sprite Sir Eddler: secret
+!Camera ECamFar
+!Voice Eddler: Greeting = 1
+Sir Eddler:
+    Да ладно, он уже наполовину снаружи. Справлюсь. Увидимся позже, детишки.

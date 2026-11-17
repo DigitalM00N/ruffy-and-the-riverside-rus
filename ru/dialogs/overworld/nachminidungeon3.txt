@@ -1,0 +1,11 @@
+!Camera Eddler
+!Sprite Sir Eddler: cheer, Pip: idle
+!Voice Eddler: Surprize_Positive = 4
+Sir Eddler:
+    Чудесно! Просто фантастика! Какая отличная находка.
+
+!Camera Pip
+!Sprite Pip: talkSparkle, Ruffy: idle2
+!Voice Pip: Lachen = 4
+Pip:
+    Ага, круто, правда? Мы нашли рельс. Ты же знаешь, на нас можно положиться.

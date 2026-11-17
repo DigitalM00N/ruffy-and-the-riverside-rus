@@ -1,0 +1,49 @@
+!Camera Pip
+!Sprite Pip: talkSparkle, Ruffy: idle2
+!Voice Pip: Staunen = 2
+Pip:
+    Ух ты-ы-ы!!! Глядите, что умеет обелиск!
+
+!Camera Mayle target MayleClose duration 3
+!Sprite Pip: happy, Mayle: sing
+!Voice Mayle: Laugh_Friendly = 4
+Mayle:
+    Это не только обелиск. Это сама природа. Она возвращается во всей своей силе. Проклятие чёрной смолы снято.
+
+!Camera Ruffy
+!Sprite Ruffy: proud, Mayle: idle
+!Voice Ruffy: Surprise_Positive = 2
+Ruffy:
+    О, вы только посмотрите на дерево! Оно снова выросло.
+
+!Camera Baum1 target Baum2 duration 8
+!Sprite Mayle: sing
+!Voice Mayle: Surprise_Positive = 4
+Mayle:
+    Новое дерево с новой жизнью, новыми силами и новыми чувствами.
+
+Mayle:
+    Новорождённое Древо жизни. Я чувствую это каждой клеточкой.
+
+!Camera Baum3
+!Sprite Mayle: idle
+Mayle:
+    Мысли древа проникают в наши души. Мы чувствуем, о чём оно думает, а оно знает, что чувствуем мы.
+
+!Camera Mayle
+!Sprite Mayle: sing
+!Voice Mayle: Agreement = 1
+Mayle:
+    Его мудрость ведёт нас, а его радость помогает нам нести исцеление в мир.
+
+!Camera Ruffy
+!Sprite Ruffy: talk
+!Voice Ruffy: Agreement = 6
+Ruffy:
+    Вот это хорошая новость, потому что миру там, снаружи, исцеление ой как нужно!
+
+!Camera Mayle
+!Sprite Mayle: plant
+!Voice Mayle: Agreement = 7
+Mayle:
+    Как ты прав. Многим местам сейчас нужно исцеление, и корни древа знают их все.

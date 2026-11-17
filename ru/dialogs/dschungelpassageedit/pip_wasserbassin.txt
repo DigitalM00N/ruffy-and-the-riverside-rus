@@ -1,0 +1,6 @@
+!Camera camera_down
+!Sprite Ruffy: idleBack, Pip: talkDoubt
+!Voice Pip: Traurig = 6
+Pip:
+    Интересно, почему этот бассейн пустой. Бассейну ведь нужна вода, правда?
+!Camera camera_down target camera_up duration 1

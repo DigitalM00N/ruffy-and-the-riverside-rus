@@ -1,0 +1,9 @@
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc
+Hohepriester:
+    Колесо посылает вас к Пирамиде над морями.
+
+!Sprite Hohepriester: amazed
+!Voice Hohepriester: Misc
+Hohepriester:
+    Скорее! Спустись в Погребённые города, и ты найдёшь путь к первой букве!

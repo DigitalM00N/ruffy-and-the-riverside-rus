@@ -1,0 +1,34 @@
+!Camera Start target Veena duration 1
+!Sprite Veena: talkHappy
+!Voice Veena: Surprise_Negative = 1
+Veena:
+    Ох, Раффи, это правда, что объявился Гролл?
+
+!Camera Veena target Etoi duration 3
+!Sprite Veena: talkSad
+!Event EtoiShocked
+!Voice Veena: Greeting = 4
+Veena:
+    Мои бедные Этои совсем перепуганы. Они чувствуют, что что-то не так.
+
+!Camera Etoi target Veena duration 2
+!Sprite Veena: talkHappy
+!Voice Veena: Question = 3
+Veena:
+    Здесь, на ферме, они в безопасности, но там, снаружи, столько других Этои.
+
+!Event EtoiIdle
+!Voice Veena: Thoughtful = 3
+Veena:
+    Наверное, они прячутся и боятся.
+
+!Sprite Veena: talkSad
+!Voice Veena: Question = 2
+!Camera Veena
+Veena:
+    Пожалуйста, смотри в оба и ищи спрятавшихся Этои. Я приму их всех и дам им приют, пока опасность не минует.
+
+!Camera Veena target VeenaClose duration 2
+!Voice Veena: Agreement = 9
+Veena:
+    Сколько Этои ты уже нашёл? Ох, боюсь, я совсем сбилась со счёта. Спроси лучше вон у Идди. Он знает каждого Этои и точно скажет, сколько ещё не хватает.

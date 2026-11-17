@@ -1,0 +1,30 @@
+!Camera CubeClose target Cube duration 2
+!Sprite Pip: back, Ruffy: idleHalfBackLeft
+!Voice Groll: Conniving = 3
+Groll:
+    А-а-ах... как хорошо. Здешняя вода — чистое блаженство!
+
+!Camera PipRuffy target Ruffy duration 1
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: Agreement = 8
+Ruffy:
+    Здорово! Вот что значит немного искупаться. Как думаешь, скоро тебе станет лучше?
+
+!Camera Both target Cube duration 3
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Voice Groll: Realization = 3
+Groll:
+    Да ты посмотри на меня! Вы так меня отделали, что я потерял все свои цвета. Одной воды мало, волшебная она или нет.
+
+!Camera PipRuffy target RuffyClose duration 1
+!Sprite Ruffy: shocked, Pip: idle
+!Voice Ruffy: Question = 14
+Ruffy:
+    Волшебства мало? А что тебе ещё нужно?
+
+!Camera Both
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Voice Groll: Surprise_Negative = 1
+Groll:
+    Мои цвета! Красный! Синий! Жёлтый! Просто все мои цвета. Это вы их из меня выбили. Теперь верните их обратно!
+!Event DisableVolume

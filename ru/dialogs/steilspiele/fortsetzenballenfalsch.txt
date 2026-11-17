@@ -1,0 +1,5 @@
+!Camera KameraSteepy target KameraSteepyClose duration 2
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: Talk
+!Voice Steepy: Realization = 5
+Steepy:
+    Ого, бро! Для второго заезда тебе понадобится железный тюк. Возвращайся, когда раздобудешь!

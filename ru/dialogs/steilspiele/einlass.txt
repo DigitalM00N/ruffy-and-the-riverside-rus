@@ -1,0 +1,26 @@
+!Camera KameraStart target KameraFranky duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Flitzi: talk
+!Voice Bally: Greeting
+Franky:
+    Привет, бро. Добро пожаловать на Крутые игры!
+
+!Voice Bally: Laugh_Friendly
+Franky:
+    Здесь самые забойные полёты и самые отпадные трюки во всём Риверсайде! Записаться на соревнование можно прямо у рампы.
+
+!Camera KameraOverviewClose target KameraOverviewBack duration 2
+!Sprite Flitzi: idle2, Ruffy: talkHalfBackLeft
+!Voice Ruffy: Question = 14
+Ruffy:
+    Соревнование? Мы не ради состязания пришли. Мы ищем Священную букву. Она должна быть где-то здесь, наверху!
+
+!Camera KameraOverviewBack target KameraFranky duration 1
+!Sprite Flitzi: think, Ruffy: idleHalfBackLeft
+!Voice Bally: Question
+Franky:
+    Священная буква? Извини, впервые слышу. Насколько я знаю, победитель получает кубок, но мне-то откуда знать?
+
+!Sprite Flitzi: talk
+!Voice Bally: Laugh_Friendly
+Franky:
+    Я тут только слежу, чтобы никто не протащил тюнингованный тюк.

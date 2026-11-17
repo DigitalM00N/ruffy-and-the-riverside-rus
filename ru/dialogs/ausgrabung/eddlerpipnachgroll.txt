@@ -1,0 +1,43 @@
+!Camera SirEddler
+!Sprite Sir Eddler: shake, Ruffy: idleHalfBackLeft
+!Voice Eddler: Surprise_Negative = 6
+Sir Eddler:
+    Клянусь всеми добрыми землеройками! Что же мы натворили? ГРОЛЛ вернулся...
+
+!Camera Pip
+!Sprite Pip: talkDoubt
+!Voice Pip: Erschrecken = 7
+Pip:
+    ГРОЛЛ? Тот самый Гролл из легенды? Разве такое возможно?
+
+!Camera SirEddler
+!Sprite Sir Eddler: seriousRight
+!Voice Eddler: Frustration = 5
+Sir Eddler:
+    Боюсь, что так! Видели, как быстро он нашёл шарики? Похоже, он точно знает, где они. Даже мы, кроты, этого не знаем!
+
+!Sprite Sir Eddler: sniff
+!Camera SirEddler target SirEddler2 duration 1
+!Voice Eddler: Thoughtful = 2
+Sir Eddler:
+    Он будто чует шарики носом.
+
+!Sprite Sir Eddler: leanBack, Ruffy: grumpy
+!Camera Lande1 target Lande duration 5
+!Voice Eddler: Frustration = 6
+Sir Eddler:
+    А теперь он рыщет по округе в их поисках. Только посмотрите, сколько он всего разрушает! Чудовищно!
+
+!Sprite Sir Eddler: positivRight
+!Camera Silja target Silja1 duration 6
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Нужно немедленно поговорить с Сильей. Только старая черепаха подскажет нам, что делать.
+
+!Camera Pip
+!Sprite Pip: talkHappy, Ruffy: cheer
+!Voice Pip: Agree = 3
+Pip:
+    Да, Силья всегда знает, что делать! Скорее к её пруду.
+
+!Event Eingraben

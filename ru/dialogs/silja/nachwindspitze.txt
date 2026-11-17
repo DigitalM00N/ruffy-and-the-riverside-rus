@@ -1,0 +1,9 @@
+!Event SiljaNod
+!Voice Silja: Lachen = 2
+Silya:
+    Привет, Раффи. Мы уже совсем близко к цели.
+
+!Event SiljaNice
+!Voice Silja: Neutral = 3
+Silya:
+    Теперь обрати свой взор к Базилике Лучших. Колесо мудрости укажет тебе путь.

@@ -1,0 +1,103 @@
+!Camera Pip
+!Sprite Pip: talkAngry, Ruffy: idle2
+!Voice Pip: Hmm = 2
+Pip:
+    Какая подлость! Ну попадись он мне!
+
+!Camera Pip target Ruffy duration 1
+!Sprite Pip: idle, Ruffy: think
+!Voice Ruffy: Thoughtful = 3
+Ruffy:
+    Интересно, что он имел в виду...
+
+!Camera Ruffy target Pip duration 1
+!Sprite Pip: talkDoubt, Ruffy: idle2
+!Voice Pip: Begrüßen = 4
+Pip:
+    Когда назвал тебя мелким комком шерсти?
+
+!Camera Pip target Ruffy duration 1
+!Sprite Pip: idle, Ruffy: deny
+!Voice Ruffy: Thoughtful = 11
+Ruffy:
+    Нет, он сказал, что использует ОБМЕН во зло. Разве такое вообще возможно? Тёмный ОБМЕН? Это кажется таким неправильным.
+
+!Event spawnEule
+!Camera EuleFar target Eule duration 1
+!Sprite Minna: beg
+!Pause 2
+!Voice Minna: freuend = 1
+Minna:
+    Эй, вот вы где! Я вас повсюду ищу!
+
+!Camera AlleM target AlleR duration 2
+!Sprite Minna: blink, Ruffy: talkLeft
+!Voice Ruffy: Question = 2
+Ruffy:
+    Минна, ты должна рассказать мне правду про ОБМЕН. Он правда может быть злым?
+
+!Camera AlleR target AlleM duration 2
+!Sprite Ruffy: idleSideLeft, Minna: talk
+!Voice Minna: neutral = 1
+Minna:
+    ОБМЕН — удивительная вещь.
+
+Minna:
+    У тебя ОБМЕН рождается в чистом сердце и приходит в мир добрым заклинанием.
+
+!Camera AlleM target Eule duration 2
+!Sprite Minna: sadLeft
+!Voice Minna: besorgt = 2
+Minna:
+    Но когда он рождается в злом сердце, то несёт в мир зло.
+
+!Camera RuffyPip target RuffyFar duration 2
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 14
+Ruffy:
+    Значит, Гролл сказал правду. Раньше ОБМЕН исполнял дурные желания.
+
+!Camera EuleVeryFar target EuleFar duration 1
+!Sprite Minna: talk
+!Voice Minna: zustimmend = 1
+Minna:
+    Да, но это были его злые желания! Только его. Гнев Гролла разорил землю и наполнил скорбью все души. Из последних сил мы дали Гроллу отпор и спасли этот мир.
+
+!Sprite Minna: beg
+!Voice Minna: ablehnend = 1
+Minna:
+    После этого мы поклялись, что злые желания больше никогда не проникнут в мир. Время Мрачного камня закончилось, и началось время Ядра мира.
+
+!Camera EuleFar target Eule duration 1
+!Sprite Minna: secretLeft
+!Voice Minna: erstaunt = 1
+Minna:
+    Пока Ядро мира хранит этот мир, оно не допустит ни одного злого ОБМЕНА.
+
+!Camera RuffyFar target Ruffy duration 2
+!Sprite Ruffy: proud
+!Voice Ruffy: Frustration = 6
+Ruffy:
+    Но теперь Гролл хочет снова превратить Ядро мира в Мрачный камень! Он хочет выпустить на волю тёмный обмен!
+
+!Sprite Ruffy: think
+!Voice Minna: schockiert = 1
+Minna:
+    Он правда так сказал? Он правда говорил о тёмном обмене?
+
+!Camera RuffyPip
+!Voice Ruffy: Anger = 6
+Ruffy:
+    Да, говорил. Но почему ты так удивилась? Он ведь просто очень плохой парень, разве нет?
+
+!Camera Eule
+!Sprite Minna: beg
+Minna:
+    Да-да, конечно, плохой парень... просто это очень... неожиданно. Нам нужно скорее к Силье. Она должна узнать об этом немедленно!
+
+!Camera Turm target Portal2 duration 3
+!Pause 2
+!Voice Minna: zustimmend = 1
+Minna:
+    Я открою вам портал в Риверсайд.
+!Event spawnPortal2, Abflug

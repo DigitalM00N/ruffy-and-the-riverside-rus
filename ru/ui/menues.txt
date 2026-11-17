@@ -1,0 +1,7 @@
+Quests:    Задания
+Progress:  Прогресс
+Controls:  Управление
+Textures:  Мольберт
+Settings:  Настройки
+Savestate: Выбор сохранения
+Map:       Карта

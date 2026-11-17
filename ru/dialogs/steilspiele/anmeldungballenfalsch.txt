@@ -1,0 +1,5 @@
+!Camera KameraSteepyClose
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: Idle
+!Voice Steepy: Realization = 5
+Steepy:
+    Ого, бро! Для первого заезда тебе нужен деревянный тюк. Возвращайся, когда раздобудешь!

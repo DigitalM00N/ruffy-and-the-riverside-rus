@@ -1,0 +1,98 @@
+!Camera KameraRuffy
+!Sprite Ruffy: shocked
+!Voice Ruffy: Worry = 4
+Ruffy:
+    Мы проиграли.
+
+!Camera KameraRuffy
+!Sprite Ruffy: deny
+!Voice Ruffy: Frustration = 7
+Ruffy:
+    План спасения провалился. Эмблема уничтожена, и скоро мы потеряем и Ядро мира.
+
+!Event Biene
+!Camera KameraPip
+!Sprite Pip: idle
+!Voice Pip: Jump = 1
+Pip:
+    ...
+
+!Camera KameraQwin1
+!Event QwinKommt
+!Sprite Meister Qwin: happy
+!Voice Qwin: Laugh_Heavy = 4
+Qwin:
+    Раффи! Мальчик мой! Ты жив!!!
+
+!Camera KameraQwin1 target KameraQwin2 duration 1
+!Sprite Meister Qwin: idle
+!Voice Qwin: Greeting = 4
+Qwin:
+    Клянусь всеми кистями и палитрами! Как же я за тебя волновался!
+
+!Camera KameraRuffy
+!Sprite Ruffy: shocked
+!Voice Ruffy: Surprise_Positive = 5
+Ruffy:
+    Ох, Квин...
+
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 20
+Ruffy:
+    Что же такое случилось?
+
+!Sprite Ruffy: grumpy
+!Voice Ruffy: Question = 11
+Ruffy:
+    Куда подевались наши славные времена? Когда ОБМЕН только копировал картины, а жизнь была простой?
+
+!Sprite Ruffy: shake
+!Voice Ruffy: Frustration = 4
+Ruffy:
+    Зачем я ушёл из твоей художественной мастерской? Почему я тебя не послушал?
+
+!Event QwinTauschen
+!Camera KameraQwin1
+!Sprite Meister Qwin: talk
+!Voice Qwin: Realization = 1
+Qwin:
+    О, ты послушал. Ты послушал зов своего сердца.
+
+!Camera KameraruffyNah
+!Voice Ruffy: Worry = 6
+Ruffy:
+    Но теперь мир лежит в руинах, а я не смог этого остановить.
+
+!Camera KameraQwin1
+!Sprite Meister Qwin: idle
+!Voice Qwin: Thoughtful = 3
+Qwin:
+    Что ж, тут ты, к сожалению, прав. Даже моя прекрасная художественная мастерская разрушена. Всё сломано. Холсты, краски, кисти. Ничего не осталось.
+
+!Camera KameraRuffy
+!Sprite Ruffy: idle
+Ruffy:
+    ...
+
+!Camera KameraQwin1
+!Sprite Ruffy: idleHalfBackRight, Meister Qwin: talk
+!Voice Qwin: Agreement = 2
+Qwin:
+    Надеюсь только, что ты поможешь мне разгрести этот бардак, когда выгонишь Гролла из Риверсайда.
+
+!Camera KameraRuffy
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 17
+Ruffy:
+    Прошу прощения?
+
+!Camera KameraQwin1
+!Sprite Meister Qwin: happy
+!Voice Qwin: Laugh_Medium = 1
+Qwin:
+    Ну конечно! Чего ты ждёшь? Покажи этому Гроллу, на что ты способен! Давно пора от него избавиться.
+
+!Sprite Meister Qwin: idle
+!Voice Qwin: Realization = 1
+Qwin:
+    Ты прошёл долгий путь, мальчик мой. Теперь сделай последние шаги.

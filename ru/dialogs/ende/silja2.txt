@@ -1,0 +1,72 @@
+!Voice Silja: Neutral = 3
+!Event SiljaNice
+!Camera OverviewS
+!Sprite Ruffy: idleBack
+Silya:
+    Не волнуйся, Раффи. Я уверена, Ядро мира в надёжном месте.
+
+!Event SiljaIdle
+!Sprite Ruffy: shocked
+!Camera Ruffy
+!Voice Ruffy: Question = 8
+Ruffy:
+    Как ты можешь быть такой спокойной? Его же унесло неизвестно куда, и никто не знает, где оно.
+
+!Sprite Ruffy: think
+!Camera Ruffy
+!Voice Ruffy: Worry = 4
+Ruffy:
+    А если с ним что-нибудь случится, тут же наступит конец света. Все реки остановятся...
+
+!Voice Silja: Ratgebend = 1
+!Event SiljaShake
+!Camera OverviewS
+!Sprite Ruffy: idleBack
+Silya:
+    Раффи, поверь мне. Ядро мира в надёжном месте. Может быть, оно всё время там и было. Всегда.
+
+# Licht dringt durch die Ritzen des Schildkrötenpanzers. Es wird klar, dass Silja den Weltkern beherbergt.
+!Event SiljaIdle, Glow
+!Sprite Ruffy: idleBack
+!Camera SiljaFar target SiljaClose duration 6
+!Pause 8
+!Voice Ruffy: Question = 13
+Ruffy:
+    Силья? Ты? Оно у тебя? Нет, постой... ты и ЕСТЬ Ядро мира?!
+
+!Camera Ruffy
+!Sprite Ruffy: shocked
+!Voice Ruffy: Surprise_Negative = 1
+Ruffy:
+    Но я же видел Ядро мира своими глазами! Как оно было связано с Эмблемой. И его тайник в горе! Тайник за дверью со стрелками...
+
+!Voice Silja: Fragend = 4
+!Event SiljaNeutral
+!Sprite Ruffy: idleBack
+!Camera SiljaFar
+Silya:
+    Раффи, подумай сам. Разве у тайников бывают двери? Да ещё и со стрелками?
+
+!Event SiljaIdle
+!Camera Ruffy
+!Sprite Ruffy: idle
+Ruffy:
+    ...
+
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 14
+Ruffy:
+    Но... значит, всё это время дело было вовсе не в Ядре мира? А в чём же тогда?
+
+!Voice Silja: Neutral = 4
+!Event SiljaShake
+!Camera SiljaFar
+!Sprite Ruffy: idleBack
+Silya:
+    Хмм... может быть...
+
+!Event SiljaNice
+!Camera SiljaClose offset 1 duration 5
+!Voice Silja: Ratgebend
+Silya:
+    Может быть, нужно было просто понять, что здесь маленькое, а что большое. Кто бы мог сказать это заранее?

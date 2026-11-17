@@ -1,0 +1,9 @@
+!Camera Player target Eddler duration 2
+!Sprite Sir Eddler: positiv
+Sir Eddler:
+    Эй, Раффи, вот и ты! Я уж было сам собирался откопать Руку надежды, но раз ты здесь, лучше сделай это сам.
+
+!Sprite Sir Eddler: agreeLeft
+!Voice Eddler: Realization = 3
+Sir Eddler:
+    Насколько мне известно, Рука надежды прямо там, наверху башни.

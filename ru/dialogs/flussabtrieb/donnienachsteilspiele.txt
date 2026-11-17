@@ -1,0 +1,20 @@
+!Camera KameraStart target KameraDonnie duration 2
+!Sprite Ruffy: idleBack, Pip: back, Donnie: talk
+!Event lichtDonnie
+!Voice Hickory: Attack_Laugh = 3
+Donnie:
+    Эй, бро! Сорян, все тюки сейчас разобраны! Почему-то прямо сейчас всем приспичило сплавляться вниз по реке, вообще жесть, бро!
+
+!Camera KameraRuffy
+!Sprite Ruffy: talk, Pip: idle
+!Event lichtNormal
+!Voice Ruffy: Surprise_Negative = 4
+Ruffy:
+    Но нам очень нужен тюк!
+
+!Camera KameraDonnie
+!Sprite Ruffy: idleBack, Pip: back, Donnie: deny
+!Event lichtDonnie
+!Voice Hickory: Worry = 3
+Donnie:
+    Сорян, бро! У меня не осталось ни одного тюка, но есть старый тюк, который сто лет валяется на мосту. Правда, не знаю, держится ли он ещё на воде...

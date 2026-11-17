@@ -1,0 +1,16 @@
+!0
+!Voice Pix: Cheer
+Pix:
+    Эй, Раффи, ты и правда нашёл ещё один камень снов!
+
+!Voice Pix: Thoughtful
+Pix:
+    Дай-ка взглянуть, что там у тебя...
+
+Pix:
+    Хммм...
+
+!1
+!Voice Pix: Laugh_Friendly
+Pix:
+    ДА!

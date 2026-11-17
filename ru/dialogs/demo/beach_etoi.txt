@@ -1,0 +1,17 @@
+!Sprite ETGelb: dance
+!Camera Et1
+!Voice Pip alt: Begrüßend = 1
+Etoi:
+    Ой, ты меня заметил! Пожалуйста, не обижай меня.
+
+!Sprite ETGelb: think
+!Camera Et1 target Stern1 duration 3
+!Voice Pip alt: Fragend = 1
+Etoi:
+    А, тебе нужна всего лишь эта старая звезда? Ну, прямо от сердца отлегло! В благодарность открою тебе маленький секрет.
+
+!Camera Stern1 target Zeichnung duration 3
+!Sprite ETGelb: jump
+!Voice Pip alt: Freuend = 1
+Etoi:
+    Совсем рядом есть ещё одна звезда, но чтобы её достать, тебе надо запомнить этот рисунок на стене.

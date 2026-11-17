@@ -1,0 +1,17 @@
+!Camera Start target camera_Frog duration 1
+!Sprite William: talk
+!Voice William: Surprise_Positive = 4
+William:
+    Эй, ещё одна бутылка. Ну-ка, посмотрим!
+
+!Sprite William: read
+!Voice William: Surprise_Positive = 5
+William:
+    Хм, ага! Тут ещё один рисунок.
+
+!Camera camera_Frog target camera_Stein duration 2
+!Event Display
+!Voice William: Agreement = 2
+William:
+    Добавлю его к остальным на картину.
+!Pause 2

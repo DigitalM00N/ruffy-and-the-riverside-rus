@@ -1,0 +1,9 @@
+!Event SiljaNice
+!Voice Silja: Neutral = 2
+Silya:
+    Верь, Раффи. Ступай в Базилику и спроси совета у колеса! Оно укажет тебе путь в Северные земли.
+
+!Event SiljaNod
+!Voice Silja: Zustimmend =3
+Silya:
+    Только там мы сможем узнать, что задумал Гролл.

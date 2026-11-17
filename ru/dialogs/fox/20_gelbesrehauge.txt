@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 4
+!Event Schmetterling20
+Quintus:
+    Это жёлтый оленеглаз.
+    Он из семейства пёстрых ласточек.
+
+!Voice Quintus: Agreement = 10
+Quintus:
+    Оленеглазы обожают игру красок на цветочных лугах.
+!Sprite Fuchs: idle
+
+Quintus:
+    По вечерам они сидят на ветках и любуются закатом.

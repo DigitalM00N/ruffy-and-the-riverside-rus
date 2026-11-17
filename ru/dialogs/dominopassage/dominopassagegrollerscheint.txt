@@ -1,0 +1,44 @@
+!Camera Groll_1
+!Voice Groll: Greeting = 2
+Groll:
+    Так-так, посмотрите, кто к нам пожаловал.
+
+!Event Lachen
+!Camera Groll_2
+!Voice Groll: Laugh_Confident = 10
+Groll:
+    Медведь с фокусами и пчела с длинным языком.
+
+!Camera Pip
+!Sprite Pip: talkAngry, Ruffy: idle2
+!Voice Pip: Hurt = 3
+Pip:
+    Это у кого длинный язык? Сначала ты губишь нашу страну, а теперь прячешься тут среди камней.
+
+!Camera Groll_2
+!Event Idle2
+!Voice Groll: Laugh_Friendly = 3
+Groll:
+    Ха-ха-ха. Я не прячусь. Совсем наоборот. Я вас здесь ждал. Рад, что вы наконец пришли.
+
+!Camera Groll_2
+!Event Nachdenken
+!Voice Groll: Realization = 2
+Groll:
+    Я наблюдал за вами. И мне понравилось то, что я увидел. Ваши фокусы...
+
+!Event Think
+!Camera Groll_3
+Groll:
+    Просто восхитительно.
+
+!Event Idle2
+!Camera Groll_1
+!Voice Groll: Conniving = 3
+Groll:
+    У меня ведь тоже есть парочка фокусов, знаете?
+
+!Event Aufgebracht
+!Camera Groll_2
+Groll:
+    Смотрите.

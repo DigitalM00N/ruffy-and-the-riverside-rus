@@ -1,0 +1,5 @@
+!Camera PixelBaerKamera duration 1
+!Voice Pix: no
+!0
+Pix:
+    Это не закат. Ещё один обмен, пожалуйста.

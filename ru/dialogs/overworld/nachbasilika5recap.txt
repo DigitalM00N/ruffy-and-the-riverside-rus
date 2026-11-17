@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 1
+Sir Eddler:
+    Значит, мы и правда держим путь в Северные земли. Надеюсь, хоть в этот раз всё пройдёт гладко.

@@ -1,0 +1,4 @@
+!Sprite Hohepriester: amazed
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    Царство мёртвых — ваша следующая цель. Найдите туда путь в Погребённых городах!

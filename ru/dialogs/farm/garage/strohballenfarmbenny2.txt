@@ -1,0 +1,10 @@
+!Camera camera_3
+!Event no
+!Sprite Ruffy: idleHalfBackRight, Pip: back, FBGelb: talk
+!Voice Benny: Greeting = 1
+Benny:
+    Здорóво, Раффи! Поздравляю. Ты показал нам, что можно обойтись без тюнинга. А может, это мы недостаточно тюнингуем.
+
+!Voice Benny: Thoughtful = 1
+Benny:
+    Надо будет об этом подумать.

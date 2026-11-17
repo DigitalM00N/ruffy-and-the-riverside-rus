@@ -1,0 +1,11 @@
+!Camera camera_1
+!Event no
+!Sprite Ruffy: idleHalfBackRight, Pip:idle, FBRot: talk
+!Voice Billy: Laugh_Friendly = 1
+Billy:
+    Поздравляю с первым местом, приятель! Вот это гонка мне по душе. Жёсткая, но честная.
+
+!Sprite FBRot: talk
+!Voice Billy: Greeting = 6
+Billy:
+    С другой стороны, вся эта грязь была всё-таки немножко нечестной.

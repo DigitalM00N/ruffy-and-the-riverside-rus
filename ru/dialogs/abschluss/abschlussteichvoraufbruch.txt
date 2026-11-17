@@ -1,0 +1,103 @@
+!Camera KameraMayle
+Mayle:
+    Ой, ай! Жёстко вышло.
+
+!Camera KameraRuffy
+!Sprite Ruffy: shocked
+!Voice Ruffy: Thoughtful = 3
+Ruffy:
+    Мейли? Что ты здесь делаешь?
+
+!Camera KameraMayle
+!Sprite Ruffy: idle
+!Voice Mayle: Agreement = 7
+Mayle:
+    Я пришла тебе помочь.
+
+!Camera KameraAlle2
+!Event Purzeln
+!Pause 3
+!Voice Mayle: Agreement = 6
+Mayle:
+    Мы, этои, маленькие, но слишком большие, чтобы и дальше прятаться. Мы будем рядом с тобой, что бы ни случилось.
+
+!Camera KameraEddler
+!Event Eddler
+!Pause 2
+#Eddler buddelt sich aus
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Это относится и ко мне. Мои когти будут сражаться бок о бок с тобой.
+
+!Camera KameraSnokko
+!Event Snokko
+!Sprite Snokko: talk
+!Voice Snokko: Attack_Laugh = 10
+Snokko:
+    Йо, я тоже в деле. Снокко в деле, сечёшь? Я с тобой. До самого конца.
+
+!Camera KameraSnokko target KameraMinna duration 1
+!Event EuleLanden
+!Pause 3
+!Sprite Minna: talk
+!Voice Minna: begrüßend = 1
+Minna:
+    Простите, что опоздала, мне надо было сначала надеть кольчугу.
+
+!Camera KameraMinna target KameraMinna2 duration 1
+!Sprite Minna: secret
+!Voice Minna: erstaunt = 1
+Minna:
+    Я спрятала её под перьями. Будет Гроллу приятный сюрприз. Хи-хи.
+
+!Camera KameraRuffy3
+!Sprite Ruffy: shocked, Minna: blink
+!Voice Ruffy: Question = 9
+Ruffy:
+    Ого! Вы и правда настроены серьёзно. Вы вообще понимаете, во что ввязываетесь?
+
+#drei Fische fahren Skateboard
+!Event Fische
+!Camera KameraFische
+!Pause 5
+!Sprite Fish: joyful talk, Ruffy: idle
+!Voice Fische: Misc = 3
+Leroy:
+    Не, не особо, но мы в деле.
+
+!Camera KameraFische target KameraEddler duration 2
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Greeting = 2
+Sir Eddler:
+    Лерой, старина! Мы собираемся на битву с Гроллом. Ты всё ещё с нами?
+
+!Camera KameraEddler target KameraFische duration 2
+!Sprite Fish: amused
+!Sprite Sir Eddler: lean
+!Voice Fische: Misc = 1
+Leroy:
+    Конечно, Эддлер, я же только что сказал. Мы в деле. Когда начинаем?
+
+!Camera KameraSnokko
+!Sprite Snokko: talk, Fish: idle
+!Voice Snokko: Question = 6
+Snokko:
+    Йо, когда?
+
+!Camera KameraSnokko target KameraQwin1 duration 1
+!Sprite Meister Qwin: talk
+!Voice Quin: Agreement = 1
+Qwin:
+    Я бы сказал... сейчас.
+
+!Camera KameraAlle3
+!Sprite Ruffy: positiv
+!Voice Ruffy: Agreement = 4
+Ruffy:
+    ДА!
+
+!Camera KameraAlle3 target KameraRuffyNah duration 1
+!Sprite Ruffy: cheer
+!Voice Ruffy: Cheer = 5
+Ruffy:
+    СЕЙЧАС!

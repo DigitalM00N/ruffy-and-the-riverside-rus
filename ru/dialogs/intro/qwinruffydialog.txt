@@ -1,0 +1,70 @@
+!Camera QwinKamera
+!Sprite Ruffy: idleHalfBackLeft
+!Voice Qwin: Worry = 5
+Qwin:
+    Мой дорогой Раффи. Послушай меня.
+
+!Camera Qwin2Kamera target QwinKamera duration 5
+!Voice Qwin: Frustration = 4
+Qwin:
+    Двенадцать лет ты был на моём попечении, и ты мне как сын.
+
+!Voice Qwin: Thoughtful = 1
+Qwin:
+    Но мир снаружи, похоже, изменился. Ты нужен ему больше, чем мне.
+
+!Camera RuffyKamera
+!Sprite Ruffy: think, Pip: laugh
+!Voice Ruffy: Thoughtful = 3
+Ruffy:
+    Не понимаю. Что изменилось?
+
+!Camera Qwin2Kamera
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Voice Qwin: Realization = 1
+Qwin:
+    Может, ничего, а может, многое. Скоро сам узнаешь.
+
+!Camera Qwin2Kamera target QwinKamera duration 2
+!Voice Qwin: Surprise_Positive = 2
+Qwin:
+    Пришло время тебе последовать за Сэром Эддлером. Доверься ему. Он добрая душа.
+
+!Sprite Meister Qwin: talk
+!Camera QwinKamera
+!Voice Qwin: Question = 4
+Qwin:
+    Только сделай мне одолжение — всегда береги себя, ладно?
+
+!Sprite Pip: happy, Ruffy: proud
+!Camera RuffyKamera
+!Voice Ruffy: Agreement = 11
+Ruffy:
+    Обязательно, Мастер Квин. И я потороплюсь. Может, уже завтра вернусь!
+
+!Camera RuffyKamera target BieneKameraQwin duration 3
+!Sprite Pip: talk, Ruffy: idle2
+!Voice Pip: Lachen = 3
+Pip:
+    Не волнуйтесь, дорогой мастер! Я присмотрю за Раффи.
+
+Pip:
+    Четыре глаза видят больше, чем два, а если станет жарко, я подхвачу Раффи и унесу его в безопасное место!
+
+!Pause 2
+!Event Heben
+!Camera RuffyKamera target RuffyKameraFar duration 1
+!Voice Ruffy: Laugh_Friendly = 10
+Ruffy:
+    Не волнуйтесь, мастер! Я уже не маленький, и вы многому меня научили. Я скоро вернусь.
+
+!Camera QwinKamera
+!Sprite Ruffy: idleBack, Pip: back
+!Voice Qwin: Realization = 3
+Qwin:
+    Как же ты прав.
+
+!Camera QwinKamera target Qwin0Kamera duration 5
+!Voice Qwin: Agreement = 2
+Qwin:
+    А теперь ступай. Сэр Эддлер ждёт тебя прямо за городскими воротами.

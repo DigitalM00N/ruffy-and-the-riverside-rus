@@ -1,0 +1,4 @@
+!Sprite SchlangeCool: Staunen
+!Voice Steepy: Surprise_Positive = 5
+Roybert:
+    Ого, просто невероятно. Ты обогнал всех Пятерых парней. Да ты настоящий мастер жульничества! Вот твоя награда!

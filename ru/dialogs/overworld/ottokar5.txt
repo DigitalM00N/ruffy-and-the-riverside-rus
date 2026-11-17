@@ -1,0 +1,4 @@
+!Sprite Daag: happyTalk
+!Voice Hohepriester: Misc
+Ottokar:
+    Даже не знаю, как тебя отблагодарить, Раффи. Ты восстановил честь нашей семьи.

@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 12
+!Event Schmetterling12
+Quintus:
+    Это жёлтый пескоплав.
+    Он из семейства пляжных соней.
+
+!Voice Quintus: Agreement = 2
+Quintus:
+    Говорят, пескоплавы днём собирают цвет солнца, а ночью красят им песок.
+!Sprite Fuchs: idle
+
+Quintus:
+    Неужели это правда?

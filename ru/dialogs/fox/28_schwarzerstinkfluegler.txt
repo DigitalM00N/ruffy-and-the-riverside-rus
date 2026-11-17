@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 13
+!Event Schmetterling28
+Quintus:
+    Это чёрный вонекрыл.
+    Он из семейства ароматокрылов.
+
+!Voice Quintus: Agreement = 8
+Quintus:
+    Вообще-то все они пахнут цикламеном, но только не вонекрыл.
+!Sprite Fuchs: idle
+
+Quintus:
+    Я бы сказал, давай-ка его поскорее отпустим.

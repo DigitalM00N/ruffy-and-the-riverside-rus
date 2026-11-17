@@ -1,0 +1,34 @@
+!Camera KameraTuku
+!Sprite Blue Bear: talk
+!Voice Bally: Greeting = 3
+Tuku:
+    Прости, впустить тебя я не могу, но, может, хочешь ещё раз послушать историю пещеры?
+* Да, пожалуйста.
++4
+* Нет, может, потом.
+
+!Voice Bally: Agreement = 2
+Tuku:
+    Легенда гласит, что когда-то Нотори укрылись здесь, когда на мир обрушилось Великое опустошение.
+
+!Camera KameraTuku target KameraHöhle duration 1
+!Voice Bally: Realization = 4
+Tuku:
+    Пещера дала нам всё, что нужно для жизни. Плоды, воду, даже свет. Понимаешь? Поэтому для нас, Нотори, это было настоящее новое начало.
+
+!Camera KameraHöhle target KameraTuku duration 1
+!Sprite Blue Bear: cheer
+!Voice Bally: Surprise_Positive = 4
+Tuku:
+    А ещё говорят, что именно здесь, в этой пещере, мы открыли в себе любовь к природе.
+
+!Sprite Blue Bear: deny
+!Voice Bally: Greeting = 5
+Tuku:
+    К сожалению, впустить тебя я не могу, ведь пещера открыта только для нас, Нотори.
++1
+
+!Sprite Blue Bear: cheer
+!Voice Bally: Laugh_Friendly = 7
+Tuku:
+    Ну ладно, как скажешь. Но пещера и правда особенная. Это уж точно!

@@ -1,0 +1,143 @@
+!Camera EddlerStart
+!Sprite Sir Eddler: secret
+!Voice Eddler: Greeting = 1
+Sir Eddler:
+    Эй, Минна, просыпайтесь. Ядро мира приземлилось. Эта дурацкая штуковина.
+
+!Camera Core
+!Voice Minna: fragend = 1
+Minna:
+    Ой, Ядро мира! И совсем разбилось... теперь мир остановится, да?
+
+!Camera EddlerTalk
+!Sprite Sir Eddler: serious
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Ха-ха-ха, очень смешно.
+
+!Camera Core
+Sir Eddler:
+    Это Ядро мира — всего лишь картон, краска и лампочка. Слава богу, Раффи за всё это время ничего не заметил.
+
+!Camera EddlerTalk
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    С первого взгляда же видно, что эта штука — подделка.
+
+!Camera MinnaTalk
+!Sprite Minna: talk
+!Event EddlerIdleBehind
+!Voice Minna: ablehnend = 3
+Minna:
+    Ха-ха-ха, это верно. Но своё дело она сделала. Наша маленькая тренировка для Раффи удалась.
+
+!Camera EddlerTalk
+!Event EddlerIdle
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Да, это так. Но какой ценой? Теперь все считают меня чокнутым кротом, которым завладел Мрачный камень и который чуть не погубил мир.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Attack_Laugh = 3
+Sir Eddler:
+    Вся эта шумиха изрядно подпортила мою безупречную репутацию. Вы хоть понимаете это?
+
+!Camera MinnaTalk
+!Sprite Minna: cheer
+!Event EddlerIdleBehind
+!Voice Minna: freuend = 1
+Minna:
+    Ха-ха-ха. Но ведь никто особо и не удивился. Либо вы талантливый актёр, либо все и правда считают вас слегка чокнутым. Ха-ха-ха!
+
+!Camera EddlerTalk
+!Sprite Sir Eddler: serious
+!Voice Eddler: Thoughtful = 2
+Sir Eddler:
+    Да, ужасно смешно...
+
+!Camera MinnaTalk
+!Sprite Minna: talk
+!Event EddlerIdleBehind
+!Voice Minna: neutral = 3
+Minna:
+    Ну полно вам, Эддлер... Мы правда очень благодарны. Только вы могли так впечатляюще сыграть Гролла.
+
+Minna:
+    Теперь мы знаем, что Раффи — Избранный. В этом ведь и был весь смысл.
+
+Minna:
+    Если настоящий Гролл однажды и правда вернётся, Раффи сможет нас защитить.
+
+!Camera EddlerTalk
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    Да не настанет этот день никогда.
+
+!Camera MinnaTalk
+!Event EddlerIdleBehind
+!Voice Minna: ablehnend = 1
+Minna:
+    Да, пусть он никогда не настанет. Мне и нашего ненастоящего Гролла хватило, чтобы перепугаться.
+
+Minna:
+    Особенно у Потоков красок. Там вы и правда перестарались. Все эти проклятия и злобные угрозы. Было по-настоящему страшно.
+
+!Camera EddlerTalk
+!Event EddlerIdle
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Потоки красок? Они что, правда существуют?
+
+!Camera MinnaTalk
+!Event EddlerIdleBehind
+!Voice Minna: fragend = 2
+Minna:
+    Конечно. А почему вы спрашиваете? Вы же там были! Ваш Гролл там был! Настоящее чудовище.
+
+!Sprite Sir Eddler: serious
+!Camera EddlerTalk
+!Voice Eddler: Surprise_Negative = 2
+!Event MusikGroll
+Sir Eddler:
+    ЧТО?! Минуточку!
+
+!Camera EddlerTalk
+!Sprite Sir Eddler: agree
+!Voice Eddler: Laugh_Friendly = 7
+Sir Eddler:
+    Минна, слушайте внимательно: я никогда не бывал у Потоков красок. Ни как Эддлер, ни как Гролл. Ни разу. Никогда.
+
+!Camera MinnaTalk
+!Event EddlerIdleBehind
+!Voice Minna: zustimmend = 2
+Minna:
+    Что? Вы меня разыгрываете?
+
+!Camera EddlerTalk
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Поверьте мне, Минна! Меня там не было. И моего Гролла тоже.
+
+!Camera MinnaTalk
+!Event EddlerIdleBehind
+!Voice Minna: neutral = 2
+Minna:
+    Но Раффи встретил его там. Гролл украл тайну ОБМЕНА. Он хочет призвать тёмный ОБМЕН!
+
+!Voice Minna: schockiert = 1
+Minna:
+    Постойте! Если это были не вы, то кто же тогда?
+
+!Sprite Minna: beg
+!Event Schock
+!Camera MinnaTalk target MinnaSchocked duration 1
+!Voice Groll: Conniving = 3
+Minna:
+    Неужели? Неужели это был... настоящий ГРОЛЛ?!
+
+!Voice Minna: schockiert = 2
+Minna:
+    Ой-ой. Кажется, нам надо поговорить с Раффи. Немедленно.

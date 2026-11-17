@@ -1,0 +1,16 @@
+!Camera Start target Pip duration 5 delay 2
+!Sprite Ruffy: idle2, Pip: talk
+!Voice Pip: Bored = 4
+Pip:
+    И снова мы застряли на пляже.
+
+!Camera Pip target PipClose duration 1
+!Sprite Pip: talkDoubt
+!Voice Pip: Hmm = 2
+Pip:
+    Что мы делаем не так?
+
+!Sprite Pip: talk
+!Voice Pip: Agree = 3
+Pip:
+    Думаю, на этот раз Минна не появится и не откроет нам портал. Теперь только тебе под силу вытащить нас отсюда.

@@ -1,0 +1,5 @@
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Laugh_Friendly = 8
+Sir Eddler:
+    Чего ты ждёшь? Иди ко мне.
+#Aufstützen

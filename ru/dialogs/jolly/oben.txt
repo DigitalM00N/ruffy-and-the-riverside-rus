@@ -1,0 +1,56 @@
+!Sprite Ruffy: idleHalfBackRight, Jobboo: talk
+!Camera StartCamera target JobbooCamera duration 2
+!Voice Jobbo: Misc = 13
+Jobboo:
+    Приветствую! Ты оказал нам огромную услугу. Наконец-то мы снова можем покидать ферму и делать свою работу!
+
+!Camera RuffyCamera
+!Sprite Ruffy: thinkLeft
+!Voice Ruffy: Question = 3
+Ruffy:
+    Вашу работу? А чем вы занимаетесь?
+
+!Voice Jobbo: Misc = 14
+!Sprite Jobboo: talk
+Jobboo:
+    Ну, мы — Водяные стражи. Мы следим за водой в прудах и реках. Следим, чтобы вода нигде не застаивалась. Чтобы течение было правильным, понимаешь?
+
+!Voice Jobbo: Misc
+Jobboo:
+    Стоячая вода быстро становится грязной и начинает вонять, понимаешь? Это беда! Настоящая КАТАСТРОФА и для глаз, и для носа!
+
+!Voice Jobbo: Misc
+Jobboo:
+    Ты когда-нибудь видел бобра, который слишком долго просидел в стоячей воде? Зрелище не из приятных, поверь мне. И запах тоже.
+
+!Camera RuffyCamera
+!Sprite Ruffy: proudLeft
+!Voice Ruffy: Laugh_Friendly = 20
+Ruffy:
+    Ох ты ж, представляю. Значит, вы чистите реки?
+
+!Camera JobbooCamera
+!Sprite Ruffy: idleHalfBackRight
+!Voice Jobbo: Misc = 11
+Jobboo:
+    Не только реки, мой двуногий друг! Мы даже проплываем по водяным туннелям под землёй. Где есть вода, там есть и мы, Водяные стражи!
+
+!Voice Jobbo: Misc
+Jobboo:
+    К сожалению, недавно объявились эти бешеные акулы-задиры. Они мешают нам работать. Если так пойдёт и дальше, скоро здесь будет стоять страшная вонь.
+
+!Camera RuffyCamera
+!Sprite Ruffy: talkLeft
+!Voice Ruffy: Frustration = 2
+Ruffy:
+    Ох ты ж... вонючих бобров нам сейчас только не хватало... Можем мы чем-то помочь?
+
+!Camera JobbooCamera
+!Sprite Ruffy: idleHalfBackRight
+!Voice Jobbo: Misc = 9
+Jobboo:
+    Ну, это было бы здорово, но у тебя ведь нет лицензии на чистку, верно? Когда дело касается гигиены воды, любителей к ней подпускать нельзя, понимаешь?
+
+!Voice Jobbo: Misc
+Jobboo:
+    Но ты мог бы освободить наши аванпосты от этих дурацких акул-задир! Это был бы настоящий подвиг! Пусть даже ты всего лишь сторонний подрядчик.

@@ -1,0 +1,30 @@
+!Camera camera_night
+#!Event no fish
+!Sprite Fish: cheer, Ruffy: idle, Pip: idle
+!Voice Fische: Misc = 1
+Leroy:
+    Эй, Раффи, эй, Пип, рад вас видеть!
+
+!Camera camera_night offset 1 duration 1
+!Sprite Fish: lean talk
+!Voice Fische: Misc = 9
+Leroy:
+    Спасибо за ваш обмен на часовой башне. Ночь в подарок, можно сказать! Рыбья банда снова в деле!
+
+!Camera camera_night_Ruffy
+!Sprite Fish: wait, Ruffy: cheer
+!Voice Ruffy: Cheer = 3
+Ruffy:
+    Не за что.
+
+!Camera camera_night
+!Sprite Fish: lean talk, Ruffy: idle
+!Voice Fische: Misc = 6
+Leroy:
+    Эй, Раффи, смотри-ка. У меня для тебя кое-что есть. Это настоящий камень снов, а я не очень понимаю, что с ним делать.
+
+!Sprite Fish: joyful talk
+!Voice Fische: Misc = 2
+Leroy:
+    Может, тебе он пригодится!
+!Sprite Fish: party

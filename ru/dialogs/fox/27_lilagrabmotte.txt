@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 12
+!Event Schmetterling27
+Quintus:
+    Это лиловая могильная моль.
+    Она из семейства темноглазок.
+
+!Voice Quintus: Agreement = 7
+Quintus:
+    Раньше считалось, что если могильная моль перепорхнёт тебе дорогу — быть беде.
+!Sprite Fuchs: idle
+
+Quintus:
+    Конечно, с точки зрения науки о чешуекрылых это полная чепуха.

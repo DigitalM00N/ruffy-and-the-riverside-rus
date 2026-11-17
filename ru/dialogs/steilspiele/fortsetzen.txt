@@ -1,0 +1,12 @@
+!Camera KameraSteepy
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: Talk
+!Voice Steepy: Question = 3
+Steepy:
+    Йо, глянул свои очки на табло? Готов к следующему заезду, бро?
++1
+* Да, я готов.
+* Нет, мне сначала надо кое-что сделать.
+
+!Voice Steepy: Conniving = 1
+Steepy:
+    Йо, не спеши. Приходи, когда будешь готов.

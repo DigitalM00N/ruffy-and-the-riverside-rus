@@ -1,0 +1,10 @@
+Wasserfall: Водопад
+Holz: Дерево
+Fels: Скала
+Wasserfläche: Водная гладь
+Sand: Песок
+Gras: Трава
+Fluss: Река
+Lavafluss: Лавовая река
+Sandfall: Песчаный водопад
+Vulkanboden: Вулканическая почва

@@ -1,0 +1,4 @@
+!Camera CameraHenry
+!Voice Henry: Misc = 1
+Henry:
+    Конечно! Ищи дальше. До скорого.

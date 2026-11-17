@@ -1,0 +1,5 @@
+!Camera Eddler target Eddler2 duration 2
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Surprise_Positive = 1
+Sir Eddler:
+    Работает, работает, ура! Раффи, ты просто чудо! А теперь спускайся ко мне!

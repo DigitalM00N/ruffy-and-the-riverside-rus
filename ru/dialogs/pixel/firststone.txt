@@ -1,0 +1,42 @@
+!Camera PixStart target Pix duration 2
+!1
+!Voice Pix: jubel
+Pix:
+    Браво, Раффи! Ты и правда добыл камень снов.
+
+!0
+!Voice Pix: Agreement
+Pix:
+    И двигался ты как настоящий художник.
+
+Pix:
+    Уж я-то талант сразу вижу, поверь мне.
+
+!Voice Pix: Laugh_Friendly
+Pix:
+    У тебя точно есть всё, чтобы стать художником мира!
+
+Pix:
+    Так, посмотрим, что ты там принёс...
+
+!Voice Pix: Thoughtful
+Pix:
+    Хммм...
+
+!1
+!Voice Pix: Surprise_Positive
+Pix:
+    Да, точно!
+
+!0
+!Voice Pix: Cheer
+Pix:
+    Это настоящий камень водопада!
+
+Pix:
+    Им можно рисовать водопады.
+
+!Voice Pix: Question
+Pix:
+    Рисовать мир очень просто:
+    просто подойди к мольберту и нарисуй картину.

@@ -1,0 +1,12 @@
+!Sprite Sir Eddler: cheer
+!Camera Camera1 target Camera2 duration 4
+!Pause 3
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Я знал, что ты справишься, Раффи! Идём же сразу за второй Рукой надежды.
+
+!Sprite Sir Eddler: agreeLeft
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Горная башня — на восточном холме. Я закопаюсь и буду ждать тебя там.

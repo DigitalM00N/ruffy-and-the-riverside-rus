@@ -1,0 +1,5 @@
+!Camera TonneCam target LuxCam2 duration 6
+!Sprite Lux: defaultTalk
+!Voice Hohepriester: Misc = 11
+Lux:
+    Эй, проказник, не трогай Турботрубу. Ею могут пользоваться только исследователи и учёные. Иначе говоря, светлые головы. Понятно?

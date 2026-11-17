@@ -1,0 +1,5 @@
+!Sprite VogelW: Talk
+!Camera CamB2
+!Voice Vogel: Misc = 1
+Uralter Inselvogel:
+    Что, хочешь пробраться в стену? Эй, косолапый, ты спятил. Или глуповат. Стена для тебя слишком опасна.

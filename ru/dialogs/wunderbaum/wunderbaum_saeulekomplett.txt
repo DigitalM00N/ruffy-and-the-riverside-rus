@@ -1,0 +1,15 @@
+!Pause 3
+!Sprite Mayle: sing
+!Voice Mayle: Greeting = 3
+Mayle:
+    Сила света, согрей нас.
+
+!Sprite Mayle: happy
+!Voice Mayle: Greeting = 2
+Mayle:
+    Сила земли, напитай нас.
+
+!Sprite Mayle: jump
+!Voice Mayle: Greeting = 1
+Mayle:
+    Сила воды, очисти нас.

@@ -1,0 +1,4 @@
+!Sprite ETBraun: think
+!Voice Pipalt: Begrüßend = 1
+Fenja:
+    Ох, горе, горе! Яблоневая роща. Посмотрите, во что она превратилась.

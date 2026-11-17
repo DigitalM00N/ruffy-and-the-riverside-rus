@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 13
+!Event Schmetterling13
+Quintus:
+    Это синий волногон.
+    Он из семейства морских ангелов.
+
+!Voice Quintus: Agreement = 3
+Quintus:
+    Говорят, волногоны умеют поднимать крыльями огромные волны.
+!Sprite Fuchs: idle
+
+Quintus:
+    Звучит очень опасно.

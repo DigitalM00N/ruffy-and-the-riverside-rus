@@ -1,0 +1,63 @@
+!Camera Start target Minna duration 2
+!Sprite Ruffy: idleSideRight, Pip: idle, Minna: beg
+!Voice Minna: erstaunt = 1
+Minna:
+    Здравствуй, Раффи, как я рада тебя видеть! Прежде чем войдёшь в Базилику, удели мне, пожалуйста, минутку.
+
+!Camera OverviewR target OverviewM duration 1
+!Sprite Ruffy: idleSideRight, Minna: talk
+!Voice Minna: zustimmend = 2
+Minna:
+    Хотела бы я знать, что Гролл делает в Северных землях. Сначала я думала, он просто ищет ещё шариков. Но теперь он творит всякие странные вещи.
+
+!Camera OverviewM target OverviewR duration 1
+!Sprite Ruffy: thinkRight, Minna: blink
+!Voice Ruffy: Agreement = 8
+Ruffy:
+    Да, я тоже заметил. Он превращается во всё подряд и меняет форму. Всё время выглядит по-разному.
+
+!Camera OverviewR target OverviewM duration 1
+!Sprite Ruffy: idleSideRight, Minna: sad
+!Voice Minna: besorgt = 2
+Minna:
+    Вот и я о том же. Это по-настоящему жутко. Похоже, он становится всё сильнее и сильнее!
+
+!Camera OverviewM target OverviewR duration 1
+!Sprite Ruffy: talkRight, Minna: blink
+!Voice Ruffy: Anger = 1
+Ruffy:
+    Ага, и, похоже, он ещё и разделяться умеет.
+
+!Camera OverviewR target OverviewM duration 1
+!Sprite Ruffy: idleSideRight, Minna: beg
+!Voice Minna: fragend = 2
+Minna:
+    Разделяться? Что ты имеешь в виду?
+
+!Camera OverviewM target OverviewR duration 1
+!Sprite Ruffy: talkRight, Minna: blink
+!Voice Ruffy: Thoughtful = 5
+Ruffy:
+    Ну, его превращения! Они всё безумнее и безумнее! Однажды я даже видел два кубика.
+
+!Camera OverviewR target OverviewM duration 1
+!Sprite Ruffy: idleSideRight, Minna: sad
+!Voice Minna: schockiert = 2
+Minna:
+    Два?! То есть два кубика? Не может быть! Ты уверен, что видел именно это?
+
+!Sprite Minna: beg
+!Voice Minna: neutral = 1
+Minna:
+    Я обязательно должна в этом разобраться. Решено! Сегодня же отправляюсь в Северные земли.
+
+!Sprite Minna: talk
+!Voice Minna: neutral = 3
+Minna:
+    Что бы ни случилось, продолжай свою миссию и исцели Ядро мира. Я скоро вернусь.
+!Event Abflug
+
+!Camera Pip
+!Voice Pip: Erschrecken = 6
+Pip:
+    Значит, она правда летит в Северные земли! Хоть бы всё обошлось!

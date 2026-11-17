@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 2
+!Event Schmetterling18
+Quintus:
+    Это синяя фея-плясунья.
+    Она из семейства вертокрылок.
+
+!Voice Quintus: Agreement = 8
+Quintus:
+    Эти красавицы от радости кружатся вокруг своей оси.
+!Sprite Fuchs: idle
+
+Quintus:
+    Говорят, они дают всему миру новый размах.

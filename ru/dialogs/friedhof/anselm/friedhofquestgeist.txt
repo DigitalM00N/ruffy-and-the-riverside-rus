@@ -1,0 +1,116 @@
+!Sprite Pip: back, Ruffy: idleBack
+!Event PilzeAusblenden
+!Camera CameraStart target Geist duration 1
+!Voice Anselm: Greeting = 1
+Anselm:
+    Эй, вы! Что вас сюда привело? Живые обычно обходят это место стороной. Хотя мы вообще-то вполне дружелюбные ребята, то есть призраки.
+
+!Sprite Ruffy: talk, Pip: idle
+!Event BlumeAusblenden, PilzeEinblenden
+!Camera RuffyClose
+!Voice Ruffy: Agreement = 4
+Ruffy:
+    Ага, ты вроде славный, по крайней мере для призрака. Мы ищем Священные буквы. Одна из них точно где-то здесь.
+
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Event CutsceneBuchstabeDialog, BlumeEinblenden
+!Camera Overview
+!Voice Anselm: Question = 2
+Anselm:
+    Священные буквы? Ты про вот это?
+
+!Sprite Ruffy: idleBack
+!Event PilzeAusblenden
+!Camera Overview target GeistBuchstabe duration 2
+!Voice Anselm: Thoughtful = 4
+Anselm:
+    Эта дурацкая штука уже целую вечность валяется в моей могиле. Вечно мешает мне спать, да и светится слишком ярко.
+
+!Sprite Ruffy: cheer
+!Event PilzeEinblenden
+!Camera Overview
+!Voice Ruffy: Agreement = 5
+Ruffy:
+    Вот она! Священная буква! Её-то мы и ищем.
+
+!Event PipLarge
+!Sprite Pip: talkHappy, Ruffy: idle2
+!Camera Biene
+!Voice Pip: Erschrecken = 5
+Pip:
+    Отдай её нам! Её нужно срочно отнести в Базилику!
+
+!Sprite Pip: back, Ruffy: idleBack
+!Event PilzeAusblenden, PipNormal
+!Camera GeistBuchstabe
+!Voice Anselm: Agreement = 1
+Anselm:
+    Не так быстро, вы двое! Я бы с радостью от неё избавился, но просто так отдать её вам не могу.
+
+!Camera GeistBuchstabe target Geist duration 1
+!Voice Anselm: Conniving = 1
+Anselm:
+    Сначала окажите мне одну услугу.
+
+!Sprite Ruffy: idleHalfBackLeft
+!Event PilzeEinblenden
+!Camera Geist target Grab1 duration 3
+!Voice Anselm: Agreement = 3
+Anselm:
+    Вы наверняка уже слышали! Сегодня большой конкурс могил. Побеждает самая красивая могила.
+
+!Sprite Pip: talkHappy, Ruffy: idle2
+!Event PipLarge
+!Camera Biene
+!Voice Pip: Lachen = 9
+Pip:
+    Класс! Конкурс на самую красивую могилу? Твоя могила выглядит очень даже здорово!
+
+!Sprite Pip: back, Ruffy: idleHalfBackLeft
+!Event PipNormal
+!Camera GrabErde target Grab1 duration 4
+!Voice Anselm: Laugh_Friendly = 10
+Anselm:
+    Спасибо! Я продумал всё до мелочей. Земля свежепросеяна через сито, а надгробие начищено до блеска.
+
+!Sprite Pip: idle
+!Camera Grab1 target Blumen duration 1
+!Voice Anselm: Greeting
+Anselm:
+    Но вот цветы меня всё ещё беспокоят.
+
+!Sprite Pip: talkHappy, Ruffy: idle2
+!Event PipLarge
+!Camera Biene
+!Voice Pip: Lachen = 8
+Pip:
+    Да цветы же просто загляденье. Не переживай.
+
+!Sprite Pip: idle, Ruffy: idleHalfBackLeft
+!Event PipNormal
+!Camera Blumen
+!Voice Anselm: Frustration = 5
+Anselm:
+    Да, но всё дело в цветах! Каждый год у жюри на уме совершенно определённое сочетание цветов.
+
+!Sprite Ruffy: idleBack, Pip: back
+!Event BlumeEinblenden, PilzeAusblenden
+!Camera Geist
+!Voice Anselm: Frustration = 7
+Anselm:
+    Прямо сейчас жюри обсуждает это сочетание в склепе. Мне нужно узнать, на чём они сойдутся.
+
+!Sprite Ruffy: idleHalfBackLeft
+!Event PilzeEinblenden
+!Camera Overview
+!Voice Anselm: Question = 1
+Anselm:
+    Может, вы проберётесь в склеп и подслушаете судей?
+
+!Sprite Pip: back
+!Event PilzeAusblenden, PipNormal
+!Camera Geist
+!Voice Anselm: Thoughtful = 2
+Anselm:
+    К сожалению, склеп заперт. Вам придётся как-то ввести правильный код в кодовый замок, но больше я ничего не знаю.
+!Event PilzeEinblenden

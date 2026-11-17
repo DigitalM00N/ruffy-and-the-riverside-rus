@@ -1,0 +1,16 @@
+!Camera Start target camera_Frog duration 1
+!Sprite Pip: idle+mirror, Ruffy: idleBack, William: talk
+!Voice William: Surprise_Positive = 2
+William:
+    Глазам не верю. Вы и правда разгадали тайну Лунного острова!
+
+William:
+    Значит, послания в бутылках не врали. Мои фанаты были правы...
+
+!Voice William: Thoughtful = 1
+William:
+    Мои фанаты! Ох, как же я по ним скучаю...
+
+!Voice William: Realization = 5
+William:
+    Знаете что? Я вернусь и дам большой концерт в Риверсайде! Это будет бомба!

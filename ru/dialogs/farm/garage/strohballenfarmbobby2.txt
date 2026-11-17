@@ -1,0 +1,10 @@
+!Camera camera_1
+!Event bb
+!Sprite FBBlau: talk
+!Voice Bobby: Surprise_Positive = 4
+Bobby:
+    Эй, самородок. Не успел появиться на ферме — и уже чемпион.
+
+!Voice Bobby: Agreement = 2
+Bobby:
+    Хотя неудивительно, с таким-то умением скользить по рельсам.

@@ -1,0 +1,13 @@
+!Event Appear
+!Camera Maulwurf1
+!Sprite Ruffy: idleBack
+!Pause 3
+!Voice Eddler: Laugh_Friendly = 2
+Sir Eddler:
+    Вот и вы, путешественники! Живы-здоровы! А я уж боялся, что больше вас не увижу.
+
+!Camera Maulwurf1 target Maulwurf2 duration 1
+!Sprite Sir Eddler: secret, Ruffy: idleHalfBackLeft
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Я даже собирался сочинить о вас кротовье стихотворение.

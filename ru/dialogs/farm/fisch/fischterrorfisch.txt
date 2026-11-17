@@ -1,0 +1,6 @@
+!Camera camera_night
+!Sprite Fish: joyful talk, Ruffy: idle, Pip: idle
+!Voice Fische: Misc = 5
+Leroy:
+    Эй, Раффи, я слышал, в Риверсайде хулиганит акула-задира. Надеюсь, к нам на ферму она не заглянет.
+!Sprite Fish: wait

@@ -1,0 +1,11 @@
+!Camera camera_2
+!Event no
+!Sprite Villeroy: deny
+!Voice Villeroy: Thoughtful = 1
+Villeroy:
+    Йо, с трюками пока не очень. Но да ладно, не всем же быть асами.
+
+!Sprite Villeroy: talk
+!Voice Villeroy: Greeting = 1
+Villeroy:
+    Не сдавайся, дружище, не сдавайся.

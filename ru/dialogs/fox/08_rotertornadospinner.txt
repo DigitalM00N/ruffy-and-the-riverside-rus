@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 8
+!Event Schmetterling08
+Quintus:
+    Это красный смерчекрут.
+    Он из семейства ветропарителей.
+
+!Voice Quintus: Agreement = 8
+Quintus:
+    Говорят, смерчекруты вызывают страшные ураганы, когда машут крыльями во сне.
+!Sprite Fuchs: idle
+
+Quintus:
+    Надеюсь, этот ещё немножко не уснёт, пока я всё не запишу.

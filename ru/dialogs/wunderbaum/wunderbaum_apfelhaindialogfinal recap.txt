@@ -1,0 +1,4 @@
+!Sprite Mayle: jump
+!Voice Mayle: Attack_Laugh = 5
+Mayle:
+    Клянусь великим древом! Появился символ земли! Скорее перенеси его на обелиск!

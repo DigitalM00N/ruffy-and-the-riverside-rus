@@ -1,0 +1,21 @@
+!Camera Mayle
+!Sprite Ruffy: idleBack, Pip: back, Mayle: angst
+!Voice Mayle: Question = 1
+Mayle:
+    Вы тоже это почувствовали? Эту энергию? Кажется, обелиск становится сильнее. Гармония деревьев пробуждает его силу.
+
+!Camera Ruffy
+!Sprite Ruffy: talk, Mayle: idle
+!Voice Ruffy: Agreement = 3
+Ruffy:
+    Да, я чувствую его свежую силу. И он зовёт нас. Зовёт к себе.
+
+!Sprite Mayle: dance
+!Voice Mayle: Surprise_Positive = 4
+Mayle:
+    Это язык духов жизни.
+
+!Sprite Mayle: jump
+!Voice Mayle: Agreement = 6
+Mayle:
+    У меня хорошее предчувствие, друзья. Вперёд, к обелиску!

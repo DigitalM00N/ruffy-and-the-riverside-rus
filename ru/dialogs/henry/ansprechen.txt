@@ -1,0 +1,8 @@
+!Camera CameraHenry
+!Sprite Henry: talk
+!Voice Henry: Misc = 2
+Henry:
+    Привет, Раффи. Ты уже нашёл Узорчатую картофелину? А может, даже сокровище?
+* Расскажи ещё раз секрет Узорчатых картофелин!
+*1 I have found a treasure!
+*2 No, I haven't found anything yet. See you later!

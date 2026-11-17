@@ -1,0 +1,11 @@
+!Camera camera_sirEddler
+!Sprite Sir Eddler: positiv, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Ну, как дела, Раффи? Удалось уже найти тюк?
+
+!Sprite Sir Eddler: shake
+!Camera camera_sirEddler offset 2 duration 1
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    Просто поспрашивай вокруг.

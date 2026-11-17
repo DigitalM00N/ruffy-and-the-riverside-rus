@@ -1,0 +1,14 @@
+!Sprite FishRed: leanTalkLeft , Fishblue: wait
+!Voice Fische: Misc = 1
+Vargon:
+    Эй, Раффи, я слышал, ты теперь водишься с этими малышами, с Этои. Говорят, они тебе доверяют. Может, приведёшь их и почистишь наш пруд?
+
+!Sprite FishBlue: lean talk , FishRed: waitLeft
+!Voice Fische: Misc = 2
+Gorgon:
+    Точно, старик! Если не можешь их найти, обязательно загляни в деревья или каменные столбы. Обычно они прячутся там.
+
+!Sprite FishRed: leanTalkLeft , FishBlue: wait
+!Voice Fische: Misc = 8
+Vargon:
+    Именно. А если они не хотят вылезать из укрытия, преврати укрытие — и они точно выйдут!

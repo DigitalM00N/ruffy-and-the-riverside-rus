@@ -1,0 +1,37 @@
+!Camera KameraSirsilStart target KameraSirsil duration 1
+!Sprite Ruffy: idleBack, Pip: back, Sirsil: talk
+!Voice Sirsil: Positiv = 21
+Sirsil:
+    Приветствую, благородные небожители.
+
+!Camera KameraSirsilClose
+!Sprite Sirsil: shock
+Sirsil:
+    ...
+!Sprite Sirsil: laugh
+!Voice Sirsil: Positiv = 10
+
+!Camera KameraSirsilClose target KameraSirsil duration 2
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv =24
+Sirsil:
+    Добро пожаловать в прокат тюков «Добрая надежда»!
+
+!Camera KameraRuffy
+!Sprite Ruffy: talk, Pip: idle, Sirsil: idle
+!Voice Ruffy: Greeting = 1
+Ruffy:
+    Здравствуйте, мы бы хотели взять напрокат тюк.
+
+!Camera KameraSirsil target KameraDoor duration 4
+!Sprite Ruffy: idleBack, Pip: back, Sirsil: talk
+!Voice Sirsil: Negativ = 10
+Sirsil:
+    Тюк? Ну разумеется. У нас самый большой выбор тюков на всю округу, хи-хи.
+!Sprite Sirsil: laugh
+
+!Camera KameraDoor target KameraSirsil duration 1
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv = 1
+Sirsil:
+    Осмотритесь, а потом возвращайтесь ко мне. А я пока всё подготовлю для проката.

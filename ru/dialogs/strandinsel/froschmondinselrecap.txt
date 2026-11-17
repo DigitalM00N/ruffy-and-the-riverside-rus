@@ -1,0 +1,4 @@
+!Camera camera_Frog
+!Voice William: Question = 2
+William:
+    Эй, вы уже разгадали тайну Лунного острова? Мне жуть как интересно, в чём там дело.

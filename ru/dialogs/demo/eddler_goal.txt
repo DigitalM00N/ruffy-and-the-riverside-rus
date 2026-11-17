@@ -1,0 +1,10 @@
+!Sprite Sir Eddler: secret
+!Camera EddlerTor
+!Voice Eddler: Laugh_Confident = 1
+Sir Eddler:
+    Ха-ха-ха! Признайся! Ты ведь думал, что я буду ждать тебя у тех трёх дверей!
+
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    Видишь ли, мы, кроты, можем прокопаться куда угодно в мгновение ока. Ну, разве что когда земля сырая, тогда чуточку дольше.

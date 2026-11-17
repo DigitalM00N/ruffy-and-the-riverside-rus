@@ -1,0 +1,23 @@
+!Camera camera_sirEddler
+!0
+!Sprite Pip: back
+!Voice Eddler: Frustration = 5
+Sir Eddler:
+    Мы проиграли! Вот досада.
+
+Sir Eddler:
+    Против этих затюнингованных тюков у нас нет ни шанса!
+
+!Camera camera_Pip
+!1
+!Sprite Pip: talkAngry
+!Voice Pip: Hurt = 4
+Pip:
+    Это так нечестно!
+
+!Camera camera_sirEddler
+!0
+!Sprite Pip: back
+!Voice Eddler: Thoughtful = 3
+Sir Eddler:
+    Ты прав, Пип. Чтобы выиграть гонку, придётся пойти на кое-какие хитрости. Осмотри трассу, Раффи. Может, её как-нибудь удастся подправить.

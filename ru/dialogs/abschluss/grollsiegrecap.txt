@@ -1,0 +1,4 @@
+!Camera CCam3
+!Voice Eddler: Worry = 2
+Sir Eddler:
+    Скорее уничтожь перчатку и вытащи меня отсюда!

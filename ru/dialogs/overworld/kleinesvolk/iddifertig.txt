@@ -1,0 +1,5 @@
+!Camera IddiCamera
+!Voice Mayle: Laugh_Friendly = 6
+!Sprite Iddi: Happy
+Iddi:
+    Ты снова собрал нас, Этои, вместе. Мы будем вечно тебе благодарны!

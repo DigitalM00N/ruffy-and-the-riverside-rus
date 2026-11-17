@@ -1,0 +1,68 @@
+!Camera RCam
+!Sprite Ruffy: shocked
+!Voice Ruffy: Surprise_Negative = 1
+Ruffy:
+    Нет! Ядро мира! Оно улетает!
+
+!Camera CCam
+!Voice Groll: Anger = 3
+Groll:
+    Помогите!!
+
+!Camera CCam2
+!Voice Groll: Anger = 1
+Groll:
+    Помогите мне!
+
+!Camera PCam
+!Sprite Pip: angry
+!Voice Pip: Begrüßen = 3
+Pip:
+    Нет! Ни за что!
+
+!Sprite Pip: talkDoubt
+!Voice Pip: Hurt = 1
+Pip:
+    Нет! Ты слишком часто нас обманывал!
+
+!Camera RCam
+!Sprite Ruffy: grumpy
+!Voice Ruffy: Anger = 1
+Ruffy:
+    Больше мы на это не купимся!
+
+!Camera CCam
+!Voice Groll: Anger = 2
+!Voice Eddler: Worry = 1
+Groll:
+    Нет, нет, нет, вы не понимаете... это я!
+
+!Camera CCam2
+!Voice Groll: Greeting = 1
+!Voice Eddler: Worry = 2
+Groll:
+    Это я! Эддлер!
+
+!Sprite Ruffy: shocked
+!Camera RCam2
+!Voice Ruffy: Surprise_Negative = 3
+Ruffy:
+    ЭДДЛЕР?!
+
+!Continue none
+!Event EnableEddler
+!Voice Eddler: Realization = 3
+Groll:
+    Да, это я! Скорее! Вытащи меня из этой перчатки!
+
+#Ruffy geht zum Groll. Wenn Ruffy sich nähert, sieht man Eddler im Handschuh.
+!Camera CCam3
+!Voice Eddler: Worry = 3
+Sir Eddler:
+    Поторопись, Раффи. Вытащи меня! Я тут сейчас зажарюсь, как на гриле!
+
+!Camera CCam4
+!Sprite Sir Eddler: Help
+!Voice Eddler: Surprise_Negative = 3
+Sir Eddler:
+    Скорее уничтожь перчатку и вытащи меня отсюда!

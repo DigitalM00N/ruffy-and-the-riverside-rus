@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 7
+!Event Schmetterling22
+Quintus:
+    Это синий луговик.
+    Он из семейства медоглотов.
+
+!Voice Quintus: Agreement = 2
+Quintus:
+    Этого уютного мотылька можно встретить везде, где пахнет цветами и нектаром.
+!Sprite Fuchs: idle
+
+Quintus:
+    Настоящий гурман!

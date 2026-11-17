@@ -1,0 +1,4 @@
+!Sprite VogelW: Happy
+!Voice Vogel: Misc = 1
+Uralter Vogel:
+    Эй, бурый, у тебя и правда получилось! Ты очень умный, можешь собой гордиться.

@@ -1,0 +1,4 @@
+!Sprite Mayle: think
+!Voice Mayle: Question = 5
+Mayle:
+    Вы тоже это почувствовали? Будто обелиск зовёт нас!

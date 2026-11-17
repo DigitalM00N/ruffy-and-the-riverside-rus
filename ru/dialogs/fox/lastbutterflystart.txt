@@ -1,0 +1,24 @@
+!Camera Kamera2
+!Sprite Fuchs: idle
+!Voice Quintus: Realization = 4
+Quintus:
+    Эй, ты вернулся! Только не говори, что нашёл последнюю бабочку?
+
+Quintus:
+    Я сейчас с ума сойду! Ещё один первый контакт. Последний первый контакт, так сказать!
+
+!Voice Quintus: Relief = 5
+Quintus:
+    В последний раз, и снова впервые, хи-хи — это невыносимо!
+!Sprite Fuchs: happy
+
+!Voice Quintus: Surprise_Positive = 7
+Quintus:
+    Я от волнения едва держу Библию бабочек.
+
+Quintus:
+    *Прочищает горло* Хи-хи...
+
+!Voice Quintus: Surprise_Positive = 3
+Quintus:
+    ДА! Это он!

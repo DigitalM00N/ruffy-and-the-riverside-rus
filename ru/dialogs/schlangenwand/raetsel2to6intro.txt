@@ -1,0 +1,10 @@
+!Camera SteepyCamera
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv
+Slythia:
+    О несведущий, я чувствую, что твоя духовность возросла. Увы, лишь чуть-чуть, но я этого и ожидала. Продолжай в том же духе.
+
+!Sprite Sirsil: idle
+!Voice Sirsil: Positiv
+Slythia:
+    Узри змею. Приведи мысли в порядок. И вскоре ты распознаешь её путь.

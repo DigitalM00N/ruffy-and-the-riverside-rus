@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 1
+Sir Eddler:
+    Отправимся в Базилику и узнаем, где спрятана последняя Священная буква!

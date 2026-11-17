@@ -1,0 +1,5 @@
+!Sprite Sir Eddler: agree
+!Camera EddlerTor target EddlerTor2 duration 3
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Эта дверь — крепкий орешек! Нам нужно ни много ни мало 10 звёзд, но я знаю, ты справишься!

@@ -1,0 +1,41 @@
+!Pause 1
+!Camera Overview target OverviewE duration 2
+!Sprite Ruffy: idleHalfBackLeft, Pip: idle, Sir Eddler: positiv
+!Voice Eddler: Laugh_Friendly = 1
+Sir Eddler:
+    Ха-ха-ха. Вы такие бледные. Верховный жрец вас напугал?
+
+!Camera OverviewE target OverviewR duration 1
+!Sprite Ruffy: talkLeft, Pip: idle, Sir Eddler: lean
+!Voice Ruffy: Thoughtful = 8
+Ruffy:
+    Следующая буква спрятана в Царстве мёртвых.
+
+!Camera PipFar target Pip duration 2
+!Sprite Ruffy: idle2, Pip: talk
+!Voice Pip: Lachen = 2
+Pip:
+    Жутковато, а?
+
+!Camera Overview target OverviewE duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: idle, Sir Eddler: positiv
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Не волнуйтесь, друзья мои. Я частенько бывал в Царстве мёртвых.
+
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Thoughtful = 5
+Sir Eddler:
+    Даже пару могил вырыл. Славные были времена!
+
+!Camera OverviewE target OverviewR duration 1
+!Sprite Sir Eddler: lean, Ruffy: thinkLeft
+!Voice Ruffy: Question = 2
+Ruffy:
+    Дай угадаю. Сначала нам нужно найти потерянный кусок пути, и только потом мы сможем попасть в Царство мёртвых?
+
+!Camera Overview target OverviewE duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: idle, Sir Eddler: talkLeft
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Именно так! Схватываешь на лету...

@@ -1,0 +1,9 @@
+!Camera Camera1 target Camera2 duration 4
+!Sprite Sir Eddler: cheer, Ruffy: idleBack, Pip: back
+Sir Eddler:
+    Моё почтение, Раффи. Ты прошёл испытание Базилики Лучших. Давненько её врата не открывались. Пожарных, правда, иногда пускают, но это не в счёт.
+
+!Sprite Sir Eddler: agreeLeft
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Можешь собой гордиться. А теперь ступай в Базилику и прими свою судьбу.

@@ -1,0 +1,56 @@
+!Camera camera_Sun_Insel duration 1
+!Voice Sonne: Greeting = 3
+Sonne:
+    Здравствуй, медвежонок.
+    Говорят, ты умеешь особый фокус, который исполняет любые желания?
+
+!Camera camera_Overview_Pip
+!Sprite Ruffy: idleSideRight, Pip: talkSparkle
+!Voice Pip: Agree = 3
+Pip:
+    Да, умеет! Он умеет делать ОБМЕН!
+
+!Camera camera_Overview_Pip target camera_Overview_Sun duration 1
+!Sprite Pip: idle
+!Voice Sonne: Surprise_Positive = 1
+Sonne:
+    О, славно. Очень славно. Может, окажешь мне маленькую услугу, мой дорогой друг?
+
+!Camera camera_Overview_Sun target camera_Overview_Ruffy duration 1
+!Sprite Ruffy: proudRight
+!Voice Ruffy:Thoughtful = 11
+Ruffy:
+    Конечно, дорогое солнце. Чем я могу помочь?
+
+!Camera camera_Overview_Ruffy target camera_Overview_Sun duration 1
+!Sprite Ruffy: idleSideRight
+!Voice Sonne: Agreement = 1
+Sonne:
+    Говорят, ночь вовсе не тёмная, а полна звёзд. Говорят, они сверкают и сияют, как прекраснейшие драгоценные камни.
+
+!Camera camera_Overview_Sun target camera_Overview_Pip duration 1
+!Sprite Pip: talk
+!Voice Pip: Agree = 2
+Pip:
+    Да, если так посмотреть, в ночи и правда что-то есть.
+
+!Camera camera_Pip_Insel
+!Sprite Pip: back, Ruffy: idleBack
+!Voice Sonne: Laugh_Friendly = 7
+Sonne:
+    Ох, как бы мне хотелось это увидеть. Мы, солнца, знаем только день: куда бы я ни пошло, всюду как раз день.
+
+!Camera camera_Pip_Insel target camera_Sun_Insel duration 1
+!Voice Sonne: Realization = 3
+Sonne:
+    Я хочу наконец полюбоваться красотой ночи.
+
+!Camera camera_Ruffy
+!Sprite Ruffy: think, Pip: idle
+!Voice Ruffy: Thoughtful = 3
+Ruffy:
+    Я тебя понимаю, но чем же я могу помочь?
+
+!Voice Sonne: Thoughtful = 1
+Sonne:
+    Я видело, как ты рисовал эту чудесную картину на стене вон там. Погоди-ка. Сейчас я перенесу её сюда.

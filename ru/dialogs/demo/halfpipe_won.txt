@@ -1,0 +1,16 @@
+!Camera KameraSteepyFar target KameraSteepy duration 4
+!Sprite SchlangeCool: Staunen
+!Voice Steepy: Surprise_Positive = 1
+Steepy:
+    Ух ты, это было просто улётно! Редко я видел такие крутые трюки. А стиль у тебя — вообще космос!
+
+!Sprite SchlangeCool: Shake
+!Voice Steepy: Greeting = 3
+Steepy:
+    С твоим талантом тебя ждёт звёздная карьера отвязного хардкорного райдера на тюках сена. Это тебе не шутки.
+
+!Sprite SchlangeCool: Talk
+!Camera KameraSteepy target KameraSteepyFar duration 4
+!Voice Steepy: Agreement = 4
+Steepy:
+    Короче: эту звезду ты честно заслужил! Поздравляю!

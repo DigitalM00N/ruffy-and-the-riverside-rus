@@ -1,0 +1,13 @@
+!Camera Start target Veena duration 1
+!Sprite Veena: talkHappy
+!Voice Veena: Laugh_Friendly = 8
+Veena:
+    Раффи, ох, как хорошо, что ты пришёл. Я тебя ждала.
+
+!Voice Veena: Question = 3
+Veena:
+    Скажи, пожалуйста: это правда, что ты исцелил Древо жизни? Ох, как чудесно!
+
+!Voice Veena: Thoughtful = 2
+Veena:
+    Теперь понятно, почему Этои вернулись в своё убежище. Ты обязательно должен их там навестить. Может, им пригодится твоя помощь.

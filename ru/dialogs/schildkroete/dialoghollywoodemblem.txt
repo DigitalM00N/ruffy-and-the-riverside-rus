@@ -1,0 +1,108 @@
+!Camera ECamSchild
+!Sprite Sir Eddler: serious, Ruffy: idleBack, Pip: idle
+!Voice Eddler: Attack_Laugh = 7
+Sir Eddler:
+    Вот она. Почтенная Эмблема.
+
+!Camera Camschild1 target Camschild2 duration 6
+!Sprite Ruffy: shocked, Pip: idle
+!Voice Ruffy: smash = 2
+!Voice Ruffy: Surprise_Negative = 5
+Ruffy:
+    Быть не может! Посмотрите на вывеску города! Она вся разломана!
+
+!Camera PipCamSchild
+!Sprite Pip: angry
+!Voice Pip: Erschrecken = 11
+Pip:
+    Какая подлость! Я так зол!
+
+!Camera ERCamSchild
+!Sprite Ruffy: idleSideRight, Pip: idle, Sir Eddler: shake
+!Voice Eddler: Frustration = 7
+Sir Eddler:
+    Да, и всё хуже, чем я думал!
+
+!Sprite Ruffy: thinkRight, Sir Eddler: lean
+!Voice Ruffy: Question = 20
+Ruffy:
+    Но почему? В смысле, это же просто вывеска.
+
+!Camera ECamSchild
+!Sprite Sir Eddler: secret, Ruffy: idleBack, Pip: back
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Увы, нет! Как сказала Силья, это не обычная вывеска. Буквы не просто складываются в название нашей деревни.
+
+!Sprite Sir Eddler: agree + mirror
+Sir Eddler:
+    На самом деле буквы напрямую связаны с самым могущественным шариком из всех, что мы находили.
+
+!Camera RuffyCamSchild
+!Sprite Ruffy: think
+!Voice Ruffy: success = 6
+Ruffy:
+    Ещё один шарик? И вы подключили его к этой вывеске?
+
+!Camera ECamSchild
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: secret
+!Voice Eddler: Greeting = 3
+Sir Eddler:
+    Да, самый большой и самый могущественный из всех. Мы зовём его Ядром мира. И да, мы подключили его к вывеске. И не просто так.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Realization = 3
+Sir Eddler:
+    После Великого опустошения мы спрятали Ядро мира в этой горе, чтобы защитить его от злых сил.
+
+!Camera ERCamSchild
+!Sprite Ruffy: idleSideRight, Sir Eddler: seriousFrontHalf, Pip: idle
+Sir Eddler:
+    Ядро мира оберегает наш мир. Благодаря ему текут реки, растут деревья, и оно даже направляет путь солнца и луны. Ну, в общем, всё на нём держится...
+
+!Sprite Sir Eddler: secret
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Это двигатель и душа нашего мира!
+
+!Camera RuffyCamSchild
+!Sprite Ruffy: shocked
+!Voice Ruffy: success = 1
+Ruffy:
+    Ого, буду знать! И это Ядро мира спрятано здесь, в горе? Но при чём тут Эмблема?
+
+!Camera ECamSchild
+!Sprite Sir Eddler: agree,  Ruffy: idleBack, Pip: back
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Когда Эмблема сияет, сияет и доброта Ядра мира. Но когда страдает Эмблема, страдает и Ядро мира.
+
+!Sprite Sir Eddler: shake
+!Voice Eddler: Thoughtful = 2
+Sir Eddler:
+    Откровенно говоря, боюсь, Ядро мира повреждено так же сильно, как и Эмблема.
+
+!Camera CamSchild1 target Camschild2 duration 12
+!Voice Pip: Begrüßen = 3
+Pip:
+    Ничего себе! Плохие новости. Вывеска-то, ну, выглядит ужасно, да?
+
+!Voice Eddler: Thoughtful = 5
+Sir Eddler:
+    Да, выглядит она скверно. Нужно немедленно добраться до Ядра мира и проверить его. Без Ядра мира этому миру конец. Всё просто.
+
+!Camera RuffyCamSchild
+!Sprite Ruffy: think, Pip: idle
+!Voice Ruffy: scan = 3
+Ruffy:
+    Но как нам добраться до Ядра мира? Оно ведь спрятано глубоко в горе?
+
+!Camera ECamSchild
+!Sprite Sir Eddler: serious, Ruffy: idleBack, Pip: back
+Sir Eddler:
+    Не волнуйся. Туда есть вход. Но говорят, открыть его может только Избранный. В этом-то и загвоздка...
+
+!Camera ECamSchild
+!Sprite Sir Eddler: serious, Ruffy: idleBack, Pip: back
+Sir Eddler:
+    Почему бы тебе не попробовать, Раффи? Может, именно ТЫ найдёшь тайный вход и даже откроешь его. Нам нужно знать, насколько сильно пострадало Ядро мира.

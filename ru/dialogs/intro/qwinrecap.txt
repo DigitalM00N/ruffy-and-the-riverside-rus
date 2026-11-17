@@ -1,0 +1,4 @@
+!Sprite Meister Qwin: talk
+!Voice Qwin: Question = 1
+Qwin:
+    Чего ты ждёшь, Раффи? Иди спроси клиентов, какие картины им нужны.

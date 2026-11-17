@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: positivRight, Ruffy: idleSideRight, Pip: idle
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Балли наконец задремал, и тюк лежит в его грузовике совсем без присмотра. Иди и забери его! Ради Риверсайда!

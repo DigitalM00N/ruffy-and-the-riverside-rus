@@ -1,0 +1,6 @@
+#!Camera camera_low_near target camera_low duration 1
+!Camera camera_low target camera_high duration 1 delay 1
+!Sprite Ruffy: idleBack, Pip: talk
+!Voice Pip: Erschrecken = 7
+Pip:
+    Ух ты, выглядит мудрёно. Интересно, для чего это колесо.

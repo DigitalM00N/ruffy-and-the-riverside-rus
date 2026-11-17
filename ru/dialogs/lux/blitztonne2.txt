@@ -1,0 +1,5 @@
+!Camera LuxCam
+!Sprite Lux: defaultTalk
+!Voice Hohepriester: Misc = 12
+Lux:
+    Силой молнии ты и впрямь разгадал тайну Турботруб. Весьма умно. Что ж, пожалуй, стоит привлечь тебя к моим исследованиям.

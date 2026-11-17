@@ -1,0 +1,18 @@
+!Camera TVKamera target TVKamera2 duration 3
+!Sprite Pip: talk
+!Voice Pip: Stauenen = 4
+Pip:
+    Ух ты, Снокко, отличная работа! Ты только посмотри на эти мониторы!
+
+!Camera Snokko
+!Sprite Snokko: talk, Pip: idle
+!Voice Snokko: Laugh_Friendly = 10
+Snokko:
+    Да не за что. Мне и самому было в кайф!
+
+!Event V
+!Pause 5.3
+!Camera Snokko
+!Voice Snokko: Agreement = 9
+Snokko:
+    На большом мониторе теперь твоя последняя буква. Хватай её и перенеси ОБМЕНОМ на маленький монитор.

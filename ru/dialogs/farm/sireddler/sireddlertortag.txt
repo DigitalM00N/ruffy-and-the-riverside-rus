@@ -1,0 +1,17 @@
+!Camera camera_side
+!Sprite Sir Eddler: cheer, Ruffy: idleHalfBackLeft, Pip: idle
+!Voice Eddler: Attack_Laugh = 1
+Sir Eddler:
+    Эй, чемпион! Готов выиграть гонку?
+
+!Camera camera_side target camera_side_pip duration 1
+!Sprite Sir Eddler: lean, Pip: talk
+!Voice Pip: Lachen = 10
+Pip:
+    И-ха! Раффи их всех одной левой сделает!
+
+!Camera camera_side_pip target camera_side_sir duration 1
+!Sprite Sir Eddler: positiv, Pip: idle
+!Voice Eddler: Laugh_Friendly = 1
+Sir Eddler:
+    Ха-ха-ха, Пип. Ты и правда настоящий друг!

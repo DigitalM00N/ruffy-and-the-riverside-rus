@@ -1,0 +1,11 @@
+!Sprite Pip: laugh, Ruffy: idleBack
+!Camera PCam1
+!Voice Pip: Staunen = 3
+Pip:
+    Ого, да он здорово спешит. И уже исчез!
+
+!Sprite Pip: talk
+!Camera PCam1 target PCam2 duration 4
+!Voice Ruffy: Lachen = 12
+Pip:
+    Но не волнуйся, мы его мигом найдём. Давай просто глянем на нашу карту.

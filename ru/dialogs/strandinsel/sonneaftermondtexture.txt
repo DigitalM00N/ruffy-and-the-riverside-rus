@@ -1,0 +1,5 @@
+!Camera camera_Mondtexture0 target camera_Mondtexture1 duration 2
+!Voice Sonne: Question = 5
+Sonne:
+    Ух ты, что это? Интересно, что с этим можно сделать.
+#!Camera camera_Mondtexture0 target camera_Mondtexture1 duration 2

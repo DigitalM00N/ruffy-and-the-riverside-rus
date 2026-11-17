@@ -1,0 +1,16 @@
+!Camera Joboo1 target Joboo2 duration 3
+!Sprite Jobboo: talk
+!Voice Jobbo: Misc = 6
+Jobboo:
+    Эй, Раффи, ты видел бабочку в волшебной стене вон там?
+
+!Camera Wand1 target Wand2 duration 4
+!Voice Jobbo: Misc = 13
+Jobboo:
+    К сожалению, бабочку сторожит Хмурое дерево, но если соединить силу воды с огненной мощью лавы, ты поставишь его на колени, то есть на корни.
+
+!Camera Joboo2
+!Sprite Jobboo: laugh
+!Voice Jobbo: Misc = 3
+Jobboo:
+    И не волнуйся, я пока побуду тут, снаружи.

@@ -1,0 +1,27 @@
+!Event DisableFlugRuffy
+!Camera camera_Ruffy
+!Sprite Ruffy: deny, Pip: idle
+!Voice Ruffy: Frustration = 5
+Ruffy:
+    Ай! Ну и жёсткая же была посадка!
+
+!Camera camera_crash target camera_Schild duration 1
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Ой, глянь, что написано на табличке:
+
+!Camera camera_Schild target camera_Schild2 duration 1
+Ruffy:
+    «Добро пожаловать на Остров Крушения! Раз ты здесь, значит, что-то пошло совсем не так!»
+
+!Camera camera_Pip
+!Sprite Ruffy: idle2, Pip: talkAngry
+!Voice Pip: Hurt = 5
+Pip:
+    Вот невезуха!
+
+!Camera camera_Pip target camera_crash duration 2
+!Sprite Pip: idle, Ruffy: talk
+!Voice Ruffy: Thoughtful = 1
+Ruffy:
+    Спокойно! Не унывай! Сперва осмотримся.

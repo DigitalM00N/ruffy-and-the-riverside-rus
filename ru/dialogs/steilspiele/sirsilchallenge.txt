@@ -1,0 +1,24 @@
+!Camera KameraSirsilStart target KameraSirsil duration 1
+!Sprite Ruffy: idleBack, Pip: back, Sirsil: talk
+!Voice Sirsil: Positiv = 15
+Sirsil:
+    Здравствуйте, друзья! Ну что, готовы позвонить в Небесный колокол?
+* Да, мы готовы.
++1
+* Нет, ещё нет.
++2
+* Напомни нам строфы пророчества.
+
+!Voice Sirsil: Positiv = 18
+Sirsil:
+    Чудесно! Наша надежда всегда будет с вами! А теперь выберите солнечный тюк и вознеситесь к небесам.
++2
+
+!Voice Sirsil: Positiv = 25
+Sirsil:
+    Хорошо, но не забывайте: за вами должок. Возвращайтесь, когда будете готовы.
++1
+
+!Voice Sirsil: Positiv = 14
+Sirsil:
+    Строфы пророчества? Слушайте внимательно.

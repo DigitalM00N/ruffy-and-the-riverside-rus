@@ -1,0 +1,21 @@
+!Event appear
+!Camera camera_side_sir
+!Sprite Sir Eddler: cheerRight, Ruffy: idleSideRight, Pip: idle
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Ух ты, а ты и правда отлично водишь. Это сразу видно, даже по тем нескольким метрам, что ты сейчас проехал.
+
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Question = 1
+Sir Eddler:
+    Теперь осталось только завтра выиграть гонку. Тогда ты станешь настоящим чемпионом, и тебе позволят уехать с фермы вместе с тюком.
+
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    С тюком мы наконец сможем отправиться в Царство мёртвых.
+
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Greeting = 3
+Sir Eddler:
+    Встретимся утром у ворот фермы. Спокойной ночи, Раффи.

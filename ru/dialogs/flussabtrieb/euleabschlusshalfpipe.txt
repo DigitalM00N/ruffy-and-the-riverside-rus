@@ -1,0 +1,12 @@
+!Event MinnaBig
+!Sprite Ruffy: idleHalfBackLeft, Pip: idle, Minna: cheer
+!Camera Minna
+!Voice Minna: zustimmend = 3
+Minna:
+    Отлично! Ещё одна буква отправилась в Базилику и поможет исцелить Ядро мира!
+
+!Sprite Pip: idle, Minna: beg
+!Camera Minna target CamPortal duration 3
+!Voice Minna: besorgt = 1
+Minna:
+    Не теряйте времени! Портал перенесёт вас прямо к Силье!

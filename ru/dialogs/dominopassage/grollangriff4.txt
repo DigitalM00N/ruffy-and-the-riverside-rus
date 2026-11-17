@@ -1,0 +1,4 @@
+!Camera GrollAngriff4
+!Voice Groll: Anger = 3
+Groll:
+    Теперь я уничтожу тебя окончательно!

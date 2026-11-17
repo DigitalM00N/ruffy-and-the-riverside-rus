@@ -1,0 +1,40 @@
+!Sprite Ruffy: cheer, Pip: happy
+!Camera VCam3 target VCam duration 6
+!Voice Ruffy: Surprise_Positive = 6
+Ruffy:
+    Фух, выбрались. В этот раз было опаснее, чем обычно.
+
+!Sprite Ruffy: think +mirror
+!Camera VCam
+!Voice Ruffy: Agreement = 11
+Ruffy:
+    Надеюсь, Эддлер оттуда выберется.
+
+!Event HEddler
+!Camera VCam target RCam offset -2 duration 7
+!Sprite Ruffy: idleHalfFront +mirror
+!Voice Pip: Lachen = 3
+Pip:
+    Не переживай за него. Сам знаешь, как он любит влипать в приключения.
+
+!Event Turn
+!Sprite Pip: back, Ruffy: proudLeft
+!Voice Pip: No = 6
+Pip:
+    Скоро он снова откопается и устроит следующую катастрофу.
+
+!Event Return
+!Sprite Ruffy: proud, Pip: idle
+!Camera RCam duration 4
+!Voice Ruffy: Laugh_Friendly = 6
+Ruffy:
+    Ха-ха-ха, да, ты, наверное, прав!
+
+!Event Endpose
+!Sprite Ruffy: denyLeft
+!Camera RCam2 target RCam3 duration 4
+!Continue none
+!Voice Ruffy: Surprise_Positive = 1
+Ruffy:
+    Кто бы мог подумать 22 дня и 7 часов назад, что всё так обернётся?!
+!Event Next

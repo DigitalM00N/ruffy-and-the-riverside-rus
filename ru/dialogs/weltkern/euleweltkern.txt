@@ -1,0 +1,70 @@
+!Event MinnaLandung
+!Camera CameraEule
+!Sprite Minna: talk
+!Voice Minna: erstaunt = 2
+Minna:
+    Вижу, тебя не остановить. Ты и правда нашёл Ядро мира. Как я и говорила...
+
+!Camera CameraRuffyNah
+!Sprite Ruffy: idle2
+!Voice Ruffy: Agreement = 11
+Ruffy:
+    Ну, загадка на двери была не такой уж сложной. Может, Ядро мира стоило бы защитить загадкой похитрее...
+
+!Camera CameraRuffyNah target CameraRuffyGanzNah duration 4
+!Sprite Ruffy: thinkRight
+!Voice Ruffy: scan = 2
+!Voice Ruffy: Question = 2
+Ruffy:
+    Ух ты, но... с ним всё в порядке? В смысле, как там Ядро мира держится?
+
+# ZOOM DER CUTSCENE AUF DIE STELLE AN DER DER Weltkern ABGEBISSEN IST.
+!Camera CameraEuleNah target Camera_Weltstein duration 4
+!Sprite Minna: talk
+!Voice Minna: neutral = 1
+Minna:
+    Ох, беда! Ядро мира лишилось всей своей силы, когда Гролл разорил Эмблему.
+
+!Camera CameraEule target CameraEuleNahNah duration 3
+!Sprite Minna: secret
+!Voice Minna: neutral = 3
+Minna:
+    Я почти не слышу его голоса. И он становится всё тише и тише.
+
+!Camera CameraEule
+!Sprite Minna: sad
+!Voice Minna: besorgt = 2
+Minna:
+    Раффи, тебя привела сюда судьба. Твоё предназначение — исцелить Ядро мира.
+
+!Event WKLan, OVLaus
+!Camera CameraRuffyHinten
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 1
+Ruffy:
+    Ты хочешь, чтобы я исцелил Ядро мира? Но как? То есть как это вообще делается? С чего мне хотя бы начать?
+
+!Event WKLaus, OVLan
+!Camera CameraSchild
+Minna:
+    О, на самом деле всё довольно просто. Найди шесть Священных букв, почини ими Эмблему, а Эмблема затем исцелит Ядро мира.
+
+!Event WKLan, OVLaus
+!Camera CameraEuleNah target CameraEuleDreh duration 0.3
+!Sprite Minna: blink
+!Voice Minna: fragend = 2
+Minna:
+    Ты всё понял?
+
+!Event WKLan, OVLaus
+!Camera CameraRuffyHinten
+!Sprite Ruffy: think
+!Voice Ruffy: Agreement = 4
+Ruffy:
+    Да, мне нужно найти Священные буквы, чтобы починить Эмблему.
+
+!Camera CameraEuleNah target CameraRuffyNah duration 4
+!Sprite Ruffy: cheer
+!Voice Ruffy: jubel = 4
+Minna:
+    Ты и впрямь схватываешь на лету, мой маленький друг. А теперь иди и спаси мир. Если всё идёт по плану, Сэр Эддлер уже ждёт тебя снаружи.

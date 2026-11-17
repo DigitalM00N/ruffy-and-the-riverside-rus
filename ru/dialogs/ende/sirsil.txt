@@ -1,0 +1,11 @@
+!Camera Sirsil
+!Sprite Ruffy: idleHalfFrontRight
+!Voice Sirsil: Positiv
+Sirsil:
+    Привет, Раффи! Слышал, что сэр Эддлер записался на Крутые игры, чтобы побороть свой страх высоты?
+
+!Sprite Ruffy: talk
+!Camera Ruffy
+!Voice Ruffy: Laugh_Friendly = 4
+Ruffy:
+    Ха-ха-ха, поверю, когда увижу его кротовью попу в воздухе.

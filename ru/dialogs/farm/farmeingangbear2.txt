@@ -1,0 +1,6 @@
+!Camera camera_Eingang_bear
+!Sprite Hickory: talk
+!Event Blaubear disappear
+!Voice Hickory: Frustration
+Hickory:
+    Здорóво, приятель. Помоги нам найти Флитци Младшего. Он всего лишь собирался сходить в Свинячью пещеру и с тех пор пропал.

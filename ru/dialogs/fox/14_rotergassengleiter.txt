@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 14
+!Event Schmetterling14
+Quintus:
+    Это красный переулочник.
+    Он из семейства весёлых летунов.
+
+!Voice Quintus: Agreement = 4
+Quintus:
+    Эту бабочку тянет туда, где царят дружба и мир.
+!Sprite Fuchs: idle
+
+Quintus:
+    Встретить переулочника — всегда добрый знак.

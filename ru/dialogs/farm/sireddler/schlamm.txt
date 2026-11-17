@@ -1,0 +1,12 @@
+!Camera camera_sirEddler offset 1 duration 1
+Sir Eddler:
+    Привет, Раффи, пора браться за дело всерьёз. Если готов, отправляйся к финишу и записывайся на гонку.
+!Sprite Sir Eddler: positiv, Pip: back, Ruffy: idleBack
+!0
+!Voice Eddler: Attack_Laugh = 7
+
+!Sprite Pip: back, Ruffy: idleBack
+!2
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    Теперь трасса подправлена идеально. Не терпится увидеть их глупые физиономии, когда они застрянут в грязи.

@@ -1,0 +1,4 @@
+!Sprite Hohepriester: Happytalk
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    Деревня Нотори на севере — ваша следующая цель. Найдите туда путь в Погребённых городах!

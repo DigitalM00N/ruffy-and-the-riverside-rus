@@ -1,0 +1,13 @@
+!Sprite Daag: amazed
+!Voice Hohepriester: Misc = 1
+Baldwin:
+    Ой, не пугай меня так!
+
+!Sprite Daag: think
+!Voice Hohepriester: Misc = 6
+Baldwin:
+    Что я тут делаю? Наблюдаю за жуками. Говорят, жуки охраняют сокровище.
+
+!Sprite Daag: defaultTalk
+Baldwin:
+    А ещё говорят, что жуки живут тут с древних времён и показывают, каким лес был в прошлом. Но я никак не пойму, что они хотят мне сказать.

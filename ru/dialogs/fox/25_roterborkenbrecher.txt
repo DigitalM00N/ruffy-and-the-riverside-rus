@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 10
+!Event Schmetterling25
+Quintus:
+    Это красный короед-ломака.
+    Он из семейства лесоглазок.
+
+!Voice Quintus: Agreement = 5
+Quintus:
+    Короеды-ломаки забираются глубоко внутрь деревьев и сидят там всю зиму.
+!Sprite Fuchs: idle
+
+Quintus:
+    Я слышал, что их можно вытрясти из деревьев, но это было бы очень жестоко!

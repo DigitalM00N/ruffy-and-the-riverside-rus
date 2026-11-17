@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 5
+!Event Schmetterling05
+Quintus:
+    Это лиловый фантазёр.
+    Он из семейства ночнокрылов.
+
+!Voice Quintus: Agreement = 5
+Quintus:
+    Известно, что фантазёры сами рисуют узоры на своих крыльях.
+!Sprite Fuchs: idle
+
+Quintus:
+    Чудесно, правда?

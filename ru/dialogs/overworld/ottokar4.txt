@@ -1,0 +1,4 @@
+!Sprite Daag: amazed
+!Voice Hohepriester: Misc
+Ottokar:
+    О, потрясающе! Все глобусы на месте! Ты восстановил честь нашей семьи.

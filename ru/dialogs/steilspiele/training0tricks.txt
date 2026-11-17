@@ -1,0 +1,4 @@
+!Sprite Villeroy: deny
+!Voice Villeroy: Surprise_Negative = 1
+Villeroy:
+    Ого, бро. Ты забыл про трюки. Как-то совсем не круто, бро.

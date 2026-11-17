@@ -1,0 +1,4 @@
+!Sprite Villeroy: cheer
+!Voice Villeroy: Laugh_Medium = 3
+Villeroy:
+    Уооооу, бро! Да ты гений тюка. Тебе правда надо на Крутые игры.

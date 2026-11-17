@@ -1,0 +1,30 @@
+!Event Lachen
+!Camera Groll
+!Voice Groll: Laugh_Confident = 2
+Groll:
+    Ха-ха-ха-ха. Базилика осталась в прошлом, и ваши глупые буквы вам уже не помогут.
+
+!Event Aufgebracht
+!Voice Groll: Laugh_Confident = 7
+Groll:
+    Но Ядра мира нигде не видно. Где оно? Говори!
+
+!Camera Ruffy
+!Sprite Ruffy: deny, Pip: idle
+!Voice Ruffy: Anger = 8
+Ruffy:
+    Ни за что!
+
+!Camera Groll target GrollClose duration 3
+!Voice Groll: Greeting = 2
+Groll:
+    Не хочешь выдавать? Ну и ладно! Может, старая черепаха будет поразговорчивее. Пожалуй, загляну-ка я к ней.
+
+!Event Lachen, GrollFliegen, Donner
+!Camera GrollClose target GrollFly duration 3
+!Voice Groll: Laugh_Friendly = 1
+Groll:
+    Может, пара молний её разговорит. Ха-ха-ха-ха.
+
+# (Groll verschwindet)
+# Dann Schwarzblende: Man sieht Ruffy und den Hohepriester am Strand stehen. Trümmer umgeben sie.

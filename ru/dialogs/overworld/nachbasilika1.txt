@@ -1,0 +1,24 @@
+!Pause 1
+!Camera Start target Eddler duration 2
+!Sprite Ruffy: idleHalfBackLeft, Pip: back
+!Voice Eddler: question = 1
+Sir Eddler:
+    Привет, ребятки, рад снова вас видеть. Верховный жрец смог вам помочь?
+!Event ReleaseAnim
+!Sprite Sir Eddler: serious
+
+!Camera PipFar target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talk, Sir Eddler: leanBack
+!Voice Pip: Agree = 3
+Pip:
+    О да, нам нужно отправиться к Пирамиде над морями.
+
+!Camera EddlerFar target Eddler duration 1
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Sir Eddler: positiv
+!Voice Eddler: Realization = 2
+Sir Eddler:
+    К Пирамиде над морями? Крепкий орешек. Она с незапамятных времён покоится над волнами, и лишь немногим удавалось ступить на неё. Но вы двое справитесь.
+
+!Sprite Sir Eddler: secretRight
+Sir Eddler:
+    Отправляйтесь-ка сейчас на пляж и спуститесь в Погребённые города. Там вы откроете, э-э, то есть найдёте путь к пирамиде.

@@ -1,0 +1,136 @@
+!Camera Groll1 target Groll2 duration 0.5
+!Event Aufgebracht
+!Voice Groll: Laugh_Friendly = 3
+Groll:
+    Проверка, бип, блюп! Все системы работают!
+!Event CubeAufladen
+
+!Event Aufgebracht, CubeAufladen
+!Voice Groll: Conniving = 1
+Groll:
+    Я уже почти забыл, каково это — быть в этом теле.
+
+!Event Talk, CubeRedenSound
+!Voice Groll: Realization = 2
+Groll:
+    Разве не здорово, когда план срабатывает?
+
+!Event RedenSound
+!Camera GrollEddler
+!Sprite Sir Eddler: seriousRight +mirror
+!Voice Eddler: Surprise_Negative = 4
+Sir Eddler:
+    Ты кто такой? И что всё это значит?
+
+!Event Lachen, LachenSoundKlein, CubeRedenSound
+!Camera GrollEddler target Groll2 duration 1
+!Voice Groll: Laugh_Confident = 1
+Groll:
+    Ха-ха-ха, не узнаёте меня, глупцы?
+
+!Camera Groll2 target Groll1 duration 1
+!Event Chaotisch, CubeSchreiSound, CubeRedenSound
+!Voice Groll: Anger = 3
+Groll:
+    Я Гролл! Король Гролл!
+
+!Camera Groll1 target Groll2 duration 0.5
+!Event Talk, CubeRedenSound
+!Voice Groll: Laugh_Confident = 9
+Groll:
+    Я правитель этого мира. Я пришёл забрать то, что принадлежит мне по праву!
+
+!Camera SirEddler2 target SirEddler duration 1
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Surprise_Negative = 6
+Sir Eddler:
+    ГРОЛЛ?!
+
+!Sprite Sir Eddler: secretRight +mirror
+!Voice Eddler: Question = 1
+Sir Eddler:
+    Гролл-разрушитель? Жестокий Гролл? Гролл, тот самый... ну, вы поняли... ГРОЛЛ?!
+
+!Sprite Sir Eddler: leanRight +mirror
+!Camera SirEddler target GrollEddler duration 1
+!Voice Eddler: Surprise_Negative = 3
+Sir Eddler:
+    Но... Тебя же изгнали! Ты никак не можешь быть здесь!
+
+!Event Lachen, LachenSoundGroß, CubeRedenSound
+!Camera Groll1
+!Voice Groll: Laugh_Confident = 2
+Groll:
+    Ха-ха-ха, и всё же я здесь! Похоже, я вернулся! Смиритесь, детишки.
+
+!Camera Groll1 target Groll2 duration 1
+!Event Wabern, CubeRedenSound
+!Voice Groll: Realization = 1
+Groll:
+    Вы, глупцы, даже помогли мне в этом!
+
+!Event Talk, CubeRedenSound
+!Sprite Sir Eddler: seriousRight +mirror
+!Camera GrollEddler
+!Voice Groll: Laugh_Confident = 2
+Groll:
+    Перед изгнанием я закопал здесь символ шариков. И, конечно, добавил побольше самоцветов, чтобы приманить вас, жадных кротов.
+
+!Camera GrollEddler target SirEddler duration 0.5
+!Sprite Sir Eddler: seriousFrontHalf +mirror
+!Voice Eddler: Anger = 4
+Sir Eddler:
+    Какая наглость! Мы, кроты, вовсе не жадные! Мы простые геологи с настоящей страстью к кристаллам.
+
+!Camera Groll2
+!Event LachenSoundKlein, CubeRedenSound
+!Voice Groll: Conniving = 3
+Groll:
+    Ба-ха-ха!! Называй как хочешь! Вы ЖАДНЫЕ. Посмотри на свои браслеты. Вы просто не можете устоять перед блестяшками, верно?
+
+!Camera SirEddler
+!Sprite Sir Eddler: positiveFrontHalf
+!Voice Eddler: Anger = 3
+Sir Eddler:
+    Пф!
+
+!Camera Groll1 target Groll2 duration 1
+!Event CubeRedenSound
+!Voice Groll: Laugh_Confident = 9
+Groll:
+    А теперь прошу меня извинить. Мне нужно подкрепиться, прежде чем я возьму под контроль ваш маленький мир.
+
+#Cutscene (Groll fliegt zum Weltensplitter)
+!Camera Groll3 target Aufsaug1 duration 3
+!Event Cube1Kill, Cube2Spawn, GoToSplitter1
+!Continue auto
+!Pause 4
+!Voice Groll: Surprise_Negative = 1
+Groll:
+    А-а, хорошо, вкуснятина. Сила камней переходит ко мне.
+#!Pause 1
+
+!Camera Aufsaug2
+!Event Farben
+!Voice Groll: Greeting = 1
+Groll:
+    М-м, объедение! От этих шариков просто слюнки текут!
+
+#Cutscene (Groll fliegt zum Strand)
+!Event GoToSplitter2
+!Camera Aufsaug2 target follow duration 5
+!Pause 10
+!Voice Groll: Laugh_Confident = 1
+Groll:
+    ДА! ДА! ДА! Сила шариков наполняет меня! Я чувствую её!
+
+!Camera Aufsaug3 target Aufsaug4 duration 0.5
+!Voice Groll: Laugh_Confident = 2
+Groll:
+    Я хочу ещё. ЕЩЁ!
+
+#Cutscene (Groll läuft davon, saugt Dinge auf)
+!Camera Cam2
+!Voice Groll: Laugh_Confident = 4
+Groll:
+    Ха-ха-ха-ха!!!

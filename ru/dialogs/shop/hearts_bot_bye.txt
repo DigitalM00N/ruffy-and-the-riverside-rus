@@ -1,0 +1,3 @@
+!Voice Robot: Misc
+Herzbot:
+    Не хорошо, не хорошо! Привет!

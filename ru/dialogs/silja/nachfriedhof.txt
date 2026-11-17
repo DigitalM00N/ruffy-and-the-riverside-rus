@@ -1,0 +1,14 @@
+!Event SiljaNice
+!Voice Silja: Fragend  = 3
+Silya:
+    Привет, Раффи. Ты нашёл вторую букву? Бьюсь об заклад, Царство мёртвых было нелегко отыскать.
+
+!Event SiljaNod
+!Voice Silja: Zustimmend = 3
+Silya:
+    Но ты справился. ОБМЕН силён в тебе. Я это чувствую.
+
+!Event SiljaNice
+!Voice Silja: Neutral = 1
+Silya:
+    Теперь обрати свой взор к Базилике Лучших. Колесо мудрости укажет тебе следующий путь.

@@ -1,0 +1,4 @@
+!Sprite William: talk
+!Voice William: Laugh_Confident = 2
+William:
+    Знаете, что я сделаю? Я вернусь и дам большой концерт в Риверсайде! Это будет бомба!

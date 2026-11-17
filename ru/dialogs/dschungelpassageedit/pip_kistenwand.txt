@@ -1,0 +1,6 @@
+!Camera camera_down
+!Sprite Ruffy: idleBack, Pip: talk
+!Voice Pip: Agree = 1
+Pip:
+    Глянь на эти ящики. Может, обратим их себе на пользу?
+!Camera camera_down target camera_up duration 1

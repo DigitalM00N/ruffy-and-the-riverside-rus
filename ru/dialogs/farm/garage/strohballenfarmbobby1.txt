@@ -1,0 +1,62 @@
+!Camera camera_1
+!Event bb
+!Sprite FBBlau: talk, Ruffy: idleBack, Pip: back
+!Voice Bobby: Greeting = 4
+Bobby:
+    Эй, новичок! Говорят, ты интересуешься тюками.
+
+!Camera camera_1 target camera_2 duration 1
+!Sprite Ruffy: talk,FBBlau: idle, Pip: idle
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Точно!
+
+!Sprite FBBlau: talk, Ruffy: idle2, Pip: idle
+!Camera camera_2 target camera_3 duration 1
+!0
+!Voice Bobby: Attack_Laugh = 2
+Bobby:
+    Ладно, тогда слушай внимательно!
+
+!1
+!Voice Bobby: Agreement = 3
+Bobby:
+    Перед тобой Стальное солнце — единственный тюк с приводом «Турбо-Люкс» и двойным бустером.
+
+!2
+!Voice Bobby: Attack_Laugh = 5
+Bobby:
+    Весь тюк выплавлен из металла в вулкане и состоит из двух встречно вращающихся оболочек: снаружи титан, внутри алюминий.
+
+!3
+Bobby:
+    Оболочки соединены разогнанными магнитными сердечниками и запасают энергию на 12 ускорений вперёд или назад.
+
+Bobby:
+    Иначе говоря, ускорение в обе стороны!
+
+!4
+!Voice Bobby: Attack_laugh = 6
+Bobby:
+    Для гонок на выбивание — то, что надо.
+* Обалдеть, но как мне раздобыть тюк?
++1
+* Спасибо, пока хватит.
+
+!5
+!Voice Bobby: Question = 2
+Bobby:
+    Хочешь свой тюк? Это не так-то просто. Тюки получают только чемпионы. Так что придётся выиграть гонку.
++2
+
+!5
+!Sprite FBBlau: talk
+!Voice Bobby: Agreement = 2
+Bobby:
+    Ну ладно, приятель! Держись! Кататься на тюке — это просто лучшее на свете! Кроме, конечно, езды по грязи. Вот это отстой.
+
+!Camera camera_3
+!Sprite FBBlau: talk
+!Voice Bobby: Laugh_Friendly = 6
+Bobby:
+    В грязи даже тюнинг тюка не поможет.

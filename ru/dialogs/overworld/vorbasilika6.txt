@@ -1,0 +1,23 @@
+!Camera Start target EddlerFar duration 2
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, Sir Eddler: serious
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Привет вам обоим! Значит, вы забрались на вершину Ураганных высот и нашли букву. Осталось найти всего одну. Разве не здорово?
+
+!Camera EddlerFar target Eddler duration 1
+!Sprite Sir Eddler: agree +mirror
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Как только Ядро мира вернёт себе силу, мы вышвырнем Гролла из Риверсайда. Жду не дождусь.
+
+!Camera Eddler target EddlerClose duration 1
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Когда всё закончится, о наших приключениях сложат кротовьи стихи. У меня уже есть пара отличных идей.
+
+!Camera EddlerClose target EddlerFar duration 1
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 2
+Sir Eddler:
+    Но до этого ещё далеко. Отправимся в Базилику и узнаем, где спрятана последняя буква!

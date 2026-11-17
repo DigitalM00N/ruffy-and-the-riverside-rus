@@ -1,0 +1,11 @@
+!Sprite Meister Qwin: happy
+!Camera Qwin2 target Qwin1 duration 5
+!Voice Qwin: Greeting = 2
+Qwin:
+    Эй, копуши! Наконец-то вы здесь! Смотрите, у нас клиенты! Им срочно нужно серьёзно обменять картины.
+
+!Camera Qwin1
+!Sprite Meister Qwin: talk
+!Voice Qwin: Laugh_Medium = 1
+Qwin:
+    Живо к клиентам — перенесите обменом новые картины на их холсты!

@@ -1,0 +1,11 @@
+!Camera Kamera target Kamera1 duration 3
+!Sprite Pip: talkSparkle, Ruffy: idle2
+!Voice Pip: Staunen = 2
+Pip:
+    Ух ты, ещё один шарик!
+
+!Camera Kamera3 target Kamera4 duration 3
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: Surprise_Positive = 1
+Ruffy:
+    Ого, вот это зрелище! Но нам надо быть осторожными. Эти шарики не игрушки, это уж точно.

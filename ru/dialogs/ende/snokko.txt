@@ -1,0 +1,23 @@
+!Camera Snokko
+!Sprite Ruffy: talk
+!Voice Snokko: Greeting_Normal = 2
+Snokko:
+    Йо, Раффи, слышал, ты отстроил художественную мастерскую Квина.
+
+!Camera Ruffy
+!Sprite Ruffy: talk
+!Voice Ruffy: Agreement = 9
+Ruffy:
+    О да, всё точь-в-точь как раньше. Видел бы ты Квина. Он каждую кисточку расставил по отдельности. Старый добрый Квин!
+
+!Camera Snokko
+!Sprite Ruffy: talk
+!Voice Snokko: Laugh_Friendly = 8
+Snokko:
+    Мой автобус тоже снова на ходу. Сэр Эддлер помог мне его починить. Даже холодильник мне туда поставил.
+
+!Camera Ruffy
+!Sprite Ruffy: talk
+!Voice Ruffy: Laugh_Confident = 3
+Ruffy:
+    Ай да Эддлер! Как я рад, что он снова стал самим собой.

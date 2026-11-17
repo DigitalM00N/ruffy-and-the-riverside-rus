@@ -1,0 +1,58 @@
+!Camera CameraFlitzi
+!Sprite Flitzi: talk
+!Voice Flitzi: Worry = 5
+Flitzi:
+    Эй, вы там! Пожалуйста, помогите! Уберите оттуда эту рыбу.
+
+!Camera CameraRuffy
+!Event FischAnimation
+!Sprite Ruffy: talkHalfBackRight, Sir Eddler: behindLeft, Flitzi: idle2, Pip: back
+!Voice Ruffy: Agreement = 4
+Ruffy:
+    Конечно, не волнуйся, мы поможем!
+
+!Camera CameraRuffy target CameraHintenEddler duration 1
+!Sprite Ruffy: idleHalfBackRight
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Погоди, Раффи. Не так быстро. Вы, случаем, не Флитци? Флитци-младший? Гонщик на тюках и действующий чемпион?
+
+!Camera CameraHintenEddler target CameraFlitzi duration 2
+!Pause 2
+!Event FischAnimationOff
+!Sprite Flitzi: idle2 > idle2 > talk
+!Voice Flitzi: Worry = 3
+Flitzi:
+    Да, это я! А теперь помогите же!
+
+!Camera CameraEddler
+!Sprite Ruffy: idle2, Sir Eddler: positiv, Pip: idle
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Разумеется. Мы с радостью поможем вам без лишних слов! Только ещё один маленький вопрос. Вам сейчас грозит смертельная опасность?
+
+!Camera CameraFlitzi
+!Sprite Sir Eddler: serious
+!Voice Flitzi: Worry = 1
+Flitzi:
+    Понятия не имею! Просто помогите!
+
+!Camera CameraEddler
+!Sprite Flitzi: idle2
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Простите, мне нужно знать точно. Вы чемпион в смертельной опасности?
+
+!Camera FlitziNah offset 2 duration 1
+!Event camera
+!Pause 1
+!Sprite Flitzi: talk
+!Voice Flitzi: Frustration = 8
+Flitzi:
+    Да, ради всего святого, да! Чемпион в смертельной опасности! Я чемпион в смертельной опасности. Да помогите же наконец!
+
+!Camera CameraEddler
+!Sprite Sir Eddler: secretRight, Flitzi: idle2
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Чемпион в смертельной опасности! Превосходно! Это наш билет на ферму! Ну всё, Раффи, вызволяй нашего чемпиона из беды.

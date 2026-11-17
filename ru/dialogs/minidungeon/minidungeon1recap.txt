@@ -1,0 +1,5 @@
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Question = 2
+!Camera KameraSymbol offset 2 duration 4
+Sir Eddler:
+    Просто перенеси ОБМЕНОМ символы машины на пустые блоки, что тут валяются. Машина изменится, и шар должен закатиться в лунку.

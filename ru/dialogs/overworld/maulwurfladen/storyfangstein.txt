@@ -1,0 +1,81 @@
+!Camera MaulwurfKamera duration 0.8
+!Sprite Sir Eddler: agree
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Значит, тебя заинтересовал Ночной гость? Что ж, слушай внимательно.
+
+Sir Eddler:
+    Хочешь верь, хочешь нет, но этот самоцвет любит играть в игры, только смотри, чтобы он не заигрался.
+
+!Sprite Sir Eddler: shake
+!Voice Eddler: Worry = 5
+Sir Eddler:
+    Меня он чуть с ума не свёл.
+
+!Camera MaulwurfKamera target CameraPlatz3 duration 3
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Всё началось, когда я увидел его впервые. Он просто лежал в траве у западного леса, и с ним играли несколько Этои. Я, конечно, оставил его там, но с тех пор он стал являться мне во снах. Каждую ночь.
+
+!Camera CameraPlatz3 target CameraPlatz3b duration 10
+Sir Eddler:
+    Во сне он говорил со мной и велел мне его поймать. На краткий миг он показывал, где прячется, но ни одного из этих мест я никогда не видел.
+
+Sir Eddler:
+    Сколько бы раз он мне ни являлся, я так и не смог найти его укрытия и прекратить его игру.
+
+Sir Eddler:
+    В конце концов я понял, что все его укрытия находятся в Северных землях, но с тех пор, как Гролл сотворил Великое ущелье в Риверсайде, туда никак не попасть.
+
+!Camera MaulwurfKamera
+!Sprite Sir Eddler: bashfulRight
+!Voice Eddler: Frustration = 7
+Sir Eddler:
+    И вот, беспомощный, день за днём я стоял у Великого ущелья и смотрел на Северные земли. Я надеялся разглядеть Ночного гостя, но он прятался слишком хорошо.
+
+Sir Eddler:
+    Так он и продолжал каждую ночь являться мне во снах, а я продолжал каждый день беспомощно стоять у Великого ущелья и смотреть на Северные земли.
+
+!Camera CameraPlatz3b
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Frustration = 3
+Sir Eddler:
+    Я был на пределе, а образ Великого ущелья уже намертво врезался мне в память.
+
+!Camera CameraPlatz3b target CameraPlatz3 duration 7
+Sir Eddler:
+    Однажды вечером, совсем вымотанный, я лёг в постель и тут же уснул, но образ Великого ущелья всё так же стоял у меня перед глазами.
+
+Sir Eddler:
+    И тогда случилось чудо. Ночной гость пришёл в мой сон и увидел Великое ущелье точно так же, как видел его я. И тут он понял, что я каждый день жду его у ущелья.
+
+!Camera MaulwurfKamera
+!Sprite Sir Eddler: agree
+!Voice Eddler: Surprise_Positive = 2
+Sir Eddler:
+    Тогда он сдвинулся с места и полетел через Великое ущелье. Просто перелетел его. И пришёл ко мне. Понимаешь? Игра в прятки закончилась.
+
+!Camera MaulwurfKamera target CameraPlatz3b duration 6
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Worry = 4
+Sir Eddler:
+    Во сне я видел, как он приближается к моему дому, и проснулся в испуге.
+
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Laugh_Friendly = 4
+Sir Eddler:
+    Я посмотрел на кровать — а он там. Лежал у меня в ногах, как мурлычущий кот, и грел меня.
+
+!Camera CameraPlatz3b target CameraPlatz3 duration 6
+Sir Eddler:
+    Совершенно счастливый, я снова уснул. Наутро он всё ещё был там — и остался. Думаю, ему нравится быть со мной.
+
+Sir Eddler:
+    Он и сейчас порой приходит в мои сны и берёт меня в путешествие по Риверсайду.
+
+!Camera MaulwurfKamera
+!Sprite Sir Eddler: agree
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Этот особенный самоцвет стал мне настоящим другом.

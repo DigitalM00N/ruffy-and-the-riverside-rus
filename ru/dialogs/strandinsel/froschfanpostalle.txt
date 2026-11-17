@@ -1,0 +1,27 @@
+!Camera Start target camera_Frog duration 1
+!Sprite William: talk, Ruffy: idleBack
+!Voice William: Surprise_Positive = 4
+William:
+    Эй, картина на стене почти готова.
+
+!Event Display
+!Camera camera_Frog target camera_Stein duration 1
+!Voice William: Agreement = 2
+William:
+    Это, похоже, последняя бутылка. Сейчас добавлю её к картине.
+!Pause 2
+
+!Pause 2
+!Event Mondinsel
+!Camera camera_Stein target camera_Mondinsel duration 3
+!Voice Pip: Staunen = 5
+Pip:
+    УХ ТЫ! Вы только посмотрите!
+
+!Voice William: Surprise_Positive = 2
+William:
+    Это, должно быть, тот самый странный Лунный остров. Может, отсюда и правда можно выбраться.
+
+!Voice Ruffy: Greeting = 4
+Ruffy:
+    Давай посмотрим!

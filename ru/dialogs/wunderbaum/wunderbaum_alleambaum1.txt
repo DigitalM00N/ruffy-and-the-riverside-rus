@@ -1,0 +1,107 @@
+!Event BaumReden
+!Camera Baum
+!Voice Lebensbaum: Misc = 7
+Lebensbaum:
+    Хи-хи-хи, всем привет.
+
+Lebensbaum:
+    Простите, но это так забавно.
+
+!Event BaumIdle
+!Camera Maulwurf
+!Sprite Sir Eddler: leanBack
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Что же тебя так насмешило, о Древо жизни?
+
+!Event BaumReden
+!Camera Baum
+!Voice Lebensbaum:Misc = 3
+Lebensbaum:
+    Ну как же, ещё недавно я был крошечным ростком, а вы стояли рядом, как великаны. А теперь великан — я, и вы ходите по мне. Щекотно!
+
+!Event BaumIdle
+!Camera Mayle
+!Sprite Sir Eddler: leanRight, Mayle: sing
+!Voice Mayle: Laugh_Friendly = 1
+Mayle:
+    Да, мы слышим тебя и чувствуем тебя! Наша связь тянется с начала времён.
+
+!Event BaumIdle
+!Camera Mayle
+!Sprite mayle: sing
+!Voice Mayle: Surprise_Positive = 4
+Mayle:
+    О Древо жизни. Теперь нам вместе исцелять этот мир. Давай разделим силу и прогоним чёрную смолу.
+
+!Event BaumReden
+!Camera Baum
+!Voice Lebensbaum: Misc = 1
+Lebensbaum:
+    Так тому и быть. Отважные Этои! Примите мою силу и несите добро в каждый уголок этого мира. И позвольте мне одну просьбу.
+
+!Event BaumIdle
+!Camera Mayle
+!Sprite Mayle: dream
+!Voice Mayle: Question = 7
+Mayle:
+    Я уже чувствую. Речь об Избранном, верно?
+
+!Event BaumReden
+!Camera Baum
+!Voice Lebensbaum: Misc = 6
+Lebensbaum:
+    Верно. Поддерживайте Раффи, где только сможете. Он тоже хочет спасти этот мир. Откройте ему ворота и впустите в своё убежище.
+
+!Event BaumIdle
+!Camera Mayle
+!Sprite Mayle: dance
+!Voice Mayle: Surprise_Positive = 3
+Mayle:
+    Наше убежище во внешнем мире теперь открыто для вас. Раффи и Пип, вам там всегда рады.
+
+!Sprite Mayle: jump
+!Voice Mayle: Surprise_Positive = 4
+Mayle:
+    Приходите поскорее и помогите нам отыскать братьев и сестёр, что ещё прячутся во внешнем мире.
+
+!Camera Ruffy
+!Sprite Ruffy: proud, Pip: happy, Mayle: idle
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Мы скоро придём.
+
+!Camera Pip
+!Sprite Pip: talkHappy, Ruffy: idleBack
+!Voice Pip: Lachen = 3
+Pip:
+    Спасибо за приглашение!
+
+!Camera Eule
+!Sprite Minna: beg
+!Voice Minna: neutral = 1
+Minna:
+    Простите, но не забыли ли мы кое-что ещё? Раффи нужно найти Священные буквы, чтобы исцелить Ядро мира.
+
+!Camera Eule target Mayle duration 1
+!Sprite Minna: blink, Mayle: plant
+!Voice Mayle: Agreement = 6
+Mayle:
+    Конечно. Буква — в кроне Древа жизни. Можешь забрать её, Раффи.
+
+!Camera Mayle target Maulwurf duration 1
+!Sprite Sir Eddler: seriousRight
+!Voice Eddler: Thoughtful = 5
+Sir Eddler:
+    Легко сказать.
+
+!Camera Pech
+Sir Eddler:
+    Смотрите, путь всё ещё перекрыт чёрной смолой.
+
+!Camera Pech target Mayle
+!Sprite Sir Eddler: leanRight
+!Sprite Mayle: angry
+!Voice Mayle: Anger = 7
+Mayle:
+    Предоставьте это нам. Больше никакая смола нас не остановит. Смотрите и почувствуйте силу Этои и Древа жизни.

@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 9
+!Event Schmetterling09
+Quintus:
+    Это жёлтый звездоглаз.
+    Он из семейства солнцеглядов.
+
+!Voice Quintus: Agreement = 10
+Quintus:
+    А ты знал, что некоторые звездоглазы приклеивают к крыльям листья, чтобы летать ещё выше?
+!Sprite Fuchs: idle
+
+Quintus:
+    Интересно, как высоко они хотят забраться.

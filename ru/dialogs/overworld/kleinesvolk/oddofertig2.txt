@@ -1,0 +1,5 @@
+!Camera OddoCamera
+!Voice Mayle: Laugh_Friendly = 2
+!Sprite Oddo: TalkHappy
+Oddo:
+    У нас получилось! С твоей помощью мы уничтожили чёрную смолу. Со всех сторон я чувствую радость деревьев и рек. Жизнь вернулась.

@@ -1,0 +1,5 @@
+!Camera PipFar target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talk, Sir Eddler: leanBack
+!Voice Pip: Bored = 6
+Pip:
+    Всё просто. Если что-то воняет, значит, оно ядовитое. Не летай к вонючим цветам, говорят у нас. Это знает каждая пчела. Даже каждая пчёлка-малышка.

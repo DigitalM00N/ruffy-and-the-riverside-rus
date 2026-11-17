@@ -1,0 +1,74 @@
+!Camera HPCAM1
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 6
+Hohepriester:
+    С возвращением, Раффи! Вижу, ты принёс Священную букву. Чувствую, это «R». Так начнём же церемонию и исцелим Ядро мира.
+
+#CUTSCENE
+#Der Buchstabe R erscheint im Holoprojektor. =>Animation
+!Camera HPCAM3
+!Event BuchstabenAnimation1
+!Voice Hohepriester: Misc = 4
+Hohepriester:
+    Буква святая, сила святая, будь с нами в час, когда тьма густая.
+!Pause 2
+!Continue auto
+
+#Von dort fliegt an in die Buchstabenmatrix an die beiden Stellen für R (Ruffy kopiert es also nicht #selbst, sondern es passiert automatisch). =>Animation
+!Voice Hohepriester: Misc = 5
+Hohepriester:
+    Пусть сила буквы, что сияет, судьбу нам к лучшему меняет.
+!Continue none
+
+#Daraufhin sieht man wie am Emblem die beiden Rs ausgefahren werden, =>Animation
+!Event SchildT
+Hohepriester:
+    Когда все буквы встанут в ряд, святым сияньем нас озарят.
+!Continue none
+
+!Camera HPCAM3
+!Event WeltenkernTimeline2
+!Continue none
+!Voice Pip: Misc = 1
+Pip:
+    Ядро мира! Оно исцеляется!
+
+!Camera RCAM1
+!Sprite Ruffy: proud
+!Voice Ruffy: Agreement = 5
+Ruffy:
+    Красота. Я даже чувствую это.
+
+!Camera HPCAM3
+!Sprite Hohepriester: happyTalk
+Hohepriester:
+    А теперь посмотрим, куда Колесо мудрости пошлёт вас дальше.
+
+!Camera HPCAM1
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    Священная буква, открой нам новую часть колеса.
+
+!Event RadShow2
+!Pause 17.25
+!Camera HPCAM 3
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 7
+Hohepriester:
+    Царство мёртвых — ваша следующая цель. Найдите туда путь в Погребённых городах!
+
+!Camera PipCamera
+!Sprite Pip: talkDoubt
+!Voice Pip: Misc = 7
+Pip:
+    Фух, Царство мёртвых? Звучит жутковато.
+
+!Camera RCAM1
+!Sprite Ruffy: deny
+!Voice Ruffy: Thoughtful = 1
+Ruffy:
+    Похоже, выбора у нас особо нет, дружище.
+
+#Cutscene Der nächste Minidungeon erscheint. Animation vielleicht =>Animation
+#Ruffy verlässt die Basilika

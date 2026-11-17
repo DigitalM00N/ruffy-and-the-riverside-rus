@@ -1,0 +1,24 @@
+!Camera Start target Qwin duration 2
+!Sprite Meister Qwin: talk, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Qwin: Greeting = 2
+Qwin:
+    Ох, Раффи, как же я рад тебя видеть.
+
+Qwin:
+    Ты только посмотри, что этот Гролл сделал с моей художественной мастерской. Всё вверх дном.
+
+!Sprite Meister Qwin: paint
+!Voice Qwin: Laugh_Medium = 1
+Qwin:
+    Но не волнуйся. Я всё приведу в порядок.
+
+!Sprite Meister Qwin: talk
+!Voice Qwin: Agreement = 2
+Qwin:
+    Я знаю, у тебя сейчас дела поважнее.
+
+Qwin:
+    Да-да! Я много слышал о твоих приключениях и очень тобой горжусь.
+
+Qwin:
+    Но пусть для всех ты великий герой, для меня ты всегда останешься моим любимым малышом. Так что береги себя, Раффи.

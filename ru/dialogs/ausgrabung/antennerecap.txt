@@ -1,0 +1,7 @@
+!Camera Bildschirm offset 2 duration 4
+!Sprite Sir Eddler: serious
+Sir Eddler:
+    Раффи, на том камне и правда есть символ шарика. Иди и перенеси его ОБМЕНОМ на экран Нюхача!
+
+Sir Eddler:
+    Для тебя это раз плюнуть.

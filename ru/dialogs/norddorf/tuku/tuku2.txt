@@ -1,0 +1,8 @@
+!Sprite: Blue Bear: talk
+!Voice Bally: Laugh_Friendly = 3
+Tuku:
+    Привет, Раффи.
+
+!Voice Bally: Greeting = 3
+Tuku:
+    Пещеры Нового начала теперь открыты для тебя. Надеюсь, ты быстро найдёшь Силью и вернёшься целым и невредимым.

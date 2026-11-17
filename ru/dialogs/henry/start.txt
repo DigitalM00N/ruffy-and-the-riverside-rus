@@ -1,0 +1,42 @@
+!Camera CameraHenry
+!Sprite Ruffy: idleSideLeft, Henry: talk
+!Voice Henry: Misc = 2
+Henry:
+    Взгляни на наше произведение искусства! Мы только что закончили!
+
+!Camera CameraGraffitiFahrt
+!Event Camera
+!Pause 5
+!Voice Henry: Misc = 1
+Henry:
+    Неужели не видишь? Это же Узорчатые картофелины!
+
+!Camera CameraHenry target CameraRuffy duration 1
+!Sprite Ruffy: thinkLeft, Henry: idle
+!Voice Ruffy: Question = 18
+Ruffy:
+    Узорчатые картофелины?!
+
+!Camera CameraRuffy target CameraHenry duration 1
+!Sprite Ruffy: idleSideLeft, Henry: talk
+!Voice Henry: Misc = 3
+Henry:
+    Ха-ха-ха, да, мы зовём их Узорчатыми картофелинами, потому что они сидят в земле, как картошка, и, конечно, потому что на них всегда есть узор.
+
+!Camera CameraGraffiti1/1 target CameraGraffiti1/2 duration 5
+!Voice Henry: Misc = 5
+Henry:
+    И знаешь что? Узоры можно даже менять. Нужно только знать тайный знак и поменять узор. Если всё сделать правильно, Узорчатые картофелины вылетят из земли! Вот так просто — взлетят!
+
+!Camera CameraGraffiti1/2 target CameraGraffiti2/1 duration 2
+!Event Camera2
+Henry:
+    Откуда я знаю? Очень просто: мне приснились Узорчатые картофелины. И во сне я увидел все тайные знаки.
+
+!Camera CameraGraffiti2/2 target CameraGraffiti3/1 duration 2
+!Event Camera3
+Henry:
+    На следующий же день я обежал все Узорчатые картофелины и попробовал поменять узоры, но ничего не вышло. Ну, тогда я просто нарисовал все тайные знаки на стенах рядом с Узорчатыми картофелинами.
+
+Henry:
+    Что, хочешь попробовать? Ох, вот было бы здорово. Я так хочу увидеть, как Узорчатые картофелины вылетают из земли! Тебе нужно только найти мои тайные знаки и поменять узор на картофелинах.

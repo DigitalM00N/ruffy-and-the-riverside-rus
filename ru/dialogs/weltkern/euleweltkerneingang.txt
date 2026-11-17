@@ -1,0 +1,31 @@
+!Camera Eule1 target Eule duration 4
+!Sprite Minna: beg
+!Voice Minna: begrüßend = 1
+Minna:
+    Здравствуй, маленький медвежонок...
+* Эй, я не маленький!
+* Здравствуй, маленькая совушка...
+
+!Sprite Minna: sad
+!Voice Minna: zustimmend = 1
+Minna:
+    Хи-хи-хи. Кто знает, что мало, а что велико? Порой вещи не такие, какими кажутся.
+
+!Camera Ruffy
+!Sprite Ruffy: deny, Pip: idle
+!Voice Ruffy: Question = 2
+Ruffy:
+    Ничего в этом не понимаю. Я просто ищу вход в Ядро мира.
+
+!Camera Eule offset 1 duration 1
+!Sprite Minna: secret
+!Voice Minna: neutral = 1
+Minna:
+    Хи-хи-хи, ты ищешь вход? Что ж, вот тут есть старый вход, и он заперт, сколько я себя помню. Но есть старая присказка о том, как его открыть. Слушай, я расскажу...
+
+!Camera Eule
+!Sprite Minna: talk
+!Voice Minna: freuend = 2
+Minna:
+    То распахнётся, то сожмётся вдруг —
+    всё дело в стрелках, мой юный друг.

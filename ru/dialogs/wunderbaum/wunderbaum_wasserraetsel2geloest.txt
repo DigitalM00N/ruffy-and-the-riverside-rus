@@ -1,0 +1,22 @@
+!Camera MayleQuelle
+!Sprite Mayle: jump
+!Voice Mayle: Surprize_Positive = 1
+Mayle:
+    Да, вот оно. Так и должно быть. Вот она, гармония водяной рощи.
+
+!Camera AlleQuelle
+!Sprite Ruffy: idleHalfBackLeft, Mayle: sing
+!Voice Mayle: Surprize_Positive = 4
+Mayle:
+    Я уже чувствую, как она укрепляет обелиск.
+
+!Sprite Ruffy: talkHalfBackLeft
+!Voice Ruffy: Thoughtful = 6
+Ruffy:
+    Теперь должен проявиться последний знак. Последний кусочек. Сейчас увидим, сможет ли обелиск и правда снова очистить источник.
+
+!Camera PipQuelle
+!Sprite Ruffy: idle2, Pip: talkHappy
+!Voice Pip: Lachen = 8
+Pip:
+    Пойдём глянем. Я сейчас лопну от нетерпения.

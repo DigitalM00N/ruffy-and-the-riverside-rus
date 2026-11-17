@@ -1,0 +1,13 @@
+!Sprite Ruffy: idleHalfBackRight
+!Camera Start target Cube duration 1
+!Voice Groll: Anger = 2
+Groll:
+    А-а-а-а-а-а-а! Ёлки-моталки! Вот досада! С ума можно сойти.
+
+Groll:
+    Цвета просто не держатся. Старайтесь лучше, болваны!
+
+!Camera Cube target CubeClose duration 3
+!Voice Groll: Conniving = 3
+Groll:
+    Э-э, то есть, это всё так досадно. Вы, ребята, молодцы, но надо попробовать ещё раз. Быстрее прыгайте мне на спину. Я перевезу вас туда.

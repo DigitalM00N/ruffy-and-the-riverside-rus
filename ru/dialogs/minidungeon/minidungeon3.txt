@@ -1,0 +1,5 @@
+!Camera KameraStart target KameraMaschine duration 2
+!Sprite Ruffy: idleBack, Pip: back
+!Voice Pip: Erschrecken = 4
+Pip:
+    А, новые машины и новые шары материи. Интересно, где они наколдуют нам путь на этот раз.

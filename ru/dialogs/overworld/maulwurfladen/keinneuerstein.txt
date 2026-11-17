@@ -1,0 +1,10 @@
+!Camera MaulwurfKamera duration 0.8
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Эй, Раффи, как продвигаются поиски легендарных самоцветов?
+
+!Sprite Sir Eddler: watch stoneRight
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Просто гляди в оба, а как найдёшь легендарный самоцвет — возвращайся ко мне. Я буду прямо здесь.

@@ -1,0 +1,6 @@
+!Camera CamStampfer
+!Event Silja
+!Voice Silja: Fragend = 2
+!Sprite Pip: back, Ruffy: idleBack
+Silya:
+    Эй, детишки, куда это вы?

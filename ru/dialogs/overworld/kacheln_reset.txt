@@ -1,0 +1,4 @@
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc = 2
+Yoogh:
+    Опа, а вот тут ты ошибся. Головоломку уже не решить. Погоди секунду, я верну плитки на место.

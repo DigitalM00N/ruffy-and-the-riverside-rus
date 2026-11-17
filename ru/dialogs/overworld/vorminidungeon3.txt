@@ -1,0 +1,11 @@
+!Camera Start target Eddler duration 2
+!Sprite Sir Eddler: bashful, Pip: back, Ruffy: idleBack
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Ой, вот и вы.
+
+!Sprite Sir Eddler: crouch
+!Voice Eddler: Greeting = 3
+Sir Eddler:
+    Вход в Погребённые города должен быть за этими каменными глыбами.
+!Sprite Sir Eddler: sniff

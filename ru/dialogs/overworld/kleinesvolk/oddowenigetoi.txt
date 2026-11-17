@@ -1,0 +1,8 @@
+!Camera OddoCamera
+!Voice Mayle: Thoughtful = 1
+!Sprite Oddo: Talk2
+Oddo:
+    Ух, к сожалению, здесь в деревне меньше пяти Этои.
+
+Oddo:
+    Тебе нужно найти больше Этои, и тогда мы сможем помочь.

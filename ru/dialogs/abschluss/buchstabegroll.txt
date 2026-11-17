@@ -1,0 +1,38 @@
+!Camera Groll1
+!Event CLaugh
+!Voice Groll: Laugh_Confident = 4
+Groll:
+    Что может быть лучше маленького сюрприза перед концом фильма!
+
+!Camera Groll1  target Groll2 duration 1
+!Event CPulse
+!Sprite Ruffy: idleBack
+!Voice Groll: Laugh_Friendly = 1
+Groll:
+    Добро пожаловать на моё особое шоу! Оно называется «Великая кража буквы».
+
+!Sprite Ruffy: grumpy
+!Camera  Ruffy1
+!Voice Ruffy: Anger = 4
+Ruffy:
+    А ну отдай её, негодяй!
+
+!Camera  Pip1
+!Sprite Pip: angry, Ruffy: idle
+!Voice Pip: Erschrecken = 11
+Pip:
+    У-у-у, какая подлость! Какая подлость!
+
+!Camera Pip1 target Pip2 duration 0.5
+!Sprite Pip: talk
+!Voice Pip: Cry = 1
+Pip:
+    Раффи, хватай его, пока он не удрал с буквой!
+
+!Camera Groll1 target Groll2 duration 0.5
+!Sprite Ruffy: idleBack
+!Voice Groll: Laugh_Confident = 8
+Groll:
+    Хотите драки? Пожалуйста! Я собирался уничтожить вас попозже, но можно покончить с этим и прямо сейчас!
+
+# Der Groll schwebt angriffslustig an Ort und Stelle auf und ab und wartet auf Ruffys Angriff.

@@ -1,0 +1,11 @@
+!Camera Pip
+!Sprite Pip:talk
+!Voice Pip: Bored = 6
+Pip:
+    Теперь всё зависит от тебя, Избранный!
+
+!Camera Ruffy1
+!Sprite Ruffy: proud
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    И от тебя тоже, Избранный. Что бы я без тебя делал?

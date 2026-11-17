@@ -1,0 +1,6 @@
+!Voice Pip: Erschrecken = 1
+Pip:
+    Ой... это не к добру!
+
+Sir Eddler:
+    О НЕТ! Что теперь происходит?

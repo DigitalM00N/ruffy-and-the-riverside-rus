@@ -1,0 +1,119 @@
+!Camera Siljacam1
+!Event Augenangry, SiljaTalkShake
+!Sprite Ruffy: idleHalfBackRight, Pip: back
+!Voice Silja: Fragend = 5
+Silya:
+    Что случилось? Я что, пила лаву? Где я? У меня жуткая изжога!
+
+!Camera Siljacam6
+!Event SiljaIdle, Augenauf
+!Sprite Ruffy: grumpyRight, Pip: idle
+!Voice Ruffy: Agreement = 6
+Ruffy:
+    Гролл напал на тебя и забросил в Северные земли. Ты в Пещерах Нового начала.
+
+!Camera Siljacam1
+!Event SiljaSad, Augenzu
+!Sprite Ruffy: idleHalfBackRight, Pip: back
+!Voice Silja: Neutral = 2
+Silya:
+    Гролл... Да, я помню. Он хотел узнать, где спрятано Ядро мира. Он был так силён, что даже проник в мои мысли, чтобы это выведать.
+
+!Event Augenauf
+!Camera Siljacam4
+!Sprite Ruffy: shockedRight, Pip: idle
+!Voice Ruffy: Anger = 9
+Ruffy:
+    Ох, Силья, это ужасно! Думаешь, он узнал, где спрятано Ядро мира?
+
+!Sprite Ruffy: idleHalfBackRight
+!Camera Siljacam2
+!Event TalksadShake, Augenangry
+!Voice Silja: Verärgert = 3
+Silya:
+    Боюсь, я не знаю. Но это ещё не всё...
+
+!Event SiljaDepri
+!Camera Siljacam2 target Siljacam5 duration 2
+!Voice Silja: Neutral = 1
+Silya:
+    Когда он проник в мой разум, я тоже смогла заглянуть в его самые потаённые мысли.
+
+!Sprite Ruffy: thinkRight
+!Camera Siljacam6
+!Event Augenauf, SiljaIdle
+!Voice Ruffy: Question = 8
+Ruffy:
+    Мысли Гролла? Расскажи! Что ты увидела?
+
+!Event Augenangry, SiljaAngry
+!Sprite Ruffy: idleHalfBackRight, Pip: back
+!Camera Siljacam5
+!Voice Silja: Traurig = 2
+Silya:
+    Дыру. Чёрную дыру. Она ненасытна и пожирает всё подряд, но ничто не приносит ей радости.
+
+!Camera Siljacam1
+!Event Talksadshake
+!Voice Silja: Verärgert = 2
+Silya:
+    Он поглотит весь мир. Раффи, ты ДОЛЖЕН его остановить. Только ТЫ можешь это сделать!
+
+!Camera Siljacam4
+!Sprite Ruffy: deny, Pip: idle
+!Voice Ruffy: Question = 2
+Ruffy:
+    Но как? Рядом с ним я чувствую себя таким маленьким.
+
+!Camera Siljacam5
+!Event Augenauf, SiljaTalk
+!Sprite Ruffy: idleHalfBackRight, Pip: back
+!Voice Silja: Fragend = 6
+Silya:
+    Кто знает, что мало, а что велико?
+
+!Event Talknett
+Silya:
+    Доверься своему воображению, Раффи. Вот что делает тебя большим!
+
+!Camera Siljacam1
+!Event Siljanicken
+!Voice Silja: Neutral = 2
+Silya:
+    Гролл умеет только разрушать, а ты умеешь создавать новое!
+
+!Camera Siljacam1 offset 1 duration 2
+!Event Siljanice
+Silya:
+    Твои идеи делают этот мир больше. Он становится ярче, красивее и веселее. Гроллу такое никогда не под силу. Рядом с тобой он — карлик.
+
+!Camera Siljacam4
+!Sprite Ruffy: proudRight, Pip: idle
+!Voice Ruffy: Agreement = 2
+Ruffy:
+    Ты права. Фантазии ему и правда не хватает.
+
+!Sprite Ruffy: cheer
+!Voice Ruffy: Cheer = 4
+Ruffy:
+    Ладно. За дело. Похоже, теперь мне надо найти последнюю букву!
+
+!Camera Siljacam2
+!Event Siljanice
+!Sprite Ruffy: idleHalfBackRight
+!Voice Silja: Zustimmend = 3
+Silya:
+    Хорошо сказано, Раффи. Давай доведём дело до конца. Найди последнюю букву!
+
+!Camera Siljacam2 target Siljacam5
+!Event SiljaTalk
+!Voice Silja: Neutral = 1
+Silya:
+    Но ты должен знать одну вещь! У последней буквы нет постоянного места. Её охраняет особая тайна. Найти её можно, только если ты...
+
+!Camera Siljacam1Shake
+!Sprite Ruffy: shockedRight
+!Event Siljapain, STEINSCHLAG
+!Voice Silja: Verärgert = 1
+Silya:
+    О нет! Что это? Что происходит?

@@ -1,0 +1,4 @@
+!Camera Camera target Camera2 duration 4
+!Voice Wilbert: Greeting = 3
+Bruno:
+    Хм... Там наверху что-то есть! Я этого не вижу и прокопаться наверх не могу, но там что-то есть.

@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: serious
+!Voice Eddler: Surprise_Negative = 2
+Sir Eddler:
+    Раффи, похоже, жизнь Флитци в опасности. Это наш шанс спасти жизнь чемпиону и попасть на ферму.

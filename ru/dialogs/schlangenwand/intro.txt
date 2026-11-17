@@ -1,0 +1,20 @@
+!Camera SteepyCamera
+!Sprite Sirsil: shock
+!Voice Sirsil: Positiv
+Slythia:
+    Ого, что это? Да ты одухотворён! Да, я это чувствую!
+
+!Sprite Sirsil: laugh
+!Voice Sirsil: Positiv
+Slythia:
+    Но тебе нужна тренировка. Да, духовная тренировка.
+
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv
+Slythia:
+    Позволь мне открыть тебе глаза и показать семь путей змеи.
+
+!Sprite Sirsil: idle
+!Voice Sirsil: Positiv
+Slythia:
+    Узри змею. Приведи мысли в порядок. И вскоре ты распознаешь её путь.

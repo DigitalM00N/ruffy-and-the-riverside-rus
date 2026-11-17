@@ -1,0 +1,15 @@
+!Camera OddoCamera
+!Voice Mayle: Question = 1
+!Sprite Oddo: Talk
+Oddo:
+    Привет, Раффи. Нашёл где-нибудь чёрную смолу?
+
+!Voice Mayle: Realization = 1
+!Sprite Oddo: Talk2
+Oddo:
+    Я чувствую, что мест, запятнанных чёрной смолой, ещё осталось: {0}.
+
+!Sprite Oddo: TalkHappy
+!Camera OddoCamera2
+Oddo:
+    Дай-ка посчитаю, хватит ли здесь Этои, чтобы тебе помочь.

@@ -1,0 +1,119 @@
+!Camera KameraStart target KameraDonnie duration 2
+!Sprite Ruffy: idleBack, Pip: back, Donnie: cheer
+!Event lichtDonnie
+!Voice Hickory: Greeting = 1
+Donnie:
+    Эй, вы двое! Добро пожаловать на «Дикий тюк»! Не хотите прокатиться?
+
+!Sprite Donnie: talk
+!Voice Hickory: Laugh_Confident = 4
+Donnie:
+    Ты ничего не знаешь о тюках, пока не прокатился на них по бурной воде!
+* Нет, спасибо, нам пора.
++1
+* Расскажи ещё раз историю про золотую букву!
+
+# 1
+!Sprite Donnie: talk
+!Voice Hickory: Agreement = 2
+Donnie:
+    Йо, бро! Я тут, если что.
++16
+
+# 2
+!Sprite Donnie: cheer
+!Voice Hickory: Attack_Laugh = 2
+Donnie:
+    Золотая буква? Это был такой отпад! С радостью расскажу хоть тысячу раз!
+
+!Sprite Donnie: talk
+!Voice Hickory: Agreement = 3
+Donnie:
+    Ладно, чувак, слушай. Тогда было вообще отпадно. Я был молодым крутолазом.
+
+!Sprite Donnie: cheer
+!Voice Hickory: Conniving = 4
+Donnie:
+    Только что выиграл Крутые игры. Это было круто!
+
+!Sprite Donnie: talk
+!Voice Hickory: Realization = 5
+Donnie:
+    И тут вдруг со мной заговаривают эти чуваки-змеи. Вообще отпад, бро!
+
+!Camera KameraPip
+!Sprite Ruffy: idle2, Pip: talkDoubt
+!Event lichtNormal
+!Voice Pip: Erschrecken = 3
+Pip:
+    А дальше? Что они тебе сказали?
+
+!Camera KameraDonnie
+!Sprite Ruffy: idleBack, Pip: back, Donnie: talk
+!Event lichtDonnie
+!Voice Hickory: Thoughtful = 1
+Donnie:
+    Не помню, бро. Но следующее, что я помню, — облака!
+
+!Sprite Donnie: cheer
+!Voice Hickory: Laugh_Friendly = 5
+Donnie:
+    Ага, я летел сквозь облака, прямо насквозь, понимаешь? И вдруг она появляется! Прямо передо мной!
+
+!Camera KameraRuffy
+!Sprite Ruffy: talk, Pip: idle
+!Event lichtNormal
+!Voice Ruffy: Question = 16
+Ruffy:
+    Что это было? Ну, рассказывай!
+
+!Camera KameraDonnie
+!Sprite Donnie: talk, Pip: back
+!Event lichtDonnie
+!Voice Hickory: Agreement = 2
+Donnie:
+    Она была огромная, золотая и вроде как ведро или что-то такое. В общем, я влетел туда на полном ходу и тут-то её и увидел.
+
+!Camera KameraDonnie target KameraDonnieClose duration 1
+!Sprite Donnie: cheer
+!Voice Hickory: Attack_Laugh = 1
+Donnie:
+    Золотую букву!!
+
+!Camera KameraOverviewStart target KameraOverviewRuffy duration 1
+!Sprite Ruffy: talkHalfBackRight, Pip: back, Donnie: idle
+!Voice Ruffy: Question = 5
+Ruffy:
+    Ты уверен? А какая это была буква?
+
+!Camera KameraOverviewRuffy target KameraOverviewDonnie duration 1
+!Sprite Ruffy: idleHalfBackRight, Donnie: talk
+!Voice Hickory: Agreement = 4
+Donnie:
+    Конечно уверен. Это была D, бро. До сих пор вижу её прямо перед глазами. Золотая D!
+
+!Camera KameraOverviewDonnie target KameraOverviewRuffy duration 1
+!Sprite Ruffy: talkHalfBackRight, Donnie: idle
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    А потом? А потом?
+
+!Camera KameraOverviewRuffy target KameraOverviewDonnie duration 1
+!Sprite Ruffy: idleHalfBackRight, Donnie: talk
+!Voice Hickory: Worry = 1
+Donnie:
+    Я упал! До самого низа! К счастью, со мной был мой тюк, и я смог благополучно приземлиться.
+
+!Camera KameraRuffy
+!Sprite Ruffy: cheer, Pip: idle
+!Event lichtNormal
+!Voice Ruffy: Surprise_Positive = 1
+Ruffy:
+    Ух ты! Вот это история.
+
+!Camera KameraDonnie target KameraDonnieClose duration 1
+!Sprite Ruffy: idleBack, Pip: back, Donnie: cheer
+!Event lichtDonnie
+!Voice Hickory: Thoughtful = 3
+Donnie:
+    Ещё бы, бро! Это всё, что я помню. Но эту D я никогда не забуду, бро. Она до сих пор где-то там, наверху.

@@ -1,0 +1,5 @@
+!Camera MinnaKamera target GemäldeKamera2 delay 1 duration 2
+!Sprite Minna: cheer
+!Voice Minna: freuend = 2
+Minna:
+    Уверена, я их просто обожаю! По крайней мере, неделю... *вздох*

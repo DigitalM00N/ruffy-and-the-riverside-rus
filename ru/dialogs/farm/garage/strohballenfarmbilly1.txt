@@ -1,0 +1,65 @@
+!Camera camera_1
+!Event no
+!Sprite Ruffy: idleHalfBackRight, Pip:idle, FBRot: talk
+!Voice Billy: Greeting = 7
+Billy:
+    Здорóво! Говорят, ты спас жизнь Флитци? Очень мило с твоей стороны.
+
+!Camera camera_1 target camera_2 duration 1
+!Sprite FBRot: idle, Ruffy: think, Pip:idle
+!Voice Ruffy: Agreement = 5
+Ruffy:
+    Не за что. Расскажешь мне про тюки?
+
+!0
+!Camera camera_2 target camera_1 duration 1
+!Sprite FBRot: talk, Ruffy: idleHalfBackRight, Pip:idle
+!Voice Billy: Agreement = 3
+Billy:
+    Конечно, приятель! Смотри!
+
+!1
+!Sprite FBRot: talk
+!Voice Billy: Conniving = 4
+Billy:
+    Вот она — Мчащаяся долблёнка! Действующая рекордсменка 72-часовой гонки на выносливость.
+
+!2
+!Voice Billy: Realization = 3
+Billy:
+    Каркас целиком из твёрдой древесины, отшлифованной вручную.
+
+!Voice Billy: Laugh_Friendly = 2
+Billy:
+    Поэтому сопротивление воздуха минимальное, и из поворотов она ускоряется как сумасшедшая.
+
+!3
+!Voice Billy: Agreement = 1
+Billy:
+    Я гнул дерево паром и пропитал его ореховым маслом. Так у него идеальная упругость для высоких прыжков.
+
+!4
+!Sprite FBRot: talk, Pip: back
+!Voice Billy: Laugh_Friendly = 5
+Billy:
+    В качестве топлива — жидкий динамит с капелькой экстракта валерианы, чтобы чуть-чуть снизить риск взрыва.
+* Звучит потрясающе, но как мне раздобыть тюк?
++1
+* Спасибо, пока хватит.
+!Sprite Red Bear: idle, Pip: back
+
+!5
+!Sprite FBRot: talk, Ruffy: idleHalfBackRight
+!Voice Billy: Attack_Laugh = 7
+Billy:
+    Даже не мечтай. Тюки получают только чемпионы. Так что придётся выиграть гонку.
++2
+
+!5
+!Sprite FBRot: talk, Ruffy: idleHalfBackRight
+!Voice Billy: Agreement = 6
+Billy:
+    Ну ладно, приятель! Держись! Кататься на тюке — это просто лучшее на свете! Кроме, конечно, езды по грязи.
+
+Billy:
+    В грязи даже тюнинг тюка не поможет.

@@ -1,0 +1,11 @@
+!Event Sprite
+!Camera BaleFar target camera_Ruffy_back_blue duration 3
+!Sprite Hickory: denyRight
+!Voice Hickory: Worry = 4
+Hickory:
+    Эй, Раффи, всё ещё не спишь в такой час? Эй, а это что такое?! Ты ведь не собираешься увезти этот славный тюк с фермы?
+
+!Sprite Hickory: talkRight
+!Voice Hickory: Agreement = 4
+Hickory:
+    Вывозить тюки с фермы разрешено только чемпионам. Выиграй гонку — и сможешь забрать его с собой.

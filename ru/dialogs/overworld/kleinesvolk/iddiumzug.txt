@@ -1,0 +1,11 @@
+!Camera IddiCamera2
+!Voice Mayle: Laugh_Friendly = 7
+!Sprite Iddi: TalkHappy
+Iddi:
+    Спасибо, что возродил Древо жизни. Мы, Этои, в неоплатном долгу перед тобой. Теперь, когда Древо жизни снова присматривает за нами, мы опять открыли ворота убежища.
+
+!Camera IddiCamera2 target IddiCamera duration 2
+!Voice Mayle: Thoughtful = 1
+!Sprite Iddi: Talk2
+Iddi:
+    К сожалению, некоторых Этои всё ещё не хватает. Пожалуйста, разыщи их и пришли ко мне. Я их пересчитаю и зажгу по свече за каждого вернувшегося Этои.

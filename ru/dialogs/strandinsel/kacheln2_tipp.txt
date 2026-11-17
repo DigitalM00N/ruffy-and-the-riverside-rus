@@ -1,0 +1,5 @@
+!Sprite Daag: defaultTalk
+!Camera C1
+!Voice Hohepriester: Misc = 3
+Yoogh:
+    Ладно, слушай. Вот решение. Верхний ряд: 1, 1, 1. Средний ряд: 1, 8, 1. Нижний ряд: 1, 1, 1. Надеюсь, теперь ты доволен.

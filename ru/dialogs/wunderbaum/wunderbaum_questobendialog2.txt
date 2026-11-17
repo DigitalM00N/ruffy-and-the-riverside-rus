@@ -1,0 +1,22 @@
+!Camera Mayle
+!Sprite Ruffy: idleHalfBackRight, Pip: idle, Mayle: jump
+!Event ApfelVolume
+!Voice Mayle: Surprise_Positive = 3
+Mayle:
+    Сила света возвращается к Обелиску роста.
+
+!Sprite Mayle: think
+Mayle:
+    Когда на нём снова будут все три знака, его силы должно хватить, чтобы очистить источник.
+
+!Camera Apfelhain
+!Sprite Mayle: think
+!Voice Mayle: Surprise_Positive = 6
+Mayle:
+    Смотрите! Сила обелиска исцелила яблоневую рощу!
+
+!Camera Mayle
+!Sprite Mayle: jump
+!Voice Mayle: Agreement = 6
+Mayle:
+    Давайте быстренько посмотрим!

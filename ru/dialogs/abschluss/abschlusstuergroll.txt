@@ -1,0 +1,5 @@
+!Voice Groll: Laugh_Confident = 8
+Groll:
+    Сезам, откройся!!! Ха-ха-ха, глупцы, премного благодарен!
+
+!Continue auto

@@ -1,0 +1,94 @@
+!Camera HPCAM1
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    С возвращением, Раффи! Вижу, ты принёс мне Священную букву. Чувствую, это «D».
+
+#CUTSCENE
+#Der Buchstabe D erscheint im Holoprojektor. => Animation
+!Camera HPCAM3
+!Event BuchstabeD
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 7
+Hohepriester:
+    Буква святая, сила святая, будь с нами в час, когда тьма густая.
+!Pause 2
+!Continue auto
+
+#Von dort fliegt an in die Buchstabenmatrix an die Stelle für S (Ruffy kopiert es also nicht selbst, sondern es passiert automatisch).=> Animation
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 4
+Hohepriester:
+    Пусть сила буквы, что сияет, судьбу нам к лучшему меняет.
+!Continue none
+
+#Daraufhin sieht man wie am Schild das D ausgefahren wird => Animation
+!Voice Hohepriester: Misc = 7
+Hohepriester:
+    Когда все буквы встанут в ряд, святым сияньем нас озарят.
+!Continue none
+
+#Und daraufhin sieht man wie der Weltkern “geheilt” wird, zB durch Blinken/Farbverlauf (irgendwas einfaches). => Animation
+!Continue auto
+!Voice Hohepriester: Misc = 8
+Hohepriester:
+    Священная буква, открой нам новую часть колеса.
+
+!Camera PipCamera
+!Sprite Pip: talk, Ruffy: idle
+!Continue none
+!Voice Pip: Staunen = 5
+Pip:
+    Ядро мира! Оно исцеляется!
+
+!Camera RCAM1
+!Sprite Ruffy: proud, Pip: idle
+!Voice Ruffy: Surprise_Positive = 2
+Ruffy:
+    Красота. Я прямо чувствую это.
+
+!Camera HPCAM3
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 3
+Hohepriester:
+    А теперь слушайте, куда Колесо мудрости пошлёт вас дальше.
+
+#CUTSCENE Das Rad dreht sich und zeigt das Dorf in den Nordländern=> Animation
+!Event RadD
+!Pause 17.25
+!Camera HPCAM 3
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 7
+Hohepriester:
+    Деревня Нотори на севере — ваша следующая цель. Найдите туда путь в Погребённых городах!
+
+#Cutscene Der nächste Minidungeon erscheint in der Nähe der Schlucht beim großen Krater=> Animation
+!Camera PipCamera
+!Sprite Pip: talkDoubt, Ruffy: idle
+!Voice Pip: Traurig = 2
+Pip:
+    С ума сойти. Колесо и правда посылает нас в Северные земли! А я так надеялся, что оно пошлёт нас куда-нибудь ещё. На пляж, например, или хотя бы на юг, а не на север.
+
+!Camera RCAM1
+!Sprite Ruffy: deny
+!Voice Ruffy: Agreement = 9
+Ruffy:
+    Признайся, ты боишься Нотори больше, чем Гролла!
+
+!Camera PipCamera
+!Sprite Pip: talkDoubt, Ruffy: idle
+!Voice Pip: Misc = 5
+Pip:
+    Ну да, в каком-то смысле. Говорят, северные медведи вечно хмурые и жутко сильные. А вдруг нам там не обрадуются?
+
+!Camera RCAM1
+!Sprite Ruffy: proud
+!Voice Ruffy: Agreement = 2
+Ruffy:
+    Не волнуйся. Если начнут буянить, просто хватай меня и уноси нас оттуда. Например, на пляж?
+
+!Camera PipCamera
+!Sprite Pip: talkDoubt, Ruffy: idle
+!Voice Pip: Misc = 7
+Pip:
+    Очень смешно. Ладно, попробуем. Нотори, мы идём!

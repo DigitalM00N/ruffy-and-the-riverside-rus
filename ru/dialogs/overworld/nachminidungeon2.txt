@@ -1,0 +1,46 @@
+!Pause 1
+!Camera Eddler
+!Sprite Ruffy: idleHalfBackRight, Pip: back, Sir Eddler: seriousRight
+!Voice Eddler: Frustration = 4
+Sir Eddler:
+    Эй, быстро вы. Ну и славно — земля тут жутко холодная, да и самоцветов я никаких не нашёл.
+
+!Camera Ruffy
+!Sprite Ruffy: think, Pip: idle
+!Voice Ruffy: Question = 2
+Ruffy:
+    Эй, Эддлер, этот кусок пути выглядит как-то странно. Что это? И как нам с его помощью перебраться через ущелье?
+
+!Camera RailStart target RailEnd duration 5
+!Sprite Sir Eddler: positiv, Pip: back, Ruffy: idleBack
+!Voice Eddler: Realization = 2
+Sir Eddler:
+    Очень просто! Это рельс! Древний артефакт весьма вневременного дизайна. Рельсы уводят в далёкие края, а этот ведёт прямиком в Царство мёртвых.
+
+!Camera Overview
+!Sprite Sir Eddler: bashfullFrontHalf, Ruffy: idleSideRight, Pip: idle
+!Voice Eddler: Greeting = 3
+Sir Eddler:
+    К сожалению, по рельсу нельзя просто пройти пешком. Перебраться по нему можно только на тюке соломы.
+
+!Sprite Ruffy: thinkRight, Pip: idle, Sir Eddler: leanRight
+!Voice Ruffy: Question = 7
+Ruffy:
+    На чём? На тюке соломы? Это как вообще?
+
+!Camera Overview target OverviewRail duration 3
+!Sprite Ruffy: idleSideRight, Sir Eddler: positivRight
+!Voice Eddler: Attack_Laugh = 7
+Sir Eddler:
+    Только не говори, что ты никогда не катался на тюке соломы! Запрыгиваешь на тюк, прыгаешь на рельс — и вперёд. Проще простого и ужасно весело!
+
+!Camera Eddler
+!Sprite Sir Eddler: bashful +mirror, Ruffy: idleHalfBackRight, Pip: back
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Тюки соломы — это просто супер. Жаль только, у нас их нет...
+
+!Sprite Sir Eddler: positiv +mirror
+!Voice Eddler: Conniving = 2
+Sir Eddler:
+    Но не волнуйтесь. На ферме к востоку тюков десятки. Если повезёт, сможем один стащить, э-э, одолжить. Лучше отправляйтесь туда прямо сейчас.

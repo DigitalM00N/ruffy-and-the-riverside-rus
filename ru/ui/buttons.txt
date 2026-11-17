@@ -1,0 +1,26 @@
+Settings Camera:    Камера
+Camera Invert:      Инверсия основной камеры
+Target Invert:      Инверсия камеры обмена
+Camera Sensitivity: Чувствительность основной камеры
+Target Sensitivity: Чувствительность камеры обмена
+Camera Distance:    Дистанция камеры
+Camera Follow:      Автовыравнивание камеры
+Settings Volume:    Громкость
+Volume General:     Общая громкость
+Volume Music:       Громкость музыки
+Volume Effects:     Громкость эффектов
+Shortcuts:          Показывать подсказки меню
+Compass:            Показывать компас
+Language:           Язык
+Reset:              Сбросить настройки
+Exit:               Выйти в главное меню
+On:                 Вкл.
+Off:                Выкл.
+Default:            По умолчанию
+Horizontal:         По горизонтали
+Vertical:           По вертикали
+Camera:             Как у основной камеры
+Not available:      Ещё не открыто
+Exit Game:          Выйти из игры
+Exit Demo:          Выйти из демо
+Exit Level:         Покинуть уровень

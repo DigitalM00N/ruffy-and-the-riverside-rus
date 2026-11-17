@@ -1,0 +1,5 @@
+!Camera QuintusKamera duration 1
+!Sprite Fuchs: shakeHead
+!Voice Quintus: Thoughtful = 1
+Quintus:
+    Ты серьёзно? Я хочу картину с лесом, где много-много зверей. Чем больше зверей, тем лучше!

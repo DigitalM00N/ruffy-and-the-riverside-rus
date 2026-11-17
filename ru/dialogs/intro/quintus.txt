@@ -1,0 +1,5 @@
+!Camera QuintusKamera
+!Sprite Fuchs: read, Ruffy: idleHalfBackRight
+!Voice Quintus: Greeting = 1
+Quintus:
+    Привет, Раффи, мне ужасно нравится вон та картина с лесом. Там столько милых зверушек. Давай, обменяй её для меня!

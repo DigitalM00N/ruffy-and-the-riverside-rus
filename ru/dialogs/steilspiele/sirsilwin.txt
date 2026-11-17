@@ -1,0 +1,36 @@
+!Camera Sirsil target OverviewS duration 2
+!Sprite Sirsil: talkLeft, Ruffy: idleSideLeft, Pip: idle
+!Voice Sirsil: Negativ  = 9
+Sirsil:
+    У тебя получилось, Раффи! Ты правда позвонил в колокол!
+
+Sirsil:
+    Он упал в долину, туда, где кончается река. Мне нужно срочно проверить, не повредился ли он!
+
+!Camera OverviewS target OverviewR duration 1
+!Sprite Ruffy: talkLeft, Sirsil: idleLeft
+!Voice Ruffy: Frustration = 2
+Ruffy:
+    Колокол упал в долину? Значит, и буква тоже там...
+
+!Camera OverviewR target Ruffy duration 1
+!Sprite Ruffy: thinkLeft
+!Voice Ruffy: Question = 6
+Ruffy:
+    Как нам туда попасть?
+
+!Camera Ruffy target OverviewS duration 1
+!Sprite Sirsil: talkLeft, Ruffy: idleSideLeft
+!Voice Sirsil: Positiv = 8
+Sirsil:
+    Вспомни пророчество, строфу четвёртую!
+
+Sirsil:
+    Там сказано, что Избранный помчится вниз по ручью на тюке. Больше я ничего не знаю!
+!Event SirsilLeave
+
+!Camera RuffyFar target Pip duration 1
+!Sprite Pip: talk
+!Voice Pip: Misc = 6
+Pip:
+    Нам надо вниз по ручью! На тюке! Вперёд!

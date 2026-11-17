@@ -1,0 +1,6 @@
+!Camera camera_blue2
+!Event blue bear disappear
+!Sprite Bally: talk
+!Voice Bally: Greeting = 3
+Bally:
+    Эй, новичок! Ты не видел мой тюк? Его, наверное, кто-то украл. Или эти мерзкие жуки его всё-таки сожрали.

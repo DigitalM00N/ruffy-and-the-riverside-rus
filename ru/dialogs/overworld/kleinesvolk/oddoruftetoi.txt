@@ -1,0 +1,5 @@
+!Camera OddoCamera2
+!Voice Mayle: Agreement = 5
+!Sprite Oddo: TalkHappy
+Oddo:
+    ЭЭЭЭЙ! Раффи нужна ваша помощь!

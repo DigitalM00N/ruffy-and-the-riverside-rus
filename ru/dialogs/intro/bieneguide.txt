@@ -1,0 +1,18 @@
+!Camera GuideKamera1 target GuideKamera2 duration 8
+!Sprite Ruffy: idleBack,Pip: talkHappy
+!Voice Pip: Staunen = 7
+Pip:
+    Ого, какое изысканное желание!
+
+!Sprite Pip: talkDoubt
+Pip:
+    Дай-ка посмотреть, есть ли у нас такая картина?
+
+!Sprite Pip: talkSparkle
+!Voice Pip: Agree = 3
+Pip:
+    Да! Есть! Я её недавно видел.
+
+Pip:
+    Смотри, сейчас покажу!
+!Sprite Pip: idle

@@ -1,0 +1,69 @@
+!Camera Siljacam1
+!Event Siljapain
+!Sprite Ruffy: idleHalfBackRight
+!Voice Silja: Fragend = 3
+Silya:
+    Ох, батюшки, что случилось? Будто гроза прогремела...
+
+!Camera Eddlercam1
+!Sprite Sir Eddler: serious
+!Voice Eddler: Frustration = 7
+Sir Eddler:
+    Это Гролл. Он вернулся! Всё такой же горлопан. Всё такой же, ну... э-э, это он, поверь мне, Силья.
+
+!Camera Siljacam1
+!Event Siljapain
+!Sprite Ruffy: idleHalfBackRight
+!Voice Silja: Verärgert = 2
+Silya:
+    Да что ж такое! ГРОЛЛ? Но как это возможно?
+
+!Camera Siljacam3
+!Event SiljaTalk
+!Sprite Ruffy: idleHalfFrontLeft
+!Voice Silja: Neutral = 1
+Silya:
+    После Великого опустошения... он был повержен. Он был изгнан... навсегда.
+
+!Camera Eddlercam1
+!Sprite Sir Eddler: secret
+!Voice Eddler: Thoughtful = 5
+Sir Eddler:
+    И всё же это он. И дальше только хуже! Он повредил Эмблему.
+
+!Camera Siljacam2
+!Event SiljaTalk
+!Sprite Ruffy: idleHalfFrontLeft
+!Voice Silja: Fragend = 6
+Silya:
+    Повредил Эмблему? Силы небесные! Значит, теперь весь Риверсайд в большой опасности.
+
+!Camera Eddlercam1
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Вот именно, Силья. Думаю, пришло время рассказать Раффи всю историю. Мы и так слишком долго ждали...
+
+!Camera Siljacam1
+!Event Siljanicken
+!Sprite Ruffy: idleHalfBackRight
+!Voice Silja: Lachen = 1
+Silya:
+    Ты прав, Сэр Эддлер. Этого не избежать...
+
+!Event SiljaTalkShake
+!Sprite Ruffy: idleHalfFrontLeft
+!Voice Silja: Neutral = 2
+Silya:
+    Но не здесь! Не сейчас! Идите к Эмблеме. Там мы и увидим, правда ли Раффи — Избранный.
+
+!Camera Eddlercam1
+!Sprite Sir Eddler: agreeLeft
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Да будет так! К Эмблеме!
+
+!Sprite Sir Eddler: lean
+!Voice Eddler: Attack_Laugh = 1
+Sir Eddler:
+    Раффи, не волнуйся. Скоро ты всё поймёшь. Иди за мной к Эмблеме.

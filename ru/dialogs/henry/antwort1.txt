@@ -1,0 +1,14 @@
+!Camera CameraGraffiti1/1 target CameraGraffiti1/2 duration 5
+!Voice Henry: Misc = 5
+Henry:
+    У каждой Узорчатой картофелины есть тайный знак. Иногда он немного спрятан, и его сначала надо найти. Но когда найдёшь, остаётся только нанести его на Узорчатую картофелину — и она вылетит из земли.
+
+!Camera CameraGraffiti1/2 target CameraGraffiti2/1 duration 2
+!Event Camera2
+Henry:
+    Говорят, под Узорчатыми картофелинами даже спрятано сокровище, но не знаю, правда ли это.
+
+!Camera CameraGraffiti2/2 target CameraGraffiti3/1 duration 2
+!Event Camera3
+Henry:
+    К сожалению, мне пока не удалось нанести тайные знаки на Узорчатые картофелины. Может, ты нам с этим поможешь?

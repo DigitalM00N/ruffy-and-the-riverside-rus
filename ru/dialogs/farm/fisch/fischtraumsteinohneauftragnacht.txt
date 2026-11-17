@@ -1,0 +1,28 @@
+!Camera camera_night
+!Sprite Fish: lean laugh, Ruffy: idleHalfBackLeft
+!Voice Fische: Misc = 6
+#!Event no fish
+Leroy:
+    Святой плавник, да ты, должно быть, Раффи.
+
+!Sprite Fish: lean talk
+!Voice Fische: Misc = 3
+Leroy:
+    Я про тебя много слышал. Это ты повозился с часовой башней, да?
+
+!Camera camera_night offset 1 duration 1
+!Sprite Fish: cheer, Ruffy: idleSideLeft
+!Voice Fische: Misc = 1
+Leroy:
+    Чего тут такого? Да всё просто. Мы, рыбы, — настоящие тусовщики, и каждую ночь гуляем, пока жабры не треснут.
+
+!Sprite Fish: joyful talk
+!Voice Fische: Misc = 9
+Leroy:
+    И тут приходишь ты, крутишь башенные часы и даришь нам лишнюю ночь. Очень мило с твоей стороны!
+
+#!Camera camera_night offset 1 duration 1
+!Voice Fische: Misc = 3
+Leroy:
+    Прими этот камень снов в благодарность. Я об него вечно плавник ушибаю. Может, у тебя он найдёт применение получше.
+!Sprite Fish: party

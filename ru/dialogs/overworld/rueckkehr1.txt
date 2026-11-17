@@ -1,0 +1,34 @@
+!Camera Start target OverviewE duration 3
+!Sprite Sir Eddler: cheerFrontHalf +mirror, Ruffy: idleSideRight, Pip: idle
+!Voice Eddler: Laugh_Confident = 3
+Sir Eddler:
+    Ура! У вас получилось! Первая буква найдена! Это должно немного укрепить Ядро мира.
+
+!Camera OverviewE target OverviewP duration 1
+!Sprite Pip: talkHappy, Sir Eddler: leanRight
+!Voice Pip: Lachen = 8
+Pip:
+    Ура!
+
+!Sprite Sir Eddler: shake
+!Voice Eddler: Realization = 3
+Sir Eddler:
+    Никто бы и подумать не мог, что с помощью ОБМЕНА можно натворить столько великих дел.
+
+!Camera OverviewE target OverviewR duration 1
+!Sprite Sir Eddler: leanRight, Ruffy: proudRight
+!Voice Ruffy: Laugh_Friendly = 8
+Ruffy:
+    Ха-ха-ха. Я и сам не думал.
+
+!Camera Eddler
+!Sprite Ruffy: idleSideRight, Sir Eddler: seriousRight, Pip: back
+!Voice Eddler: Greeting = 2
+Sir Eddler:
+    Кстати, Квинтус, Пикс и остальные очень хотят с вами познакомиться. Так что обязательно загляните к ним, когда вернётесь в Риверсайд.
+
+!Camera Eddler
+!Sprite Pip: back, Sir Eddler: seriousRight, Ruffy: idleBack
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    Встретимся у Базилики. Не терпится узнать, куда нам предстоит отправиться дальше!

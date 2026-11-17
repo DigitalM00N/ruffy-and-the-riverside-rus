@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 1
+!Event Schmetterling01
+Quintus:
+    Это жёлтый соломонюх.
+    Он из семейства полевых бабочек.
+
+!Voice Quintus: Agreement = 1
+Quintus:
+    Говорят, соломонюхи пьют нектар через соломинку.
+!Sprite Fuchs: idle
+
+Quintus:
+    Интересно, правда ли это.

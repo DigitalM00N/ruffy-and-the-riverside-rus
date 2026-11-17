@@ -1,0 +1,17 @@
+!Sprite Pip: talk
+!Voice Pip: Begrüßen = 3
+Pip:
+    Ох ты ж, эти двигатели внутреннего сгорания и правда сгорают! Кто бы мог подумать!
+!Pause 2
+
+!Sprite Ruffy: thinkRight, Pip: idle
+!Voice Ruffy: Agreement = 5
+Ruffy:
+    Да, захватывающе, правда? Выглядит совсем неуправляемо, но на самом деле всё очень надёжно.
+!Pause 2
+
+!Sprite Ruffy: denyRight > denyRight > denyRight > denyRight > shockedRight
+!Voice Ruffy: Agreement 10
+Ruffy:
+    Не волнуйся. Самолёты — самый безопасный вид транспорта. По статистике.
+!Pause 4

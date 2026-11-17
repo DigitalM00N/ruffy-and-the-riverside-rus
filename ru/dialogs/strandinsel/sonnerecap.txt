@@ -1,0 +1,4 @@
+!Camera Player target camera_Sun_Insel duration 1
+!Voice Sonne: Realization = 6
+Sonne:
+    Эта картина — ключ, но больше я ничего сказать не могу. Может, просто сделаешь свой маленький обмен ещё раз?

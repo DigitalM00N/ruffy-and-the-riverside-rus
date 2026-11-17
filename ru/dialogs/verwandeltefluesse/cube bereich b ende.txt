@@ -1,0 +1,12 @@
+!Camera CameraGrollFar target CameraGroll duration 2
+!Sprite Pip: back, Ruffy: idleBack
+!Voice Groll: Laugh_Confident = 9
+Groll:
+    А, чудесно, мои цвета вернулись! Значит, и от вас, глупцов, есть какой-то толк.
+
+!Voice Groll: Conniving = 2
+Groll:
+    Э-э, то есть, вы, ребята, великолепны, просто гениальны.
+
+Groll:
+    А теперь проверим, продержатся ли цвета на этот раз.

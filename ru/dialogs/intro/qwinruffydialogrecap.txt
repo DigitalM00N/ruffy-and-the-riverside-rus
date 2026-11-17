@@ -1,0 +1,4 @@
+!Sprite Meister Qwin: talk
+!Voice Qwin: Agreement = 2
+Qwin:
+    Сэр Эддлер ждёт вас у городских ворот. Пожалуйста, берегите себя!

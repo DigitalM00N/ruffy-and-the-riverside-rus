@@ -1,0 +1,10 @@
+!Camera GrollRaum3
+!Voice Groll: Surprise_Negative = 1
+Groll:
+    Опять ты...
+
+!Camera GrollRaum3 offset 3 duration 2
+!Event Aufgebracht
+!Voice Groll: Anger = 1
+Groll:
+    Смотри, что ты со мной сделал! Я разваливаюсь на части! Я не могу этого допустить.

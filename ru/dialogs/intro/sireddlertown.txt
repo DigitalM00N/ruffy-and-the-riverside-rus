@@ -1,0 +1,23 @@
+!Camera CamEW1
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 1
+Sir Eddler:
+    Привет, Раффи. Позволь представиться.
+
+!Camera CamEW1 target CamEW2 duration 5
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Laugh_Confident = 3
+Sir Eddler:
+    Кое-кто знает меня как старого Бена, но ты можешь звать меня Сэр Эддлер.
+
+!Camera CamEW1
+!Sprite Sir Eddler: serious
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Давным-давно я дал слово, что обучу тебя, если того потребуют времена.
+
+!Camera CamEW1 target CamEW2 duration 2
+!Sprite Sir Eddler: secret
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    Но здесь не место для долгих объяснений. Слишком много глаз и ушей. Прошу, следуй за мной.

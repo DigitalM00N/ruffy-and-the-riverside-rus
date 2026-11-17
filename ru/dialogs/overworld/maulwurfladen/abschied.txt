@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: talkRight
+!Voice Eddler: Confident
+Sir Eddler:
+    Эй, Раффи, заглядывай иногда. Только сначала не забудь найти новый легендарный самоцвет.

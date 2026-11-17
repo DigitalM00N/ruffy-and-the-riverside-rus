@@ -1,0 +1,75 @@
+!Camera KameraMaulwurf delay 1 offset 2 duration 2
+!Sprite Pip: back, Ruffy: idleBack
+!Voice Eddler: Surprise_Positive = 3
+Sir Eddler:
+    Эй, вот и вы снова.
+
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Greeting = 1
+Sir Eddler:
+    Слушайте, я тут уже немного покопал, но дальше не продвинулся. Это место заколдовано.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Frustration = 1
+Sir Eddler:
+    Какой бы дорогой я ни шёл, всегда оказывался ровно здесь!
+
+!Event EuleAuftauchen
+!Camera KameraEuleLandung target KameraEule duration 2.5 delay 0.5
+!Sprite Sir Eddler: leanRight, Ruffy: idleSideRight, Minna: beg
+!Pause 2
+!Voice Minna: schockiert = 2
+Minna:
+    Друзья мои. Сохраняйте спокойствие. Не дайте себя запутать.
+
+!Camera KameraMaulwurf target KameraOverviewE duration 2
+!Sprite Sir Eddler: bashful +mirror, Minna: blink
+!Voice Eddler: Frustration = 7
+Sir Eddler:
+    Но здесь же тёмная магия! Этот лес заколдован. Нам ни за что через него не пробраться!
+
+!Camera KameraOverviewE target KameraOverviewM duration 1
+!Sprite Sir Eddler: crouch +mirror, Minna: beg
+!Voice Minna: neutral = 3
+Minna:
+    Когда-то Чудесный лес создали мы. Это рукотворный лабиринт, щит для Древа жизни.
+
+Minna:
+    Его создали, чтобы скрыть Древо жизни от слишком любопытных глаз.
+
+!Camera KameraOverviewM target KameraOverviewE duration 1
+!Sprite Sir Eddler: lean +mirror, Minna: secret +mirror
+!Voice Minna: neutral = 3
+Minna:
+    Вы увидите много тропинок, и большинство из них уведут вас не туда. Но если вы откроете глаза, то узнаете верный путь к Древу жизни.
+!Event Abflug
+
+!Camera KameraMaulwurf offset 2
+!Sprite Sir Eddler: shake, Ruffy: idleBack, Pip: back
+!Voice Eddler: Attack_Laugh = 6
+Sir Eddler:
+    Это не для меня. Больше я в этот лес и лапы не суну!
+
+!Camera Pip
+!Sprite Ruffy: idle2, Pip: talk
+!Voice Pip: Begrüßen = 4
+Pip:
+    Но какой же путь ты выберешь?
+
+!Camera KameraMaulwurf offset 2
+!Sprite Sir Eddler: agree +mirror, Ruffy: idleBack, Pip: back
+!Voice Eddler: Attack_Laugh = 5
+Sir Eddler:
+    Всё очень просто. Я выберу путь крота и прокопаюсь под всей этой чепухой. Я сюда не в игры играть пришёл.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 1
+Sir Eddler:
+    Встретимся у Древа жизни. Будьте осторожны и поторопитесь.
+!Event Dig
+
+!Camera Pip
+!Sprite Ruffy: idle2, Pip: talkDoubt
+!Voice Pip: Jump = 4
+Pip:
+    И его уже нет. Надеюсь, он нигде не расшибёт себе нос.

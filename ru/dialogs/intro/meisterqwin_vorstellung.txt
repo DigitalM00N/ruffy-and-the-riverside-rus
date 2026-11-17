@@ -1,0 +1,82 @@
+!0
+!Camera IntroKamera2
+!Sprite Pip: talkHappy, Ruffy: idleHalfFrontRight
+!Voice Pip: Begrüßen = 6
+Pip:
+    Доброе утро, Раффи!
+
+!Camera IntroKamera2 target IntroKamera1 duration 1 delay 0.5
+!Sprite Pip: laugh, Ruffy: talkLeft
+!Pause 0.5
+!Voice Ruffy: begrüßend = 1
+Ruffy:
+    Доброе утро, Пип!
+
+!Camera IntroKamera2 target IntroKamera3 duration 1
+!Sprite Pip: talkSparkle, Ruffy: idleHalfFrontRight
+!Voice Pip: Agree = 2
+Pip:
+    Ну что, готов обменять пару картин?
+
+!Camera IntroKamera3 target IntroKamera4 duration 1
+!Sprite Ruffy: talkLeft, Pip: laugh
+!Voice Ruffy: begrüßend = 2
+Ruffy:
+    Конечно, давай начинать! Мастер Квин уже прикатил.
+
+!Sprite Ruffy: idle2, Pip: laugh, Meister Qwin: talk
+!Camera IntroKamera4 target IntroKamera7 duration 1
+!Voice Qwin: Laugh_Heavy
+Qwin:
+    Хо-хо-хо...
+
+!Sprite Ruffy: idleHalfFrontRight
+!Camera IntroKamera7 target IntroKamera5 duration 1
+!Voice Qwin: Greeting
+Qwin:
+    Вы, болтуны, закончили? Можно подумать, вы сто лет не виделись!
+
+!Camera IntroKamera5 target IntroKamera6 duration 1
+!Sprite Pip: laugh
+!Voice Qwin: Agreement
+Qwin:
+    Нас ждёт работа!
+
+!Camera IntroKamera8Kundschaft1 target IntroKamera9Kundschaft2 duration 3
+!Voice Qwin: Realization
+Qwin:
+    Святые краски! Оглянитесь вокруг! У нас клиенты, клиенты, клиенты! Пора обменивать картины. Обмен, обмен, обмен!
+
+!Camera IntroKamera8Kundschaft2 target IntroKamera9Kundschaft3 duration 5
+!Voice Qwin: Thoughtful
+Qwin:
+    Ну-ка посмотрим! Кто сегодня хочет свежеобменянную картину?
+
+!Camera IntroKamera9Kundschaft3 target MinnaKamera duration 2
+!Pause 2
+!Voice Minna: begrüßend
+Qwin:
+    Вот Минна, каменная стражница. Чудаковатая, но милая. Каждую неделю хочет что-то новенькое. Для нашего дела это хорошо, если понимаете, о чём я.
+!Sprite Minna: cheer
+!Voice Minna: freuend = 1
+
+!Camera MinnaKamera target QuintusKamera duration 2
+!Pause 2
+Qwin:
+    О, а вот и Квинтус, коллекционер бабочек. Жуткий ботаник, но настоящий любитель животных. Спорим, он пришёл за картиной с лесом.
+!Sprite Fuchs: happy
+!Voice Fuchs: lachen
+
+!Camera QuintusKamera target PixelBaerKamera duration 2
+!Pause 2
+Qwin:
+    А вот и Пикс. Он и сам отличный художник. Не терпится увидеть, какую картину он выберет.
+!Voice Pix: lachen
+!Sprite Archy-B: cheer
+
+!Pause 1
+!Camera IntroKamera6
+!Voice Qwin: Agreement
+!Sprite Pip: talkSparkle, Fuchs: read, Archy-B: idle, Minna: blink
+Qwin:
+    Не заставляйте эту троицу ждать. За обмен!

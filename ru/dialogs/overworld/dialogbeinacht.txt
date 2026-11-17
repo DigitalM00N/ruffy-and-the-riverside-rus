@@ -1,0 +1,11 @@
+!Camera PipCamDBN
+!Sprite Pip: laugh , Ruffy: idleHalfBackRight
+!Voice Pip: Lachen = 9
+Pip:
+    Ура, наконец-то ночь!
+
+!Camera PipCamDBN2
+!Sprite Pip: talk
+!Voice Pip: Agree = 2
+Pip:
+    Давай, Раффи, вот он, наш шанс наконец добыть тюк. Возвращаемся на ферму. Скорее!

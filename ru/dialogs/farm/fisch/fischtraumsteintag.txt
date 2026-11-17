@@ -1,0 +1,18 @@
+!Camera camera_Ruffy_back
+!Sprite Fish: cheer, Ruffy: idle, Pip: idle
+!Voice Fische: Misc = 1
+#!Event no fish
+Leroy:
+    Эй, Раффи, спасибо, что на днях покрутил часовую башню!
+
+!Camera camera_Ruffy_back offset 2 duration 1
+!Sprite Fish: lean talk
+!Voice Fische: Misc = 7
+Leroy:
+    Классная у нас в ту ночь была вечеринка. В благодарность у меня для тебя кое-что есть!
+
+!Sprite Fish: talk
+!Voice Fische: Misc = 2
+Leroy:
+    Это настоящий камень снов, а я не очень понимаю, что с ним делать. Может, тебе он пригодится!
+!Sprite Fish: wait

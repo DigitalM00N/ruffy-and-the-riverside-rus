@@ -1,0 +1,16 @@
+!Sprite Sir Eddler: positiv
+!Camera Eddler target Star1 duration 5
+!Voice Eddler: Laugh_Friendly = 1
+Sir Eddler:
+    Эй, вы, двое искателей приключений! Гляньте-ка, что это там сверкает над нами!
+
+!Sprite Sir Eddler: agree
+!Camera Star1 target Eddler duration 3
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Чтобы добыть эту звезду, придётся придумать хитрый способ туда забраться.
+
+!Sprite Sir Eddler: secret
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Хештег ОБМЕН! *подмигивает* *подмигивает*

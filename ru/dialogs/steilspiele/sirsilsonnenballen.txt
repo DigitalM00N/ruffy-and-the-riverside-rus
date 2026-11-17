@@ -1,0 +1,6 @@
+!Camera KameraSirsil target KameraSirsilClose duration 2
+!Sprite Sirsil: talk
+!Voice Sirsil: Negativ = 7
+Sirsil:
+    Ой, простите, но этот тюк вам брать нельзя. Пока нельзя, хи-хи.
+!Sprite Sirsil: laugh

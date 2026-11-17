@@ -1,0 +1,11 @@
+!Camera OddoCamera
+!Voice Mayle: Laugh_Friendly = 1
+!Sprite Oddo: Happy
+Oddo:
+    Получилось! С твоей помощью мы избавились от чёрной смолы. Со всех сторон я чувствую радость деревьев и рек. Жизнь вернулась.
+
+!Voice Mayle: Greeting = 1
+!Sprite Oddo: TalkHappy
+!Camera OddoCamera2
+Oddo:
+    А теперь получай свою награду!

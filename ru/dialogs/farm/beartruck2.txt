@@ -1,0 +1,6 @@
+!Camera camera_all
+!Event disappear
+!Sprite Bally: talk, Ruffy: idleHalfBackLeft
+!Voice Bally: Surprise_Positive = 3
+Bally:
+    Не трогай мой тюк!

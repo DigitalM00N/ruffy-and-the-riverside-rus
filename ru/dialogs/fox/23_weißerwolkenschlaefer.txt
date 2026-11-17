@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 7
+!Event Schmetterling23
+Quintus:
+    Это белый облакосон.
+    Он из семейства небопрыгов.
+
+!Voice Quintus: Agreement = 3
+Quintus:
+    Говорят, они живут в облаках и всегда приносят дождь туда, где цветам нужна вода.
+!Sprite Fuchs: idle
+
+Quintus:
+    Красивая история, правда?

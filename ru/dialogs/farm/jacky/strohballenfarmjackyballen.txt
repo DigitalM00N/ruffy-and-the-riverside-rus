@@ -1,0 +1,36 @@
+!Camera camera_1
+!Event no
+!Sprite SchlangeCool: StaunenB, Ruffy: idleHalfBackRight, Pip: back
+!Voice Steepy: Greeting = 2
+Jacky:
+    Здорóво, спортсмен! Хочешь записаться на гонку?
+* Да.
++4
+* Нет.
+
+!Sprite SchlangeCool: Talk
+!Voice Steepy: Agreement = 5
+Jacky:
+    Отлично, спортсмен. Вижу, тюк у тебя уже есть. Не самый красивый, но засчитываю.
+
+!Camera camera_1 target camera_2 duration 1
+!Voice Steepy: Conniving = 3
+Jacky:
+    Заметного тюнинга у твоего тюка нет. Тебе будет тяжеловато, но всё по правилам. Так что «засчитано».
+
+!Camera camera_2 target camera_3 duration 1
+!Voice Steepy: Agreement = 5
+Jacky:
+    Ни жуков, ни прочих вредителей в тюке нет. Тюк чистый и не воняет. Значит, засчитано.
+
+!Camera camera_3 target camera_4 duration 1
+!Sprite SchlangeCool: Jubel
+!Voice Steepy: Surprise_Positive = 3
+Jacky:
+    Три «засчитано» — то, что надо, дружище. Ты записан на гонку. Удачи!
++1
+
+!Sprite SchlangeCool: StaunenB
+!Voice Steepy: Relief = 4
+Jacky:
+    Эх, жаль. Приходи, если захочешь погоняться.

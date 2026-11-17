@@ -1,0 +1,35 @@
+!Camera Ruffy target Fische1 duration 2
+!Sprite Pip: back, Ruffy: idleHalfBackLeft, FishBlue: joyful talk, FishRed: idle
+!Voice Fische: Misc = 1
+Thorsten:
+    Эй, вы двое! Может, мы поможем.
+
+!Camera Fische1 target Fische2 duration 1
+!Sprite FishRed: amused, FishBlue: idle
+!Voice Fische: Misc = 7
+Barbara:
+    Ага, может, мы поможем.
+
+!Sprite FishRed: talk
+!Voice Fische: Misc = 3
+Barbara:
+    Мы не подслушивали, ничего такого, но вам ведь надо поскорее попасть к тому порталу, чтобы Гролл не выпустил ОБМЕН на волю, да?
+
+!Camera Ruffy
+!Sprite Ruffy: talkHalfBackLeft
+!Voice Ruffy: Thoughtful = 7
+Ruffy:
+    Э-э, да, что-то вроде того...
+
+!Camera Ruffy target Fische1 duration 1
+!Sprite Ruffy: idleHalfBackLeft, FishBlue: party, Fishred: idle
+!Voice Fische: Misc = 9
+Thorsten:
+    Ну, значит, решено. Попробуйте вот это!
+
+!Event Wasserball
+!Pause 10
+!Sprite FishRed: lean talk
+!Voice Fische: Misc = 1
+Barbara:
+    Йо, попробуйте вот это.

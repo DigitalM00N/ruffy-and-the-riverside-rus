@@ -1,0 +1,101 @@
+!Camera camera_Fernseher
+!Sprite William: hold
+!Voice William: Surprise_Negative = 1
+William:
+    А-а-а-а-а-а-а-а!
+
+!Camera camera_Frog
+!Sprite William: talkEat
+!Voice William: Worry = 4
+William:
+    Вы что, с ума посходили? Мой прекрасный телевизор!
+
+!Voice William: Surprise_Positive = 1
+William:
+    Вы хоть знаете, как трудно раздобыть рабочий телевизор на Острове Крушения?
+
+!Camera camera_Pip
+!Sprite Ruffy: idleBack, Pip: talkDoubt+mirror
+!Voice Pip: Jump = 4
+Pip:
+    Наверное, невозможно?
+
+!Camera camera_Pip target camera_Frog duration 1
+!Voice William: Frustration = 4
+William:
+    Вот именно! Невозможно! И что мне теперь делать?
+
+!Camera camera_Ruffy_front
+!Sprite Pip: idle+mirror, William: eat, Ruffy: cheer
+!Voice Ruffy: Greeting = 5
+Ruffy:
+    Помоги нам выбраться с острова!
+
+!Camera camera_Frog
+!Sprite Ruffy: idleHalfFront, William: talkEat
+!Voice William: Realization = 3
+William:
+    Выбраться с острова. Выбраться с острова! Ну да, а что ещё остаётся, когда телевизор сломан.
+
+!Sprite William: musik
+!Voice William: Surprise_Positive = 2
+William:
+    А почему бы и нет? Чую дикий драйв и новые биты! Мне надо снова петь, мне нужны мои фанаты!
+
+!Camera camera_general
+!Sprite Ruffy: talkHalfBackRight, Pip: idle+mirror, William: musik
+!Voice Ruffy: Question = 14
+Ruffy:
+    Так ты нам поможешь?
+
+!Camera camera_general  target camera_general_frog duration 1
+!Sprite Ruffy: idleHalfBackRight, William: talk
+!Voice William: Surprise_Negative = 4
+William:
+    Да. Ну, вообще-то НЕТ! Всё сделаете сами, но кое-что я вам подскажу.
+
+!Camera camera_general_frog  target camera_general_pip duration 1
+!Sprite Pip: talk+mirror, William: musik
+!Voice Pip: Hmm = 1
+Pip:
+    Ну так говори.
+
+!Camera camera_general_pip  target camera_general_pip_frog duration 1
+!Sprite Pip: idle+mirror, William: talk
+!Voice William: Agreement = 1
+William:
+    Когда я сюда попал, фанаты прислали мне кучу посланий о том, как отсюда выбраться. Они хотят, чтобы я вернулся, понимаете ли.
+
+!Camera camera_Ruffy_front
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 3
+Ruffy:
+    Посланий? Как?
+
+!Camera camera_general_pip_frog
+!Sprite Ruffy: idleHalfBackRight
+!Voice William: Greeting = 10
+William:
+    Видите все эти бутылки? В каждой лежит письмо с подсказкой, как отсюда выбраться.
+
+!Camera camera_Ruffy_front
+!Sprite Ruffy: talk
+!Voice Ruffy: Question = 13
+Ruffy:
+    Понятно. А что за подсказки были в бутылках?
+
+!Camera camera_Frog target camera_Stein duration 3
+!Voice William: Laugh_Friendly = 6
+William:
+    Говорят, где-то здесь есть маленький затонувший остров, Лунный остров или вроде того. Если заполнить вон ту картину на стене тайными знаками из посланий в бутылках, остров появится.
+
+!Camera camera_Frog target
+!Voice William: Laugh_Friendly = 6
+William:
+    Так что вперёд, вы двое! Нужно найти пять бутылок. Как найдёте одну — несите мне.
+
+!Camera camera_Stein target camera_general duration 1
+!Sprite Ruffy: talkHalfBackRight, William: musik
+!Voice Ruffy: Laugh_Confident = 1
+Ruffy:
+    Найти пять бутылок? Проще простого!

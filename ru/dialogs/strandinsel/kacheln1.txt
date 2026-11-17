@@ -1,0 +1,30 @@
+!Sprite Daag: defaultTalk
+!Camera C1
+!Voice Hohepriester: Misc = 1
+Yoogh:
+    Признавайся! Хочешь разгадать загадку плиток, да? Тогда слушай внимательно!
+
+!Camera C2 offset 2, duration 4
+!Sprite Daag: happyTalk
+!Voice Hohepriester: Misc = 2
+Yoogh:
+    В небе я совсем малыш, а внизу — гигант, глядишь!
+
+!Camera C3
+!Sprite Daag:think
+!Voice Hohepriester: Misc = 3
+Yoogh:
+    Задачка хитрая, но ты попробуй. Если ошибёшься, я верну плитки на место.
+
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc = 4
+Yoogh:
+    А если совсем не сможешь догадаться, я открою тебе решение. Только это будет недёшево...
+* Я справлюсь!
++1
+* Пожалуйста, скажи решение ({0})
+
+!Sprite Daag: happyTalk
+!Voice Hohepriester: Misc = 5
+Yoogh:
+    Отлично! Если захочешь услышать загадку ещё раз, просто обратись ко мне.

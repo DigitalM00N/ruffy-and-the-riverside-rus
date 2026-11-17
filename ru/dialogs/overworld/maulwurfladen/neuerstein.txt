@@ -1,0 +1,5 @@
+!Camera MaulwurfKamera duration 0.8
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Surprise_Positive = 1
+Sir Eddler:
+    Эй, Раффи, да у тебя настоящее чутьё — ты нашёл легендарный самоцвет. Сейчас же поставлю его на постамент. Подойди туда, и я расскажу тебе его историю.

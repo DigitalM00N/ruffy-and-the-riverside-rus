@@ -1,0 +1,28 @@
+!Camera CamEddler
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Laugh_Confident = 2
+Sir Eddler:
+    Он исчез! Мы победили! Гролла больше нет!
+
+!Camera CamEddler target CamEddler2 duration 1
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Немедленно сочиню кротовье стихотворение!
+
+!Camera CamGroll
+!Event Groll, GAngry
+!Pause 5
+!Voice Groll: Anger = 2
+Groll:
+    Да как вы смеете?
+
+!Event GCarry
+!Voice Groll: Laugh_Confident = 7
+Groll:
+    Я не отступлю! Никогда!
+
+!Event GDark, GAngry
+!Voice Groll: Laugh_Confident = 9
+Groll:
+    Лучше я уничтожу этот мир, чем оставлю его вам!

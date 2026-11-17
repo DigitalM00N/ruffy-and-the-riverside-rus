@@ -1,0 +1,73 @@
+!Camera camera_Ruffy_back offset 2 duration 1
+!Sprite Fish: appear > joyful talk, Ruffy: idleBack, Pip: back
+!Voice Fische: Misc = 1
+Leroy:
+    Эй, эй, эй!
+
+!Sprite Fish: joyful talk
+!Voice Fische: Misc = 2
+Leroy:
+    Гляньте, кто пожаловал.
+
+!Camera camera_Ruffy
+!Sprite Fish: wait, Ruffy: talkLeft, Pip: idle
+!Voice Ruffy: Greeting = 4
+Ruffy:
+    Раффи и Пип! Мы ищем тюк.
+
+!Camera camera_Ruffy target camera_fish duration 1
+!Sprite Fish: worried talk, Ruffy: idleSideLeft
+!Voice Fische: Misc = 3
+Leroy:
+    А, для гонок, что ли? Скукотища, приятель. Нам до гонок дела нет!
+
+!Camera camera_fish target camera_fish_Ruffy duration 1
+!Sprite Fish: wait, Ruffy: talk
+!Voice Ruffy: Question = 3
+Ruffy:
+    Нам? Я вижу только тебя.
+
+!Camera camera_fish_Ruffy target camera_Ruffy_fish duration 1
+!Sprite Fish: worried talk, Ruffy: idleSideLeft
+!Voice Fische: Misc = 4
+Leroy:
+    Мы — Рыбья банда, дружище. Короли плавников, Братья Цунами! Как ни назови, мы зажигаем на всём пруду!
+
+!Camera camera_Ruffy_fish target camera_Pip duration 1
+!Sprite Fish: wait, Pip: talkAngry
+Pip:
+    Хм? Что-то я не вижу никакого веселья.
+
+!Camera camera_Pip target camera_Pip_Ruffy duration 1
+!Sprite Pip: idle, Ruffy: talk
+!Voice Ruffy: Question = 2
+Ruffy:
+    А я не вижу никакой банды, только тебя!
+
+!Camera camera_Pip_Ruffy target camera_Ruffy_fish duration 1
+!Sprite Fish: lean talk, Ruffy: idleSideLeft
+!Voice Fische: Misc = 3
+Leroy:
+    Ну конечно, приятель. Днём мы отдыхаем, а вот ночью приходи посмотреть. Вот тогда начинается самое интересное, точно говорю.
+
+!Camera camera_Ruffy_fish target camera_free duration 1
+!Sprite Fish: cheer
+!Voice Fische: Misc = 9
+Leroy:
+    Ночью мы поднимаем плавники и танцуем, пока вода не закипит.
+
+!Camera camera_free target camera_Pip duration 1
+!Sprite Fish: wait, Pip: talkAngry
+Pip:
+    Не верю!
+
+!Camera camera_Pip target camera_free duration 1
+!Sprite Fish: worried talk, Ruffy: idleSideLeft, Pip: idle
+!Voice Fische: Misc = 5
+Leroy:
+    Не веришь — приходи ночью! Хотя погоди! С тех пор как сломались эти дурацкие башенные часы, ночь вообще больше не наступает...
+
+!Voice Fische: Misc = 4
+Leroy:
+    Но, может, вы сумеете починить башенные часы? Просто переставьте их на ночь, и сразу должно стемнеть! Попробуйте!
+!Sprite Fish: wait

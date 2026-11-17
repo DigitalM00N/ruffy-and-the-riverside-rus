@@ -1,0 +1,15 @@
+!Camera MaulwurfKamera duration 0.8
+!Sprite Sir Eddler: positivRight
+!Voice Eddler: Surprise_Positive = 1
+Sir Eddler:
+    Раффи, ты просто лучший! Благодаря тебе моя коллекция легендарных самоцветов собрана целиком.
+
+!Sprite Sir Eddler: watch stoneRight
+!Voice Eddler: Question = 3
+Sir Eddler:
+    Интересно, есть ли на свете ещё один самоцвет? Прекраснее и могущественнее всех камней мира. Говорят, остался ещё один...
+
+!Sprite Sir Eddler: watch stoneRight
+!Voice Eddler: Thoughtful = 4
+Sir Eddler:
+    Но, может, это всего лишь мрачная легенда...

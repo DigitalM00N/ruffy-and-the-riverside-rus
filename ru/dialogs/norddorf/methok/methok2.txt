@@ -1,0 +1,77 @@
+!Camera KameraMethok
+!Sprite Ruffy: idleBack, Pip: back
+!Sprite Methok: Surprise
+!Voice Methok: Surprise_Negative = 1
+Methok:
+    Раффи, что случилось с Сильей? Она пролетела прямо у нас над головами и врезалась вон в ту гору!
+
+!Camera KameraRuffy
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: Question = 14
+Ruffy:
+    Что? Силья здесь? Вон в той горе?
+
+!Camera KameraMethok
+!Sprite Ruffy: idleBack, Pip: back, Methok: grumpy
+!Voice Methok: Surprise_Positive = 1
+Methok:
+    Да, когда она в неё врезалась, грохнуло будь здоров.
+
+!Camera KameraRuffy
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: Frustration = 6
+Ruffy:
+    Это был Гролл! Этот злодей совсем обезумел. Он ищет Ядро мира, хочет пробудить тёмный ОБМЕН. Он напал на Силью, а потом зашвырнул её сюда.
+
+!Sprite Ruffy: deny
+!Voice Ruffy: Thoughtful = 1
+Ruffy:
+    Бедная Силья. Надо скорее найти к ней путь.
+
+!Camera KameraMethok
+!Sprite Ruffy: idleHalfFrontLeft, Methok: grumpy
+!Voice Methok: Thoughtful = 3
+Methok:
+    Это будет нелегко. Возможно, она упала в Пещеры Нового начала. Пещеры полны тёмных кристаллов. Кто их коснётся, теряет рассудок.
+
+!Camera KameraRuffy
+!Sprite Ruffy: shocked
+!Voice Ruffy: Surprise_Negative = 1
+Ruffy:
+    Ох! Надеюсь, она ещё жива.
+
+!Camera KameraMethok
+!Sprite Ruffy: idleHalfFrontLeft, Methok: Happy
+!Voice Methok: Realization = 1
+Methok:
+    Не волнуйся. Она жива. Я знаю это, потому что мы слышали её крик. Но звучала она странно. Совсем не так, как обычно.
+
+!Camera CView2
+!Sprite Ruffy: talkRight, Methok: Idleside+mirror
+!Voice Ruffy: Question = 17
+Ruffy:
+    Что ты имеешь в виду?
+
+!Camera KameraMethok
+!Sprite Ruffy: idleHalfFrontLeft, Methok: grumpy
+!Voice Methok: Surprise_Negative = 8
+Methok:
+    Злобно, яростно. Как злой демон. Было по-настоящему жутко.
+
+!Camera KameraRuffy
+!Sprite Ruffy: deny
+!Voice Ruffy: Frustration = 6
+Ruffy:
+    Демон или нет, ей сейчас же нужна наша помощь.
+
+!Camera KameraMethok
+!Sprite Ruffy: idleBack, Pip: back, Methok: grumpy
+!Voice Methok: Agreement = 2
+Methok:
+    Ты прав. Я немедленно открою ворота в пещеры.
+
+!Camera CView1
+!Sprite Ruffy: idleBack
+!Voice Methok: Conniving = 1
+Methok:
+    Найди Силью, но будь осторожен. Берегись тёмных кристаллов. Если коснёшься их, потеряешь рассудок.

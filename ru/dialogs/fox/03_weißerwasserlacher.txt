@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 3
+!Event Schmetterling03
+Quintus:
+    Это белый водохохотун.
+    Он из семейства лунокрылов.
+
+!Voice Quintus: Agreement = 3
+Quintus:
+    Водохохотуны — лучшие друзья светлячков, и если ночью навострить уши, часто можно услышать, как они вместе хихикают.
+!Sprite Fuchs: idle
+
+Quintus:
+    Вот уж забавные ребята.

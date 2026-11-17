@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 11
+!Event Schmetterling26
+Quintus:
+    Это белый речной глазок.
+    Он из семейства водокрылов.
+
+!Voice Quintus: Agreement = 6
+Quintus:
+    Их можно встретить у любой текучей воды.
+!Sprite Fuchs: idle
+
+Quintus:
+    Ещё лисёнком я часами смотрел, как они танцуют над волнами.

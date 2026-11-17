@@ -1,0 +1,9 @@
+!Sprite Minna: talk
+!Camera CamEule1
+!Voice Minna: freuend = 1
+Minna:
+    Я ждала тебя, мой маленький друг. Вижу, ты нашёл Руки надежды.
+
+!Voice Minna: freuend = 2
+Minna:
+    Ты многого добился, мой маленький друг. А теперь входи и прими свою судьбу!

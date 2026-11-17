@@ -1,0 +1,105 @@
+!Camera Start target Eddler duration 2
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: positiv
+!Voice Eddler: Laugh_Confident = 3
+Sir Eddler:
+    Готовы к ещё одному Погребённому городу?
+
+!Camera Pip target Ruffy duration 2
+!Sprite Pip: happy, Ruffy: talk
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Ага, конечно, но у меня есть ещё один вопрос.
+
+!Sprite Ruffy: think
+!Voice Ruffy: Thoughtful = 3
+Ruffy:
+    Крутой шпиль — это ведь самая высокая точка во всём Риверсайде. Почему же мы сейчас в этом каньоне?
+
+!Camera Eddler
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: serious
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Всё довольно просто. Вход в Крутой шпиль находится здесь, в этом каньоне.
+
+Sir Eddler:
+    Когда-то его построили мы, кроты, но потом случилась ссора с этими треклятыми змеями.
+
+!Camera Ruffy
+!Sprite Pip: happy, Ruffy: talk
+!Voice Ruffy: Question = 4
+Ruffy:
+    Змеями? Какими ещё змеями?
+
+!Camera Eddler
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: serious
+!Voice Eddler: Agreement = 2
+Sir Eddler:
+    Ох, это долгая история. Боюсь, у нас нет времени, чтобы я рассказал её целиком.
+
+!Camera Pip
+!Sprite Pip: talk, Ruffy: idle2
+!Voice Pip: Bored = 11
+Pip:
+    А как насчёт короткой версии?
+
+!Sprite Sir Eddler: agree +mirror
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Так и быть. Как вам известно, Гильдия кротов — самое благородное и самое важное сообщество во всём Риверсайде...
+
+!Camera Pip
+!Sprite Ruffy: idle2, Pip: talkDoubt
+!Voice Pip: Jump = 4
+Pip:
+    Это точно короткая версия?
+
+!Camera Eddler
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: agree +mirror
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Тс-с, Пип. Так вот, почти все туннели и пещеры в Риверсайде построили кроты. Можно сказать, весь Риверсайд — по сути наших лап дело.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    И когда мы наконец собрались взяться за вершину горы, объявились эти чудаки и устроили нам неприятности.
+
+!Camera Ruffy
+!Sprite Pip: idle, Ruffy: think
+!Voice Ruffy: Question = 1
+Ruffy:
+    Э-э, о каких чудаках вы говорите?
+
+!Camera Eddler
+!Sprite Sir Eddler: shake, Pip: back, Ruffy: idleBack
+!Voice Eddler: Attack_Laugh = 3
+Sir Eddler:
+    Ну, об этих так называемых Уповающих на Небесный колокол! Эти чудаки всерьёз верят, что можно пролететь сквозь облака и позвонить в колокол. В колокол на небе. Совершенное безумие!
+
+!Camera Pip
+!Sprite Ruffy: idle2, Pip: talkHappy
+!Voice Pip: Lachen = 10
+Pip:
+    Какое странное название! Уповающие на... на что там было?
+
+!Camera Eddler
+!Sprite Sir Eddler: agree +mirror, Pip: back, Ruffy: idleBack
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Вот именно. Они уповают на Небесный колокол. Они даже не знают наверняка, существует ли этот колокол на самом деле. Просто надеются, что да.
+
+!Camera Eddler
+!Sprite Ruffy: idleBack, Pip: back, Sir Eddler: serious
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    В общем, они без конца устраивали неприятности, пока им не разрешили самим возвести Крутой шпиль. Мы, кроты, позволили, потому что уважаем их надежду, хоть это, конечно, полная чепуха.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Agreement = 2
+Sir Eddler:
+    Кстати, никто толком не знает, что они там наверху строили. Может, просто глядели в небо и мечтали о колоколе.
+
+!Camera Pip
+!Sprite Ruffy: idle2, Pip: talk
+Pip:
+    Ух ты, вот это история. Колокол высоко в небе. Звучит чудесно.

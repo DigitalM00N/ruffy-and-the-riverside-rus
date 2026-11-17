@@ -1,0 +1,76 @@
+!Camera Ruffy
+!Sprite Ruffy: shocked, Sir Eddler: leanRight, Pip: idle
+!Voice Ruffy: Surprise_Negative = 8
+Ruffy:
+    Боже мой! Снокко!
+
+!Camera Snokko
+!Sprite Ruffy: idleSideRight
+!Voice Snokko: Worry = 3
+Snokko:
+    Ар-р, что...
+
+!Pause 1
+!Camera Snokko target Overview_S duration 1
+!Sprite Snokko: ko > talk, Ruffy: idleSideRight, Sir Eddler: lean
+!Voice Snokko: Surprise_Negative = 3
+Snokko:
+    Бла-бла-бла... Что это было? Что стало с моим автобусом? С моим баскетбольным кольцом, с моей коллекцией газировки!!!
+
+!Camera Overview_S target Overview_R duration 1
+!Sprite Snokko: idle2, Ruffy: grumpyRight
+!Voice Ruffy: Worry = 4
+Ruffy:
+    Гролл вернулся! Он хочет вернуть себе былую силу! Он высасывает шарики из земли! Повсюду! Понял?
+
+!Camera Overview_R target Overview_S duration 1
+!Sprite Ruffy: idleSideRight, Snokko: talk
+!Voice Snokko: Anger = 4
+Snokko:
+    Он ест шарики и крушит мой автобус? Только не при мне! Где он? Я ему покажу!
+
+!Camera Pip
+!Sprite Snokko: idle2, Pip: talkAngry, Ruffy: idle2
+!Voice Pip: Hmm = 2
+Pip:
+    Да, так его, Снокко! Покажи ему!
+
+!Camera Overview_E
+!Sprite Pip: idle, Sir Eddler: shake, Ruffy: idleSideRight
+!Voice Eddler: Attack_Laugh = 6
+Sir Eddler:
+    СТОП! А ну, возьмите себя в руки.
+
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 4
+Sir Eddler:
+    Сейчас нам нужно быть очень осторожными. Сначала поговорим с Сильей.
+
+!Camera Overview_E target Overview_S duration 1
+!Sprite Sir Eddler: lean, Snokko: talk
+!Voice Snokko: Question = 6
+Snokko:
+    Ты про Силью, старую черепаху? Она же только и делает, что спит в своём пруду. Ты уверен, что она сможет нам помочь?
+
+!Camera Overview_S target Overview_E duration 1
+!Sprite Snokko: idle2, Sir Eddler: agreeLeft
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Без сомнения. Силья очень старая. Но это как раз плюс. Она пережила времена Великого опустошения. Она знает Гролла.
+
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    Она была там, когда Гролла победили, и была там, когда Гролла изгнали.
+
+!Sprite Sir Eddler: agreeLeft
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    Если кто и может нам сейчас помочь, так это Силья!
+
+!Camera Overview_E target Eddler2 duration 1
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    А теперь за мной! К Фонтану мудрости! ...то есть к её пруду, понимаете?
+!Camera Silja target End duration 2

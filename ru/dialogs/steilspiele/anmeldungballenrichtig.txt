@@ -1,0 +1,5 @@
+!Camera KameraSteepyClose
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: Staunen
+!Voice Steepy: Agreement = 5
+Steepy:
+    И помни: что бы ты ни вытворял в воздухе — получай удовольствие!

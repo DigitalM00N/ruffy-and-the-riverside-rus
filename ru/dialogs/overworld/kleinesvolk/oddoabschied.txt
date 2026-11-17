@@ -1,0 +1,5 @@
+!Camera OddoCamera
+!Voice Mayle: Greeting = 6
+!Sprite Oddo: Talk
+Oddo:
+    Ладно, Раффи! Мы будем готовы! Просто приходи попозже.

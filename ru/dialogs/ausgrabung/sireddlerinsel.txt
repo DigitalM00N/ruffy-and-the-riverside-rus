@@ -1,0 +1,50 @@
+!Event Ausbuddeln
+!Camera SirEddler2 target SirEddler duration 1 delay 1
+!Sprite Ruffy: idleBack, Pip: back
+Sir Eddler:
+    Эй, дети, вот и вы!
+
+!Camera Snoop1 target Snoop2 duration 8
+!Sprite Sir Eddler: serious
+!Voice Eddler: Laugh_Friendly = 2
+Sir Eddler:
+    Смотрите, это Нюхач. Шедевр инженерной мысли, который способны построить только кроты.
+
+!Voice Ruffy: Surprise_Positive = 8
+Ruffy:
+    Ого, и эта штука умеет находить шарики?
+
+!Camera SirEddler
+!Sprite SirEddler: serious
+!Voice Eddler: Agreement = 4
+Sir Eddler:
+    Именно! Он может вынюхать почти что угодно. Ему нужна лишь картинка цели, и он готов к работе.
+
+!Camera Pip
+!Sprite Pip: talkHappy, Ruffy: idle2
+!Voice Pip: Staunen = 2
+Pip:
+    Хм, но где нам взять картинку шарика?
+
+!Camera Beide target BeideS duration 1
+!Sprite Sir Eddler: talkRight, Pip: idle, Ruffy: idleHalfFrontLeft
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Хороший вопрос, дорогой Пип. Кротовье чутьё подсказывает мне, что картинку мы найдём на этом древнем валуне. Нужно лишь вытащить его из земли.
+
+!Camera Beide target BeideR duration 1
+!Sprite Ruffy: cheer, Sir Eddler: leanRight
+!Voice Ruffy: jubel = 10
+Ruffy:
+    Ну так давай. Вытаскивай!
+
+!Camera BeideR target BeideS duration 1
+!Sprite Ruffy: idleHalfFrontLeft, Sir Eddler: positiv +mirror
+Sir Eddler:
+    Разумеется. Я бы сделал это сию же минуту, но у моего дурацкого крана опять нет электричества.
+
+!Sprite Sir Eddler: bashful +mirror, Pip: idle
+!Voice Eddler: Agreement = 2
+!Camera Kran1 target Kran2 duration 4
+Sir Eddler:
+    Но это не беда. Просто заберись на плато и включи электростанцию.

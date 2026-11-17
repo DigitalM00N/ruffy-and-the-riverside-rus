@@ -1,0 +1,183 @@
+!Camera ECam
+!Voice Ruffy: Surprise_Positive = 2
+Ruffy:
+    Эддлер! Вы здесь?
+
+!Camera ECam2
+!Voice Eddler: Worry = 3
+Sir Eddler:
+    Ох, Раффи...
+
+!Camera RCam
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 9
+Ruffy:
+    Эддлер! Что вы делаете в этой перчатке?
+
+!Camera 2Cam1
+!Sprite Ruffy: idleHalfBackRight, Sir Eddler: lean+mirror
+!Voice Ruffy: Question = 1
+Ruffy:
+    Вас не зашвырнуло в космос? Что, ради всего на свете, Гролл с вами сделал?
+
+!Camera ECam
+!Sprite Sir Eddler: serious+mirror
+!Voice Eddler: Frustration = 2
+Sir Eddler:
+    Раффи... Забудь про Гролла...
+
+!Camera RCam
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 4
+Ruffy:
+    Что? Как я могу про него забыть? Где он?
+
+!Camera ECam
+!Sprite Sir Eddler: shake
+!Voice Eddler: Thoughtful = 5
+Sir Eddler:
+    Его здесь нет. И никогда не было. Гролл вовсе не возвращался.
+
+!Camera ECam2
+!Sprite Sir Eddler: serious+mirror
+!Voice Eddler: Worry = 5
+Sir Eddler:
+    Это был я. Я играл Гролла. Всё, что делал Гролл... Всё это был я...
+
+!Camera RCam
+!Sprite Ruffy: shocked
+!Voice Ruffy: Question = 7
+Ruffy:
+    ЧТО-О-О-О?!
+
+!Camera 2Cam1
+!Sprite Sir Eddler: lean+mirror, Ruffy: idleHalfBackRight
+Ruffy:
+    Вы играли Гролла?! Да как же так?! ЗАЧЕМ?!
+
+!Camera ECam3
+!Sprite Sir Eddler: serious+mirror
+!Voice Eddler: Frustration = 1
+Sir Eddler:
+    Ох, Раффи... Мне так жаль.
+
+!Sprite Sir Eddler: watch stone+mirror
+!Camera ECam3
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Всё из-за Мрачного камня!
+
+!Camera 2Cam1
+!Sprite Sir Eddler: serious+mirror,Ruffy: idleHalfBackRight
+Sir Eddler:
+    Мрачный камень! Тёмное Ядро мира! Когда я о нём прочитал, то сразу влюбился и ни о чём другом больше думать не мог.
+
+!Camera RCam
+!Sprite Ruffy: think
+!Voice Ruffy: Anger = 9
+Ruffy:
+    Вы с ума сошли?! Мрачный камень опасен! Что вы вообще собирались с ним делать?
+
+!Camera ECam2
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Greeting = 5
+Sir Eddler:
+    О, не волнуйся. Я бы просто на него любовался. Немножко бы его отполировал, немножко бы им похвастался... Мрачный камень стал бы жемчужиной моей коллекции самоцветов.
+
+!Camera ECam3
+!Sprite Sir Eddler: shake
+!Voice Eddler: Thoughtful = 5
+Sir Eddler:
+    Разумеется, я понимал, что в одиночку мне ни за что не превратить Ядро мира в Мрачный камень, поэтому я придумал план.
+
+!Camera 2Cam1
+!Sprite Sir Eddler: secret, Ruffy: idleHalfBackRight
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    План спасения! Он был просто гениален!
+
+!Camera RCam
+!Sprite Ruffy: think
+!Voice Ruffy: Frustration = 8
+Ruffy:
+    План спасения? Его придумали ВЫ? И только ради того, чтобы превратить Ядро мира в Мрачный камень?!
+
+!Camera 2Cam1
+!Sprite Sir Eddler: serious+mirror, Ruffy: idleHalfBackRight
+!Voice Eddler: Greeting = 1
+Sir Eddler:
+    Ну да, конечно. Мне нужно было лишь повредить Эмблему и подменить Священные буквы. А потом я отправил тебя собирать все буквы, чтобы исцелить Ядро мира.
+
+!Camera ECam2
+!Sprite Sir Eddler: shake
+!Voice Eddler: Frustration = 3
+Sir Eddler:
+    Ох, батюшки, что же я натворил? Каким же глупцом я себя чувствую. Сможешь ли ты когда-нибудь меня простить? Мне так жаль.
+
+!Camera RCam
+!Sprite Ruffy: deny
+!Voice Ruffy: Anger = 5
+Ruffy:
+    Ох, Эддлер... Просто не могу в это поверить. После всего, что мы вместе пережили. Но больше всего я злюсь на самого себя.
+
+!Camera RCam
+!Sprite Ruffy: think
+!Voice Ruffy: Anger = 10
+Ruffy:
+    И знаете почему? Я просто не могу на вас злиться. Вы были и всегда будете моим другом. Но со своей самоцветоманией вам правда надо что-то делать!!!
+
+!Continue none
+!Event SiljaF
+!Voice Silja: Ratgebend = 2
+Silya:
+    Мой дорогой Эддлер...
+
+!Camera SCam
+!Event STalk, Eopen
+!Voice Silja: Verärgert = 1
+Silya:
+    Ну и напугал же ты нас.
+
+!Camera PCam
+!Sprite Pip: angry
+!Event SIdle
+!Voice Pip: Erschrecken = 11
+Pip:
+    Ущипните меня, кто-нибудь, ну ущипните! Поверить не могу! У-У-У-УХ!!! А дальше что? Он спалит Риверсайд, чтобы набрать угольков для шашлыка?!
+
+!Camera SCam
+!Event SShake, EClose
+!Voice Silja: Neutral= 3
+Silya:
+    Успокойся, милый Пип. Я с самого начала знала, что Эддлер не сможет превратить Ядро мира в Мрачный камень. И с самого начала знала, что вы двое его остановите.
+
+!Event SNicken, EHalb
+!Camera SCam2
+!Voice Silja: Neutral = 1
+Silya:
+    Странно говорить это именно сейчас, но я чувствую, что в этом кроте бьётся золотое сердце. Теперь наш черёд его простить.
+
+!Event SDepri, EClose
+!Camera SCam3
+Silya:
+    Эддлер...
+
+!Event SNicken, Eopen
+!Camera SCam2
+!Voice Silja: Traurig = 1
+Silya:
+    Я тебя прощаю.
+
+!Camera SCam
+!Event SNicken
+!Voice Silja: Zustimmend = 3
+Silya:
+    Как ни странно, у меня даже от сердца отлегло. Этот Гролл был нашим Гроллом. Пусть настоящий Гролл не появится никогда.
+
+!Camera ECam
+!Sprite Sir Eddler: bashful
+!Voice Eddler: Frustration = 6
+Sir Eddler:
+    Каким же глупцом я себя чувствую.
+
+#Schwarzblende

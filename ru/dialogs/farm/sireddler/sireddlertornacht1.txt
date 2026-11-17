@@ -1,0 +1,6 @@
+!Event appear
+!Camera camera_sir2
+!Sprite Sir Eddler: secret, Ruffy: idleHalfBackRight, Pip: idle
+!Voice Eddler: Conniving = 2
+Sir Eddler:
+    Балли наконец задремал, и тюк лежит в его грузовике совсем без присмотра. Иди и забери его! Ради Риверсайда!

@@ -1,0 +1,12 @@
+!Camera Siljacam1Shake
+!Sprite Ruffy: shocked
+!Event SiljaIdle
+!Voice Ruffy: Surprise_Negative = 8
+Ruffy:
+    Силья! Всё рушится! Вся пещера обваливается!
+
+!Camera Siljacam1Shake
+!Event Siljapain
+!Voice Silja: Verärgert = 3
+Silya:
+    Беги, Раффи, беги!

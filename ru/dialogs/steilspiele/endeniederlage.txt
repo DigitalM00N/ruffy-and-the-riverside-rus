@@ -1,0 +1,7 @@
+!Camera KameraSteepy
+!Sprite Ruffy: idleHalfBackLeft, Pip: back, SchlangeCool: Talk
+!Voice Steepy: Thoughtful = 2
+Steepy:
+    Йо-йо-йо, Раффи. Было на что посмотреть, но до первого места не дотянул. В следующий раз поглядывай на табло. Ну что? Попробуешь ещё разок?
+* Да, погнали!
+* Нет, мне сначала надо кое-что сделать.

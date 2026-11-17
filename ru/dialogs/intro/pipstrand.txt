@@ -1,0 +1,28 @@
+!Camera RuffyPipP target RuffyPipR duration 1
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 5
+Ruffy:
+    Давай за ним. Только как нам перебраться на остров?
+
+!Camera RuffyPipR target RuffyPipP duration 1
+!Sprite Pip: talkHappy, Ruffy: idle2
+!Voice Pip: Agree = 3
+Pip:
+    Проще простого... используем ОБМЕН.
+
+!Camera RuffyPipP target RuffyPipR duration 1
+!Sprite Ruffy: think, Pip: idle
+!Voice Ruffy: Thoughtful = 3
+Ruffy:
+    Ты правда так думаешь?
+
+!Camera RuffyPipR target RuffyPipP duration 1
+!Sprite Ruffy: idle2
+!Voice Pip: Agree = 1
+Pip:
+    Ну конечно, посмотри на все эти каменные столбы.
+!Camera Saeule1 target Saeule2 duration 8 delay 1
+
+!Pause 3
+Pip:
+    Спорим, они все поплывут, как лодки, если превратить их в дерево.

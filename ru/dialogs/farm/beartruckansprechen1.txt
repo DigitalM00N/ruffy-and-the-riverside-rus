@@ -1,0 +1,66 @@
+!Camera camera_blue
+!Event blue bear disappear
+!Sprite Bally: talk, Ruffy: idleSideRight, Pip: back
+!Voice Bally: Laugh_Friendly = 7
+Bally:
+    Здорóво, новичок! Ты ведь тот медведь, у которого нет тюка? Хи-хи-хи...
+
+!Camera camera_all_Ruffy
+!Sprite Bally: idle, Ruffy: think, Pip: idle
+!Voice Ruffy: Laugh_Confident = 1
+Ruffy:
+    Ну, мы пока ищем...
+
+!Camera camera_all_Ruffy target camera_all_blue duration 1
+!Sprite Bally: talk, Ruffy: idleSideRight
+!Voice Bally: Laugh_Friendly = 2
+Bally:
+    Хи-хи-хи
+
+!Sprite Bally: talk
+!Voice Bally: Conniving = 5
+Bally:
+    Тогда удачи! Тут каждый хочет тюк, особенно когда старый износился или солома начала вонять и в ней завелись жуки.
+
+!Camera camera_all_blue target camera_Pip duration 1
+!Sprite Pip: talkAngry, Bally: idle
+!Voice Pip: Misc = 7
+Pip:
+    Фу, какая гадость!
+
+!Camera camera_Pip target camera_Pip_blue duration 1
+!Sprite Bally: talk, Pip: idle
+!Voice Bally: Attack_Laugh = 6
+Bally:
+    Эй, полегче, новичок. Хоть с жуками, хоть без — тюк есть тюк! Настоящий тюк, понимаешь?
+
+Bally:
+    Тюк — это тюк, понимаешь? Мало того что он чертовски быстрый и выглядит невероятно круто, так ещё и пропуск на гонки!
+
+!Camera camera_Pip_blue target camera_Pip duration 1
+!Sprite Bally: idle, Pip: talkDoubt
+!Voice Pip: Misc = 2
+Pip:
+    А вон тот тюк у тебя за спиной? Он ещё свободен?
+
+!Camera camera_Pip target camera_Pip_blue duration 1
+!Sprite Bally: talk, Pip: idle
+!Voice Bally: Question = 1
+Bally:
+    Шутишь? Он только что из жукочистки и почти как новенький. Утром отвезу его хозяину.
+
+!Camera camera_Pip_blue target camera_Pip_Ruffy duration 1
+!Sprite Bally: idle, Pip: idle, Ruffy: think
+!Voice Ruffy: Question = 2
+Ruffy:
+    Завтра утром?
+
+!Camera camera_Pip_Ruffy target camera_Pip_blue duration 1
+!Sprite Bally: talk, Pip: idle, Ruffy: idleSideRight
+!Voice Bally: Laugh_Confident = 1
+Bally:
+    Ага, он ещё немного попахивает.
+
+!Voice Bally: Realization = 4
+Bally:
+    Вообще-то на ночь тюки положено запирать, но этот, пожалуй, пусть проветрится в кузове.

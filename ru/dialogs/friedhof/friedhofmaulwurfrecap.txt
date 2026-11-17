@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: seriousRight
+!Voice Eddler: Question = 2
+Sir Eddler:
+    Ты слышал её, Раффи. Скорее обратно в Базилику.

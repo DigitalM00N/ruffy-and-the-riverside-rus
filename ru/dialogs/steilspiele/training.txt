@@ -1,0 +1,21 @@
+!Camera KameraVilleroy
+!Sprite Villeroy: cheer, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Villeroy: Laugh_Heavy
+Villeroy:
+    Эй, йо-йо-йо! Я тебя знаю! Ты выиграл гонку на ферме! Классно выступил, бро!
+
+!Camera KameraRuffy
+!Sprite Villeroy: idleBack, Ruffy: talk, Pip: idle
+!Voice Ruffy: Agreement = 6
+Ruffy:
+    Спасибо! Мы ищем золотую букву. Она должна быть где-то здесь.
+
+!Camera KameraVilleroy
+!Sprite Villeroy: deny, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Villeroy: Question
+Villeroy:
+    Золотую букву? Чувак, да я даже читать не умею, бро!
+
+!Voice Villeroy: Thoughtful
+Villeroy:
+    Тут я тебе не помощник, но Донни из «Дикого тюка» уже который год о чём-то таком твердит. Найдёшь его там, у реки.

@@ -1,0 +1,77 @@
+#CUTSCENE: Man sieht wie der Groll Silja mit Blitzen malträtiert und schließlich in die Nordländer schleudert.
+!Event Lachen
+!Camera Groll
+!Voice Groll: Laugh_Confident = 9
+Groll:
+    Ха-ха-ха-ха!
+
+!Event Idle
+!Voice Groll: Agreement = 1
+Groll:
+    Базилика разрушена? Есть!
+
+!Voice Groll:  Agreement = 2
+Groll:
+    Черепаха устранена? Есть!
+
+!Event Aufgebracht
+!Voice Groll: Realization = 3
+Groll:
+    Ядро мира найдено? Увы, не есть. Пока что нет. Куда они его спрятали?
+
+!Voice Groll: Greeting = 2
+Groll:
+    Эй, минуточку! Может, мне и искать его самому не придётся. Может... может, они... сами мне его принесут. Ха-ха-ха-ха!
+!Event GrollWeg
+#CUTSCENE Groll fliegt weg
+
+!Camera Overview
+!Sprite Ruffy: idleHalfBackRight, Pip: back, Minna: blink
+!Voice Eddler: Surprise_Positive = 3
+Sir Eddler:
+    Клянусь всеми самоцветами! Силья!!!
+
+!Sprite Sir Eddler: leanRight, Minna: sad +mirror
+!Voice Minna: schockiert = 1
+Minna:
+    Ох, какой ужас! Он просто зашвырнул её в Северные земли. Надеюсь, она не ушиблась.
+
+!Sprite Minna: beg
+!Voice Minna: schockiert = 2
+Minna:
+    Нужно скорее её найти!
+
+!Sprite Minna: blink, Sir Eddler: serious +mirror
+!Voice Eddler: Conniving = 1
+Sir Eddler:
+    Легко сказать. Северные земли довольно большие, и без помощи мы не найдём Силью вовремя.
+
+!Sprite Sir Eddler: bashful +mirror
+!Voice Eddler: Frustration = 7
+Sir Eddler:
+    Очень не хочется это говорить, но нам нужна помощь Нотори. Опять.
+
+!Sprite Sir Eddler: serious +mirror
+!Voice Eddler: Greeting = 3
+Sir Eddler:
+    Раффи, скорее иди к Нотори и попроси их помочь найти Силью. А я тем временем поищу последнюю букву. Можете на меня положиться!
+
+!Camera Pip
+!Sprite Ruffy: idle2, Pip: talkAngry
+Pip:
+    Как можно сейчас думать о букве? Это неважно. Помогите нам найти Силью!
+
+!Camera Minna
+!Sprite Minna: talk
+!Voice Minna: zustimmend = 3
+Minna:
+    Ты прав, Пип. Мы должны найти Силью. Но и Сэр Эддлер прав. Если мы скоро не найдём последнюю букву, нам конец.
+
+!Sprite Minna: beg
+!Voice Minna: erstaunt = 1
+Minna:
+    Боюсь, теперь наши пути расходятся! Раффи и Пип будут искать Силью, Сэр Эддлер — последнюю букву, а я помогу Снокко взломать Эмблему!
+
+!Camera Minna target MinnaClose duration 2
+Minna:
+    Три задания. И ни одно нельзя провалить. Удачи вам!

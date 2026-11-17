@@ -1,0 +1,3 @@
+!Voice Benny: Laugh_Friendly = 1
+Gogo:
+    Эй, у тебя уже есть красный плащ.

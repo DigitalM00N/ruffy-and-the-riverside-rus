@@ -1,0 +1,4 @@
+!Sprite Snokko: talk
+!Voice Snokko: Conniving = 3
+Snokko:
+    Давай! Хватай последнюю букву и перенеси ОБМЕНОМ на маленький монитор.

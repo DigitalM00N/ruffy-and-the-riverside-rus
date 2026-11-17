@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: seriousRight
+!Voice Eddler: Surprise_Negative = 6
+Sir Eddler:
+    Что? Ты ещё не нашёл букву? Прошу, вернись к Древу жизни и поищи её. Без неё всякая надежда потеряна.

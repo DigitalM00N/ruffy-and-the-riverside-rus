@@ -1,0 +1,50 @@
+!Camera KameraSirsil target KameraSirsilClose duration 8
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Positiv = 15
+Sirsil:
+    Первая строфа гласит: «Избранный взмоет в небеса, подобно лебедю»
+
+Sirsil:
+    «И к Небесному колоколу устремится он. Полёт его будет неповторим и исполнен красоты»
+
+!Camera KameraSirsilClose target KameraSirsil duration 8
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Negativ = 1
+Sirsil:
+    Вторая строфа гласит: «И позвонит он в Небесный колокол нежной рукой. И снизойдёт на него благословение»
+
+Sirsil:
+    «Сердце и разум его исполнятся радости»
+
+!Camera KameraSirsil target KameraSirsilClose duration 8
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Negativ = 13
+Sirsil:
+    Третья строфа гласит: «Затем спустится он с небес, словно пёрышко. И принесёт благословение на землю, во благо всем»
+
+!Camera KameraSirsilClose target KameraSirsil duration 20
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Negativ = 7
+Sirsil:
+    Ну а последняя строфа немного странная. Там сказано: «Наконец помчится он вниз по ручью на простом тюке, во весь опор»
+!Sprite Sirsil: shock
+
+!Sprite Sirsil: talk
+!Voice Sirsil: Negativ = 11
+Sirsil:
+    Наши мудрейшие умы до сих пор ломают голову над этой последней строфой.
+
+Sirsil:
+    Простой тюк — это, наверное, просто символ его скромности, а ручей — что-то вроде течения времени или вроде того.
+
+!Camera KameraPip
+!Sprite Sirsil: idle, Pip: talkDoubt, Ruffy: idle2
+!Voice Pip: Agree = 1
+Pip:
+    А «во весь опор»?
+
+!Camera KameraSirsil
+!Sprite Sirsil: talk, Pip: back, Ruffy: idleBack
+!Voice Sirsil: Negativ = 6
+Sirsil:
+    Кто ж знает все ответы, мой любознательный друг. По-моему, вам просто стоит рискнуть! Скажите, когда будете готовы.

@@ -1,0 +1,15 @@
+!Camera SteepyCamera
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv
+Slythia:
+    О несведущий, ты вернулся. Продолжим твою духовную тренировку. До просветления ещё долгий путь.
+
+!Sprite Sirsil: idle
+!Voice Sirsil: Positiv
+Slythia:
+    О несведущий. Позволь мне открыть тебе глаза и показать семь путей змеи.
+
+!Sprite Sirsil: laugh
+!Voice Sirsil: Positiv
+Slythia:
+    Узри змею! Приведи мысли в порядок! И ты распознаешь истинный путь змеи! Только не напортачь.

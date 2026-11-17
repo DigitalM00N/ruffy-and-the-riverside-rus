@@ -1,0 +1,107 @@
+!Event Ausbuddeln
+!Voice Eddler: Greeting = 7
+!Pause 3
+!Sprite Sir Eddler: cheer
+!Camera EddiKamera5 target EddiKamera3 duration 3
+Sir Eddler:
+    Клянусь своим когтем!!! Наконец-то я здесь.
+
+!Sprite Sir Eddler: serious, Fuchs: read, Archy-B: idle, Ruffy: idleHalfFront, Minna: blink
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Весь Риверсайд стоит на рыхлой земле, но именно этот город, как назло, стоит на самой твёрдой глине во всей округе!
+
+!Camera EddiKamera2_1 target EddiKamera2 duration 0.2
+!Sprite Meister Qwin: talk
+!Voice Qwin: Realization = 1
+Qwin:
+    Сэр Эддлер...
+
+!Camera EddiKamera3
+!Sprite Sir Eddler: talkLeft, Meister Qwin: idle
+!Voice Eddler: Conniving = 4
+Sir Eddler:
+    Мастер Квин, прошу прощения. Не люблю перебивать, но время пришло. Сегодня день Икс! Кодовое слово «Анаконда»! Кодовое слово «Анаконда»!
+
+!Camera EddiKamera2
+!Sprite Meister Qwin: talk
+!Voice Qwin: Question = 2
+Qwin:
+    Кодовое слово какое? «Ананас»? Ты вообще о чём?
+
+!Camera EddiKamera3 target EddiKamera1 duration 0.3
+!Sprite Sir Eddler: secret
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    Значит, вы забыли наше кодовое слово... «Анаконда» означает, что Раффи должен немедленно пойти со мной. У меня сердце разрывается, но сегодня вам придётся попрощаться.
+
+!Camera EddiKamera2 target EddiKamera4 duration 4
+!Pause 1
+!Voice Qwin: Worry = 5
+Qwin:
+    Попрощаться? С моим славным мальчиком? Ни за что! Раффи нужен мне в мастерской. Я не могу его отпустить. И не хочу его отпускать!
+
+!Sprite Meister Qwin: sleep, Sir Eddler: crouch
+!Voice Qwin: Anger = 3
+Qwin:
+    Забудь, Эддлер! Ни единого шанса! Раффи остаётся здесь! Точка!
+
+!Camera EddiKamera1 offset -1 duration 3
+!Sprite Sir Eddler: serious
+!Voice Eddler: Thoughtful = 1
+Sir Eddler:
+    Мастер Квин, я знаю, как вам тяжело. Но утраченное появилось. Вы знаете, о чём я!
+
+!Camera EddiKamera2
+!Pause 1
+!Sprite Meister Qwin: paint, Sir Eddler: crouch
+!Voice Qwin: Question = 3
+Qwin:
+    Утраченное появилось? Что бы это могло быть? Твой гель для душа?
+
+!Camera EddiKamera3
+!Pause 1
+!Sprite Sir Eddler: shake, Meister Qwin: idle
+!Voice Eddler: Anger = 3
+Sir Eddler:
+    Сейчас не время для шуток, Мастер Квин! Похоже, наши худшие опасения сбываются, и Риверсайду может грозить большая опасность.
+
+!Camera EddiKamera3 target EddiKamera1 duration 2
+!Sprite Sir Eddler: serious
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Я говорю о шариках. Шарики вернулись.
+
+!Camera EddiKamera6
+!Sprite Meister Qwin: talkRight, Sir Eddler: lean
+!Voice Qwin: Surprise_Negative = 1
+Qwin:
+    Шарики? Это же легенды! Мифы! Детские сказки! Никто даже не знает, существовали ли шарики вообще.
+
+!Camera EddiKamera6 target EddiKamera7 duration 8
+!Sprite Sir Eddler: talkLeft, Meister Qwin: idle, Ruffy: idle2
+!Voice Eddler: Agreement = 3
+Sir Eddler:
+    Они существуют. Первый уже лежит внизу на пляже, и скоро они появятся и в других местах.
+
+!Voice Eddler: Greeting = 4
+Sir Eddler:
+    Квин, вы каждый день видите дар Раффи в своей мастерской. Теперь он наша единственная надежда. Вы должны его отпустить.
+
+!Camera EddiKamera7 target EddiKamera8 duration 2
+!Sprite Meister Qwin: sleep
+!Voice Qwin: Thoughtful = 2
+Qwin:
+    ...
+
+!Camera EddiKamera8
+!Sprite Sir Eddler: serious, Meister Qwin: idle
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    Мастер Квин, будьте так добры, пришлите ко мне Раффи, как только закончите здесь.
+
+!Camera EddiKamera1
+!Sprite Sir Eddler: serious
+!Voice Eddler: Agreement = 1
+Sir Eddler:
+    Я буду ждать его у городских ворот.

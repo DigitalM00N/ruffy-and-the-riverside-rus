@@ -1,0 +1,23 @@
+!Camera Kamera2
+!Voice Quintus: Realization = 11
+!Sprite Quintus: happy
+Quintus:
+    А вот и ты! Ну же, показывай! Каких бабочек ты мне принёс?
+
+!Voice Quintus: Thoughtful = 3
+!Sprite Quintus: idle
+Quintus:
+    Что, ни одной не нашёл? Эх, какое разочарование...
+
+Quintus:
+    Помни, Братство чешуекрылых на тебя рассчитывает!
+
+Quintus:
+    Однажды мы покажем миру, как прекрасен народ бабочек.
+
+!Voice Quintus: Agreement = 3
+Quintus:
+    И тогда мир наверняка станет добрее и ласковее.
+
+Quintus:
+    Чешуекрылый привет и до скорого!

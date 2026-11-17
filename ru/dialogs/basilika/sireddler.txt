@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: seriousRight
+!Voice Eddler: Worry = 5
+Sir Eddler:
+    Раффи! Скорее к Силье! Появился Гролл и мучает её молниями. Он хочет выведать, где тайник Ядра мира. Поторопись!

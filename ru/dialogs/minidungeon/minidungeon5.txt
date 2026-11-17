@@ -1,0 +1,11 @@
+!Camera CamFar target CamPip duration 2
+!Sprite Ruffy: idle2, Pip: talk
+!Voice Pip:  Hurt = 4
+Pip:
+    Ух, ну и холодина тут! Давай быстрее починим машину и уберёмся отсюда.
+
+!Camera CamPip target CamRuffy duration 1
+!Sprite Ruffy: talk, Pip: idle
+!Voice Ruffy: Greeting = 5
+Ruffy:
+    Представь, что ты на пляже. Может, так согреешься.

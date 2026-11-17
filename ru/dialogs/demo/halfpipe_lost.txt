@@ -1,0 +1,5 @@
+!Camera KameraSteepyFar target KameraSteepy duration 5
+!Sprite SchlangeCool: Shake
+!Voice Steepy: Thoughtful = 2
+Steepy:
+    Неплохо, дружище! Мне правда нравится твой стиль, но на звезду, увы, не хватило. Попробуй ещё разок.

@@ -1,0 +1,9 @@
+!Camera Pip
+!Sprite Ruffy: idle2, Pip: talkSparkle
+Pip:
+    Ух ты, лифт! Интересно, куда он нас привезёт?
+
+!Camera Pip target Ruffy duration 1
+!Sprite Pip: happy, Ruffy: cheer
+Ruffy:
+    Хорошо бы до самой верхушки Крутого шпиля. Сейчас узнаем!

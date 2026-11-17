@@ -1,0 +1,107 @@
+!Camera HPCAM3
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 7
+Hohepriester:
+    Внемлите мне, друзья мои. Вижу, вы принесли одну из Священных букв. Чувствую, это «E». Так начнём же церемонию и исцелим Ядро мира.
+
+!Event BuchstabeE
+#CUTSCENE
+#Der Buchstabe E erscheint im Holoprojektor. => Animation
+!Voice Hohepriester: Misc = 11
+Hohepriester:
+    Буква святая, сила святая, будь с нами в час, когда тьма густая.
+!Pause 2
+!Continue auto
+
+#Von dort fliegt an in die Buchstabenmatrix an die beiden Stellen für E (Ruffy kopiert es also nicht selbst, sondern es passiert automatisch).=> Animation
+Hohepriester:
+    Пусть сила буквы, что сияет, судьбу нам к лучшему меняет.
+!Continue none
+
+!Voice Hohepriester: Misc = 8
+Hohepriester:
+    Когда все буквы встанут в ряд, святым сияньем нас озарят.
+!Continue none
+
+!Camera HPCAM1
+!Continue none
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 1
+Hohepriester:
+    А теперь посмотрим, куда Колесо мудрости пошлёт вас дальше. Священная буква, открой нам новую часть колеса.
+
+!Camera PipCamera
+!Sprite Pip: angry, Ruffy: idle
+!Voice Pip: Misc = 2
+Pip:
+    Стоп, стоп! То есть... подождите, пожалуйста, минутку!
+
+!Camera HPCAM2
+!Sprite Hohepriester: amazed
+!Voice Hohepriester: Misc = 11
+Hohepriester:
+    А? Зачем ты прерываешь церемонию?
+
+!Camera PipCamera
+!Sprite Pip: talk
+!Voice Pip: Agree = 3
+Pip:
+    Этои! Маленький народец! Мы должны им помочь! Пожалуйста, пошлите нас туда, где мы их найдём.
+
+!Camera RCAM1
+!Sprite Ruffy: grumpy, Pip: idle
+!Voice Ruffy: Anger = 10
+Ruffy:
+    Пип! Не зли его!
+
+!Camera HPCAM3
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    Маленький народец. Этои. Они стары, как этот мир, и мало кто ходит по земле столь же долго, как они.
+
+!Camera HPCAM 1
+!Sprite Hohepriester: amazed
+!Voice Hohepriester: Misc = 4
+Hohepriester:
+    Без Этои угаснет всякая надежда на спасение.
+
+!Camera PipCamera
+!Sprite Pip: laugh, Ruffy: idle
+!Voice Pip: Lachen = 4
+Pip:
+    Ну так позвольте нам их найти!
+
+!Camera HPCAM2
+!Sprite Hohepriester: think
+!Voice Hohepriester: Misc = 6
+Hohepriester:
+    К сожалению, это не в моей власти. Только Колесо мудрости знает верный путь.
+
+!Camera PipCamera
+!Sprite Pip: talkDoubt, Ruffy: idle
+!Voice Pip: No = 6
+Pip:
+    Но колесо ведь может знать не всё. Может, его просто плохо смазали, и оно криво крутится. Всякое бывает!
+
+!Camera HPCAM3
+!Sprite Hohepriester: happyTalk
+!Voice Hohepriester: Misc = 12
+Hohepriester:
+    Имей веру. Колесо глубоко укоренено в этом мире и прекрасно знает верный путь.
+
+!Camera HPCAM2
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 2
+Hohepriester:
+    А кроме того, разумеется, оно отлично смазано. Итак, посмотрим, какой путь откроет вам колесо.
+
+!Event RadShow3
+!Pause 17.25
+!Camera HPCAM 3
+!Sprite Hohepriester: defaultTalk
+!Voice Hohepriester: Misc = 9
+Hohepriester:
+    Древо жизни — ваша следующая цель. Оно хранитель Этои и сможет рассказать вам, почему Этои покидают наш мир.
+
+#CUTSCENE Daraufhin fährt der dritte Mini-Dungeon fährt hoch.

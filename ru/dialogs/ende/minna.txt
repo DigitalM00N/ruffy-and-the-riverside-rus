@@ -1,0 +1,15 @@
+!Camera Minna
+!Sprite Ruffy: talkHalfBackLeft
+!Voice Minna: begrüßend = 1
+Minna:
+    Привет, Раффи! Слышал, что сэр Эддлер и Гильдия кротов строят новую Базилику?
+
+!Voice Minna: ablehnend = 3
+Minna:
+    Он очень старается загладить свою вину.
+
+!Camera Ruffy
+!Sprite Ruffy: talk
+!Voice Ruffy: Laugh_Confident = 4
+Ruffy:
+    Да, это правда. У него доброе сердце. Только проследите, чтобы он не превратил её в очередную лавку самоцветов.

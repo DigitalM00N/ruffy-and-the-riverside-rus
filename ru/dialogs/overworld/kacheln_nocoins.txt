@@ -1,0 +1,5 @@
+!Sprite Daag: defaultTalk
+!Voice Hohepriester: Misc = 6
+!Camera C1
+Yoogh:
+    У тебя не хватает денег, приятель.

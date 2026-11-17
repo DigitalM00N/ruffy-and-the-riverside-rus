@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 6
+Sir Eddler:
+    Чего вы ждёте? Погребённые города прямо перед вами. Найдите потерянный кусок пути к Древу жизни.

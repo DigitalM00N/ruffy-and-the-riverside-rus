@@ -1,0 +1,8 @@
+!Camera PipSB1 target PipSB2 duration 5
+!Event Glow
+!Voice Pip: Erschrecken = 4
+Pip:
+    Смотри, Раффи, тюк соломы!
+
+Pip:
+    Давай, заберём его!

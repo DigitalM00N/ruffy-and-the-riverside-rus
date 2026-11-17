@@ -1,0 +1,4 @@
+!Sprite Sir Eddler: serious
+!Voice Eddler: Greeting = 2
+Sir Eddler:
+    Погребённые города ждут вас. Вперёд!

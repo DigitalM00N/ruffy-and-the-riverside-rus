@@ -1,0 +1,14 @@
+!Camera Grab1 target Grab2 duration 2
+!Voice Anselm: Surprise_Positive = 2
+Anselm:
+    У-у-у! Да, вот так выглядит просто волшебно. Надеюсь, никто не заметил нашу маленькую хитрость!
+
+!Camera GeistFar target Geist duration 2
+!Event PilzeAusblenden
+!Voice Anselm: Agreement = 3
+Anselm:
+    Судьи вот-вот появятся!
+
+!Voice Anselm: Surprise_Positive = 3
+Anselm:
+    Вот они идут!!!

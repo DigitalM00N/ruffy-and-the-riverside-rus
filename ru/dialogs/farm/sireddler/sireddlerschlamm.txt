@@ -1,0 +1,4 @@
+!Camera camera_sirEddler
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Отлично, Раффи, грязь на трассе их остановит! Беги скорее к Джеки и выиграй гонку!

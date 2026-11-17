@@ -1,0 +1,37 @@
+# файлы игры и всё, что из них извлечено — не распространяем
+backup/
+build/
+release/
+orig/
+img/en/
+img/other/
+img/signs/
+img/tt_icons/
+img/annot/
+img/preview/
+textures_check/
+*.assets
+*.resS
+.venv/
+__pycache__/
+*.pyc
+# рабочие файлы
+list.txt
+variants.txt
+tyvy*.txt
+ctx.txt
+sprites12.txt
+texnames.txt
+signlist.txt
+tt_en.tsv
+scriptids.txt
+translatables.tsv
+images.txt
+# отладочные скрипты разработки
+tools/dbg*.py
+tools/fb.py
+tools/fonts.py
+tools/detect.py
+tools/ttdetect.py
+tools/tmpset.py
+img/*.json

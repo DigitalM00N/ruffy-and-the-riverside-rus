@@ -1,0 +1,5 @@
+UnityPy==1.25.4
+TypeTreeGeneratorAPI==0.0.10
+Pillow>=10
+etcpak>=0.9.8
+texture2ddecoder>=1.0.4

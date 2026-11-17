@@ -1,0 +1,13 @@
+!Camera KameraSteepy
+!Sprite Ruffy: idleBack, Pip: back, SchlangeCool: Talk
+!Voice Steepy: Laugh_Friendly = 6
+Steepy:
+    Йо, йо, йо, Раффи, это было потрясно. Поздравляю с победой!
+
+!Sprite SchlangeCool: Idle
+!Voice Steepy: Agreement = 4
+Steepy:
+    С твоим талантом тебе точно надо заглянуть к Уповающим на Небесный колокол. Они вечно ищут настоящих чемпионов!
+
+Steepy:
+    Загляни к ним, бро. Найдёшь их у проката тюков.

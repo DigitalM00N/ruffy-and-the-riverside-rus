@@ -1,0 +1,34 @@
+!Camera camera_SirEddler
+!Event Ausbuddeln
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Вот и вы.
+
+!Camera camera_SirEddler target camera_OverviewR duration 0.5
+!Sprite Sir Eddler: lean, Ruffy: talkLeft, Pip: idle
+!Voice Ruffy: Question = 3
+Ruffy:
+    Ага, наконец-то. Это и есть пирамида?
+
+!Camera camera_OverviewR target camera_OverviewE duration 1
+!Sprite Sir Eddler: positiv, Ruffy: idleHalfBackLeft
+!Voice Eddler: Conniving = 3
+Sir Eddler:
+    Верно подмечено, мой друг.
+
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    К сожалению, я не смогу подняться с вами на вершину. Видите ли, мы, кроты, ужасно боимся высоты.
+
+!Camera camera_OverviewE target camera_OverviewP duration 1
+!Sprite Sir Eddler: crouch, Pip: talkHappy
+!Voice Pip: Lachen = 4
+Pip:
+    Ничего страшного. Пришлём тебе открытку сверху.
+
+!Camera camera_OverviewP target camera_Ruffy_back duration 1
+!Sprite Sir Eddler: positiv, Pip: back, Ruffy: idleHalfBackLeft > idleBack
+!Voice Eddler: Agreement = 6
+Sir Eddler:
+    Ха-ха-ха, ну, ступайте!

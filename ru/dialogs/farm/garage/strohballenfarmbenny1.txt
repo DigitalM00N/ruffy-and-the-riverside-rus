@@ -1,0 +1,73 @@
+!Camera camera_1
+!Event no
+!Sprite Ruffy: idleHalfBackRight, Pip: back, FBGelb: talk
+!Voice Benny: Greeting = 2
+Benny:
+    Здорóво! Хочешь узнать про тюки, верно?
+
+!Camera camera_1 target camera_2 duration 1
+!Sprite FBGelb: idle, Ruffy: talk, Pip: back
+!Voice Ruffy: Agreement = 6
+Ruffy:
+    Ещё бы.
+
+!0
+!Camera camera_2 target camera_3 duration 1
+!Sprite Ruffy: idleHalfBackRight, FBGelb: talk
+!Voice Benny: Agreement = 1
+Benny:
+    Очень разумно, приятель.
+
+!Voice Benny: Attack_Laugh = 5
+Benny:
+    Тогда держись крепче, потому что вот он — Громовой алмаз.
+
+!1
+!Sprite Ruffy: idleSideRight, Pip: idle
+!Voice Benny: Conniving = 3
+Benny:
+    Перед тобой две тысячи килограммов лучшей каменотёсной работы.
+
+!2
+!Voice Benny: Laugh_Friendly = 1
+Benny:
+    Поверхность качения — отборный мрамор после пескоструйки, а внутри — импульсный генератор из кварцевых производных с противоположной полярностью.
+
+!3
+!Sprite Ruffy: idleHalfFrontRight
+Benny:
+    Самое интересное в кварцевом приводе — обычно кварц колеблется тригонально-симметрично, а я собрал его по принципу бутерброда.
+
+!4
+!Sprite Ruffy: idleHalfBackRight
+!Camera camera_3
+!Voice Benny: Question = 2
+Benny:
+    Понимаешь? Кварц разгоняет тебя без остановки. Так что теоретически Громовой алмаз может достичь скорости света.
+
+Benny:
+    Теоретически.
+!Sprite FBGelb: idle
+* Ого, а как мне раздобыть тюк?
++1
+* Спасибо, пока хватит.
+
+!5
+!Camera camera_3
+!Sprite FBGelb: talk, Pip: back, Ruffy: idleHalfBackRight
+!Voice Benny: Laugh_Friendly = 3
+Benny:
+    Хочешь свой тюк? Ого, приятель. Собственный тюк получают только чемпионы. Так что придётся выиграть гонку.
++2
+
+!5
+!Camera camera_3
+!Sprite FBGelb: talk, Pip: back, Ruffy: idleHalfBackRight
+!Voice Benny: Laugh_Confident = 6
+Benny:
+    Ну ладно, приятель! Держись! Кататься на тюке — это просто лучшее на свете! Кроме, конечно, езды по грязи.
+
+!Sprite FBGelb: talk
+!Voice Benny: Conniving = 1
+Benny:
+    В грязи даже тюнинг тюка не поможет.

@@ -1,0 +1,5 @@
+!Camera SteepyCamera
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv
+Slythia:
+    О несведущий, ступай своей дорогой и возвращайся ко мне позже, когда твоё сознание поднимется на новый уровень.

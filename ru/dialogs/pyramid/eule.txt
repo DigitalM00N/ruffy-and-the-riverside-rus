@@ -1,0 +1,33 @@
+!Camera camera_Eule
+!Sprite Ruffy: idleBack, Minna: talk, Pip: back
+!Voice Minna: begrüßend = 1
+Minna:
+    Здравствуйте, вы двое. Вот мы и снова встретились.
+
+Minna:
+    Вы проявили большую смелость и нашли первую Священную букву. Ты и вправду Избранный, способный спасти Ядро мира.
+
+!Sprite Minna: turn
+Ruffy:
+    ...
+
+!0
+!Camera camera_Pip
+!Sprite Pip: talk, Ruffy: idle2
+!Voice Pip: Agree = 3
+Pip:
+    Ядро мира может на нас положиться!
+
+!1
+!Camera camera_Eule
+!Sprite Minna: talk, Pip: back, Ruffy: idleBack
+!Voice Minna: erstaunt = 1
+Minna:
+    Это уж точно! Но знайте: Священные буквы — лишь часть пути. Мир полон удивительных существ, которым тоже нужна ваша помощь.
+
+!Camera camera_Eule target camera_Eule_close duration 1.5
+!Voice Minna: zustimmend = 1
+Minna:
+    Слушайте своё сердце и помогайте всюду, куда придёте.
+!Event Abflug
+!Camera camera_Eule_close target camera_Eule_Abflug duration 1.7

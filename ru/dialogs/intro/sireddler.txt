@@ -1,0 +1,5 @@
+!Camera KameraTor target SirEddlerIntro duration 4
+!Sprite Sir Eddler: cheer
+!Voice Eddler: Laugh_Confident = 3
+Sir Eddler:
+    Ну наконец-то ты здесь.

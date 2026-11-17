@@ -1,0 +1,10 @@
+!Camera SteepyCamera
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv
+Slythia:
+    О несведущий, у тебя получилось. Ты сделал первый шаг в мир куда больший. Твои умственные способности многообещающи.
+
+!Sprite Sirsil: idle
+!Voice Sirsil: Positiv
+Slythia:
+    Но путь змеи длиннее, чем ты думаешь, и предстоит сделать ещё много шагов.

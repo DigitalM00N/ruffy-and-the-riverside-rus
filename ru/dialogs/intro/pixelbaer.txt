@@ -1,0 +1,7 @@
+!Camera PixelBaerKamera
+!Sprite Ruffy: idleBack, Pip: laugh
+!Voice Pix: uhjaja
+!0
+Pix:
+    Эй, Раффи, теперь моя очередь? Слушай, я прямо тащусь от вон того заката. Хочу его! Сделаешь для меня ОБМЕН, пожалуйста?
+!Sprite Pip: idle

@@ -1,0 +1,72 @@
+!Camera KameraOverviewLeftFar target KameraOverviewLeftS1 duration 2
+!Sprite Sirsil: talkLeft, Ruffy: idleSideLeft, Pip: idle
+!Voice Sirsil: Positiv = 21
+Sirsil:
+    Услуга? Да, пора вас в неё посвятить.
+!Camera KameraOverviewLeftS1 target KameraOverviewLeftS2 duration 1
+
+!Camera KameraOverviewLeftS2 target KameraOverviewLeftS1 duration 1
+!Voice Sirsil: Positiv = 14
+Sirsil:
+    Вы ведь победили на Крутых играх. Вы доказали, что достойны исполнить пророчество.
+!Sprite Sirsil: laughLeft
+
+!Camera KameraOverviewLeftR target KameraOverviewLeftP duration 1
+!Sprite Ruffy: idleSideLeft, Pip: talkDoubt
+!Voice Pip: Jump = 4
+Pip:
+    А что это вообще за пророчество?
+
+!Camera KameraOverviewLeftP target KameraOverviewLeftS1 duration 1
+!Sprite Sirsil: talkLeft, Ruffy: idleSideLeft, Pip: idle
+!Voice Sirsil: Positiv = 28
+Sirsil:
+    Пророчество? Вы избраны для благородной миссии. Вам выпала великая честь позвонить в Небесный колокол! Можете собой гордиться!
+!Sprite Sirsil: laughLeft
+
+!Camera KameraOverviewLeftS1 target KameraOverviewLeftR duration 1
+!Sprite Sirsil: idleLeft, Ruffy: talk
+!Voice Ruffy: Thoughtful = 12
+Ruffy:
+    Ну да, гордимся, но... э-э, Небесный колокол? Сэр Эддлер говорил, что это просто легенда.
+
+!Camera KameraOverviewLeftR target KameraOverviewLeftS1 duration 1
+!Sprite Sirsil: talkLeft, Ruffy: idleSideLeft, Pip: idle
+!Voice Sirsil: Negativ = 13
+Sirsil:
+    Эддлер? Этот старый землекоп? Он роется в земле и ни разу в жизни не забирался на гору.
+!Camera KameraOverviewLeftS1 target KameraOverviewLeftS2 duration 1
+
+!Camera KameraOverviewLeftS2 target KameraOverviewLeftS1 duration 1
+Sirsil:
+    Что он знает о тайнах небес? Небесный колокол существует, никаких сомнений.
+!Sprite Sirsil: shockLeft
+!Camera KameraOverviewLeftS1 target KameraOverviewLeftS2 duration 1
+
+!Camera KameraOrbit1 target KameraOrbit2 duration 30
+!Sprite Sirsil: talk, Ruffy: idleHalfBackRight
+!Voice Sirsil: Positiv = 7
+Sirsil:
+    Ну, по крайней мере, мы на это надеемся. Говорят, он парит над облаками и терпеливо ждёт, когда в него позвонят.
+
+!Sprite Sirsil: talk, Ruffy: idleSideRight, Pip: idle
+!Voice Sirsil: Negativ = 16
+Sirsil:
+    Но, увы, ещё никому не удалось взлететь за облака и позвонить в колокол! Вот тут-то вы и пригодитесь!
+
+!Voice Sirsil: Positiv = 15
+Sirsil:
+    Как победители Крутых игр, теперь это ваша задача! У вас получится, я знаю, э-э, по крайней мере, надеюсь.
+!Sprite Sirsil: laugh
+
+!Camera KameraRuffy
+!Sprite Sirsil: idle, Ruffy: think
+!Voice Ruffy: Worry = 5
+Ruffy:
+    Уф, звучит не очень-то просто!
+
+!Camera KameraSirsil
+!Sprite Sirsil: talk, Ruffy: idleBack, Pip: back
+!Voice Sirsil: Positiv = 26
+Sirsil:
+    О, не волнуйтесь! В пророчестве точно сказано, как это сделать! Внемлите же священным строфам пророчества!

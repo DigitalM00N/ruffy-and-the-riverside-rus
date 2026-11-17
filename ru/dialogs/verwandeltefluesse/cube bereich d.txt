@@ -1,0 +1,98 @@
+!Camera Cube target CubeCloser duration 3
+!Sprite Pip: back, Ruffy: idleBack
+!Event Ccharge
+!Voice Groll: Laugh_Confident = 4
+Groll:
+    Ха-ха-ха-ха! ДА! ДА! ДА!
+
+Groll:
+    Получилось!
+
+!Camera Ruffy
+!Sprite Ruffy: cheer, Pip: happy
+!Voice Ruffy: Surprise_Positive = 1
+Ruffy:
+    Ура, твои цвета вернулись! Потрясающе!
+
+!Camera Cube
+!Sprite Pip: back, Ruffy: idleBack
+!Event CIdle
+!Voice Groll: Greeting = 2
+Groll:
+    Цвета? Какие цвета? Я не про цвета говорю, дурачьё!
+
+!Camera Cube target CubeClose duration 2
+!Event Pulse
+!Voice Groll: Laugh_confident = 7
+Groll:
+    Я про ОБМЕН! Вы, дурачьё, только что выдали мне его секрет.
+
+!Camera CubeClose target CubeCloser duration 2
+Groll:
+    Вы так долго обменивали на мне цвета, что я понял, как это делается, как совершать обмен!
+
+!Camera CubeCloser target CubeClosest duration 1
+!Event Ccharge
+!Voice Groll: Laugh_Confident = 9
+Groll:
+    Я научился ОБМЕНУ. Ха-ха-ха-ха!!! Теперь ОБМЕН мой!
+
+!Camera RuffyFar target Ruffy duration 1
+!Sprite Ruffy: shocked, Pip: angry
+!Event Schock
+!Voice Ruffy: Anger = 9
+Ruffy:
+    Обманщик! Ты никогда не хотел стать хорошим! Тебе даже цвета были не нужны, да? Всё это была дешёвая ложь, чтобы научиться ОБМЕНУ?!
+
+!Camera Cube
+!Sprite Pip: back, Ruffy: idleBack
+!Voice Groll: Laugh_Confident = 2
+Groll:
+    Ха-ха-ха-ха, догадливый малыш. Обмен слишком могуч для такого мелкого комка шерсти, как ты.
+
+!Camera Cube target CubeClose duration 2
+!Event Pulse
+!Voice Groll: Frustration = 1
+Groll:
+    Что ты с ним уже сделал? Обменивал грибы, ящики и лужи! Какое расточительство! Тёмная сторона обмена куда могущественнее.
+
+!Camera Ruffy
+!Sprite Ruffy: deny, Pip: idle
+!Voice Ruffy: Anger = 9
+Ruffy:
+    Тёмный обмен? Пусть наши обмены и не могучие, зато они всегда служат доброму делу!
+
+!Camera CubeClose target CubeClosest duration 5
+!Sprite Pip: back, Ruffy: idleBack
+!Event Pulse
+!Voice Groll: Surprise_Negative = 1
+Groll:
+    Пф! Детские забавы! Я заставлю континенты содрогнуться и залью их огненно-красной лавой.
+
+!Event Ccharge
+!Voice Groll: Laugh_Confident = 1
+Groll:
+    Небо и звёзды я погашу, и во тьме загрохочет мой гром.
+
+!Camera Pip
+!Sprite Ruffy: idle2, Pip: talkDoubt
+!Voice Pip: Hurt = 1
+Pip:
+    Это же полный кошмар!
+
+!Camera Cube
+!Sprite Pip: back, Ruffy: idleBack
+!Event Idle
+!Voice Groll: Conniving = 3
+Groll:
+    К сожалению, тёмного обмена вам не увидеть, потому что здесь ваше путешествие заканчивается. Но разве вы не мечтали оказаться на пляже?
+
+!Camera Cube target CubeClose duration 1
+!Event Pulse
+Groll:
+    Это желание теперь исполнится! Ха-ха-ха!
+
+!Camera CubeCloser target CubeClosest duration 1
+!Voice Groll: Laugh_Confident = 8
+Groll:
+    Счастливого вам конца света, балбесы!

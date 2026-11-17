@@ -1,0 +1,5 @@
+!Camera PipFar target Pip duration 1
+!Sprite Ruffy: idle2, Pip: talkHappy, Sir Eddler: leanBack
+!Voice Pip: Hmm = 3
+Pip:
+    Всё просто. Мы там внизу уже бывали. И, конечно же, на тюке. Так что единственная оставшаяся опасность — это мерзкий запах!

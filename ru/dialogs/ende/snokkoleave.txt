@@ -1,0 +1,4 @@
+!Camera PlayerLeave
+!Voice Snokko: Agreement = 9
+Snokko:
+    Эй, Раффи, оставайся с нами!

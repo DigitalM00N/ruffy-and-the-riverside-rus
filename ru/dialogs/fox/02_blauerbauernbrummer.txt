@@ -1,0 +1,12 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 2
+!Event Schmetterling02
+Quintus:
+    Это синий фермерский жужжун.
+    Он из семейства полевых бабочек.
+
+!Sprite Fuchs: idle
+!Voice Quintus: Agreement = 2
+Quintus:
+    Говорят, фермерские жужжуны опыляют только свои цветы и ни с кем не делятся нектаром.

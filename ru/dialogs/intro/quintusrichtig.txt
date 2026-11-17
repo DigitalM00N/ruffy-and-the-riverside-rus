@@ -1,0 +1,5 @@
+!Camera QuintusKamera target GemäldeKamera2 delay 1 duration 2
+!Sprite Fuchs: happy
+!Voice Quintus: Laugh_Friendly = 6
+Quintus:
+    Ух ты, спасибо, Раффи! Только посмотри на всех этих зверушек. Правда, милые?

@@ -1,0 +1,33 @@
+!Sprite Pip: idle, Ruffy: idleBack
+!Event PilzeAusblenden
+!Camera CameraStart target Geist duration 1
+!Voice Anselm: Realization = 3
+Anselm:
+    А вот и вы снова! Ну что, удалось подслушать жюри?
+
+!Sprite Ruffy: talk
+!Event BlumeAusblenden, PilzeEinblenden
+!Camera RuffyClose
+!Voice Ruffy: Agreement = 7
+Ruffy:
+    Да, мы слышали всё, что они говорили.
+
+!Event BlumeEinblenden, RuffyAusblenden
+!Camera Grab1 target Grab2 duration 2
+!Voice Anselm: Question = 3
+Anselm:
+    Ну же, рассказывайте! Дело в надгробии, да? Или в земле? Ну же, рассказывайте!
+
+!Event RuffyEinblenden, RuffyBig
+!Sprite Ruffy: deny
+!Camera BlumenRuffyClose target BlumenRuffy duration 2
+!Voice Ruffy: Thoughtful = 7
+Ruffy:
+    Нет, дело в цветах, и они должны быть трёх цветов. Жёлтые, красные и синие.
+
+!Event RuffyNormal, PilzeAusblenden
+!Sprite Ruffy: idle
+!Camera GeistFar target Geist duration 2
+!Voice Anselm: Realization = 1
+Anselm:
+    Цветы! Я так и знал! Жёлтые, красные и синие! Ну да, конечно! Я сразу так и подумал!

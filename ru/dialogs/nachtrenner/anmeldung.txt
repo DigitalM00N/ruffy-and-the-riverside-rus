@@ -1,0 +1,37 @@
+!Sprite SchlangeCool: Jubel
+!Camera Snake1
+!Voice Steepy: Greeting = 1
+Roybert:
+    Добро пожаловать к Пятерым парням! Добро пожаловать на единственную гонку, где жульничать разрешено!
+
+!Sprite SchlangeCool: Talk
+!Camera Snake2
+!Voice Steepy: Question = 2
+Roybert:
+    Зачем жульничать? Да затем, что Пятеро парней для тебя слишком быстрые, малыш. Так что давай сразу о жульничестве.
+
+!Sprite SchlangeCool: Jubel
+!Camera Cambooster3 target Cambooster2 Target Cambooster duration 6
+!Voice Steepy: Agreement = 3
+Roybert:
+    Вдоль трассы стоят пять турбоускорителей. Найди спрятанные рычаги, включи ускорители и записывайся на гонку. Если повезёт, ты будешь достаточно быстр, чтобы обогнать Пятерых парней.
+
+!Sprite SchlangeCool: Talk
+!Camera Snake2
+!Voice Steepy: Question = 3
+Roybert:
+    Готов к гонке?
+* Да, я готов!
++1
+* Может, попозже.
+
+!Sprite SchlangeCool: Jubel
+!Voice Steepy: Agreement = 1
+Roybert:
+    Ладно, поехали.
++1
+
+!Sprite SchlangeCool: Shake
+!Voice Steepy: Agreement = 5
+Roybert:
+    Ладно, до встречи!

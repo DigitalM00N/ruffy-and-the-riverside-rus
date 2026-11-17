@@ -1,0 +1,20 @@
+!Camera Kamera2
+Quintus:
+    Ты вернулся!
+!Sprite Fuchs: happy
+!Voice Quintus: Surprise_Positive = 4
+
+Quintus:
+    Ну-ка, покажи скорее.
+
+!Voice Quintus: Realization = 6
+Quintus:
+    Ох, как волнительно, этой бабочки у нас ещё нет! Первый контакт!
+
+Quintus:
+    Потрясающе, что тут у нас?
+
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 10
+Quintus:
+    Хмм... неужели это...? ДА!

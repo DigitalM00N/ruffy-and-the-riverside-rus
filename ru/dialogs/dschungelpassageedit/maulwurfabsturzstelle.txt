@@ -1,0 +1,24 @@
+!Sprite Sir Eddler: positiv, Pip: idle, Ruffy: idle2
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    Ха-ха-ха, наконец-то добрались?
+
+!Sprite Sir Eddler: positiv
+!Voice Eddler: Laugh_Friendly = 3
+Sir Eddler:
+    Дай вам самолёт — и поминай как звали!
+
+!Camera camera_strand
+!Sprite Ruffy: talkHalfBackLeft, Sir Eddler: sniff
+!Voice Ruffy: Laugh_Friendly = 5
+Ruffy:
+    У нас была небольшая остановка на Острове Крушения...
+
+!Camera camera_strand target camera_maulwurf duration 1
+!Sprite Sir Eddler: positiv, Pip: idle
+!Voice Eddler: Realization = 4
+Sir Eddler:
+    Звучит чудесно, мой маленький летающий друг, но теперь вам надо спешить.
+
+Sir Eddler:
+    Впереди путь к пирамиде, и лёгким он не будет. Берегите себя. Встретимся дальше!

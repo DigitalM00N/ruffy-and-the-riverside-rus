@@ -1,0 +1,5 @@
+!Camera camera_low target camera_high duration 1 delay 1
+!Sprite Ruffy: idleBack, Pip: talk
+!Voice Pip: Erschrecken = 4
+Pip:
+    Ух ты, ещё колёса! Интересно, для чего все эти знаки.

@@ -1,0 +1,26 @@
+!Camera Kamera3
+!Sprite Fuchs: read
+!Voice Quintus: Conniving = 6
+Quintus:
+    Так, всё записал.
+    Если так пойдёт и дальше, мы скоро закончим Библию бабочек и, хи-хи...
+!Sprite Fuchs: read
+
+!Camera Kamera3 target Kamera2 duration 3
+Quintus:
+    *Прочищает горло*
+
+!Sprite Fuchs: idle
+Quintus:
+    Хватит болтать. Дел ещё полно!
+
+!Voice Quintus: Greeting = 6
+Quintus:
+    Старайся, Раффи.
+    А я пока отпущу бабочку на волю!
+
+Quintus:
+    Если хочешь узнать, каких бабочек нам ещё не хватает, открой меню паузы и загляни в Библию бабочек.
+
+Quintus:
+    До скорого.

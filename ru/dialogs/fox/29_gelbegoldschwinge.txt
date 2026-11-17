@@ -1,0 +1,15 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 14
+!Event Schmetterling29
+Quintus:
+    Это жёлтое златокрыло.
+    Оно из семейства благородных парителей.
+
+!Voice Quintus: Agreement = 9
+Quintus:
+    Когда-то от этих необыкновенных бабочек все были без ума.
+!Sprite Fuchs: idle
+
+Quintus:
+    Сегодня, к сожалению, их можно встретить лишь в очень немногих местах.

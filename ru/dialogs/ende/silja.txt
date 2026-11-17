@@ -1,0 +1,25 @@
+!Camera OverviewS
+!Voice Silja: Lachen = 1
+!Event SiljaNice
+!Sprite Ruffy: idleBack
+Silya:
+    Здравствуй, Раффи. Похоже, в Риверсайде наконец снова всё успокаивается. Все разрушения исправлены, и никто больше не сердится на сэра Эддлера.
+
+!Camera Ruffy
+!Event SiljaIdle
+!Sprite Ruffy: proud
+!Voice Ruffy: Agreement = 5
+Ruffy:
+    Да, точно. Риверсайд такой же прекрасный, как раньше.
+
+!Sprite Ruffy: think
+!Voice Ruffy: Question = 18
+Ruffy:
+    А как же Ядро мира? Тебя не беспокоит, куда оно подевалось?
+
+!Camera SiljaClose
+!Voice Silja: Lachen = 2
+!Event SiljaShake
+!Sprite Ruffy: idleBack
+Silya:
+    О да, конечно... Ядро мира...

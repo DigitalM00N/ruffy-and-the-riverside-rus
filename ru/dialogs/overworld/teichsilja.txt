@@ -1,0 +1,41 @@
+!Camera OverviewStart target OverviewS duration 3
+!Sprite Ruffy: idleHalfBackRight, Pip: back
+!Event SiljaNeutral
+!Voice Silja: Lachen = 2
+Silya:
+    А, вот вы наконец и вернулись из Северных земель! Нашли следующую букву?
+
+!Camera OverviewS2 target OverviewR duration 2
+!Sprite Ruffy: grumpyRight, Pip: idle
+!Event SiljaIdle
+!Voice Ruffy: Thoughtful = 9
+Ruffy:
+    К сожалению, нет. Гролл поймал нас и утащил в Потоки красок.
+
+!Camera OverviewR target OverviewS2 duration 2
+!Sprite Ruffy: idleSideRight
+!Event SiljaSad
+!Voice Silja: Traurig = 3
+Silya:
+    Что? Правда? Странно... и неожиданно.
+
+!Camera OverviewS2 target OverviewR duration 2
+!Sprite Ruffy: talkRight
+!Event SiljaIdle
+!Voice Ruffy: Worry = 4
+Ruffy:
+    Ага, и дальше хуже. Он сказал, что выпустит ОБМЕН на волю и заполонит Риверсайд злыми обменами.
+
+!Camera OverviewR target OverviewS2 duration 2
+!Sprite Ruffy: idleSideRight
+!Event SiljaNod
+!Voice Silja: Zustimmend = 3
+Silya:
+    Хм... Раффи, послушай! Что бы ни задумал Гролл, ты не должен отвлекаться. Следуй плану спасения и делай то, что велело тебе Колесо надежды.
+
+!Camera SiljaFar target OverviewS duration 1
+!Sprite Ruffy: idleHalfBackRight, Pip: back
+!Event SiljaNeutral
+!Voice Silja: Neutral = 4
+Silya:
+    Возвращайся в Северные земли и ищи следующую букву. Сейчас она нужна как никогда.

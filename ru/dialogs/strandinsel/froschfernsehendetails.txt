@@ -1,0 +1,47 @@
+!Camera camera_general
+!Sprite William: eat, Ruffy: talkHalfBackRight, Pip: idle+mirror
+!Voice Ruffy: Greeting = 7
+Ruffy:
+    Эй, ты! Как пройти к пирамиде?
+
+!Camera camera_general target camera_Frog duration 2
+!Sprite Ruffy: idleHalfBackRight, William: talkEat
+!Voice William: Laugh_Friendly = 6
+William:
+    Не тот остров, ребята. Это Остров Крушения. Как там говорится? Раз ты здесь, значит, что-то пошло не так.
+
+!Camera camera_Pip
+!Sprite Pip: talkDoubt+mirror, William: eat
+!Voice Pip: Jump = 4
+Pip:
+    Э-э, да, чистая правда. А у тебя что пошло не так?
+
+!Camera camera_Frog
+!Sprite Pip: idle+mirror, William: talkEat
+!Voice William: Question = 3
+William:
+    У меня? Ничего. Я тут по своей воле. Запланированная аварийная посадка, чтобы скрыться от фанатов.
+
+!Camera camera_Frog target camera_general duration 1
+!Sprite Ruffy: talkHalfBackRight, Pip: idle+mirror, William: eat
+!Voice Ruffy: Question = 14
+Ruffy:
+    И ты просто сидишь перед телевизором?
+
+!Camera camera_general target camera_general_frog duration 1
+!Sprite Ruffy: idleHalfBackRight, William: talkEat
+!Voice William: Agreement = 4
+William:
+    Точно.
+
+!Camera camera_general_frog target camera_general duration 1
+!Sprite Ruffy: talkHalfBackRight, William: eat
+!Voice Ruffy: Thoughtful = 1
+Ruffy:
+    Послушай, нам срочно нужно попасть к Пирамиде над морями. Пожалуйста, помоги нам и скажи, как туда добраться.
+
+!Camera camera_general target camera_Frog duration 1
+!Sprite William: hold, Ruffy: idleHalfBackRight
+!Voice William: Conniving = 3
+William:
+    Извините, не сейчас. Я занят. Уверен, вы и без меня справитесь.

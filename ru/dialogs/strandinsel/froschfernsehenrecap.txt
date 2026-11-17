@@ -1,0 +1,11 @@
+!Camera camera_Frog
+!Sprite William: hold, Ruffy: idleBack, Pip: idle+mirror
+!Voice William: Tired = 4
+William:
+    Извините, не сейчас. Я занят. Справитесь как-нибудь.
+
+!Camera camera_Frog target camera_general_pip duration 1
+!Sprite Ruffy: idleBack, Pip: talk+mirror, William: eat
+!Voice Pip: Hmm = 2
+Pip:
+    Пока телевизор работает, он нас не услышит. Надо как-то его выключить.

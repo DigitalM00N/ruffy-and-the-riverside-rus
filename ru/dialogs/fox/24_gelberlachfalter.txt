@@ -1,0 +1,12 @@
+!Camera Kamera2 target Kamera3 duration 3
+!Sprite Fuchs: read
+!Voice Quintus: Realization = 8
+!Event Schmetterling24
+Quintus:
+    Это жёлтый хохотун.
+    Он из семейства солнцекрылов.
+!Sprite Fuchs: idle
+
+!Voice Quintus: Agreement = 4
+Quintus:
+    Я ни разу не слышал, как он смеётся, но, может, он просто улыбается, когда никто не смотрит.

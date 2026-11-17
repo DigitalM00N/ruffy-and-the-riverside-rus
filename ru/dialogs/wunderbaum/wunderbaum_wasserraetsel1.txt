@@ -1,0 +1,5 @@
+!Camera Mayle
+!Sprite Mayle: jump
+!Voice Mayle: Realization = 5
+Mayle:
+    Смотрите, обелиск возвращает себе силу. Он исцелил водяную рощу! Давайте скорее посмотрим, что нас там ждёт.

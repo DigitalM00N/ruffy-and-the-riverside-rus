@@ -1,0 +1,11 @@
+!Camera Eddler
+!Sprite Sir Eddler: cheer, Pip: idle
+!Voice Eddler: Laugh_Confident = 3
+Sir Eddler:
+    Опа, вот и вы снова. Значит, путь в Северные земли теперь должен быть свободен.
+
+!Camera Pip
+!Sprite Pip: talkSparkle, Ruffy: idle2
+!Voice Pip: Lachen = 9
+Pip:
+    Точно! Путь свободен! Северные земли, мы идём!

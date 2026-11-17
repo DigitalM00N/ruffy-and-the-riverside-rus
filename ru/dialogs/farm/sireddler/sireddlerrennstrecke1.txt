@@ -1,0 +1,11 @@
+!Camera camera_sirEddler
+!Sprite Sir Eddler: positiv, Ruffy: idleHalfBackLeft, Pip: back
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    О, привет, Раффи. Ферма оказалась куда больше, чем я думал.
+
+!Sprite Sir Eddler: secret
+!Camera camera_sirEddler offset 2 duration 1
+!Voice Eddler: Agreement = 7
+Sir Eddler:
+    Сначала тебе лучше осмотреться и разузнать, как нам раздобыть тюк.

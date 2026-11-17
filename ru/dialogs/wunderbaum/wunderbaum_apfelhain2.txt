@@ -1,0 +1,5 @@
+!Camera Mayle
+!Sprite Mayle: jump
+!Voice Mayle: Surprise_Positive = 4
+Mayle:
+    Точно. Вот так всё и было! Теперь деревья снова в полной гармонии!

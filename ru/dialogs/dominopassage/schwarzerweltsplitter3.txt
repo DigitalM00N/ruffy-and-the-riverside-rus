@@ -1,0 +1,12 @@
+!Camera DunkelStein offset 3 duration 3
+!Voice Ruffy: Surprise_Positive = 8
+Ruffy:
+    Ты только посмотри! Из него вывалились все кубики.
+
+!Camera Dunkelstein_1 offset 2 Duration 3
+!Voice Ruffy: Question = 8
+Ruffy:
+    Интересно, где он теперь?
+
+Ruffy:
+    Неужели мы его уже победили? Так вот каким был конец Гролла? Кучка тёмных камней?

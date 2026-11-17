@@ -1,0 +1,10 @@
+!Camera SteepyCamera
+!Sprite Sirsil: talk
+!Voice Sirsil: Positiv
+Slythia:
+    О несведущий, неужто это ты? Я ощущаю глубокую перемену в твоём сознании. Ты вот-вот пройдёшь путь змеи до конца.
+
+!Sprite Sirsil: laugh
+!Voice Sirsil: Positiv
+Slythia:
+    Ты знаешь, что делать. Только не облажайся сейчас, ладно?

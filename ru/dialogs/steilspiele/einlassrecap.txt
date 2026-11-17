@@ -1,0 +1,4 @@
+!Sprite Flitzi: talk
+!Voice Bally: Question
+Franky:
+    Ты уже записался на Крутые игры? Эх, как бы я сам хотел однажды поучаствовать.

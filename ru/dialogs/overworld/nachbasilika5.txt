@@ -1,0 +1,18 @@
+!Pause 1
+!Camera Overview target OverviewE duration 2
+!Sprite Ruffy: idleHalfBackLeft, Pip: idle, Sir Eddler: positiv
+!Voice Eddler: Attack_Laugh = 6
+Sir Eddler:
+    Привет, ребята. Куда дальше?
+
+!Camera OverviewE target OverviewR duration 1
+!Sprite Ruffy: talkLeft, Sir Eddler: lean
+!Voice Ruffy: Agreement = 2
+Ruffy:
+    В деревню северных медведей, в Нотори. Колесо показало нам дорогу.
+
+!Camera OverviewR target OverviewE duration 1
+!Sprite Ruffy: idleHalfBackLeft, Sir Eddler: talkLeft
+!Voice Eddler: Greeting = 7
+Sir Eddler:
+    В Северные земли? Ни один крот не забредал туда с тех пор, как Великое ущелье отделило Северные земли от большой земли.

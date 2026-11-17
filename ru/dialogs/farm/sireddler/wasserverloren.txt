@@ -1,0 +1,10 @@
+!Sprite Pip: back, Ruffy: idleBack
+!Camera camera_sirEddler offset 1 duration 1
+!2
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    Батюшки! Проиграли! Вода была хорошей идеей, но соперников она не остановила.
+
+!Voice Eddler: Agreement = 5
+Sir Eddler:
+    Эй, придумал! Попробуй грязь. Через неё им ни за что не пробраться!

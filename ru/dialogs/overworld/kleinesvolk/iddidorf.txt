@@ -1,0 +1,9 @@
+!Sprite Oddo: Talk
+!Voice Mayle: Surprise_Negative = 5
+Oddo:
+    Стой! Это убежище Этои. Входить сюда могут только Этои, а ты на Этои не очень-то похож.
+
+!Sprite Oddo: Talk2
+!Voice Mayle: Thoughtful = 2
+Oddo:
+    Всем остальным нужно разрешение Древа жизни. Прости!

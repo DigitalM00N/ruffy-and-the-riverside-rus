@@ -1,0 +1,31 @@
+!Camera DCam1
+!Sprite Ruffy: idleHalfBackRight
+!Event CubeIdle
+!Voice Ruffy: Anger = 4
+Ruffy:
+    Тебе всё мало!
+
+!Camera RCam
+!Sprite Ruffy: grumpy
+!Voice Ruffy: Anger = 10
+Ruffy:
+    Что ты сделал с сэром Эддлером? Где он?
+
+!Camera CCam
+!Voice Groll: Greeting = 2
+Groll:
+    Эддлер улетел. Затерялся где-то в космосе, надо полагать!
+
+#CUTSCENE: Man sieht Eddlers Mütze (3D-Asset) durch den Weltraum treiben.
+!Sprite Ruffy: shocked
+!Continue none
+!Event Eddlerhut
+!Voice Ruffy: Surprise_Negative = 5
+Ruffy:
+    Эддлер!!
+
+!Camera CCam
+!Event CubeAngry
+!Voice Groll: Conniving = 3
+Groll:
+    Не волнуйся. Скоро составишь ему компанию.

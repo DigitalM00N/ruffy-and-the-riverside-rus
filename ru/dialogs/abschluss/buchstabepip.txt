@@ -1,0 +1,11 @@
+!Camera BildschirmKamera
+!Voice Pip: Erschrecken = 7
+Pip:
+    О нет!!! Почему не работает?
+
+!Camera BildschirmKamera target CamPip duration 0.5
+!Voice Pip: Misc = 8
+Pip:
+    Глупая буква! Давай наверх, слышишь?!
+
+# Cutscene auf den TV: Der TV wackelt und blinkt. Dann taucht auf der Mattscheibe ein Bild des Grolls auf. Man hört den Groll lachen. Der Groll wird im TV immer größer und sprengt schliesslich den TV.

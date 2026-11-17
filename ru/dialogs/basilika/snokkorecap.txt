@@ -1,0 +1,4 @@
+!Sprite Snokko: talk
+!Voice Snokko: Agreement = 4
+Snokko:
+    Я займусь Эмблемой. А ты пока ищи последнюю букву!
